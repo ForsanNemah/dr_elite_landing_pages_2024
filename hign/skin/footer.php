@@ -6,7 +6,7 @@
  
 
 <div class="footer-copyright text-center py-3">    
-    <a style="color:blue;" href="#">  مغناطيس للتسويق </a>
+    <a style="color:blue;" href="#">  مجموعة النخبة </a>
  
  
 
