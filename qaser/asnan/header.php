@@ -226,7 +226,7 @@ if ($handle = opendir('logo')) {
           <div class="st-hero-text">
           <div class="st-height-b40 st-height-lg-b40"></div>
             
-            <h1 class="st-hero-title cd-headline slide">
+            <h1 class="">
              
        <?php
 
