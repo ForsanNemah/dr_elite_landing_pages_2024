@@ -19,8 +19,8 @@
           <div class="st-before-after-in">
             <div class="st-before-after">
 
-              <div class="st-after st-single-slide st-dynamic-bg" data-src="assets/img/cases_derma/after.jpg"></div>
-              <div class="st-before st-single-slide st-dynamic-bg" data-src="assets/img/cases_derma/before.jpg"></div>
+              <div class="st-after st-single-slide st-dynamic-bg" data-src="assets/img/cases_dental/after.jpg"></div>
+              <div class="st-before st-single-slide st-dynamic-bg" data-src="assets/img/cases_dental/before.jpg"></div>
 
               <div class="st-handle-before-after">
                 <span></span>

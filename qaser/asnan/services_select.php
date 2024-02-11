@@ -16,7 +16,7 @@
 
 
 
-                    <select name="udepartment" id=" " class="st_select1" data-placeholder="Select department">
+                    <select name="udepartment" id="  " class="st_select2" data-placeholder="Select department">
                       
                  
 

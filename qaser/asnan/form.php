@@ -60,10 +60,10 @@ include "services_select.php";
               
       
    
-                
+
 
                
-                  <button id="save_button_one" class="st-btn st-style1 st-color1 st-size-medium mybutton " type="submit" id=""
+                  <button id="save_button_one" class="st-btn st-style1 st-color1 st-size-medium mybutton" type="submit" id=""
                     name="submit">حجز</button>
                 </div>
               </div>
@@ -84,17 +84,12 @@ include "services_select.php";
 
 
     <script>
-
- 
-
-
-
 function myFunction() {
   //alert("The form was submitted");
   
    
-
   document.getElementById("save_button_one").disabled = true;
+
   document.getElementById('save_button_one').innerText = 'يرجى الإنتضار سيتم تحويلك الان';
 }
 </script>

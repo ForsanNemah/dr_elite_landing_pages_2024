@@ -22,7 +22,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-10 offset-lg-1">
-            <form onsubmit="myFunction2()" method="POST" action="post_to_google_sheet.php" class="st-appointment-form form-bg" id="appointment-form">
+            <form onsubmit="myFunction2()" method="POST" action="post_to_google_sheet.php" class="st-appointment-form form-bg"  >
               <div id="st-alert1"></div>
               <div class="row">
                 <div class="col-lg-6">
