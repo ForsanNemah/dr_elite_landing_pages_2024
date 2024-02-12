@@ -39,7 +39,7 @@
                 </div>
                 
 
-                <input hidden type="number"   name="is_w_app" value="0" >
+                <input hidden type="number"   name="is_w_app" value="1" >
 
                
 
