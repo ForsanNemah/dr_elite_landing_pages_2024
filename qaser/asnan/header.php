@@ -74,7 +74,7 @@ if ($handle = opendir('logo')) {
   
   
   
-  <img   src='logo/$entry' class='img-fluid' alt='Responsive image' width='".$logo_w."' height='".$logo_h."' >
+  <img   src='logo/$entry' class='' alt='Responsive image' width='".$logo_w."' height='".$logo_h."' >
   
 
   
