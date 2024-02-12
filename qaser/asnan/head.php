@@ -122,6 +122,9 @@ body, html {
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
+     
+      
+    
     }
 
 
