@@ -226,7 +226,7 @@ if ($handle = opendir('logo')) {
           <div class="st-hero-text">
           <div class="st-height-b40 st-height-lg-b40"></div>
             
-            <h1 class="st-hero-title cd-headline slide">
+            <h2 class="st-hero-title cd-headline slide">
              
        <?php
 
@@ -241,17 +241,46 @@ echo $address;
             
             <br>
             
-              <span class="cd-words-wrapper">
-                <b class="is-visible">
-                    
-             خدمات الجلدية
-            </b>
-                <b>خدمات الاسنان </b>
-                <b>خدمات الجلدية</b>
-               
-                
-              </span>
-            </h1>
+            
+            </h2>
+
+
+
+
+
+
+
+
+
+
+            <h2 class="st-hero-title cd-headline slide">
+             
+          
+                  
+                  <br>
+                  
+                    <span class="cd-words-wrapper">
+                      <b class="is-visible">
+                          
+                   خدمات الجلدية
+                  </b>
+                      <b>خدمات الاسنان </b>
+                      <b>خدمات الجلدية</b>
+                     
+                      
+                    </span>
+                  </h2>
+
+
+
+
+
+
+
+
+
+
+
             <div class="st-hero-subtitle">
 
                       
