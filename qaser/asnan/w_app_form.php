@@ -90,6 +90,6 @@ function myFunction2() {
    
 
   document.getElementById("save_button_two").disabled = true;
-  document.getElementById('save_button_two').innerText = 'يرجى الإنتضار سيتم تحويلك الان';
+  document.getElementById('save_button_two').innerText = 'يرجى الانتظار سيتم تحويلك الان';
 }
 </script>

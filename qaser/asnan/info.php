@@ -7,8 +7,8 @@ error_reporting(E_ERROR | E_PARSE);
  
 $action_url="https://script.google.com/macros/s/AKfycbwGNyOQHdteWkpW0OH3l5gSdkmC2JI2FqD_A3fzc6LSY1mZroSmT2WYVxWacU-J6fr8/exec";
 
-$logo_h='150px';
-$logo_w='150px';
+$logo_h='120px';
+$logo_w='120px';
 $address=" 
 
 
