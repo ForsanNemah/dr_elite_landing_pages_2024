@@ -42,7 +42,19 @@ $sidebar3_msg="خدماتنا ";
 
 
 
-$full_map_url='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.6844033474076!2d50.20026868496789!3d26.30432918339334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49e98546b48e3f%3A0x389d0ec98a0f975c!2z2LnZitin2K_Yp9iqINix2YjZitin2YQ!5e0!3m2!1sar!2ssa!4v1706309168386!5m2!1sar!2ssa" width="600" height="450" style="border:s0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+$full_map_url='
+
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.7562572822294!2d46.8625626!3d24.8037985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2faad7b730cee5%3A0x7435f12a419a2290!2z2YXYsdmD2LIg2LnZitin2K_Yp9iqINmC2LXYsSDYp9mE2KzZhdin2YQg2KfZhNi32KjZig!5e0!3m2!1sar!2ssa!4v1707776853949!5m2!1sar!2ssa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+
+
+
+
+';
 
 
 
@@ -269,5 +281,16 @@ $footer_info="
 
 
 ";
+
+
+$about="
+
+
+عيادات متخصصه في طب الاسنان والجراحه والتجميل
+ 
+
+
+";
+
 
 ?>

@@ -9,8 +9,12 @@
           
           <div class="st-section-heading-subtitle">
             
-          عيادات متخصصه في طب الاسنان والجراحه والتجميل
-          باكثر من 90 فرع في المملكة 
+        
+          <?php
+
+echo $about;
+
+?>
           
           
           </div>

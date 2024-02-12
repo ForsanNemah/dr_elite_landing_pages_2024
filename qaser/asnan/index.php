@@ -1445,7 +1445,7 @@ include "counter.php";
     <!-- End Contact Section -->
 
    <?php
-//include "map.php";
+include "map.php";
    ?>
 
 

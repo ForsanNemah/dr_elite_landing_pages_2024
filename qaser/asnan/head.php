@@ -39,197 +39,9 @@ echo $site_name;
 
 
   <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
-<style>
-body {
-    font-family: 'Tajawal';font-size: 22px;
-}
+  <link href='style.css' rel='stylesheet'>
 
-
-
-
-
-.st-btn.st-style1.st-color1 {
-    background-color: #8C730C;
-    color: #fff;
-}
-
-
-
-.form-bg {
-    background-color: #f1e7bd;
-}
-
-
-h1, h2, h3, h4, h3, h6 {
-    clear: both;
-    color: #264b59;
-    padding: 0;
-    margin: 0 0 10px 0;
-    font-weight: 600;
-    line-height: 1.2em;
-}
-
-
-body, html {
-    color: #000;
-    background-color: #fff;
-    
-    font-size: 25px;
-    font-weight: 400;
-    line-height: 1.6em;
-    overflow-x: hidden;
-}
-
-
-.st-hero.st-style1 .st-hero-subtitle {
-    font-size: 25px;
-    line-height: 1.6em;
-    margin-bottom: 42px;
-}
-
-
-
-
-.st-section-heading.st-style1 .st-section-heading-subtitle {
-    font-size: 20px;
-    line-height: 1.6em;
-}
-
-
-
-
-
-.st-form-field.st-style1 label {
-    display: block;
-    font-size: 15px;
-    font-weight: 500;
-    color: #000;
-    margin-bottom: 3px;
-}
-
-
-
-
-
-
-.mycontainer {
-      border: 1px solid black;
-      height: 200px;
-      position: relative;
-    }
-
-   .mybutton {
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-     
-      
-    
-    }
-
-
-
-
-    .st-form-field.st-style1 label {
-    display: block;
-    font-size: 20px;
-    font-weight: 500;
-    color: #000;
-    margin-bottom: 3px;
-}
-
-
-
-
-.st-shedule-title {
-    font-size: 25px;
-    font-weight: 600;
-    color: #264b59;
-    margin-bottom: 8px;
-}
-
-
- 
-
-@media screen and (max-width: 991px)
-{
-.st-hero.st-style1, .st-hero.st-style1.st-type3 {
-    height: 600px
-}
-
-}
-
-
-
-
-
-.pulsate {
-    -webkit-animation: pulsate 1s ease-out;
-    -webkit-animation-iteration-count: infinite; 
-    opacity: 0.5;
-}
-@-webkit-keyframes pulsate {
-    0% { 
-        opacity: 0.5;
-    }
-    50% { 
-        opacity: 1.0;
-    }
-    100% { 
-        opacity: 0.5;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.st-form-field.st-style1 input, .st-form-field.st-style1 textarea, .st-form-field.st-style1 select {
-    display: block;
-    height: 55px;
-    border: 1px solid #eaeaea;
-    border-radius: 7px;
-    width: 100%;
-    padding: 10px 15px;
-    color: #111;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-
-
-
-
-
-
-
-
-
-
-
-.st-gray-bg {
-    background-color: #f7f7f7;
-}
-
-
-
- 
-
-
-.rtl {
-    text-align: center;
-    direction: rtl;
-}
-
-
-
-</style>
+  
 
 
 
@@ -249,5 +61,32 @@ include "slider.php";
 include "cta/cta_whatsapp.php";
 
 ?>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+		!function (w, d, t) {
+		  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
+)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+		
+		  ttq.load('CN4G4Q3C77U0CFANUN20');
+		  ttq.page();
+		}(window, document, 'ttq');
+	</script>
+
+
+
+
+
+
+
 
 </head>

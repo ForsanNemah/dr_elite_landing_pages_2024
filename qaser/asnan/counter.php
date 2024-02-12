@@ -1,5 +1,5 @@
 
-<section class="st-gray-bg st-shape-wrap">
+<section class="st-gray-bg st-shape-wrap" hidden>
       <div class="st-shape4">
         <img src="assets/img/shape/section_shape.png" alt="shape1">
       </div>
