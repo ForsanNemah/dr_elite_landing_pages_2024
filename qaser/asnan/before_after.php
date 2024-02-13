@@ -5,11 +5,7 @@
         <div class="st-section-heading st-style1">
           <h2 class="st-section-heading-title">حالات قبل وبعد</h2>
           
-          <div class="st-section-heading-subtitle">
-           حالات قبل وبعد
-          
-          
-          </div>
+        
         </div>
         <div class="st-height-b40 st-height-lg-b40"></div>
       </div>
