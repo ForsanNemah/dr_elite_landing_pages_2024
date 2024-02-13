@@ -8,16 +8,7 @@ body {
 
 
 
-.st-btn.st-style1.st-color1 {
-    background-color: #8C730C;
-    color: #fff;
-}
 
-
-
-.form-bg {
-    background-color: #f1e7bd;
-}
 
 
 h1, h2, h3, h4, h3, h6 {
@@ -193,4 +184,30 @@ element.style {
     width: 50%;
 }
 
+
+
+
+
+.st-form-field.st-style1 label {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+
+.st-btn.st-style1.st-color1 {
+    background-color: #49b31f;
+    color: #fff;
+}
+
+
+
+.form-bg {
+    background-color: #8C730C;
+}
+
+
+ 
   

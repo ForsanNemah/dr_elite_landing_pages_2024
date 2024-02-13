@@ -16,10 +16,9 @@ include "head.php";
 
 
 
+<!--
 
-
-
-  <div class="st-perloader">
+ <div class="st-perloader">
     <div class="st-perloader-in">
       <div class="st-wave-first">
         <svg enable-background="new 0 0 300.08 300.08" viewBox="0 0 300.08 300.08" xmlns="http://www.w3.org/2000/svg">
@@ -40,6 +39,10 @@ include "head.php";
     </div>
   </div>
 
+-->
+
+
+ 
 <?php
 
 include "header.php";

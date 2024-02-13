@@ -33,7 +33,7 @@
                 <div class="col-lg-6">
                   <div class="st-form-field st-style1">
                     <label>الاسم</label>
-                    <input type="text"   name="name" placeholder="نورا حسن" required>
+                    <input type="text"   name="name" placeholder="الاسم" required>
                   </div>
                 </div>
                 <div class="col-lg-6">

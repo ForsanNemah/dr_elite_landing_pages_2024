@@ -33,7 +33,7 @@
                 <div class="col-lg-6">
                   <div class="st-form-field st-style1">
                     <label>الاسم</label>
-                    <input type="text"  name="name" placeholder="نورا حسن" required>
+                    <input type="text"  name="name" placeholder="الاسم" required>
                   </div>
                 </div>
                 <div class="col-lg-6">
@@ -57,25 +57,34 @@ include "services_select.php";
 
 
                
-               
-                
-                <div class="col-lg-12">
+           
 
-
-              
-      
-   
- 
-               
-                  <button id="save_button_one" class="st-btn st-style1 st-color1 st-size-medium mybutton" type="submit" id=""
-                    name="submit">حجز</button>
-                </div>
+            
               </div>
+
+
+
+
+
+
+
+              <div class="col-lg-12">
+
+
+               
+<button id="save_button_one" class="st-btn st-style1 st-color1 st-size-medium mybutton" type="submit" id=""
+  name="submit">حجز</button>
+
+
+</div>
+
             </form>
           </div>
         </div>
       </div>
     </section>
+
+ 
 
 
 
