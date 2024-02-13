@@ -259,7 +259,7 @@ echo $address;
                   
                   <br>
                   
-                    <span class="cd-words-wrapper" style="width:100%;">
+                    <span class="cd-words-wrapper" style="width: 500px;">
                       <b class="is-visible">
                           
                    خدمات الجلدية
