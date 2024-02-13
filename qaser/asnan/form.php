@@ -56,6 +56,17 @@ include "services_select.php";
 
 
 
+<div class="col-lg-6">
+
+
+               
+<button id="save_button_one" class="st-btn st-style1 st-color1 st-size-medium mybutton" type="submit" id=""
+  name="submit">حجز</button>
+
+
+</div>
+
+
                
            
 
@@ -68,15 +79,6 @@ include "services_select.php";
 
 
 
-              <div class="col-lg-12">
-
-
-               
-<button id="save_button_one" class="st-btn st-style1 st-color1 st-size-medium mybutton" type="submit" id=""
-  name="submit">حجز</button>
-
-
-</div>
 
             </form>
           </div>

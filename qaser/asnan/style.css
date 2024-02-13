@@ -73,7 +73,7 @@ body, html {
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
-     
+      margin-top: 20px;
       
     
     }
@@ -198,7 +198,7 @@ element.style {
 
 
 .st-btn.st-style1.st-color1 {
-    background-color: #49b31f;
+    background-color: #8C730C;
     color: #fff;
 }
 
@@ -209,5 +209,7 @@ element.style {
 }
 
 
+
+ 
  
   

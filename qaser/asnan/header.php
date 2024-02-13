@@ -252,24 +252,10 @@ echo $address;
 
 
 
+ 
 
-            <h2 class="st-hero-title cd-headline slide">
-             
-          
-                  
-                  <br>
-                  
-                    <span class="cd-words-wrapper" style="width: 500px;">
-                      <b class="is-visible">
-                          
-                   خدمات الجلدية
-                  </b>
-                      <b>خدمات الاسنان </b>
-                      <b>خدمات الجلدية</b>
-                     
-                      
-                    </span>
-                  </h2>
+                  <h1>    لخدمات الجلدية والأسنان   </h1>
+                
 
 
 
