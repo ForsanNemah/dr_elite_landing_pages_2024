@@ -71,7 +71,7 @@ include "cta/cta_whatsapp.php";
 
 
 
-
+// tiktok
 <script>
 		!function (w, d, t) {
 		  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
@@ -81,6 +81,28 @@ include "cta/cta_whatsapp.php";
 		  ttq.page();
 		}(window, document, 'ttq');
 	</script>
+
+
+
+//snap 
+<script>
+var event_phn="<?=$phn?>";
+var event_email="info@wmc-ksa.com";
+
+(function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
+{a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
+a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
+r.src=n;var u=t.getElementsByTagName(s)[0];
+u.parentNode.insertBefore(r,u);})(window,document,
+'https://sc-static.net/scevent.min.js');
+
+snaptr('init', 'b03a5fe0-a066-4e30-a1e9-28ab9616adf9');
+
+snaptr('track', 'PAGE_VIEW');
+ 
+ 
+
+    </script>
 
 
 

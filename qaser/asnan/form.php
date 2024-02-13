@@ -39,7 +39,7 @@
                 <div class="col-lg-6">
                   <div class="st-form-field st-style1">
                     <label>رقم الجوال</label>
-                    <input type="number"  name="phone" placeholder="555444333" required>
+                    <input id="phn_form1" type="number"  name="phone" placeholder="555444333" required>
                   </div>
                 </div>
 
@@ -106,6 +106,25 @@ function myFunction() {
   document.getElementById("save_button_one").disabled = true;
 
   document.getElementById('save_button_one').innerText = 'يرجى الإنتضار سيتم تحويلك الان';
+
+
+
+
+  var event_phn=document.getElementById('phn_form1').value
+ 
+
+  snaptr('track','SIGN_UP', {
+  
+    'user_phone_number': "966"+event_phn
+});
+
+
+//alert("submited"+event_phn);
+
+
+
+
+
 }
 </script>
 
