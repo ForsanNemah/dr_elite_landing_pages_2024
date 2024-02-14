@@ -105,7 +105,7 @@ function myFunction() {
    
   document.getElementById("save_button_one").disabled = true;
 
-  document.getElementById('save_button_one').innerText = 'يرجى الإنتضار سيتم تحويلك الان';
+  document.getElementById('save_button_one').innerText = 'يرجى الإنتظار سيتم تحويلك الان';
 
 
 
