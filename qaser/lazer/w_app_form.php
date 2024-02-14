@@ -107,11 +107,29 @@ function myFunction2() {
   var event_phn=document.getElementById('phn_form2').value
  
 
- snaptr('track','SIGN_UP', {
- 
-   'user_phone_number': "966"+event_phn
+  snaptr('track','SIGN_UP', {
+  
+  'user_phone_number': sha256("966"+event_phn)          
 });
 
+
+
+
+
+
+
+
+
+
+
+ttq.identify({
+
+"phone_number":sha256("966"+event_phn)  // string. The phone number of the customer if available. It must be hashed with SHA-256 on the client side.
+
+});
+
+
+ttq.track('CompleteRegistration', {});
 
 
 
