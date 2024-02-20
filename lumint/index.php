@@ -366,9 +366,26 @@ var datetime = "" + currentdate.getDate() + "/"
    event_phn=$("#phn_id").val();
    snaptr('track','SIGN_UP', {
   'user_email': event_email,
-    'user_phone_number': event_phn
+    'user_phone_number':sha256("966"+event_phn) 
 });
     
+
+
+
+
+ttq.identify({
+
+"phone_number":sha256("966"+event_phn)  // string. The phone number of the customer if available. It must be hashed with SHA-256 on the client side.
+
+});
+
+
+ttq.track('CompleteRegistration', {});
+
+
+
+
+
    alert("تمت عملية التسجيل بنجاح وسيتم التواصل معك في اقرب وقت ");
 
    //window.location.replace("https://api.whatsapp.com/send?phone="+phn+"&text=%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D8%A7%D9%83%D8%AB%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%A7%D8%B9%D9%84%D8%A7%D9%86%20") ;
