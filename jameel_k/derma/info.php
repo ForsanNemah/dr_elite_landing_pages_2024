@@ -9,7 +9,7 @@ $action_url="https://script.google.com/macros/s/AKfycbyKhpPwK1UjADLlYSbR3RoialQD
 
 $logo_h='150px';
 $logo_w='150px';
-$form_bg_color="#228b22";
+$form_bg_color="#00556c";
 $bg_image="skin.jpg";
 $sliders=0;
 $add_source="snap 1  ";
@@ -25,7 +25,15 @@ $dr_name=
 "
  
 ";
-$add_title="50% خصومات تصل الى ";
+
+
+$add_title="
+عروض يوم التأسيس 
+<br>
+50% خصومات تصل الى 
+
+
+";
 
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";
