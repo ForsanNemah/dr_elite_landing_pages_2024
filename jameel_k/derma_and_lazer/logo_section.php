@@ -98,7 +98,7 @@ $current_script_file=explode("/",$sn);
 
 
 
-
+/*
   echo "
   
   
@@ -113,6 +113,8 @@ $current_script_file=explode("/",$sn);
 
   
   ";
+
+*/
 ?>
                   
                   
