@@ -1,5 +1,5 @@
 
-<section class="container-fluid bg-primary head-nav mycenter">
+<section class="container-fluid bg-primary head-nav ">
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12">
                 <div class="text-center header-logo">

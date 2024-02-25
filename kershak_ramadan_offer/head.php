@@ -234,7 +234,7 @@ $(document).click(function(evt) {
   
 
   .carousel {
-  width:90%;
+  width:100%;
   height:700px;
   margin:0 auto;
 }
@@ -244,7 +244,7 @@ $(document).click(function(evt) {
 
 .carousel-inner {
     position: relative;
-    width: 90%;
+    width: 100%;
     height:700px;
     overflow: hidden;
 }
@@ -310,18 +310,32 @@ footer p,  {
 
 
 
+@media only all and (min-width: 1000px) {
 
 
-.container {
+	.container {
    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
 .mycenter {
-     display: flex;
+    
     justify-content: center;
     align-items: center;
 }
