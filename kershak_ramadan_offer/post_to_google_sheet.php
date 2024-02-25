@@ -39,7 +39,7 @@ curl_close($curlHandle);
 
 echo '<script type="text/javascript">
 
-   var msg="f24 كود الخصم الخاص بك هو \n يمكنك استخدامة  عند زيارتك  لنا";   
+   var msg="f24 كود العرص الخاص بك هو \n يمكنك استخدامة  عند زيارتك  لنا";   
 
 
 
