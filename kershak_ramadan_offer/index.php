@@ -172,15 +172,15 @@ include "form.php";
 
  
 ?>
-	            <div class="row">
+	          
 
 
                
 
-<div id="slider1"></div>
+<div id="slider1"  ></div>
            
-
-  </div>	 
+ 
+	 
 <br>
 
   <div class="row">

@@ -230,7 +230,7 @@ $(document).click(function(evt) {
 
  
 
-@media only all and (max-width: 500px) {
+@media only all and (max-width: 1000px) {
   
 
   .carousel {
