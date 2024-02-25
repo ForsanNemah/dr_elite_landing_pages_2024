@@ -216,15 +216,15 @@ $(document).click(function(evt) {
  
 
 .carousel {
-  width:700px;
-  height:1000px;
+  width:100%;
+  height:1500px;
   margin:0 auto;
 }
 
 .carousel-inner {
     position: relative;
-    width: 700px;
-    height:1000px;
+    width: 100%;
+    height:1500px;
     overflow: hidden;
 }
 
@@ -234,7 +234,7 @@ $(document).click(function(evt) {
   
 
   .carousel {
-  width:100%;
+  width:90%;
   height:700px;
   margin:0 auto;
 }
@@ -244,7 +244,7 @@ $(document).click(function(evt) {
 
 .carousel-inner {
     position: relative;
-    width: 100%;
+    width: 90%;
     height:700px;
     overflow: hidden;
 }

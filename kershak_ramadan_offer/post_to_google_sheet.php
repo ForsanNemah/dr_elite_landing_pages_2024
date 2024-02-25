@@ -48,7 +48,7 @@ alert(msg);
 
 
 
-location.replace("https://api.whatsapp.com/send?phone=966596945937&text=%D9%83%D9%8A%D9%81%20%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D9%85%20%D9%83%D9%88%D8%AF%20%D8%A7%D9%84%D8%AE%D8%B5%D9%85%20%D8%9F");
+location.replace("https://api.whatsapp.com/send?phone=966543590581&text=%D9%85%D8%A7%D9%87%D9%8A%20%D8%B7%D8%B1%D9%8A%D9%82%D8%A9%20%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%20%D9%83%D9%88%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B1%D8%B6%20%20%F0%9F%98%80");
 //window.history.go(-1);
  
 </script>
