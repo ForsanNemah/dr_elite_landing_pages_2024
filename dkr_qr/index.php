@@ -14,6 +14,16 @@
 </head>
 
 <body>
+
+<?php
+
+include "w_app.php";
+
+
+?>
+
+
+
   <div class="container">
     <div class="text-center mt-5">
       <img src="logo.jpeg" alt="Logo" class="img-fluid " width="200" height="200">
