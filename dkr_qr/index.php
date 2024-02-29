@@ -21,10 +21,7 @@
     </div>
     <div class="text-center mt-5">
       <a href="https://drive.google.com/file/d/1PhQlWHRyJRSuBw7lFUAyXNHhhWhxKAur/view" class="btn btn-primary btn-lg  col-6 ">منيو رمضان</a>
-<br>
-<br>
-<a href="https://drive.google.com/file/d/1PhQlWHRyJRSuBw7lFUAyXNHhhWhxKAur/view" class="btn btn-primary btn-lg col-6">المنيو العام </a>
-
+ 
 <br>
 <br>
 <a href="https://drive.google.com/file/d/1PhQlWHRyJRSuBw7lFUAyXNHhhWhxKAur/view" class="btn btn-primary btn-lg col-6"> منيو وجبات الشركات </a>
