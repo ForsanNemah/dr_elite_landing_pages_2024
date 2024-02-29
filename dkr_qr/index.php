@@ -16,7 +16,7 @@
 <body>
   <div class="container">
     <div class="text-center mt-5">
-      <img src="logo.jpeg" alt="Logo" class="img-fluid " width="250" height="250">
+      <img src="logo.jpeg" alt="Logo" class="img-fluid " width="250" height="200">
       <h1 class="mt-4 pulsate">منيو مطعم دلع كرشك </h1>
     </div>
     <div class="text-center mt-5">
