@@ -30,11 +30,11 @@ include "w_app.php";
       <h1 class="mt-4 pulsate">منيو مطعم دلع كرشك </h1>
     </div>
     <div class="text-center mt-5">
-      <a href="https://drive.google.com/file/d/1PhQlWHRyJRSuBw7lFUAyXNHhhWhxKAur/view" class="btn btn-primary btn-lg  col-6 ">منيو رمضان</a>
+      <a href="https://drive.google.com/file/d/1Pwuh1SzkukwtXjQvIoXIkLOcb0bz340D/view?usp=sharing" class="btn btn-primary btn-lg  col-6 ">منيو رمضان</a>
  
 <br>
 <br>
-<a href="https://drive.google.com/file/d/1PhQlWHRyJRSuBw7lFUAyXNHhhWhxKAur/view" class="btn btn-primary btn-lg col-6"> منيو وجبات الشركات </a>
+<a hidden href="https://drive.google.com/file/d/1PhQlWHRyJRSuBw7lFUAyXNHhhWhxKAur/view" class="btn btn-primary btn-lg col-6"> منيو وجبات الشركات </a>
      
     </div>
 
