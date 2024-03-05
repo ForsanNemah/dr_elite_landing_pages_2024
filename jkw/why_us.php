@@ -9,8 +9,12 @@
     <style>
         /* Custom CSS styling */
         /* Add your own custom styles here */
+       
+
         .why-us-section {
+             
             padding: 50px 0;
+            background-color: rgba(255, 255, 255, 0.8); /* Add transparency to the background color */
         }
 
         .why-us-heading {
@@ -79,9 +83,7 @@
         </div>
     </section>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
 </body>
 
 </html>

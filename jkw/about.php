@@ -31,6 +31,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
+                <br>
+<br>
                     <h4 class="about-us-heading">مجمع عيادات الدكتور جميل خطاب</h4>
                     <p class="about-us-description">
                         
@@ -53,9 +55,7 @@
         </div>
     </section>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
 </body>
 
 </html>

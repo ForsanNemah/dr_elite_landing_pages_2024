@@ -15,7 +15,16 @@ include "nav.php";
 
 
 ?>
-  
+
+
+
+
+
+
+  <div class="container custom-margin">
+
+</div>
+  <!--
 
     <div class="container custom-margin">
         <div class="row">
@@ -26,7 +35,7 @@ include "nav.php";
         </div>
     </div>
 
-
+-->
     <?php
 
 include "slider.php";
@@ -65,7 +74,7 @@ include "why_us.php";
 
 <?php
 
-include "gallary.php";
+//include "gallary.php";
 
 
 ?>
@@ -97,9 +106,31 @@ include "parteners.php";
 
 
 
+<?php
+
+include "contact_form.php";
+
+
+?>
 
 
 
+<?php
+
+include "map.php";
+
+
+?>
+
+
+
+
+
+
+<?php
+
+include "w_app.php";
+?>
 
 <?php
 
