@@ -30,41 +30,46 @@
         </div>
       </div>
     </div>
+     
+
+
+
+
     <div class="st-main-header">
-      <div class="container">
-        <div class="st-main-header-in">
-          <div class="st-main-header-left">
-            <a class="st-site-branding" href="index.php"><img src="logo.png" alt="" width="100" height="100"></a>
-          </div>
-          <div class="st-main-header-right">
-            <div class="st-nav">
-              <ul class="st-nav-list st-onepage-nav">
-                <li><a href="#home" class="st-smooth-move">الرئيسية </a></li>
-                <li><a href="#about" class="st-smooth-move">من نحن </a></li>
-                <li><a href="#services" class="st-smooth-move">التخصصات </a></li>
-                <li><a href="#doctors" class="st-smooth-move">الدكاترة </a></li>
-                <li><a href="#gallery" class="st-smooth-move">المعرض </a></li>
-                <li><a href="#insc" class="st-smooth-move"> شركات التأمين</a></li>
-                
-                <!--
-                <li class="menu-item-has-children"><a href="#blog" class="st-smooth-move">Blog</a>
-                  <ul>
-                    <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                    <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                    <li><a href="blog-no-sidebar.html">Blog No Sidebar</a></li>
-                    <li><a href="blog-details-right-sidebar.html">Blog Details Right Sidebar</a></li>
-                    <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
-                    <li><a href="blog-details-no-sidebar.html">Blog Details No Sidebar</a></li>
-                  </ul>
-                </li>
--->
-                <li><a href="#contact" class="st-smooth-move">تواصل معنا</a></li>
-              </ul>
-            </div>
-          </div>
+  <div class="container">
+    <div class="st-main-header-in">
+      <div class="st-main-header-left">
+        <a class="st-site-branding" href="index.php">
+          <img src="logo.png" alt="" width="100" height="100">
+          <span class="brand-name">
+
+          نخبة من افضل الاطباء
+        
+    
+
+        
+       
+          
+          </span>
+        </a>
+      </div>
+          
+      <div class="st-main-header-right">
+        <div class="st-nav">
+          <ul class="st-nav-list st-onepage-nav">
+            <li><a href="#home" class="st-smooth-move">الرئيسية</a></li>
+            <li><a href="#about" class="st-smooth-move">من نحن</a></li>
+            <li><a href="#services" class="st-smooth-move">التخصصات</a></li>
+            <li><a href="#doctors" class="st-smooth-move">الدكاترة</a></li>
+            <li><a href="#gallery" class="st-smooth-move">المعرض</a></li>
+            <li><a href="#insc" class="st-smooth-move">شركات التأمين</a></li>
+            <li><a href="#contact" class="st-smooth-move">تواصل معنا</a></li>
+          </ul>
         </div>
       </div>
     </div>
+  </div>
+</div>
   </header>
 
 

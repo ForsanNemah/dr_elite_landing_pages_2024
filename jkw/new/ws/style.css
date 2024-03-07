@@ -62,3 +62,9 @@ body {
     color: #000000;
     margin-bottom: 3px;
 }
+
+
+.brand-name {
+    font-size: 20px; /* Adjust the font size as needed */
+    margin-left: 10px; /* Adjust the margin as needed */
+  }
