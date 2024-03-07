@@ -47,3 +47,18 @@ body {
 .st-section-heading.st-style1 .st-section-heading-subtitle {
     font-size: 25px;
 }
+
+
+
+
+
+
+
+
+.st-form-field.st-style1 label {
+    display: block;
+    font-size: 25px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 3px;
+}
