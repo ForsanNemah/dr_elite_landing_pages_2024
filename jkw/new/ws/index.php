@@ -58,8 +58,10 @@ include "nav.php";
             <div class="st-height-b40 st-height-lg-b40"></div>
             <h1 class="st-hero-title cd-headline slide">
             مجمع عيادات الدكتور جميل خطاب
-               <br>
-             متخصصون في 
+              
+
+<!--
+
               <span class="cd-words-wrapper">
                 <b class="is-visible">الباطنة</b>
                 <b>أطفال</b>
@@ -67,6 +69,8 @@ include "nav.php";
                 <b>الاسنان</b>
                 <b>التجميل</b>
               </span>
+
+-->
             </h1>
             <div class="st-hero-subtitle">
 
