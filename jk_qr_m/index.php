@@ -100,7 +100,7 @@
     </div>
   </div>
 
-  <a href="https://api.whatsapp.com/send?phone=96650023019" target="_blank" class="whatsapp-button">
+  <a href="https://wa.me/966500230199" target="_blank" class="whatsapp-button">
     <i class="fab fa-whatsapp"></i>
   </a>
 
