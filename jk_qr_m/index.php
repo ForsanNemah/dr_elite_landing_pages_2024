@@ -65,6 +65,17 @@
       font-weight: bold;
     }
 
+    .footer {
+      background-color: #f8f9fa;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .website-link {
+      color: blue;
+      text-decoration: underline;
+    }
+
     .whatsapp-button {
       position: fixed;
       bottom: 20px;
@@ -89,17 +100,23 @@
     <img class="logo" src="logo.png" alt="Logo">
     <h1 class="business-name">نحن بعون الله نرعاكم </h1>
     <div class="social-icons">
-      <a href="#" class="btn btn-primary mr-2"><i class="fab fa-facebook-f"></i></a>
-      <a href="#" class="btn btn-primary mr-2"><i class="fab fa-twitter"></i></a>
-      <a href="#" class="btn btn-primary mr-2"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/p/Dr-Jameel-Khattab-Medical-Centre-100077371786612/" class="btn btn-primary mr-2"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com/drjameelkhattab?lang=ar" class="btn btn-primary mr-2"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/khatabclinic/" class="btn btn-primary mr-2"><i class="fab fa-instagram"></i></a>
       <a href="#" class="btn btn-primary mr-2"><i class="fab fa-snapchat-ghost"></i></a>
-      <a href="#" class="btn btn-primary mr-2"><i class="fab fa-tiktok"></i></a>
-      <a href="#" class="btn btn-primary mr-2"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.tiktok.com/discover/%D8%B9%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA-%D8%AC%D9%85%D9%8A%D9%84-%D8%AE%D8%B7%D8%A7%D8%A8-%D8%A7%D9%84%D8%A7%D8%AD%D8%B3%D8%A7%D8%A1" class="btn btn-primary mr-2"><i class="fab fa-tiktok"></i></a>
+      <a href="https://www.youtube.com/@jameelkhattab.polyclinic3197" class="btn btn-primary mr-2"><i class="fab fa-youtube"></i></a>
     </div>
     <div class="rate-us-button">
       <a href="https://g.page/r/CR7QNmd1eLgJEBM/review" target="_blank">قيمنا على جوجل ماب </a>
     </div>
   </div>
+
+  <footer class="footer">
+    <p>
+      <a href="https://jameelkhattab.com/" class="website-link">موقعنا الإلكتروني </a>
+    </p>
+  </footer>
 
   <a href="https://wa.me/966500230199" target="_blank" class="whatsapp-button">
     <i class="fab fa-whatsapp"></i>
