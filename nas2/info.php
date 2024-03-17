@@ -20,7 +20,7 @@ $form_bg_color="#8C730C";
 $bg_image="asnan.jpg";
 $sliders=0;
 $add_source="snap 1  ";
-$phn="966552557304";
+$phn="966540889195";
 $phn2="966564756555";
 $phn0="966564756555";
 $end_date="20-3-2023";
@@ -46,7 +46,7 @@ $full_map_url='
 
 
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.7562572822294!2d46.8625626!3d24.8037985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2faad7b730cee5%3A0x7435f12a419a2290!2z2YXYsdmD2LIg2LnZitin2K_Yp9iqINmC2LXYsSDYp9mE2KzZhdin2YQg2KfZhNi32KjZig!5e0!3m2!1sar!2ssa!4v1707776853949!5m2!1sar!2ssa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.3445546944045!2d49.574740299999995!3d25.3932747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e3796f8b88de12d%3A0xf490922ee97d0043!2z2YXYs9iq2YjYtdmBINmG2KfYsyDZhNi32Kgg2KfZhNij2LPZhtin2YY!5e0!3m2!1sar!2ssa!4v1710648277606!5m2!1sar!2ssa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
 

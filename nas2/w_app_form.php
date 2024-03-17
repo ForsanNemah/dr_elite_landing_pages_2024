@@ -18,7 +18,7 @@
           
 
           <div class="st-section-heading-subtitle pulsate">
- سجل بيانتك وسيتم تحويلك الى وتساب مباشرة
+ سجل بياناتك وسيتم تحويلك الى واتساب مباشرة
           
           </div>
         </div>
