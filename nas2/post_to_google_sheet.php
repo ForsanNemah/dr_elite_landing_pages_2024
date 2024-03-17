@@ -59,6 +59,28 @@ if($is_w_app=="1"){
 
     header("Location:https://wa.me/".$phn);
 
+
+
+
+    echo '<script type="text/javascript">
+
+    
+ 
+ 
+ 
+ 
+ window.location.replace("index.php");
+ 
+ </script>
+ 
+ ';
+
+
+
+
+
+
+
 }
 
 else{
