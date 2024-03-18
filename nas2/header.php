@@ -254,7 +254,7 @@ echo $address;
 
  
 
-                  <h1>    لخدمات الجلدية والأسنان   </h1>
+                  <h1>   <?php echo $header_des; ?>  </h1>
                 
 
 

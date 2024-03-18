@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="ar", dir="rtl">
+<head>
+    <?php include "header.html" ?>
+</head>
+<body>
+      <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-phone d-flex align-items-center"><span>+966535412271</span></i>&nbsp;&nbsp;
+        <i class="bi bi-clock d-flex align-items-center ms-4"><span id="datetime"></span></i>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-cente">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+
+      <!--<h1 class="logo me-auto me-lg-0"><a href="index.html">logo</a></h1>-->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="" class="logo me-auto me-lg-0">
+        <img src="assets/images/مرفق.jpg" alt="" class="img-fluid"></a>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">الرئيسية</a></li>
+          <li><a class="nav-link scrollto" href="#about">من نحن</a></li>
+          <li><a class="nav-link scrollto" href="#menu">القائمة</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">صور</a></li>
+          
+ 
+          <li><a class="nav-link scrollto" href="#contact">التواصل</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <a href="#contact" class="book-a-table-btn scrollto d-none d-lg-flex">احجز الآن</a>
+
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!----whatsapp icon---->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <a href="https://api.whatsapp.com/send?phone=966535412271&text=%D8%B7%D8%B1%D9%8A%D9%82%D8%A9%20%D8%A7%D9%84%D8%B7%D9%84%D8%A8.." class="float" target="_blank">
+  <i class="fa fa-whatsapp my-float"></i>
+  </a>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+      <div class="row">
+        
+        <div class="col-lg-8">
+          <h1>أهلا بك في  <span>كفوف</span></h1>
+          <h2>ورق عنب وملفوف</h2>
+
+          <div class="btns">
+            <center><a href="#menu" class="btn-menu animated fadeInUp scrollto">قائمة المحتويات</a></center>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
+          <a href="assets/images/video.mp4" class="glightbox play-btn"></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- End Hero -->
+
+  <main id="main">
+
+
+
+
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+  <div class="container" data-aos="fade-up">
+
+    <div class="row">
+      <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+        <div class="about-img">
+          <img src="assets/images/26.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+        <br><br>
+        <h3 style=" font-family:'Tajawal'">كفوف لبيع ورق العنب والملفوف </h3>
+        <p class="fst-italic">
+          تذوّق النكهات الشرقية الأصيلة مع مطعمنا الذي يقدم أطباق ورق العنب والملفوف الشهية والمحشوة  بنكهات ومكونات فريدة 
+            
+        </p>
+        <ul>
+          <li><i class="bi bi-check-circle"></i>اطلب من فروعنا في المملكة العربية السعودية</li>
+          <li><i class="bi bi-check-circle"></i>تجربة لا تُنسى لمحبي ورق العنب والملفوف </li>
+          <li><i class="bi bi-check-circle"></i>استمتع بلمسة فنية في تقديم أطباق ورق العنب</li>
+        </ul>
+        <p> يقدم متجر مفوف أطباق ورق العنب والملفوف والفتة والمسخّن مع رولات المسخّن مع الصوص الشهية بأسلوب مميز ومبتكر,
+           اكتشف تناغم النكهات  والمذاق الغذائي لهذه الأطباق الخفيفة المحشوة بعناية والتي تدمج بين الطعم اللذيذ والمظهر الرائع
+
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End About Section -->
+
+
+
+
+
+
+ <!-- ======= Menu Section ======= -->
+ <section id="menu" class="menu section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>قائمة المحتويات</h2>
+      <p>اختر وجبتك الآن</p>
+    </div>
+
+    <div class="row" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-12 d-flex justify-content-center">
+        <ul id="menu-flters">
+          <li data-filter="*" class="filter-active">الكل</li>
+          <li data-filter=".filter-starters">ورق عنب</li>
+          <li data-filter=".filter-salads">ملفوف</li>
+          <li data-filter=".filter-specialty">مسخن وفتة</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+
+      <div class="col-lg-6 menu-item filter-starters">
+        <img src="assets/images/4.jpg" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">ورق عنب عادي</a><span></span>
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-starters">
+        <img src="assets/images/5.jpg" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">ورق عنب بدبس الرمان</a><span></span>
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-starters">
+        <img src="assets/images/6.jpg" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">ورق عنب سبايسي</a><span></span>
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-salads">
+        <img src="assets/images/7.jpg" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">ملفوف حامض</a><span></span>
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-salads">
+        <img src="assets/images/8.jpg" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">ملفوف سبايسي</a><span></span>
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-specialty">
+        <img src="assets/images/9.jpg" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">رولات المسخن مع الصوص</a><span></span>
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-specialty">
+        <img src="assets/images/10.jpg" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">فتة ورق عنب</a><span></span>
+        </div>
+      </div>
+
+      <div class="col-lg-6 menu-item filter-specialty">
+        <img src="assets/images/11.jpg" class="menu-img" alt="">
+        <div class="menu-content">
+          <a href="#">فتة ورق عنب سبايسي</a><span></span>
+        </div>
+
+  <!--     
+    <style>
+          table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 10px;
+          }
+        
+          th {
+            text-align: center;
+            padding: 10px;
+            font-size: larger;
+          }
+        
+          td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+          }
+        
+          img {
+            max-width: 100%;
+            height: auto;
+          }
+        </style>
+        
+        <table>
+          <tr>
+            <th colspan="2"><center>الصنف</center></th>
+            <th>صغير</th>
+            <th>متوسط</th>
+            <th>كبير</th>
+          </tr>
+    
+          <div class="col-lg-6 menu-item filter-starters">
+          <tr>
+            <td colspan="2">
+              <img src="assets/images/4.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="">ورق عنب عادي</a>
+              </div>
+            </td>
+            <td colspan="3">
+              <table>
+                <tr>
+                  <td>SAR 12 </td>
+                  <td>SAR 25 </td>
+                  <td>SAR 50 </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+         </div>
+    
+         <div class="col-lg-6 menu-item filter-starters">
+          <tr>
+            <td colspan="2">
+              <img src="assets/images/5.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="">ورق عنب بدبس الرمان</a>
+              </div>
+            </td>
+            <td colspan="3">
+              <table>
+                
+                <tr>
+                  <td>SAR 12 </td>
+                  <td>SAR 25 </td>
+                  <td>SAR 50 </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+         </div>
+    
+         <div class="col-lg-6 menu-item filter-starters">
+          <tr>
+            <td colspan="2">
+              <img src="assets/images/6.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="">ورق عنب سبايسي</a>
+              </div>
+            </td>
+            <td colspan="3">
+              <table>
+                
+                <tr>
+                  <td>SAR 12 </td>
+                  <td>SAR 25 </td>
+                  <td>SAR 50 </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+         </div>
+    
+         <div class="col-lg-6 menu-item filter-salads">
+          <tr>
+            <td colspan="2">
+              <img src="assets/images/7.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="">ملفوف حامض</a>
+              </div>
+            </td>
+            <td colspan="3">
+              <table>
+                
+                <tr>
+                  <td>SAR 12 </td>
+                  <td>SAR 25 </td>
+                  <td>SAR 50 </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+         </div>
+    
+         <div class="col-lg-6 menu-item filter-salads">
+          <tr>
+            <td colspan="2">
+              <img src="assets/images/8.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="">ملفوف سبايسي</a>
+              </div>
+            </td>
+            <td colspan="3">
+              <table>
+                
+                <tr>
+                  <td>SAR 12 </td>
+                  <td>SAR 25 </td>
+                  <td>SAR 50 </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+         </div>
+    
+         <div class="col-lg-6 menu-item filter-specialty">
+          <tr>
+            <td colspan="2">
+              <img src="assets/images/9.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="">رولات المسخن مع الصوص</a>
+              </div>
+            </td>
+            <td colspan="3">
+              <table>
+                
+                <tr>
+                  <td>SAR 12 </td>
+                  <td>SAR 25 </td>
+                  <td>SAR 50 </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+         </div>
+    
+         <div class="col-lg-6 menu-item filter-specialty">
+          <tr>
+            <td colspan="2">
+              <img src="assets/images/10.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="">فتة ورق عنب</a>
+              </div>
+            </td>
+            <td colspan="3">
+              <table>
+                
+                <tr>
+                  <td>SAR 12 </td>
+                  <td>SAR 25 </td>
+                  <td>SAR 50 </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+         </div>
+    
+         <div class="col-lg-6 menu-item filter-specialty">
+          <tr>
+            <td colspan="2">
+              <img src="assets/images/11.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="">فتة ورق عنب سبايسي</a>
+              </div>
+            </td>
+            <td colspan="3">
+              <table>
+                
+                <tr>
+                  <td>SAR 12 </td>
+                  <td>SAR 25 </td>
+                  <td>SAR 50 </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+         </div>
+    
+         
+        </table>--->
+
+      </div>
+    </div>
+</section><!-- End Menu Section -->
+
+
+
+
+ <!-- ======= Testimonials Section ======= -->
+ <section id="testimonials" class="testimonials section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>آراءكم</h2>
+      <p>ما قاله عملاؤنا عنا</p>
+    </div>
+
+    <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              انصح لمأكولاتهم جدآ لذيذه لاتفوتكم تذوقونها ورق العنب والملفوف والله جدآ ممتازه                  
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="" class="testimonial-img" alt="">
+            <h3> ربيعة الراجحي</h3>
+            <h4>قبل شهر</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              م شاءلله محل راقي وتعامل جدا حلو محل مرتب ونظيف وعمال اخلاق وكمان جودتهم عاليه المسسخن وورق العنب يفوز  فعلا العسيله كان ينقصها محل بالصفات ذي يستاهلون عشر نجوم مو بس خمس                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="" class="testimonial-img" alt="">
+            <h3> الشر عوب</h3>
+            <h4>قبل 4 لأشهر</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              ماشاءلله تبارك الرحمن يسلمو أحلى طعم وأحلى لزازه لورق العنب يسلموووو كفوف 😍🫰🏻 …                  
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="" class="testimonial-img" alt="">
+            <h3>أم تالين  </h3>
+            <h4> قبل شهر</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              فوق التقييم والله يفوز جربوه انصحكم فيه 🥺
+              لازم تذوقوه🫶🏻الله يرزقهم ويبارك لهم الصراحه طعم وشكل وذوق🫶🏻. …                  
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="" class="testimonial-img" alt="">
+            <h3> دعاء جيلان</h3>
+            <h4>قبل 3 أشهر</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              أكلهم لذيذ وعندهم عروض حلوة ويستاهلون اكثر من خمس نجوم بس لو ينوّعون في الصوص حق المسخن                  
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="" class="testimonial-img" alt="">
+            <h3>asagh</h3>
+            <h4>قبل 4 أشهر</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+</section>
+<!-- End Testimonials Section -->
+
+
+
+
+
+<!-- ======= Gallery Section ======= -->
+<section id="gallery" class="gallery">
+
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>الصور</h2>
+      <p>بعض الصور من متجر كفوف</p>
+    </div>
+  </div>
+
+  <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row g-0">
+
+      <div class="col-lg-3 col-md-4">
+        <div class="gallery-item">
+          <a href="assets/images/12.jpg" class="gallery-lightbox" data-gall="gallery-item">
+            <img src="assets/images/12.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4">
+        <div class="gallery-item">
+          <a href="assets/images/13.jpg" class="gallery-lightbox" data-gall="gallery-item">
+            <img src="assets/images/13.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4">
+        <div class="gallery-item">
+          <a href="assets/images/14.jpg" class="gallery-lightbox" data-gall="gallery-item">
+            <img src="assets/images/14.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4">
+        <div class="gallery-item">
+          <a href="assets/images/28.jpg" class="gallery-lightbox" data-gall="gallery-item">
+            <img src="assets/images/28.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Gallery Section -->
+
+
+
+
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>التواصل</h2>
+      <p>تواصل معنا</p>
+    </div>
+  </div>
+
+  <div data-aos="fade-up">
+    <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.17086196848!2d39.87665041449496!3d21.50102641914762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c20322d14105e5%3A0x244ac47779bc061e!2z2YPZgdmI2YEg2YjYsdmCINi52YbYqCDZiNmF2YTZgdmI2YE!5e0!3m2!1sar!2s!4v1708894774063!5m2!1sar!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <div class="container" data-aos="fade-up">
+
+    <div class="row mt-5">
+
+      <div class="col-lg-4">
+        <div class="info">
+          <div class="address">
+            <i class="bi bi-geo-alt"></i>
+            <h4>الموقع:</h4>
+            <p>المملكة العربية السعودية</p>
+            <p>حي، شارع 32، مكة 24423</p>
+            <p> مقابل برستد الأصيل</p>
+            
+            
+          </div>
+
+          <div class="open-hours">
+            <i class="bi bi-clock"></i>
+            <h4>أوقات العمل</h4>
+            <p>
+              من السبت للخميس <br>
+              8:00 AM - 12:00 AM
+            </p>
+          </div>
+
+          <div class="email">
+            <i class="bi bi-envelope"></i>
+            <h4>الإيميل</h4>
+            <p>info@example.com</p>
+          </div>
+
+          <div class="phone">
+            <i class="bi bi-phone"></i>
+            <h4>الاتصال</h4>
+            <p>966535412271</p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-8 mt-5 mt-lg-0">
+
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="الاسم.." required>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <input type="number" class="form-control" name="subject" id="subject" placeholder="الرقم.." required >
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="8" placeholder="اترك ملاحظاتك هنا(اختياري)" ></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">جاري الارسال</div>
+            <div class="error-message"></div>
+            <div class="sent-message">تم  الإرسال بنجاح, شكرا لك</div>
+          </div>
+          <div class="text-center"><button type="submit">إرسال</button></div>
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Contact Section -->
+
+</main><!-- End #main -->
+
+
+</body>
+</html>
