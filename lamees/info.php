@@ -22,9 +22,9 @@ $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
 $site_name="د/لميس طه ";
 $dr_name="  ";
-$add_title="عروض عيد الام";
+$add_title="عروض رمضان";
 
-$sidebar1_msg="عروض عيد الام";
+$sidebar1_msg="عروض رمضان";
 $sidebar2_msg="خدماتنا ";
 $sidebar3_msg="خدماتنا ";
 
