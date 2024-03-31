@@ -85,7 +85,7 @@ include "nav.php";
             
             </div>
             <div class="st-hero-btn">
-              <a href="#appointment" class="st-btn st-style1 st-color1 st-smooth-move"> تصفح العروض   </a>
+              <a href="#offers_gallery" class="st-btn st-style1 st-color1 st-smooth-move"> تصفح العروض   </a>
             </div>
           </div>
         </div>

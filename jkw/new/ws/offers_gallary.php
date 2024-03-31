@@ -23,8 +23,9 @@
           <div class="st-isotop-filter st-style1 text-center">
             <ul class="st-mp0">
               <li class="active"><a href="#" data-filter="*">كل العروض </a></li>
-              <li><a href="#" data-filter=".cardiology">الجلدية  والتجميل</a></li>
-              <li><a href="#" data-filter=".neurology">الاسنان </a></li>
+              <li><a href="#" data-filter=".derma"> الجلدية</a></li>
+              <li><a href="#" data-filter=".tagmeel">التجميل</a></li>
+              <li><a href="#" data-filter=".dental">الاسنان </a></li>
 
               <!--
               <li><a href="#" data-filter=".urology">Urology</a></li>
@@ -38,20 +39,120 @@
             <div class="st-grid-sizer"></div>
 
 
-            <div class="st-isotop-item cardiology urology">
-              <a href="assets/img/project1_lg.jpg" class="st-project st-zoom st-lightbox-item st-link-hover-wrap">
-                <div class="st-project-img st-zoom-in"><img src="assets/img/project1.jpg" alt="project1"></div>
-                <span class="st-link-hover"><i class="fas fa-arrows-alt"></i></span>
-              </a>
-            </div><!-- .st-isotop-item -->
 
-            <div class="st-isotop-item cardiology neurology">
-              <a href="assets/img/project2_lg.jpg" class="st-project st-zoom st-lightbox-item st-link-hover-wrap">
-                <div class="st-project-img st-zoom-in"><img src="assets/img/project2.jpg" alt="project2"></div>
-                <span class="st-link-hover"><i class="fas fa-arrows-alt"></i></span>
-              </a>
-            </div><!-- .st-isotop-item -->
 
+            <?php
+$folderPath = "offers/dental"; // Replace with the actual path to your folder
+
+try {
+    $files = scandir($folderPath);
+
+    foreach ($files as $file) {
+        $extension = pathinfo($file, PATHINFO_EXTENSION);
+        if (in_array($extension, ['jpg', 'jpeg', 'png', 'gif'])) {
+            echo $file . "<br>";
+
+            echo '
+            
+            
+            <div class="st-isotop-item dental ">
+            <a href="offers/dental/'.$file.'" class="st-project st-zoom st-lightbox-item st-link-hover-wrap">
+              <div class="st-project-img st-zoom-in"><img src="offers/dental/'.$file.'" alt="project1"></div>
+              <span class="st-link-hover"><i class="fas fa-arrows-alt"></i></span>
+            </a>
+          </div>
+
+      
+            
+            
+            
+            ';
+        }
+    }
+} catch (Exception $e) {
+    echo "An error occurred: " . $e->getMessage();
+}
+?>
+
+
+
+
+          
+
+<?php
+$folderPath = "offers/derma"; // Replace with the actual path to your folder
+
+try {
+    $files = scandir($folderPath);
+
+    foreach ($files as $file) {
+        $extension = pathinfo($file, PATHINFO_EXTENSION);
+        if (in_array($extension, ['jpg', 'jpeg', 'png', 'gif'])) {
+            echo $file . "<br>";
+
+            echo '
+            
+            
+            <div class="st-isotop-item derma ">
+            <a href="offers/derma/'.$file.'" class="st-project st-zoom st-lightbox-item st-link-hover-wrap">
+              <div class="st-project-img st-zoom-in"><img src="offers/derma/'.$file.'" alt="project1"></div>
+              <span class="st-link-hover"><i class="fas fa-arrows-alt"></i></span>
+            </a>
+          </div>
+
+      
+            
+            
+            
+            ';
+        }
+    }
+} catch (Exception $e) {
+    echo "An error occurred: " . $e->getMessage();
+}
+?>
+
+
+
+
+
+<?php
+$folderPath = "offers/tagmeel"; // Replace with the actual path to your folder
+
+try {
+    $files = scandir($folderPath);
+
+    foreach ($files as $file) {
+        $extension = pathinfo($file, PATHINFO_EXTENSION);
+        if (in_array($extension, ['jpg', 'jpeg', 'png', 'gif'])) {
+            echo $file . "<br>";
+
+            echo '
+            
+            
+            <div class="st-isotop-item tagmeel ">
+            <a href="offers/tagmeel/'.$file.'" class="st-project st-zoom st-lightbox-item st-link-hover-wrap">
+              <div class="st-project-img st-zoom-in"><img src="offers/tagmeel/'.$file.'" alt="project1"></div>
+              <span class="st-link-hover"><i class="fas fa-arrows-alt"></i></span>
+            </a>
+          </div>
+
+      
+            
+            
+            
+            ';
+        }
+    }
+} catch (Exception $e) {
+    echo "An error occurred: " . $e->getMessage();
+}
+?>
+ 
+
+
+
+ 
            
 
            
