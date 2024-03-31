@@ -42,7 +42,7 @@ include "w_app.php";
  <?php
 
 
-include "nav.php";
+include "nav_offers.php";
 
 
 

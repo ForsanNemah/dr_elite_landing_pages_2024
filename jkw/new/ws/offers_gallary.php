@@ -50,7 +50,8 @@ try {
     foreach ($files as $file) {
         $extension = pathinfo($file, PATHINFO_EXTENSION);
         if (in_array($extension, ['jpg', 'jpeg', 'png', 'gif'])) {
-            echo $file . "<br>";
+
+            //echo $file . "<br>";
 
             echo '
             
@@ -88,7 +89,7 @@ try {
     foreach ($files as $file) {
         $extension = pathinfo($file, PATHINFO_EXTENSION);
         if (in_array($extension, ['jpg', 'jpeg', 'png', 'gif'])) {
-            echo $file . "<br>";
+           // echo $file . "<br>";
 
             echo '
             
@@ -125,7 +126,7 @@ try {
     foreach ($files as $file) {
         $extension = pathinfo($file, PATHINFO_EXTENSION);
         if (in_array($extension, ['jpg', 'jpeg', 'png', 'gif'])) {
-            echo $file . "<br>";
+            //echo $file . "<br>";
 
             echo '
             

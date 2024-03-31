@@ -57,18 +57,15 @@
       <div class="st-main-header-right">
         <div class="st-nav">
           <ul class="st-nav-list st-onepage-nav">
-            <li><a href="#home" class="st-smooth-move">الرئيسية</a></li>
-            <li><a href="#about" class="st-smooth-move">من نحن</a></li>
-            <li><a href="#services" class="st-smooth-move">التخصصات</a></li>
-            <li hidden><a href="#doctors" class="st-smooth-move">الدكاترة</a></li>
+            <li><a href="index.php"  >الرئيسية</a></li>
+            
+            
 <!--
             <li><a href="#gallery" class="st-smooth-move">المعرض</a></li>
 
 -->
-            <li><a href="offers.php" >العروض</a></li>
-
-            <li><a href="#insc" class="st-smooth-move">شركات التأمين</a></li>
-            <li><a href="#contact" class="st-smooth-move">تواصل معنا</a></li>
+       
+ 
           </ul>
         </div>
       </div>
