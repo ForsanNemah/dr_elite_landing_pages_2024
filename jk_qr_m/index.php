@@ -95,6 +95,26 @@
       font-size: 24px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     }
+
+
+
+
+
+    .footer {
+    background-color: #d1d9e1;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
   </style>
 </head>
 
