@@ -54,6 +54,8 @@
 
     .rate-us-button {
       margin-top: 20px;
+       
+      
     }
 
     .rate-us-button a {
@@ -61,8 +63,9 @@
       color: #fff;
       background-color: #ff5f40;
       padding: 10px 20px;
-      border-radius: 5px;
+      border-radius: 10px;
       font-weight: bold;
+      
     }
 
     .footer {
@@ -113,15 +116,18 @@
       <a href="https://g.page/r/CR7QNmd1eLgJEBM/review" target="_blank">قيمنا على جوجل ماب </a>
     </div>
 
-
-    <div class="rate-us-button">
-      <a href="https://jameelkhattab.com/home/offers.php" target="_blank"> عروضنا</a>
-    </div>
-
+ 
 
   </div>
 
   <footer class="footer">
+
+
+
+  <p>
+      <a href="https://jameelkhattab.com/home/offers.php" class="website-link">عروضنا</a>
+    </p>
+
     <p>
       <a href="https://jameelkhattab.com/" class="website-link">موقعنا الإلكتروني </a>
     </p>
