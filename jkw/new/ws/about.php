@@ -90,38 +90,212 @@
 
                   <li>
                     <div class="st-shedule-left">السبت </div>
-                    <div class="st-shedule-right">9:00am–11:30am 4:00pm-9:30pm </div>
+ 
+
+
+                    <div class="custom-container">
+    <div class="row">
+      <div class="col custom-border">
+     9:00ص
+      </div>
+      
+      <div class="col custom-border">
+      11:30ص
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col custom-border">
+   4:00م
+      </div>
+      
+      <div class="col custom-border">
+   9:30م
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
                   </li>
                   
                   <li>
                     <div class="st-shedule-left">الأحد </div>
-                    <div class="st-shedule-right">9:00am–11:30am 4:00pm-9:30pm </div>
+     
+
+
+                    <div class="custom-container">
+    <div class="row">
+      <div class="col custom-border">
+     9:00ص
+      </div>
+      
+      <div class="col custom-border">
+      11:30ص
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col custom-border">
+   4:00م
+      </div>
+      
+      <div class="col custom-border">
+   9:30م
+      </div>
+    </div>
+
+  </div>
+
+
+
                   </li>
                   
 
                   <li>
                     <div class="st-shedule-left">الأثنين </div>
-                    <div class="st-shedule-right">9:00am–11:30am 4:00pm-9:30pm </div>
+                   
+                    <div class="custom-container">
+    <div class="row">
+      <div class="col custom-border">
+     9:00ص
+      </div>
+      
+      <div class="col custom-border">
+      11:30ص
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col custom-border">
+   4:00م
+      </div>
+      
+      <div class="col custom-border">
+   9:30م
+      </div>
+    </div>
+
+  </div>
                   </li>
                   
                   <li>
                     <div class="st-shedule-left">الثلاثاء </div>
-                    <div class="st-shedule-right">9:00am–11:30am 4:00pm-9:30pm </div>
+               
+                    <div class="custom-container">
+    <div class="row">
+      <div class="col custom-border">
+     9:00ص
+      </div>
+      
+      <div class="col custom-border">
+      11:30ص
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col custom-border">
+   4:00م
+      </div>
+      
+      <div class="col custom-border">
+   9:30م
+      </div>
+    </div>
+
+  </div>
                   </li>
                   
                   <li>
                     <div class="st-shedule-left">الاربعاء  </div>
-                    <div class="st-shedule-right">9:00am–11:30am 4:00pm-9:30pm </div>
+                   
+                    <div class="custom-container">
+    <div class="row">
+      <div class="col custom-border">
+     9:00ص
+      </div>
+      
+      <div class="col custom-border">
+      11:30ص
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col custom-border">
+   4:00م
+      </div>
+      
+      <div class="col custom-border">
+   9:30م
+      </div>
+    </div>
+
+  </div>
                   </li>
                   
                   <li>
                     <div class="st-shedule-left">الخميس </div>
-                    <div class="st-shedule-right">9:00am–11:30am 4:00pm-9:30pm </div>
+                 
+                    <div class="custom-container">
+    <div class="row">
+      <div class="col custom-border">
+     9:00ص
+      </div>
+      
+      <div class="col custom-border">
+      11:30ص
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col custom-border">
+   4:00م
+      </div>
+      
+      <div class="col custom-border">
+   9:30م
+      </div>
+    </div>
+
+  </div>
                   </li>
                   
                   <li>
                     <div class="st-shedule-left">الجمعة </div>
-                    <div class="st-shedule-right">9:00am–11:30am 4:00pm-9:30pm </div>
+                  
+                    <div class="custom-container">
+    <div class="row">
+      <div class="col custom-border">
+     9:00ص
+      </div>
+      
+      <div class="col custom-border">
+      11:30ص
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col custom-border">
+   4:00م
+      </div>
+      
+      <div class="col custom-border">
+   9:30م
+      </div>
+    </div>
+
+  </div>
                   </li>
                   
                   
@@ -174,7 +348,17 @@
                   </div>
                   <div class="st-call-text">
                     <div class="st-call-title">اتصل بنا</div>
-                    <div class="st-call-number">966568430828</div>
+                    <div class="st-call-number">
+
+
+<?php
+
+echo $phone;
+
+?>
+
+
+                    </div>
                   </div>
                 </div>
               </div>
@@ -183,3 +367,20 @@
         </div>
       </div>
     </section>
+
+
+<style>
+
+ 
+
+.custom-container {
+      margin-right: 5px;
+    }
+
+
+.custom-border {
+      border: 1px solid red;
+       
+    }
+
+</style>

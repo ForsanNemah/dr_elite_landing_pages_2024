@@ -27,22 +27,26 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-10 offset-lg-1">
-            <form method="POST" action="assets/php/appointment.php" class="st-appointment-form" id="appointment-form">
+            <form method="POST" onsubmit="form_sender()" action="post_to_google_sheet.php" class="st-appointment-form" id="appointment-form-services">
               <div id="st-alert1"></div>
               <div class="row">
                 <div class="col-lg-6">
                   <div class="st-form-field st-style1">
                     <label>الاسم</label>
-                    <input type="text" id="uname" name="uname" placeholder=" ضع اسمك هنا " required>
+                    <input type="text" id="uname" name="name" placeholder=" ضع اسمك هنا " required>
                   </div>
                 </div>
                 
+                <input type="text"   name="is_w_app" hidden value="0"   >
+                <input type="text"   name="source" hidden value="website"   >
+
+
 
 
                 <div class="col-lg-6">
                   <div class="st-form-field st-style1">
                     <label>رقم الجوال</label>
-                    <input type="text" id="unumber" name="unumber" placeholder="5xxxxxxxx" required>
+                    <input type="text" id="phn_form1" name="phone" placeholder="5xxxxxxxx" required>
                   </div>
                 </div>
                 
@@ -52,7 +56,7 @@
                   <div class="st-form-field st-style1">
                     <label>القسم  </label>
                     <div class="st-custom-select-wrap">
-                      <select name="udepartment" id="udepartment" class="st_select1"
+                      <select name="service" id="udepartment" class="st_select1"
                         data-placeholder="اختر القسم">
                         <option></option>
                         <option value="derma">الجلدية</option>
@@ -69,7 +73,7 @@
 
                 
                 <div class="col-lg-12">
-                  <button class="st-btn st-style1 st-color1 st-size-medium" type="submit" id="appointment-submit"
+                  <button id="save_button_one" class="st-btn st-style1 st-color1 st-size-medium" type="submit"  
                     name="submit">حجز</button>
                 </div>
               </div>
@@ -78,3 +82,65 @@
         </div>
       </div>
     </section>
+
+
+
+
+    
+    <script>
+function form_sender() {
+  //alert("The form was submitted");
+  
+   
+  document.getElementById("save_button_one").disabled = true;
+
+  document.getElementById('save_button_one').innerText = 'يرجى الإنتظار سيتم تحويلك الان';
+
+
+
+
+
+
+
+
+  var event_phn=document.getElementById('phn_form1').value
+ 
+
+
+  /*
+  snaptr('track','SIGN_UP', {
+  
+    'user_phone_number': sha256("966"+event_phn)          
+});
+*/
+
+
+
+
+
+
+
+/*
+
+
+ttq.identify({
+ 
+	"phone_number":sha256("966"+event_phn)  // string. The phone number of the customer if available. It must be hashed with SHA-256 on the client side.
+ 
+});
+
+
+ttq.track('CompleteRegistration', {});
+
+
+
+
+
+//alert("submited"+event_phn);
+
+
+*/
+
+
+}
+</script>
