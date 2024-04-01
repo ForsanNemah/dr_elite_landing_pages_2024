@@ -107,9 +107,18 @@
       <a href="https://www.tiktok.com/@jameelkhattab20" class="btn btn-primary mr-2"><i class="fab fa-tiktok"></i></a>
       <a href="https://www.youtube.com/@jameelkhattab.polyclinic3197" class="btn btn-primary mr-2"><i class="fab fa-youtube"></i></a>
     </div>
+
+
     <div class="rate-us-button">
       <a href="https://g.page/r/CR7QNmd1eLgJEBM/review" target="_blank">قيمنا على جوجل ماب </a>
     </div>
+
+
+    <div class="rate-us-button">
+      <a href="https://jameelkhattab.com/home/offers.php" target="_blank"> عروضنا</a>
+    </div>
+
+
   </div>
 
   <footer class="footer">
