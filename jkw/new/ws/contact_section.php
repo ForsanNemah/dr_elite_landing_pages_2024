@@ -47,7 +47,7 @@
               <div class="col-lg-6">
                 <div class="st-form-field st-style1">
                   <label>رقم الجوال</label>
-                  <input type="text"  id="phn_contact_us_form"  name="phone" placeholder="رقم الجوال " required>
+                  <input type="number"  id="phn_contact_us_form"  name="phone" placeholder="رقم الجوال " required>
                 </div>
               </div><!-- .col -->
               <div class="col-lg-12">

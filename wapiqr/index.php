@@ -17,14 +17,14 @@
  
 <div id="qrcode" style="width:30%; height:30%; margin-top:15px;"></div>
 
-
+<img src="..." class="img-fluid" alt="Responsive image" id="qr_image">
 
 <script>
  
 
  var res_qr;
 $.ajax({
-  url: "http://185.182.186.101:420/",
+  url: "http://185.182.186.101:2000/",
   method: "GET",
   dataType: "text",
   success: function(response) {
@@ -33,7 +33,7 @@ $.ajax({
 
     alert(response);
 
-
+    $('#qr_image').attr('src', response);
 
     var qrcode = new QRCode(document.getElementById("qrcode"), {
 	width : 100,

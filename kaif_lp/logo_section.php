@@ -81,6 +81,27 @@ echo "  <h2 style='color:green'    >".$add_title." </h2>";
 echo " 
 
 
+
+
+
+
+
+
+
+<br>
+<br>
+
+<button type='button' class='btn btn-primary'  >
+
+<a href='https://maps.app.goo.gl/XKB3B113zTA5enTaA?g_st=iwb'>
+<h3 style='color:white' class='pulsate'  >  فتح لوكيشن فرع حائل  </h3>
+</a>
+
+
+
+</button>
+
+<br>
 <br>
 <button type='button' class='btn btn-primary'  >
 
@@ -100,6 +121,13 @@ echo "
 <h3 style='color:white' class='pulsate'  > احصل على كود خصم من هنا  </h3>
 
 </button>
+
+
+
+
+
+
+
 
 
 <br>

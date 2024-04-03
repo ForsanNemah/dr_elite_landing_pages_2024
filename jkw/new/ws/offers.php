@@ -233,45 +233,7 @@ include "testi.php";
 
 ?>
     <!-- Start News Letter -->
-    <section class="st-news-letter-section st-dynamic-bg st-bg" data-src="assets/img/news-letter-bg.png">
-      <div class="container">
-        <div class="st-section-heading st-style1">
-          <h2 class="st-section-heading-title">اشترك وابقى على اتصال </h2>
-          <div class="st-seperator">
-            <div class="st-seperator-left wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s"></div>
-            <div class="st-seperator-center"><img src="assets/img/icons/4.png" alt="icon"></div>
-            <div class="st-seperator-right wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s"></div>
-          </div>
-          <div class="st-section-heading-subtitle">
-            
-       اشترك معنا عبر  رقم وتساب لتصلك عروضنا اولا باول 
-          
-          
-          </div>
-        </div>
-        <div class="st-height-b40 st-height-lg-b40"></div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="st-news-letter">
-              <form class="mailchimp st-news-letter-form"
-                action="https://storerepublic.us12.list-manage.com/subscribe/post?u=d227d8d335060b093084903d0&amp;id=9ba078ceb0">
-                <input type="number" name="subscribe" id="subscriber-email" placeholder="ضع رقمك  الوتساب هنا">
-                <button type="submit" id="subscribe-button" class="st-mailchimp-btn"><i
-                    class="fas fa-paper-plane"></i></button>
-                <!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
-                <h5 class="subscription-success"> .</h5>
-                <h5 class="subscription-error"> .</h5>
-                <label class="subscription-label" for="subscriber-email"></label>
-              </form>
-              <div class="st-news-letter-number">966568430828</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="st-height-b120 st-height-lg-b80"></div>
-    </section>
+
     <!-- End News Letter -->
 
     <!-- Start Blog Section -->
@@ -404,84 +366,12 @@ include "testi.php";
     </div>
   </div>
   <!-- Start Footer -->
-  <footer class="st-site-footer st-sticky-footer st-dynamic-bg" data-src="assets/img/footer-bg.png">
-    <div class="st-main-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="st-footer-widget">
-              <div class="st-text-field">
-                <img src="logo.png" alt="Nischinto" class="st-footer-logo" width="200" height="200">
-                <div class="st-height-b25 st-height-lg-b25"></div>
-                <div class="st-footer-text">
-                  
-                
-                أكبر الاطباء الاستشاريين في المملكة العربية السعودية
-                
-                
-                </div>
-                <div class="st-height-b25 st-height-lg-b25"></div>
-                <ul class="st-social-btn st-style1 st-mp0">
-                    <!--
-                  <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                  <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                  <li><a href="#"><i class="fab fa-pinterest-square"></i></a></li>
-                  <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
 
--->
-                </ul>
-              </div>
-            </div>
-          </div><!-- .col -->
-         <!-- . <div class="col-lg-3">
-            <div class="st-footer-widget">
-              <h2 class="st-footer-widget-title">Useful Links</h2>
-              <ul class="st-footer-widget-nav st-mp0">
-                <li><a href="#"><i class="fas fa-chevron-right"></i>FAQs</a></li>
-                <li><a href="#"><i class="fas fa-chevron-right"></i>Blog</a></li>
-                <li><a href="#"><i class="fas fa-chevron-right"></i>Weekly timetable</a></li>
-                <li><a href="#"><i class="fas fa-chevron-right"></i>Terms & Conditions</a></li>
-              </ul>
-            </div>
-          </div>col -->
-         <!--  <div class="col-lg-3">
-            <div class="st-footer-widget">
-              <h2 class="st-footer-widget-title">Departments</h2>
-              <ul class="st-footer-widget-nav st-mp0">
-                <li><a href="#"><i class="fas fa-chevron-right"></i>Rehabilitation</a></li>
-                <li><a href="#"><i class="fas fa-chevron-right"></i>Laboratory Analysis</a></li>
-                <li><a href="#"><i class="fas fa-chevron-right"></i>Face Lift Surgery</a></li>
-                <li><a href="#"><i class="fas fa-chevron-right"></i>Liposuction</a></li>
-              </ul>
-            </div>
-          </div>.col -->
-          <div class="col-lg-9">
-            <div class="st-footer-widget">
-              <h2 class="st-footer-widget-title">تواصل معنا </h2>
-              <ul class="st-footer-contact-list st-mp0">
-                <li><span class="st-footer-contact-title">العنوان:</span><?php echo $address;?>
-                </li>
-                <li><span class="st-footer-contact-title">الايميل:</span><?php echo $email;?></li>
-                <li><span class="st-footer-contact-title">جوال:</span><?php echo $phone;?></li>
-              </ul>
-            </div>
-          </div><!-- .col -->
-        </div>
-      </div>
-    </div>
-    <div class="st-copyright-wrap">
-      <div class="container">
-        <div class="st-copyright-in">
-          <div class="st-left-copyright">
-            <div class="st-copyright-text">Copyright 2024.<?php echo $web_site_name;?></div>
-          </div>
-          <div class="st-right-copyright">
-            <div id="st-backtotop"><i class="fas fa-angle-up"></i></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <?php
+
+include "footer.php";
+
+?>
   <!-- End Footer -->
 
   <!-- Start Video Popup -->
