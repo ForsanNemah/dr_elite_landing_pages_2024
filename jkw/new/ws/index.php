@@ -416,7 +416,7 @@ include "testi.php";
                     </svg>
                   </div>
                   <h2 class="st-funfact-number st-counter">30</h2>
-                  <div class="st-funfact-title">خبرة</div>
+                  <div class="st-funfact-title">سنة خبرة</div>
                 </div>
                 <div class="st-height-b30 st-height-lg-b30"></div>
               </div><!-- .col -->
