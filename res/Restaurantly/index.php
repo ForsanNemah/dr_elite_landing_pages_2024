@@ -35,7 +35,23 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <?php
+
+
+include "info.php";
+
+include "wa_api.php";
+
+?>
+
+
+<link href="https://fonts.cdnfonts.com/css/tajawal" rel="stylesheet">
+                
 </head>
+
+
+
 
 <body dir="rtl">
 
@@ -44,8 +60,15 @@
     <div class="container d-flex justify-content-center justify-content-md-between">
 
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-phone d-flex align-items-center"><span>+1 5589 55488 55</span></i>
-        <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Sat: 11AM - 23PM</span></i>
+        <i class="bi bi-phone d-flex align-items-center"><span><?php echo $phone;?></span></i>
+        <i class="bi bi-clock d-flex align-items-center ms-4"><span> 
+
+
+        <?php echo date("Y/m/d");?>
+
+
+
+        </span></i>
       </div>
 
 
@@ -103,7 +126,11 @@
       <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">حجز طاولة</a>
 
     </div>
-  </header><!-- End Header -->
+  </header>
+  
+  
+  
+  <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
@@ -190,24 +217,77 @@
           <div class="col-lg-4">
             <div class="box" data-aos="zoom-in" data-aos-delay="100">
               <span>01</span>
-              <h4>Lorem Ipsum</h4>
-              <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+              <h4>
+
+                سبب
+              </h4>
+              <p>
+                
+              وصف السبب 
+              وصف السبب 
+              وصف السبب 
+              وصف السبب 
+              وصف السبب 
+              وصف السبب 
+              وصف السبب 
+              وصف السبب 
+              
+              
+              </p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="200">
               <span>02</span>
-              <h4>Repellat Nihil</h4>
-              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+              <h4>
+
+                سبب
+
+              </h4>
+              <p>
+                
+                وصف السبب 
+                وصف السبب 
+                وصف السبب 
+                وصف السبب 
+                وصف السبب 
+                وصف السبب 
+                وصف السبب 
+                وصف السبب 
+                
+              
+              
+              
+              
+              </p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0">
             <div class="box" data-aos="zoom-in" data-aos-delay="300">
               <span>03</span>
-              <h4> Ad ad velit qui</h4>
-              <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+              <h4> 
+                سبب
+
+              </h4>
+              <p>
+                
+                 
+              
+                وصف السبب 
+                وصف السبب 
+                وصف السبب 
+                وصف السبب 
+                وصف السبب 
+                وصف السبب 
+                وصف السبب 
+                وصف السبب 
+                
+              
+              
+              
+              </p>
             </div>
           </div>
 
@@ -223,9 +303,19 @@
         <div class="section-title">
           <h2>المنيو</h2>
           <p>تصفح قائمة طعامنا  اللذيذة</p>
+
+
+          <a style="TEXT-DECORATION: underline" href="https://drive.google.com/file/d/1zHwO4mcnCckUSOCUwjmCa2zv4_eG7x4e/view" >
+
+          <p>من هنا</p>
+
+
+          </a>
+
+        
         </div>
 
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
+        <div class="row" data-aos="fade-up" data-aos-delay="100" hidden>
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="menu-flters">
               <li data-filter="*" class="filter-active">All</li>
@@ -236,7 +326,7 @@
           </div>
         </div>
 
-        <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+        <div class="row menu-container" data-aos="fade-up" data-aos-delay="200" hidden>
 
           <div class="col-lg-6 menu-item filter-starters">
             <img src="assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
@@ -432,7 +522,7 @@
     </section><!-- End Specials Section -->
 
     <!-- ======= Events Section ======= -->
-    <section id="events" class="events">
+    <section id="events" class="events" hidden>
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -536,39 +626,43 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Reservation</h2>
-          <p>Book a Table</p>
+          <h2>الحجز</h2>
+          <p>حجز</p>
         </div>
 
         <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
           <div class="row">
+
+
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="text" name="name" class="form-control" id="name" placeholder="اسمك" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
             </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+            
+
+            <div class="col-lg-4 col-md-6 form-group">
+              <input type="text" name="phone" class="form-control" id="name" placeholder="رقم جوالك" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
             </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
-              <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+          
+
+
+            <div class="col-lg-4 col-md-6 form-group">
+              <input type="datetime-local" name="phone" class="form-control" id="name" placeholder="تاريخ الحجز  " data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
             </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+             
+
+
+            <div class="col-lg-12 col-md-12 form-group">
+              <input type="text" name="no_off_p" class="form-control" id="name" placeholder="  عدد الافراد  " data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
             </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
-              <div class="validate"></div>
-            </div>
+
+
           </div>
           <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+            <textarea class="form-control" name="message" rows="5" placeholder="تفاصيل اخرى"></textarea>
             <div class="validate"></div>
           </div>
           <div class="mb-3">
@@ -576,7 +670,7 @@
             <div class="error-message"></div>
             <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
           </div>
-          <div class="text-center"><button type="submit">Book a Table</button></div>
+          <div class="text-center"><button type="submit">حجز</button></div>
         </form>
 
       </div>
@@ -587,8 +681,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Testimonials</h2>
-          <p>What they're saying about us</p>
+          <h2>اراء العملاء</h2>
+          <p>ماذا قال عملاؤنا عنا </p>
         </div>
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -598,12 +692,16 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+
+                  الاكل رائع والخدمة ممتازة والاسعار فى المتناول ، وشكر خاص للشيف حمدى مرمر على الفطير وطعمه الجميل
+
+
+
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <img src="assets/img/testimonials/male.webp" class="testimonial-img" alt="">
+                <h3>احمد عطية</h3>
+             
               </div>
             </div><!-- End testimonial item -->
 
@@ -611,12 +709,21 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+
+
+                  ماشاءالله عليهم
+                  فعلا يستحق الزيارة
+                  ⭐️⭐️⭐️⭐️⭐️
+
+
+
+
+
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <img src="assets/img/testimonials/female.png" class="testimonial-img" alt="">
+                <h3>سمية الزهراني</h3>
+                
               </div>
             </div><!-- End testimonial item -->
 
@@ -624,12 +731,20 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+
+
+                  ماشاء الله مطعم ممتاز جدا نضافه وخدمه بصراحه تغيير ف كل شئ ف المطعم حاجه محترمه والله
+
+
+
+
+
+
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <img src="assets/img/testimonials/male.webp" class="testimonial-img" alt="">
+                <h3>محمد القحطاني</h3>
+           
               </div>
             </div><!-- End testimonial item -->
 
@@ -637,12 +752,19 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+
+                  تقيمي للمشويات ممتازه سلطه الطحينة والباذنجان المخلل ممتازين بيتزا وفطيرة دلع كرشك ممتازين الممبار ممتاز
+                  ملاحظتي الوحيده اني صاله العوائل صغيره جدا والأسر قريبه جدا من بعضها وأعتقد حل الموضوع ده  ان المطعم يوفر  بارتيشنات وايضا  يمكن استخدامها في صاله الأفراد وقفل الطاوله بالبرتيشن المتحرك
+
+
+
+
+
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
+                <img src="assets/img/testimonials/female.png" class="testimonial-img" alt="">
+                <h3> محمد بسيوني </h3>
+            
               </div>
             </div><!-- End testimonial item -->
 
@@ -650,12 +772,17 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+
+
+                  مطعم مصري اصيل باشراف الاخ احمد الاكل عنده علئ اصوله مشاوي وسلطات وشروبه ومشلتت ومحاشي وكشري المطعم متنوع جدا والاكل خورافي من الاخر وهو علئ  استعداد تام لشهر رمضان ومتوفر قسم عائلات ببارتشي قسم خاص للعوائل والعزاب روحو للمطعم وانتم مغمضين علئ ضمانتي  وقولوا له من طرف ام وليد المزيد
+
+
+
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
+                <img src="assets/img/testimonials/male.webp" class="testimonial-img" alt="">
+                <h3> نعمات  حسام</h3>
+               
               </div>
             </div><!-- End testimonial item -->
 
@@ -671,8 +798,8 @@
 
       <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <h2>Gallery</h2>
-          <p>Some photos from Our Restaurant</p>
+          <h2>معرض الصور </h2>
+          <p>بعض الصور من مطعمنا </p>
         </div>
       </div>
 
@@ -750,7 +877,7 @@
     </section><!-- End Gallery Section -->
 
     <!-- ======= Chefs Section ======= -->
-    <section id="chefs" class="chefs">
+    <section id="chefs" class="chefs" hidden>
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -824,53 +951,60 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Contact</h2>
-          <p>Contact Us</p>
+          <h2>تواصل معنا </h2>
+          <p>تواصل معنا </p>
         </div>
       </div>
 
       <div data-aos="fade-up">
-        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3572.5728580815266!2d50.08620218496502!3d26.43725738333465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49fc663c306c9b%3A0x6b1cf3666b86cc8b!2z2K_ZhNi5INmD2LHYtNmD!5e0!3m2!1sar!2ssa!4v1712413382794!5m2!1sar!2ssa" frameborder="0" allowfullscreen></iframe>
       </div>
 
       <div class="container" data-aos="fade-up">
 
         <div class="row mt-5">
 
-          <div class="col-lg-4">
+          <div class="col-lg-12">
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h4>العنوان</h4>
+                <p>
+                  النخيل الثامن والعشرون، النخيل، الدمام 32244
+
+
+                </p>
               </div>
 
               <div class="open-hours">
                 <i class="bi bi-clock"></i>
-                <h4>Open Hours:</h4>
+                <h4>ساعات العمل</h4>
                 <p>
-                  Monday-Saturday:<br>
-                  11:00 AM - 2300 PM
+                السبت-الجمعة
+                  
+                  
+                  <br>
+                
                 </p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
+                <h4>الايميل</h4>
+                <p><?php echo $email;?> </p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <h4>موبايل</h4>
+                <p><?php echo $phone;?> </p>
               </div>
 
             </div>
 
           </div>
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
+          <div class="col-lg-8 mt-5 mt-lg-0" hidden>
 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
@@ -912,12 +1046,13 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Restaurantly</h3>
+              <h3>مطعم دلع كرشك</h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+               <?php echo $address?>
+               <br>
+
+                <strong>جوال</strong>   <?php echo $phone?><br>
+                <strong>الايميل</strong>   <?php echo $email?><br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -930,17 +1065,15 @@
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>روابط تهمك</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">الرئيسية</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">عنا</a></li>
+              
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-3 col-md-6 footer-links" hidden>
             <h4>Our Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
@@ -951,7 +1084,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
+          <div class="col-lg-4 col-md-6 footer-newsletter" hidden>
             <h4>Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="" method="post">
@@ -966,9 +1099,9 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Restaurantly</span></strong>. All Rights Reserved
+        &copy; جميع الحقوق محفوظة  <strong><span>مطعم دلع كرشك</span></strong> 
       </div>
-      <div class="credits">
+      <div class="credits" hidden>
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
@@ -995,3 +1128,17 @@
 </body>
 
 </html>
+
+
+
+<style>
+
+
+body{
+   
+   font-size: 20px
+}
+
+ 
+
+</style>
