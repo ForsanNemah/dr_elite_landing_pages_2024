@@ -1,5 +1,22 @@
 <head>
 
+
+<meta name="description" content="
+
+
+
+مركز  و مجمع د جميل خطاب
+
+افضل عيادة في الاحساء 
+افضل عيادة في المنطقة الشرقية 
+
+
+
+
+">
+
+
+
   <?php
 
 include "info.php";
