@@ -357,7 +357,7 @@ include "form_deps.php";
           </div>
           <div class="st-section-heading-subtitle">
             
-       حالات قبل وبعد لبعذ عملائنا 
+    
           
           
           </div>
