@@ -127,8 +127,16 @@ include "nav.php";
           <div class="slick-arrow-left"><i class="fa fa-angle-left"></i></div>
           <div class="slick-arrow-right"><i class="fa fa-angle-right"></i></div>
         </div>
-      </div><!-- .st-slider -->
-      <div class="st-hero-shape"><img src="assets/img/shape/hero-shape.png" alt="hero shape"></div>
+      </div><!-- .st-slider 
+    
+    
+       <div class="st-hero-shape"><img src="assets/img/shape/hero-shape.png" alt="hero shape"></div>
+    -->
+
+
+   
+
+
     </div>
     <!-- End Hero Seciton -->
 
