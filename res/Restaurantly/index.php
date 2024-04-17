@@ -47,6 +47,11 @@ include "wa_api.php";
 
 
 <link href="https://fonts.cdnfonts.com/css/tajawal" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
+
                 
 </head>
 
@@ -85,19 +90,19 @@ include "wa_api.php";
   </div>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-cente">
+  <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">مطعم دلع كرشك</a></h1>
+      <h1 class="logo me-auto me-lg-0 mr-auto"><a href="index.html">     </a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
+      <nav id="navbar" class="navbar order-last order-lg-0 ml-auto">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">الرئيسية</a></li>
-          <li><a class="nav-link scrollto" href="#about">عنا</a></li>
+          <li><a class="nav-link scrollto" href="#about">من نحن</a></li>
           <li><a class="nav-link scrollto" href="#menu">المنيو </a></li>
-         
+
           <li><a class="nav-link scrollto" href="#gallery">معرض الصور</a></li>
 
           <!---
@@ -121,7 +126,7 @@ include "wa_api.php";
         -->
           <li><a class="nav-link scrollto" href="#contact">تواصل معنا</a></li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+        <i class="bi bi-list mobile-nav-toggle mr-auto"></i>
       </nav><!-- .navbar -->
       <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">حجز طاولة</a>
 
@@ -146,7 +151,7 @@ include "wa_api.php";
           </div>
         </div>
         <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
-          <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a>
+          <a href="1.mp4" class="glightbox play-btn"></a>
         </div>
 
       </div>
@@ -178,15 +183,42 @@ include "wa_api.php";
 
 
 
-            <p class="fst-italic">
+            <p class=" ">
              
 
 
-              مطعم "دلع كرشك" هو وجهة فريدة في قلب المدينة لعشاق المأكولات المصرية التقليدية. يتميز المطعم بأجوائه الرائعة والمريحة، حيث يتم استقبال الضيوف بحفاوة وضيافة تعكس أصالة الثقافة المصرية.
-
-              يقدم مطعم "دلع كرشك" تشكيلة واسعة من الأطباق الشهية المستوحاة من المطبخ المصري التقليدي. تتضمن قائمة الطعام مجموعة متنوعة من المقبلات اللذيذة مثل المتبل والفول والطعمية. كما يمكنكم الاستمتاع بالأطباق الرئيسية المميزة مثل الكشري والملوخية والفتة، والتي تعد رموزًا للمأكولات المصرية التقليدية.
+              مطعم "دلع كرشك" هو وجهة فريدة في قلب المدينة لعشاق المأكولات المصرية التقليدية.
               
-              تحرص "دلع كرشك" على استخدام أفضل المكونات الطازجة والمحلية لإعداد أطباقها، مما يمنحها نكهة غنية وأصالة لا تقاوم. يتمتع الطهاة في المطعم بمهارات عالية وخبرة في تحضير الأطباق بأسلوب متقن ومبدع، ليضمنوا لكم تجربة طعام لا تُنسى.
+              
+              <br>
+              <br>
+              
+              
+              
+              يتميز المطعم بأجوائه الرائعة والمريحة، حيث يتم استقبال الضيوف بحفاوة وضيافة تعكس أصالة الثقافة المصرية.
+
+
+<br>
+<br>
+
+              يقدم مطعم "دلع كرشك" تشكيلة واسعة من الأطباق الشهية المستوحاة من المطبخ المصري التقليدي.
+              
+              <br>
+              <br>
+              تتضمن قائمة الطعام مجموعة متنوعة من المقبلات اللذيذة مثل المتبل والفول والطعمية.
+              <br>
+              <br>
+              
+              
+          كما يمكنكم الاستمتاع بالأطباق الرئيسية المميزة مثل الكشري والملوخية والفتة، والتي تعد رموزًا للمأكولات المصرية التقليدية.
+          <br>
+          <br>
+              
+              تحرص "دلع كرشك" على استخدام أفضل المكونات الطازجة والمحلية لإعداد أطباقها، مما يمنحها نكهة غنية وأصالة لا تقاوم.
+              
+              <br>
+              <br>
+              يتمتع الطهاة في المطعم بمهارات عالية وخبرة في تحضير الأطباق بأسلوب متقن ومبدع، ليضمنوا لكم تجربة طعام لا تُنسى.
 
 
 
@@ -307,9 +339,9 @@ include "wa_api.php";
 
           <a style="TEXT-DECORATION: underline" href="https://drive.google.com/file/d/1zHwO4mcnCckUSOCUwjmCa2zv4_eG7x4e/view" >
 
-          <p>من هنا</p>
+       
 
-
+          <iframe src="https://drive.google.com/file/d/1l1jl1AL3ePAoAecibRwMSEG4OcfG2726/preview" width="100%" height="1200" allow="autoplay"></iframe>
           </a>
 
         
@@ -630,46 +662,50 @@ include "wa_api.php";
           <p>حجز</p>
         </div>
 
-        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+        <form action="post_to_google_sheet.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
           <div class="row">
 
 
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="اسمك" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="text" name="name" class="form-control"  placeholder="اسمك" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required>
               <div class="validate"></div>
             </div>
             
 
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" name="phone" class="form-control" id="name" placeholder="رقم جوالك" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="number" name="phone" class="form-control"  placeholder="رقم جوالك" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required>
               <div class="validate"></div>
             </div>
           
 
 
+
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="datetime-local" name="phone" class="form-control" id="name" placeholder="تاريخ الحجز  " data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <input type="text" name="date_and_time" id="datetime" placeholder="اختر تاريخ الحجز" required />
               <div class="validate"></div>
             </div>
-             
-
+         
+     
 
             <div class="col-lg-12 col-md-12 form-group">
-              <input type="text" name="no_off_p" class="form-control" id="name" placeholder="  عدد الافراد  " data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="number" name="no_of_p" class="form-control"   placeholder="  عدد الافراد  " data-rule="minlen:4" data-msg="Please enter at least 4 chars" required>
               <div class="validate"></div>
             </div>
 
 
           </div>
           <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="تفاصيل اخرى"></textarea>
+            <textarea class="form-control" name="msg" rows="5" placeholder="تفاصيل اخرى"  ></textarea>
             <div class="validate"></div>
           </div>
-          <div class="mb-3">
+
+          <div class="mb-3" hidden>
+
             <div class="loading">Loading</div>
             <div class="error-message"></div>
             <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
           </div>
+          
           <div class="text-center"><button type="submit">حجز</button></div>
         </form>
 
@@ -762,7 +798,7 @@ include "wa_api.php";
 
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/female.png" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/male.webp" class="testimonial-img" alt="">
                 <h3> محمد بسيوني </h3>
             
               </div>
@@ -780,7 +816,7 @@ include "wa_api.php";
 
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/male.webp" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/female.png" class="testimonial-img" alt="">
                 <h3> نعمات  حسام</h3>
                
               </div>
@@ -806,6 +842,73 @@ include "wa_api.php";
       <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row g-0">
+
+
+
+
+
+
+
+
+        <?php
+$folderPath = 'assets/img/res-2024'; // Replace with the actual folder path
+
+// Get the list of files and directories in the folder
+$files = scandir($folderPath);
+
+// Iterate through the files
+foreach ($files as $file) {
+    // Skip the current and parent directory entries
+    if ($file === '.' || $file === '..') {
+        continue;
+    }
+    
+    // Output the file name
+    //echo $file . "\n";
+
+echo '
+
+
+
+<div class="col-lg-3 col-md-4">
+<div class="gallery-item">
+  <a href="assets/img/res-2024/'.$file.'" class="gallery-lightbox" data-gall="gallery-item">
+    <img src="assets/img/res-2024/'.$file.'" alt="" class="img-fluid">
+  </a>
+</div>
+</div>
+
+
+
+
+
+
+';
+
+    
+}
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
@@ -870,6 +973,10 @@ include "wa_api.php";
               </a>
             </div>
           </div>
+
+
+
+-->
 
         </div>
 
@@ -1046,7 +1153,7 @@ include "wa_api.php";
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>مطعم دلع كرشك</h3>
+              <h3>دلع كرشك</h3>
               <p>
                <?php echo $address?>
                <br>
@@ -1055,11 +1162,12 @@ include "wa_api.php";
                 <strong>الايميل</strong>   <?php echo $email?><br>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+             
+                <a href="https://www.facebook.com/dallakershaik" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/dalaakershaik/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://twitter.com/dkr_ksa" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.tiktok.com/@dkr_ksa" class="tiktok"><i class="bx bxl-tiktok"></i></a>
+               
               </div>
             </div>
           </div>
@@ -1068,7 +1176,7 @@ include "wa_api.php";
             <h4>روابط تهمك</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">الرئيسية</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">عنا</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">من نحن</a></li>
               
             </ul>
           </div>
@@ -1114,16 +1222,21 @@ include "wa_api.php";
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
+  <!-- Vendor JS Files 
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+
+-->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
 </body>
 
@@ -1136,9 +1249,46 @@ include "wa_api.php";
 
 body{
    
-   font-size: 20px
+  font-family: 'Tajawal';font-size: 25px;
+  
 }
+
+
+#hero .play-btn {
+    width: 94px;
+    height: 94px;
+    background: radial-gradient(#ff0000 50%, rgba(205, 164, 94, 0.4) 52%);
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+#hero h1 span {
+    color: #ff4343;
+}
+ 
+
 
  
 
+
+
+
+
+
+
+
 </style>
+
+
+
+<script>
+flatpickr("#datetime", {
+    enableTime: true,
+    dateFormat: "Y-m-d H:i",
+});
+
+</script>

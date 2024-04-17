@@ -90,7 +90,7 @@ include "nav_offers.php";
           </div>
         </div>
         <div class="st-hero-social-group">
-          <div class="container">
+          <div class="container" hidden>
             <ul class="st-social-btn st-style1 st-mp0">
               <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
               <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
@@ -127,8 +127,12 @@ include "nav_offers.php";
           <div class="slick-arrow-left"><i class="fa fa-angle-left"></i></div>
           <div class="slick-arrow-right"><i class="fa fa-angle-right"></i></div>
         </div>
-      </div><!-- .st-slider -->
-      <div class="st-hero-shape"><img src="assets/img/shape/hero-shape.png" alt="hero shape"></div>
+      </div><!-- .st-slider
+    
+     <div class="st-hero-shape"><img src="assets/img/shape/hero-shape.png" alt="hero shape"></div>
+    
+    -->
+     
     </div>
     <!-- End Hero Seciton -->
 

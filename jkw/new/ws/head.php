@@ -30,7 +30,7 @@ include "info.php";
   <!-- Page Title -->
   <title><?php echo $web_site_name;?>  </title>
   <!-- Favicon Icon -->
-  <link rel="icon" href="assets/img/favicon.png" />
+  <link rel="icon" href="assets/img/myfavicon.png" />
   <!-- Stylesheets -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="assets/css/fontawesome.css" />

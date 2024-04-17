@@ -66,6 +66,7 @@
 
 -->
             <li><a href="offers.php" >العروض</a></li>
+            <li><a href="before_after_page.php" >حالات قبل وبعد</a></li>
 
             <li><a href="#insc" class="st-smooth-move">شركات التأمين</a></li>
             <li><a href="#contact" class="st-smooth-move">تواصل معنا</a></li>

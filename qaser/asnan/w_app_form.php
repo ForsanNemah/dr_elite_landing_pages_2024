@@ -113,15 +113,6 @@ function myFunction2() {
 });
 
 
-
-
-
-
-
-
-
-
-
 ttq.identify({
 
 "phone_number":sha256("966"+event_phn)  // string. The phone number of the customer if available. It must be hashed with SHA-256 on the client side.
