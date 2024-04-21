@@ -46,7 +46,7 @@ include "w_app.php";
 
   <?php
 
-//include "form.php";
+include "form.php";
 
 
 
