@@ -46,7 +46,7 @@ include "w_app.php";
 
   <?php
 
-include "form.php";
+//include "form.php";
 
 
 
@@ -185,7 +185,7 @@ include "before_after.php";
 
 <?php
 
-include "w_app_form.php";
+//include "w_app_form.php";
 
 
 
@@ -215,7 +215,7 @@ include "faq.php";
 
 <?php
 
-include "footer.php";
+//include "footer.php";
 
 
 
