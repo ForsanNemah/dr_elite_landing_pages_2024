@@ -1,5 +1,5 @@
 <div class="form-container" id="myform">
-  <div class="  justify-content-center">
+  <div class="row justify-content-center">
     <div class="col-lg-6">
       <div class="card mt-5">
         <div class="card-body" style="background-color: green;">
