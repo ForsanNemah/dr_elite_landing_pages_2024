@@ -1,0 +1,117 @@
+.btn-primary {
+    color: #fff;
+    background-color: #35552e;
+    border-color: #0d6efd;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container {
+      
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+
+  .image-container {
+    position: relative;
+  }
+
+  .centered-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 250%);
+  }
+
+  @media (max-width: 768px) {
+    .desktop-image {
+      display: none;
+    }
+
+
+    .centered-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -250%);
+  }
+
+
+
+
+
+  }
+
+  @media (min-width: 769px) {
+    .mobile-image {
+      display: none;
+    }
+
+
+    
+  }
+
+
+
+  .btn-booking {
+    font-size: 30px;
+    
+    /* Add any additional styles as needed */
+  }
+
+
+  body{
+
+    font-family: 'Tajawal', sans-serif;
+    font-weight:500;
+   
+                                                
+
+  }
+
+
+  .form-container {
+    background-image: url('form-bg.png');
+    background-size: cover;
+    margin-top: 25px;
+     
+  }
+
+
+
+
+  .btn-primary {
+    color: #fff;
+    background-color: #198754;
+    border-color: #0d6efd;
+}
+  
+
+
+
+.pulsate {
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+}
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.5;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.5;
+    }
+}
