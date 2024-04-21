@@ -7,7 +7,27 @@
             احجز الحين مكانك في المسواك
             لأقرب مكان لك
           </h2>
-          <form>
+          <form method="post" action="post_to_google_sheet.php" onsubmit="form1_action()">
+
+
+
+
+          <input type="text" class="form-control" name="source" value="general landing page "  hidden>
+
+          <input type="text" class="form-control" name="is_w_app" value="0"  hidden>
+
+
+
+
+
+
+
+
+
+
+
+
+
             <div class="mb-3">
               
               <input type="text" class="form-control" name="name" placeholder="الاسم" required>
@@ -151,7 +171,12 @@ echo 'File not found.';
 
 
             <div class="text-center">
-              <button type="submit" class="btn btn-primary">تسجيل</button>
+
+
+            <img id="loading" src="images/loading.gif" alt="Italian Trulli"  width="100" height="100" >
+
+
+              <button id="form1_button" type="submit" class="btn btn-primary">تسجيل</button>
             </div>
           </form>
         </div>
@@ -159,3 +184,101 @@ echo 'File not found.';
     </div>
   </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+
+$('#loading').hide();
+
+
+function form1_action() {
+  //alert("The form was submitted");
+  
+ 
+  //document.getElementById("form1_button").disabled = true;
+ 
+
+  $('#form1_button').hide();
+  $('#loading').show();
+ 
+  //alert("wwe");
+  //document.getElementById('save_button_one').innerText = 'يرجى الإنتظار سيتم تحويلك الان';
+
+
+
+
+
+/*
+
+
+  var event_phn=document.getElementById('phn_form1').value
+ 
+
+  snaptr('track','SIGN_UP', {
+  
+    'user_phone_number': sha256("966"+event_phn)          
+});
+
+
+
+
+
+
+
+
+
+
+
+ttq.identify({
+ 
+	"phone_number":sha256("966"+event_phn)  // string. The phone number of the customer if available. It must be hashed with SHA-256 on the client side.
+ 
+});
+
+
+ttq.track('CompleteRegistration', {});
+
+
+
+
+
+//alert("submited"+event_phn);
+
+
+*/
+
+
+}
+</script>
