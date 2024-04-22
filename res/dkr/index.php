@@ -651,13 +651,13 @@ include "hero_video.php";
           <div class="row">
 
 
-            <div class="col-lg-4 col-md-6 form-group">
+            <div class="col-lg-6 col-md-6 form-group">
               <input type="text" name="name" class="form-control"  placeholder="اسمك" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required>
               <div class="validate"></div>
             </div>
             
 
-            <div class="col-lg-4 col-md-6 form-group">
+            <div class="col-lg-6 col-md-6 form-group">
               <input type="number" name="phone" class="form-control"  placeholder="رقم جوالك" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required>
               <div class="validate"></div>
             </div>
@@ -665,14 +665,14 @@ include "hero_video.php";
 
 
 
-            <div class="col-lg-4 col-md-6 form-group">
+            <div class="col-lg-4 col-md-6 form-group" hidden>
             <input type="text" name="date_and_time" id="datetime" placeholder="اختر تاريخ الحجز" required />
               <div class="validate"></div>
             </div>
          
      
 
-            <div class="col-lg-12 col-md-12 form-group">
+            <div class="col-lg-12 col-md-12 form-group" hidden>
               <input type="number" name="no_of_p" class="form-control"   placeholder="  عدد الافراد  " data-rule="minlen:4" data-msg="Please enter at least 4 chars" required>
               <div class="validate"></div>
             </div>
@@ -1459,6 +1459,13 @@ body{
 #topbar .contact-info i {
     font-style: normal;
     color: #ffffff;
+}
+
+
+
+a {
+    color: #ff7f7f;
+    text-decoration: none;
 }
 
 </style>
