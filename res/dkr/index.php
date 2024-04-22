@@ -65,15 +65,32 @@ include "wa_api.php";
     <div class="container d-flex justify-content-center justify-content-md-between">
 
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-phone d-flex align-items-center"><span><?php echo $phone;?></span></i>
+        <i class="bi bi-phone d-flex align-items-center"><span>
+          
+        
+        
+       
+      
+      
+        <a href="tel: <?php echo $phone;?>"> <?php echo $phone;?></a>
+      
+      
+      </span></i>
+
+
         <i class="bi bi-clock d-flex align-items-center ms-4"><span> 
 
 
-        <?php echo date("Y/m/d");?>
+      
 
 
 
-        </span></i>
+        </span>
+      
+        على مدار الاسبوع  من 9 صباحا الى 12  صباحا      
+      
+      
+      </i>
       </div>
 
 
@@ -142,17 +159,23 @@ include "wa_api.php";
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
         <div class="col-lg-8">
-          <h1>مرحبا بكم في مطعم  <span>دلع كرشك</span></h1>
-          <h2>أكل مصري مصري</h2>
+          <h1  >مرحبا بكم في مطعم  <span>دلع كرشك</span></h1>
+          
+          <h2 class="mt-2">أكل مصري مصري</h2>
 
           <div class="btns">
             <a href="#menu" class="btn-menu animated fadeInUp scrollto">المنيو</a>
             <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">حجز طاولة</a>
           </div>
         </div>
-        <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
-          <a href="1.mp4" class="glightbox play-btn"></a>
-        </div>
+
+ 
+
+          <?php
+include "hero_video.php";
+
+?>
+        
 
       </div>
     </div>
@@ -171,16 +194,13 @@ include "wa_api.php";
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>
-              
-              
-          مطعم دلع كرشك 
-            
-            
-            </h3>
+           
 
 
-
+            <div class="section-title">
+          
+          <p>  مطعم دلع كرشك </p>
+        </div>
 
 
             <p class=" ">
@@ -213,7 +233,7 @@ include "wa_api.php";
 
           <div class="col-lg-4">
             <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <span>
+              <span >
 
               تنوع الاطباق 
 
@@ -297,7 +317,11 @@ include "wa_api.php";
 
        
 
-          <iframe src="https://drive.google.com/file/d/1l1jl1AL3ePAoAecibRwMSEG4OcfG2726/preview" width="100%" height="1200" allow="autoplay"></iframe>
+          <iframe data-aos="zoom-in"  id ="menu_frame" src="https://drive.google.com/file/d/1l1jl1AL3ePAoAecibRwMSEG4OcfG2726/preview"   allow="autoplay"></iframe>
+
+
+
+
           </a>
 
         
@@ -1019,7 +1043,7 @@ echo '
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>تواصل معنا </h2>
+          
           <p>تواصل معنا </p>
         </div>
       </div>
@@ -1038,8 +1062,13 @@ echo '
                 <i class="bi bi-geo-alt"></i>
                 <h4>العنوان</h4>
                 <p>
+                 
+                  <a href="https://maps.app.goo.gl/evtnkb9b7TNhZwDNA">
+                
+                
                   النخيل الثامن والعشرون، النخيل، الدمام 32244
-
+                
+                </a>
 
                 </p>
               </div>
@@ -1048,7 +1077,7 @@ echo '
                 <i class="bi bi-clock"></i>
                 <h4>ساعات العمل</h4>
                 <p>
-                السبت-الجمعة
+                السبت-الجمعة من 9 صباحا الى 12 بعد منتصف الليل 
                   
                   
                   <br>
@@ -1059,13 +1088,32 @@ echo '
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>الايميل</h4>
-                <p><?php echo $email;?> </p>
+                <p>
+                  
+                
+               
+              
+              
+                <a href="mailto:<?php echo $email;?> "> <?php echo $email;?> </a>
+              
+              
+              
+              
+              </p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>موبايل</h4>
-                <p><?php echo $phone;?> </p>
+                <p>
+                
+                
+                 <a href="tel: <?php echo $phone;?>"> <?php echo $phone;?></a>
+                
+                
+                
+                
+                </p>
               </div>
 
             </div>
@@ -1237,10 +1285,175 @@ body{
 
 
 
+.section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    color: #ff2929;
+    font-family: 'Tajawal';font-size: 25px;
+}
+
+
+.why-us .box span {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    color: #ff0000;
+}
 
 
 
 
+
+
+
+
+
+.book-a-table .php-email-form button[type=submit] {
+    background: #fb0202;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+
+
+
+.section-title h2 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-family: 'Tajawal';font-size: 25px;
+}
+
+
+
+
+
+
+#menu_frame {
+    width: 100%;
+    height: 1200px;
+  }
+
+  @media (max-width: 768px) {
+    #menu_frame {
+      width: 100%;
+    height: 700px;
+    }
+  }
+
+
+
+
+  section {
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+
+#hero h1 {
+  font-family: 'Tajawal';
+}
+
+
+#hero h2 {
+  font-family: 'Tajawal';
+}
+
+
+.contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-family: 'Tajawal';
+}
+
+
+
+
+#footer .footer-top .footer-info h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: 'Tajawal';
+    color:#fb0202;
+}
+
+
+#footer .footer-top h4 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+    padding-bottom: 12px;
+    font-family: 'Tajawal';
+    color:#fb0202;
+}
+
+
+
+#footer .footer-top .footer-info p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Playfair Display", serif;
+    color: #fff;
+    font-family: 'Tajawal';
+}
+
+
+
+
+#footer .footer-top .footer-links ul a {
+  font-size: 18px;
+    color: #fff;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+}
+
+
+
+
+
+.contact .info i {
+    font-size: 20px;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+#topbar .contact-info i {
+    font-style: normal;
+    color: #ffffff;
+}
 
 </style>
 
