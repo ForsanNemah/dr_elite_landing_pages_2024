@@ -64,7 +64,7 @@ include "wa_api.php";
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-center justify-content-md-between">
 
-      <div class="contact-info d-flex align-items-center">
+      <div class=" row contact-info d-flex align-items-center">
         <i class="bi bi-phone d-flex align-items-center"><span>
           
         
@@ -78,10 +78,11 @@ include "wa_api.php";
       </span></i>
 
 
+   
+
         <i class="bi bi-clock d-flex align-items-center ms-4"><span> 
 
-
-      
+ 
 
 
 
@@ -92,6 +93,40 @@ include "wa_api.php";
       
       </i>
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
 
 
       <!--
@@ -159,7 +194,8 @@ include "wa_api.php";
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
         <div class="col-lg-8">
-          <h1  >مرحبا بكم في مطعم  <span>دلع كرشك</span></h1>
+          <h1  >   مطعم 
+             <span>دلع كرشك</span></h1>
           
           <h2 class="mt-2">أكل مصري مصري</h2>
 

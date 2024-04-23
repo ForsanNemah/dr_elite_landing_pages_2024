@@ -1,5 +1,5 @@
-<div id="vid_div" class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
-          <a href="1.mp4" class="glightbox play-btn"   href="javascript:void(0)" onclick="runvid()"></a>
+<div   class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
+          <a href="https://www.youtube.com/shorts/TmIUkpKtf8o" class=" play-btn"    ></a>
 
  
         </div>
