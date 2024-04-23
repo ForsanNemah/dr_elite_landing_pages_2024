@@ -64,7 +64,11 @@ include "wa_api.php";
   <div id="topbar" class="d-flex align-items-center fixed-top ">
     <div class="container d-flex justify-content-center justify-content-md-between">
 
-      <div class=" row contact-info d-flex align-items-center">
+
+ 
+      <div class=" row contact-info d-flex align-items-center mt-1">
+
+       
         <i class="bi bi-phone d-flex align-items-center "><span>
           
         
@@ -142,7 +146,7 @@ include "wa_api.php";
   </div>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
+  <header id="header" class="fixed-top d-flex align-items-center mt-1">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
       <h1 class="logo me-auto me-lg-0 mr-auto"><a href="index.html">     </a></h1>
@@ -1324,8 +1328,8 @@ body{
 
 
 .section-title p {
-    margin: 0;
-    margin: 0;
+    margin-top: 15px;
+    
     font-size: 36px;
     font-weight: 700;
     font-family: "Playfair Display", serif;
