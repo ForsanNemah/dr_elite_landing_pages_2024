@@ -61,11 +61,11 @@ include "wa_api.php";
 <body dir="rtl">
 
   <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="d-flex align-items-center fixed-top">
+  <div id="topbar" class="d-flex align-items-center fixed-top ">
     <div class="container d-flex justify-content-center justify-content-md-between">
 
       <div class=" row contact-info d-flex align-items-center">
-        <i class="bi bi-phone d-flex align-items-center"><span>
+        <i class="bi bi-phone d-flex align-items-center "><span>
           
         
         
@@ -349,17 +349,13 @@ include "hero_video.php";
           <p>تصفح قائمة طعامنا  اللذيذة</p>
 
 
-          <a style="TEXT-DECORATION: underline" href="https://drive.google.com/file/d/1zHwO4mcnCckUSOCUwjmCa2zv4_eG7x4e/view" >
-
-       
-
-          <iframe data-aos="zoom-in"  id ="menu_frame" src="https://drive.google.com/file/d/1l1jl1AL3ePAoAecibRwMSEG4OcfG2726/preview"   allow="autoplay"></iframe>
+      
 
 
-
-
-          </a>
-
+  <div class="container">
+    <img src="menu/1.jpg" class="img-fluid" alt="Responsive Image">
+    <img src="menu/2.jpg" class="img-fluid mt-4" alt="Responsive Image">
+  </div>
         
         </div>
 
