@@ -1140,6 +1140,8 @@ echo '
                 <p>
                   
                 
+
+
                
               
               
@@ -1213,12 +1215,25 @@ echo '
             <div class="footer-info">
               <h3>دلع كرشك</h3>
               <p>
-               <?php echo $address?>
-               <br>
 
-                <strong>جوال</strong>   <?php echo $phone?><br>
-                <strong>الايميل</strong>   <?php echo $email?><br>
+
+             
+                <strong >جوال :</strong>   <?php echo $phone?><br>
+                
+              
+               
+
+                <strong>الايميل :</strong>   <?php echo $email?><br> 
+            
+                <strong >العنوان :</strong>   <?php echo $address?><br>
+
+
+
               </p>
+
+
+
+
               <div class="social-links mt-3">
              
                 <a href="https://www.facebook.com/dallakershaik" class="facebook"><i class="bx bxl-facebook"></i></a>
