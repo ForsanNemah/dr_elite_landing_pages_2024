@@ -5,6 +5,8 @@
 
 
 include "head.php";
+include "info.php";
+
 ?>
 
 <body>

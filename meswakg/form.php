@@ -4,8 +4,13 @@
       <div class="card mt-5">
         <div class="card-body" style="background-color: green;">
           <h2 class="card-title text-center mb-4" style="color: white;">
-            احجز الحين مكانك في المسواك
-            لأقرب مكان لك
+          <?php
+          echo $form1_des;
+          ?>
+
+
+
+
           </h2>
           <form method="post" action="post_to_google_sheet.php" onsubmit="form1_action()">
 
