@@ -1,8 +1,46 @@
+:root {
+    --form_bg: #00bd6e;
+    --button_bg: #00bd6e;
+  }
+
+
+
+
+  .form_bg {
+    
+    background-color:var(--form_bg);;
+     
+}
+
+
+
 .btn-primary {
     color: #fff;
-    background-color: #35552e;
+    background-color:var(--button_bg);;
     border-color: #0d6efd;
 }
+
+
+
+.btn-form {
+    background-color:#0d6efd;
+    border-color: #0d6efd;
+ 
+}
+
+
+
+.footer {
+    background-color: #7c7e71;
+    padding: 20px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -90,11 +128,6 @@
 
 
 
-  .btn-primary {
-    color: #fff;
-    background-color: #198754;
-    border-color: #0d6efd;
-}
   
 
 

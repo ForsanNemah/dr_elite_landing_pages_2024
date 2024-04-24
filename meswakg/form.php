@@ -2,7 +2,7 @@
   <div class="row justify-content-center custom_row_margin">
     <div class="col-lg-6">
       <div class="card mt-5">
-        <div class="card-body" style="background-color: green;">
+        <div class="card-body form_bg" >
           <h2 class="card-title text-center mb-4" style="color: white;">
           <?php
           echo $form1_des;
@@ -181,7 +181,7 @@ echo 'File not found.';
             <img id="loading" src="images/loading.gif" alt="Italian Trulli"  width="100" height="100" >
 
 
-              <button id="form1_button" type="submit" class="btn btn-primary">تسجيل</button>
+              <button id="form1_button" type="submit" class="btn btn-primary btn-form rounded-pill">تسجيل</button>
             </div>
           </form>
         </div>

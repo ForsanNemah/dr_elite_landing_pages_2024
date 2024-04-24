@@ -1,9 +1,6 @@
  
   <style>
-    .footer {
-      background-color: #7c7e71; /* Update the background color here */
-      padding: 20px;
-    }
+    
     .footer img {
       max-width: 100%;
       height: auto;
