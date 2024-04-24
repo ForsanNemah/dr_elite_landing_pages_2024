@@ -31,8 +31,21 @@
 
 
 .footer {
-    background-color: #00a9d8;
+    background-color: #f1e1e1;
     padding: 20px;
+}
+
+
+
+.footer p {
+  color: black;
+}
+
+
+
+.footer img {
+  max-width: 100%;
+  height: auto;
 }
 
 

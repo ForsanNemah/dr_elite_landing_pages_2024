@@ -1,13 +1,8 @@
  
   <style>
     
-    .footer img {
-      max-width: 100%;
-      height: auto;
-    }
-    .footer p {
-      color: white;
-    }
+  
+    
   </style>
 </head>
 <body>
