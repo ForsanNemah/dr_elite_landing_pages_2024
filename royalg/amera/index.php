@@ -61,7 +61,7 @@ include "form.php";
 
 <br>
 <br>
-  <div class="text-center">
+  <div class="text-center" hidden>
 
  
 
@@ -113,7 +113,7 @@ include "form.php";
 
 
 
-<div class="text-center  mt-4">
+<div class="text-center  mt-4" hidden>
 
  <h1>
 
@@ -128,7 +128,7 @@ include "form.php";
 
 <?php
 
-include "services.php";
+//include "services.php";
 
 
 
@@ -137,13 +137,7 @@ include "services.php";
 
 
 
-<?php
 
-include "w_app_form.php";
-
-
-
-?>
 
 
 <br>
@@ -178,12 +172,18 @@ include "process.php";
 ?>
 
 
+<?php
 
+include "w_app_form.php";
+
+
+
+?>
 
 
 <?php
 
-include "before_after.php";
+//include "before_after.php";
 
 
 
@@ -203,7 +203,7 @@ include "before_after.php";
 
 <?php
 
-include "faq.php";
+//include "faq.php";
 
 
 
