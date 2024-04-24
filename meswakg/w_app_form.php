@@ -41,7 +41,7 @@
 
             <div class="mb-3">
  
-              <input type="number" class="form-control" name="phone" placeholder="أدخل  رقم جوالك هنا " required>
+              <input id="phn_form2" type="number" class="form-control" name="phone" placeholder="أدخل  رقم جوالك هنا " required>
             </div>
 
 
@@ -245,10 +245,9 @@ function form2_action() {
 
 
 
-/*
 
 
-  var event_phn=document.getElementById('phn_form1').value
+  var event_phn=document.getElementById('phn_form2').value
  
 
   snaptr('track','SIGN_UP', {
@@ -282,7 +281,7 @@ ttq.track('CompleteRegistration', {});
 //alert("submited"+event_phn);
 
 
-*/
+
 
 
 }
