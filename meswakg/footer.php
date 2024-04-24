@@ -23,7 +23,15 @@
 
         <div class="row">
         <div class="col-8 d-flex justify-content-center">
-        <p class="text-center fs-3">المسواك لطب الأسنان</p>
+        <p class="text-center fs-3">   
+            
+    
+    <?php
+echo $footer_des1;
+    ?>
+    
+    
+    </p>
          
         
       </div>
@@ -33,7 +41,13 @@
 
         <div class="row">
         <div class="col-8 d-flex justify-content-center">
-        <p class="text-center"> أفضل مركز لطب وجراحة الأسنان في المملكة</p>
+        <p class="text-center"> 
+
+
+        <?php
+echo $footer_des2;
+    ?>
+        </p>
          
         
       </div>
@@ -45,7 +59,14 @@
         
         <div class="row">
         <div class="col-8 d-flex justify-content-center">
-        <p class="text-center ">تجميل وتقويم وزراعة وطب الأسنان</p>
+        <p class="text-center ">
+
+        <?php
+echo $footer_des3;
+    ?>
+
+
+        </p>
          
         
       </div>
@@ -59,7 +80,14 @@
         
         <div class="row">
         <div class="col-8 d-flex justify-content-center">
-        <p class="text-center">مواعيد العمل: من 9:00 صباحاً حتى 10:00 مساءٍ</p>
+        <p class="text-center"
+        
+        
+        <?php
+echo $footer_des4;
+    ?>
+        
+      </p>
 
 
        
