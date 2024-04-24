@@ -22,7 +22,7 @@ include "info.php";
 
 <?php
 
-include "w_app.php";
+//include "w_app.php";
 
 
 
