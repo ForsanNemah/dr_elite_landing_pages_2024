@@ -1,5 +1,5 @@
 :root {
-    --form_bg: #8a7961;
+    --form_bg: #56585a;
     --button_bg: #d38900;
   }
 
@@ -43,10 +43,7 @@
 
 
 
-.footer img {
-  height: 200px; /* Set the desired height */
-  width: 200x; /* Set the desired width */
-}
+ 
 
 
 

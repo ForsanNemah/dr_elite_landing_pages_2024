@@ -168,7 +168,7 @@ echo $footer_des4;
 
 
         <div class="col-4"  >
-          <img src="images/footerlogo.png" alt="Footer Image" width="300" height="300">
+          <img src="images/footerlogo.png" class="img-fluid" alt="Footer Image"  >
         </div>
       </div>
     </div>

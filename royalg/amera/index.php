@@ -96,13 +96,7 @@ include "form.php";
 
 
 
-<?php
 
-include "w_app_form.php";
-
-
-
-?>
  
 
 
@@ -143,7 +137,13 @@ include "services.php";
 
 
 
+<?php
 
+include "w_app_form.php";
+
+
+
+?>
 
 
 <br>
