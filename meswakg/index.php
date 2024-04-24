@@ -83,6 +83,7 @@ include "form.php";
 
 
 
+  
 
 
 
@@ -95,7 +96,14 @@ include "form.php";
 
 
 
+<?php
 
+include "w_app_form.php";
+
+
+
+?>
+ 
 
 
 
@@ -185,14 +193,7 @@ include "before_after.php";
 
 
 
-<?php
 
-include "w_app_form.php";
-
-
-
-?>
- 
 
 
 
