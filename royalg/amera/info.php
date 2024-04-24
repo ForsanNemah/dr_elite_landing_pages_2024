@@ -13,7 +13,7 @@ $action_url="https://script.google.com/macros/s/AKfycbx9fL4DpfPll_pK0mTgfN4HDykq
 
 
 $form1_des="
-احجز الان وسيتم التواصل معك فورا 
+احجز الان وسيتم التواصل معك في اقل من 24 ساعة
 ";
 
 
