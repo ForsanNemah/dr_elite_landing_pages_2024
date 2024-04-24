@@ -44,8 +44,8 @@
 
 
 .footer img {
-  max-width: 100%;
-  height: auto;
+  height: 200px; /* Set the desired height */
+  width: 200x; /* Set the desired width */
 }
 
 
