@@ -11,10 +11,10 @@
 
 .float{
 	position:fixed;
-	width:60px;
-	height:60px;
+	width:50px;
+	height:50px;
 	bottom:40px;
-	left:40px;
+	left:20px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
@@ -25,6 +25,6 @@
 }
 
 .my-float{
-	margin-top:16px;
+	margin-top:12px;
 }
 </style>
