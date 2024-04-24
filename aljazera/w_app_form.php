@@ -10,6 +10,11 @@
           echo $form2_des;
           ?>
 
+<br>
+<?php
+          echo $form2_des2;
+          ?>
+
 
           </h2>
           <form method="post" action="post_to_google_sheet.php" onsubmit="form2_action()">

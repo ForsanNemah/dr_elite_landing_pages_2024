@@ -11,8 +11,8 @@
 
 .float{
 	position:fixed;
-	width:50px;
-	height:50px;
+	width:60px;
+	height:60px;
 	bottom:40px;
 	left:20px;
 	background-color:#25d366;
@@ -25,6 +25,6 @@
 }
 
 .my-float{
-	margin-top:12px;
+	margin-top:16px;
 }
 </style>
