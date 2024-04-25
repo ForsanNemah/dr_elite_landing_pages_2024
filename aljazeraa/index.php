@@ -179,6 +179,77 @@ if($services==1){
 
 
 
+
+
+
+
+
+
+
+<?php
+
+if($services2==1){
+
+  echo '
+  
+  
+  
+  
+  <div class="text-center  mt-4">
+
+  <h1>
+ 
+ 
+ خدماتنا 
+ 
+  </h1>
+ 
+ </div
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+  
+  
+  ';
+
+  include "services2.php";
+
+}
+
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <?php
 
 include "w_app_form.php";
