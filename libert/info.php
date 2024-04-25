@@ -2,14 +2,14 @@
 
 
 $website_name="
-مجمع الجزيرة الطبي
+عيادات ليبرتي
 
 ";
 
 
 $phone_main="966505333836";
 
-$action_url="https://script.google.com/macros/s/AKfycbwcllES9ESiuMwNBkSgB4tTdWY6vHjG2UAAvcX_kP_p28bm5bnAaa1gJr9oDu-l9ACKiw/exec";
+$action_url="https://script.google.com/macros/s/AKfycbzlbJ4dpkO7BvSxFoe8_QVR3OD8HSk0U_umDvw4ylDLzgd8_r-x0mnxQRyENki8q1LI/exec";
 
 
 $form1_des="
@@ -43,7 +43,7 @@ $form2_des2="
 
 $footer_des1="
 
-مجمع الجزيرة الطبي
+عيادات ليبرتي
 
 ";
 
@@ -59,7 +59,7 @@ $footer_des2="
 
 $footer_des3="
 
-صحة-تجميل
+اسنان-جلدية
 
 ";
 
@@ -67,10 +67,7 @@ $footer_des3="
 
 $footer_des4="
 
-من 9 صباحاً الى 12 ظهراً
-من 4 مساءً الى 9 مساءً
-- الطب العام والطوارىء على مدار الساعه 🏪
-
+ 
 
 ";
 
@@ -82,12 +79,12 @@ $footer_des4="
 
 
 $before_after=0;
-$services=0;
+$services=1;
 $derma_services=0;
 $services2=0;
 $faq=0;
 $process=0;
-$services_images=1;
+$services_images=0;
 
 
 
