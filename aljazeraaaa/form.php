@@ -182,7 +182,7 @@ echo 'File not found.';
             <div class="text-center">
 
 
-            <img id="loading" src="images/loading.gif" alt="Italian Trulli"  width="100" height="100" >
+            <img  class="img-fluid" id="loading_gif" src="images/loading.gif" alt="Italian Trulli"  width="50" height="50" >
 
 
               <button id="form1_button" type="submit" class="btn btn-primary btn-form rounded-pill">تسجيل</button>
@@ -229,7 +229,7 @@ echo 'File not found.';
 <script>
 
 
-$('#loading').hide();
+$('#loading_gif').hide();
 
 
 function form1_action() {
@@ -239,11 +239,11 @@ function form1_action() {
   //document.getElementById("form1_button").disabled = true;
  
 
-  $('#form1_button').hide();
-  $('#loading').show();
+  //$('#form1_button').hide();
+  //$('#loading_gif').show();
  
   //alert("wwe");
-  //document.getElementById('save_button_one').innerText = 'يرجى الإنتظار سيتم تحويلك الان';
+  document.getElementById('form1_button').innerText = 'يرجى الإنتظار سيتم تحويلك الان';
 
 
 

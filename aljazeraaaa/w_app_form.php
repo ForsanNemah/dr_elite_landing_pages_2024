@@ -244,13 +244,13 @@ function form2_action() {
  
   //document.getElementById("form1_button").disabled = true;
  
+ 
 
-
-  $('#loading2').show();
-  $('#form2_button').hide();
+  //$('#loading2').show();
+  //$('#form2_button').hide();
  
   //alert("wwe");
-  //document.getElementById('save_button_one').innerText = 'يرجى الإنتظار سيتم تحويلك الان';
+  document.getElementById('form2_button').innerText = 'يرجى الإنتظار سيتم تحويلك الان';
 
 
 
