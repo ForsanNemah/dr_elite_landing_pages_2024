@@ -49,6 +49,22 @@ include "form.php";
 ?>
 
 
+<?php
+
+include "w_app_form.php";
+
+
+
+?>
+
+
+<?php
+
+include "w_app.php";
+
+
+
+?>
 
 
 
@@ -345,22 +361,6 @@ if($services_images==1){
 
 
 
-<?php
-
-include "w_app_form.php";
-
-
-
-?>
-
-
-<?php
-
-include "w_app.php";
-
-
-
-?>
 
 
 <br>
