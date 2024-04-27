@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<a href="#w_app_form" class="float"  >
+
+
+
+
+<a href="#w_app_form" class="float"  onclick="show_w_app_form()" >
 <i class="fa fa-whatsapp my-float"></i>
 </a>
 
@@ -28,3 +32,24 @@
 	margin-top:16px;
 }
 </style>
+
+
+
+
+<script>
+  function show_w_app_form() {
+    // Your custom JavaScript code here
+    // For example, you can display an alert
+    //alert('Link clicked!');
+
+
+
+	var w_app_form_div = document.getElementById("w_app_form");
+     w_app_form_div.style.display = "block";
+
+
+
+
+
+  }
+</script>

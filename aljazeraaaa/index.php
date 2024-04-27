@@ -20,13 +20,7 @@ include "info.php";
 
 
 
-<?php
 
-include "w_app.php";
-
-
-
-?>
   <div >
     <div class="text-center image-container">
       <img src="images/vi.webp" alt="Book Image Mobile" class="img-fluid mobile-image">
@@ -354,6 +348,15 @@ if($services_images==1){
 <?php
 
 include "w_app_form.php";
+
+
+
+?>
+
+
+<?php
+
+include "w_app.php";
 
 
 

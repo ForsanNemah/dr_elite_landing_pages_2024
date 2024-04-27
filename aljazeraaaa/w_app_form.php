@@ -229,6 +229,11 @@ echo 'File not found.';
 
 <script>
 
+var w_app_form_div = document.getElementById("w_app_form");
+
+
+w_app_form_div.style.display = "none";
+
 
 $('#loading2').hide();
 
