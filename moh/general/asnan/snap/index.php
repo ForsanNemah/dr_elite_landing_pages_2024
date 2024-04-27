@@ -158,7 +158,7 @@ include "form.php";
 
 
 
-	<div class="how-it-works-container section-container section-container-gray-bg  "    >
+	<div class="how-it-works-container section-container section-container-gray-bg  "    hidden >
 	        <div class="container">
 
          
