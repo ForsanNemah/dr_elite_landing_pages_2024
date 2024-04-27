@@ -208,7 +208,12 @@ include "form.php";
 
 
 
+<?php
 
+include 'image_services.php';
+
+ 
+?>
 
 
 
