@@ -5,16 +5,17 @@
 
 
 
-<select name="location" id="mainSelect" class="form-control mt-4" dir="rtl">
-  <option value="">اختر موقعك</option>
+<select name="location" id="mainSelect" class="form-control mt-4" dir="rtl" required>
+  <option value="" disabled selected>اختر موقعك</option>
+ 
  
 
 
 
 </select>
 
-<select name="branch" id="subSelect" class="form-control mt-4 mb-4" dir="rtl"> 
-  <option value="">اختر الفرع </option>
+<select name="branch" id="subSelect" class="form-control mt-4 mb-4" dir="rtl" required> 
+  <option value="" disabled selected>اختر الفرع </option>
 </select>
 
 
