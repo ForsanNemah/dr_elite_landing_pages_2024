@@ -137,7 +137,7 @@ mainSelect.addEventListener('change', function() {
     // Display a default message if no sub-options are available
     const option = document.createElement('option');
     option.value = '';
-    option.textContent = 'Select a sub-option';
+    option.textContent = ' اختر  المنطقة اولا';
     subSelect.appendChild(option);
   }
 });
