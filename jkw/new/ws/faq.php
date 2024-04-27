@@ -38,7 +38,7 @@ Al Omairiyah, Al Hofuf 36362, Saudi Arabia
 
               <div class="st-accordian">
                 <div class="st-accordian-title">
-                ماهو متوسط الاسعر ؟
+                ماهو متوسط الاسعار ؟
                   <span class="st-accordian-toggle fa fa-angle-down"></span>
                 </div>
                 <div class="st-accordian-body">

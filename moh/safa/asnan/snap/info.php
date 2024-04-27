@@ -5,7 +5,7 @@ error_reporting(E_ERROR | E_PARSE);
 //$ad_source=echo "<script> alert(""); </script>";
 
  
-$action_url="https://script.google.com/macros/s/AKfycbyVSrfkisu6T__JrE-Mjoyp4dgd4zdRmoYZBOswbG4DRN14BvSMCTrvJgZA0xsGlzZ7kQ/exec";
+$action_url="https://script.google.com/macros/s/AKfycbxkKh1dSnhMrtH1iUfIQYmfEWznF3dn380TutS2LAuDxpDxAwLDMI-U-4zqj--LR_wRYA/exec";
 
 $logo_h='100px';
 $logo_w='20px';
@@ -18,7 +18,7 @@ $insta_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $snap_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
-$site_name="صفوة المهيدب  لطب الاسنان-فرع  السبعين";
+$site_name="صفوة المهيدب  لطب الاسنان";
 
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";

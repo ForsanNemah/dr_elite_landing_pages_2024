@@ -71,7 +71,7 @@
                   </div>
                   <div class="st-height-b25 st-height-lg-b25"></div>
                   <div class="st-text-block-avatar">
-                    <div class="st-avatar-img"><img src="assets/img/avatar1.png" alt="avatar"></div>
+                    <div class="st-avatar-img"><img src="assets/img/avatar1.png" alt="avatar" hidden></div>
                     <div class="st-avatar-info">
                       <h4 class="st-avatar-name">د/جميل خطاب</h4>
                       <div class="st-avatar-designation">المؤسس </div>
