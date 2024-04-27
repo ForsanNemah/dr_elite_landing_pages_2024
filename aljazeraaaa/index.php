@@ -449,7 +449,13 @@ include "faq.php";
 
 <?php
 
-include "footer.php";
+
+
+if($footer==1){
+  
+  include "footer.php";
+}
+
 
 
 

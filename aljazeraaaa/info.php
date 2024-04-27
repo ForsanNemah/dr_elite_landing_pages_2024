@@ -84,11 +84,11 @@ $footer_des4="
 $before_after=0;
 $services=0;
 $derma_services=0;
-$services2=1;
+$services2=0;
 $faq=0;
 $process=0;
 $services_images=0;
-
+$footer=0;
 
 
 
