@@ -51,7 +51,7 @@ curl_close($curlHandle);
 
 //echo "w_api start";
 
-$w_app_msg1=" لديك تسجيل  جديد    ".$name;
+$w_app_msg1=" لديك تسجيل  جديد  باسم  ".$name;
 $w_app_msg2=$w_app_msg1." برقم جوال ".$phone;
 
 send_w_app_msg($phone_main,$w_app_msg2,"2000");
@@ -70,7 +70,7 @@ send_w_app_msg($phone_main,$w_app_msg2,"2000");
 
 if($is_w_app=="1"){
 
-    $w_app_msg1=" لديك تسجيل  جديد    ".$name;
+    $w_app_msg1="  لديك تسجيل  جديد  باسم  ".$name;
     $w_app_msg2=$w_app_msg1." برقم جوال ".$phone;
     
     send_w_app_msg($phone_main,$w_app_msg2,"2000");
