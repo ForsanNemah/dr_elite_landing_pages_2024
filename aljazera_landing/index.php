@@ -501,7 +501,7 @@ if($footer==1){
 <style>
 
 .mobile-image {
-    width: 90%;
+    width: 95%;
     height: 620px;
 }
 
