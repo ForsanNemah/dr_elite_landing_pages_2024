@@ -50,7 +50,7 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4" hidden>
          
           <div class="service">
             <div class="service-icon">
@@ -62,7 +62,7 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4" hidden>
           <div class="service">
             <div class="service-icon">
               <img src="images/qas.png" alt="Service 3 Icon">
