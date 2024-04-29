@@ -22,7 +22,7 @@ $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
 $site_name="عيادات الهجن الرياض";
 $dr_name="  ";
-$add_title="عروض بداية العام 2024 ";
+$add_title=" عروض الربيع ";
 
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";

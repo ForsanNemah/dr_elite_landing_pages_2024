@@ -1,8 +1,10 @@
 <?php
-$url = 'https://opensheet.elk.sh/1Cph8whvT7kZ1TiwH-wcPSXtiAauQ4jQsbK8ojixUN9o/Sheet1';
+$url = 'https://opensheet.elk.sh/1Cph8whvT7kZ1TiwH-wcPSXtiAauQ4jQsbK8ojixUN9o/Sheet2';
 
 $response = file_get_contents($url);
-
+$keywords_content="";
+$description="";
+$counter=1;
 if ($response !== false) {
     // Parse the response as JSON
     $data = json_decode($response, true);
@@ -10,14 +12,42 @@ if ($response !== false) {
     if ($data !== null) {
         // Loop through the rows and display key-value pairs
         foreach ($data as $row) {
-            $date_and_time = $row['date_and_time'];
-            $name = $row['name'];
 
+            $keyword = $row['keyword'];
 
-            echo "date_and_time:". $date_and_time;
-            echo "name:". $name;
-            echo "<br>";
+           if($counter==1){
+            $description = $row['meta-description'];
+
+           }
+           $counter++;
+           
+            
+            $keywords_content=$keywords_content.$keyword.",";
+            //echo "keyword:". $keyword;
+          
+            //echo "<br>";
         }
+
+
+        $keywords_content = substr_replace($keywords_content, '', -1);
+
+        //echo   "<h dir='rtl'>$keywords_content</h>" ;
+        //echo   "<h dir='rtl'>$description</h>" ;
+
+
+echo '
+
+
+
+<meta name="description" content="'.$description.'">
+<meta name="keywords" content="'. $keywords_content.'" />
+
+
+
+
+
+';
+
     } else {
         // Handle JSON parsing error
         echo 'Failed to parse the JSON response.';

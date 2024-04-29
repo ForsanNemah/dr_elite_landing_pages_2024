@@ -19,7 +19,7 @@
         </div>
         <div class="st-height-b40 st-height-lg-b40"></div>
       </div>
-      <div class="container">
+      <div class="container form-container ">
         <div class="row">
           <div class="col-lg-10 offset-lg-1">
             <div id="st-alert"></div>
@@ -44,7 +44,7 @@
                   <input type="text"   name="subject" placeholder="الموضوع" required>
                 </div>
               </div><!-- .col -->
-              <div class="col-lg-6">
+              <div class="col-lg-12">
                 <div class="st-form-field st-style1">
                   <label>رقم الجوال</label>
                   <input type="number"  id="phn_contact_us_form"  name="phone" placeholder="رقم الجوال " required>
@@ -57,7 +57,7 @@
                     required></textarea>
                 </div>
               </div><!-- .col -->
-              <div class="col-lg-12">
+              <div class="col-lg-12 mb-4">
                 <div class="text-center">
                   <div class="st-height-b10 st-height-lg-b10"></div>
                   <button class="st-btn st-style1 st-color1 st-size-medium" type="submit" id="save_button_contact_us" name="submit">

@@ -72,10 +72,35 @@
 
 
                 
-                <div class="col-lg-12">
+                <div class="col-lg-12" hidden>
                   <button id="save_button_one" class="st-btn st-style1 st-color1 st-size-medium" type="submit"  
                     name="submit">حجز</button>
                 </div>
+
+
+
+
+                <div class="col-lg-12 mb-4">
+                <div class="text-center">
+                  <div class="st-height-b10 st-height-lg-b10"></div>
+                  <button class="st-btn st-style1 st-color1 st-size-medium" type="submit" id="save_button_one" name="submit">
+                    
+                  حجز
+                  
+                  </button>
+                </div>
+              </div><!-- .col -->
+
+
+
+
+
+
+
+
+
+
+
               </div>
             </form>
           </div>
@@ -148,11 +173,17 @@ ttq.track('CompleteRegistration', {});
 
 <style>
 
+
+
 .form-container {
-  background-color: #FFA500;
+  background-color: #bcd7df;
 }
 
 
+ 
 
+
+
+ 
 
 </style>

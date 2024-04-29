@@ -62,6 +62,15 @@ include "info.php";
 </script>
 
 
+
+<?php
+
+include "seo_keywords.php";
+
+
+?>
+
+
 </head>
 
 
