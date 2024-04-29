@@ -86,8 +86,8 @@ $services=0;
 $derma_services=0;
 $services2=0;
 $faq=0;
-$process=1;
-$services_images=1;
+$process=0;
+$services_images=0;
 $footer=1;
 
 

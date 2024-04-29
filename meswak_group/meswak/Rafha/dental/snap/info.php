@@ -51,7 +51,7 @@ $footer_des1="
 
 $footer_des2="
 
-نحن بعون الله نرعاكم 
+ 
 
 ";
 
@@ -81,12 +81,12 @@ $footer_des4="
 
 
 
-$before_after=1;
+$before_after=0;
 $services=1;
 $derma_services=0;
 $services2=0;
-$faq=1;
-$process=1;
+$faq=0;
+$process=0;
 $services_images=0;
 $footer=1;
 
