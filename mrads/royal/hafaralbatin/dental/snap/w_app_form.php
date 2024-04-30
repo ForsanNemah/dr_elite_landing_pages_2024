@@ -22,7 +22,7 @@
 
 
 
-          <input type="text" class="form-control" name="source" value="?php echo $ad_source ?> "  hidden>
+          <input type="text" class="form-control" name="source" value="<?php echo $ad_source ?> "  hidden>
 
           <input type="text" class="form-control" name="is_w_app" value="1"  hidden>
 
@@ -242,7 +242,7 @@ function form2_action() {
   //alert("The form was submitted");
   
  
-  //document.getElementById("form1_button").disabled = true;
+  document.getElementById("form1_button").disabled = true;
  
  
 
@@ -250,7 +250,7 @@ function form2_action() {
   //$('#form2_button').hide();
  
   //alert("wwe");
-  document.getElementById('form2_button').innerText = 'يرجى الإنتظار سيتم تحويلك الان';
+  document.getElementById('form1_button').innerText = 'يرجى الإنتظار سيتم تحويلك الان';
 
 
 
