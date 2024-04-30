@@ -7,9 +7,9 @@ $website_name="
 ";
 
 
-$phone_main="966552944888";
+$phone_main="966531544888";
 
-$action_url="https://script.google.com/macros/s/AKfycbzIRiKklyFEMUZi4At4vLvJbNe3UOqeEJudVLpE9-TIPQhWwgA7ZMrxXopymnf0LhlC/exec";
+$action_url="https://script.google.com/macros/s/AKfycbxOGfE04Xq3-UZytvgiTeOtvAXttBDE2y6zbnbI6wexMDQz9iHjJ2jofTvKlEBM5cOZ/exec";
 
 
 $form1_des="
