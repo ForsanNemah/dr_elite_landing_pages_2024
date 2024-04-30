@@ -22,7 +22,7 @@
 
 
 
-          <input type="text" class="form-control" name="source" value="general landing page "  hidden>
+          <input type="text" class="form-control" name="source" value="<?php echo $ad_source ?> "  hidden>
 
           <input type="text" class="form-control" name="is_w_app" value="1"  hidden>
 
