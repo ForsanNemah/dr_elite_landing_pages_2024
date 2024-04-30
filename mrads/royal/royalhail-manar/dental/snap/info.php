@@ -9,7 +9,7 @@ $website_name="
 
 $phone_main="966536332299";
 
-$action_url="https://script.google.com/macros/s/AKfycbxOGfE04Xq3-UZytvgiTeOtvAXttBDE2y6zbnbI6wexMDQz9iHjJ2jofTvKlEBM5cOZ/exec";
+$action_url="https://script.google.com/macros/s/AKfycbyo_mdjMsE0bk1Do7hrEa3tZUTCbaKHuoPnQLl03GkY7boE7gazb8VmT1dQ6XoEOZv6/exec";
 
 
 $form1_des="
