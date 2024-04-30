@@ -67,7 +67,12 @@ include "w_app_form.php";
 
 <?php
 
-include "w_app.php";
+
+if($w_app_button==1){
+  include "w_app.php";
+
+}
+
 
 
 

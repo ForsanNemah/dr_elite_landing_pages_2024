@@ -89,6 +89,7 @@ $faq=0;
 $process=0;
 $services_images=0;
 $footer=1;
+$w_app_button=0;
 
 
 
