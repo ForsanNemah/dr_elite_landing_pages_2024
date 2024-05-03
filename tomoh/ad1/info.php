@@ -81,8 +81,7 @@ $footer_des4="
 
 
 $cta_button="  
-
-احصل على استشارة مجانية الان 
+حجز
 
 ";
 $before_after=0;
