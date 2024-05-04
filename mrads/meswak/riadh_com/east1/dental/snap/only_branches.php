@@ -61,6 +61,14 @@ echo 'File not found.';
         $('#mainSelect').prop('required', true);
         $('#subSelect').prop('required', true);
 
+
+        var element = document.getElementById("myform");
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+
+
       }
       else{
 
