@@ -15,7 +15,7 @@
 
 </select>
 
-<select name="branch1" id="subSelect" class="form-control mt-4 mb-4" dir="rtl" required> 
+<select name="branch" id="subSelect" class="form-control mt-4 mb-4" dir="rtl" required> 
   <option value="" disabled selected>اختر الفرع </option>
  
  
@@ -24,32 +24,11 @@
 
 
 
-
-
-
-<?php
-
-include "only_branches.php";
-
-?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <script>
+
+//$("#mainSelect").hide();
+
+
     var filePath = "location_and_branches.txt";
     var result = [];
 

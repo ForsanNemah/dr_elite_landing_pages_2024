@@ -50,39 +50,7 @@
 
 
 
-            <div class="mb-3" hidden>
-
-
-              <select name="branch"    class="form-select">
-
-
-  <?php
-    $filename = 'branches.txt'; // Specify the path to your text file
-
-    // Check if the file exists
-    if (file_exists($filename)) {
-        // Read the file into an array, with each line as an element
-        $lines = file($filename, FILE_IGNORE_NEW_LINES);
-
-        // Output the HTML select tag
-        
-
-        // Iterate over the lines and create an option for each line
-        foreach ($lines as $line) {
-            echo '<option>' . htmlspecialchars($line) . '</option>';
-        }
-
-        // Close the HTML select tag
-        
-    } else {
-        echo 'File not found.';
-    }
-?>
-
-</select>
-
-            </div>
-
+           
 
 
 
@@ -142,9 +110,29 @@
          
 <?php
 include "select_and_sub_select.php";
+//include "select_and_sub_select2.php";
 
 ?>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
