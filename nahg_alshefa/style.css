@@ -1,5 +1,5 @@
 :root {
-    --form_bg: #472be4;
+    --form_bg: #00aa1c;
     --button_bg: #00aa1c;
   }
 
@@ -94,7 +94,7 @@ color: rgb(255, 255, 255);
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -150%);
   }
 
 
