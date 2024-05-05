@@ -8,6 +8,7 @@
 $server_port=$_GET['port'];
 
 //echo $server_port;
+
 ?>
   <title>QR Code Generator</title>
   <style>
@@ -62,9 +63,9 @@ $server_port=$_GET['port'];
     // Function to fetch the response string from the URL and generate QR code
     function fetchResponseAndGenerateQRCode() {
 
-      var connection_url="http://185.182.186.101:";
+      var connection_url="mycurl.php";
 
-      connection_url=connection_url+"<?php echo $server_port; ?>"+"/";
+     
 
       //alert(connection_url);
 
