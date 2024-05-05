@@ -84,6 +84,13 @@ $cta_button="
 حجز
 
 ";
+
+
+
+$snap_pixel="e55c0fec-d62e-41e0-9777-3d2f48daf077";
+$tiktok_pixel="CN6FRCRC77UC2DCHBISG";
+
+
 $before_after=0;
 $services=0;
 $derma_services=0;
