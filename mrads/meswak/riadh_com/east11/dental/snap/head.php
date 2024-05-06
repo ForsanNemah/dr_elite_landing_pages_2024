@@ -37,6 +37,7 @@ echo $website_name;
 <link rel="stylesheet" href="style.css">
 
 
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 
@@ -206,6 +207,7 @@ var sha256 = function sha256(ascii) {
 
 
 
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0/css/select2.min.css" rel="stylesheet" />
 
                 
 </head>
