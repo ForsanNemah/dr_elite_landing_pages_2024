@@ -1,7 +1,7 @@
 <div class="mb-3"  >
 
 
-<select name="branch"  id="branch_only_id"  class="form-select select2" onchange="onselect_for_branches()">
+<select name="branch"  id="branch_only_id"  class="form-select" onchange="onselect_for_branches()">
 
 
 <?php
@@ -30,21 +30,6 @@ echo 'File not found.';
 </select>
 
 </div>
-
-
-
-
-<script>
-    $(document).ready(function() {
-      $('.select2').select2();
-    });
-  </script>
-
-
-
-
-
-
 
 
 <script>
@@ -91,7 +76,7 @@ echo 'File not found.';
     alert("found");
 
 
-    mainSelect.size = 9;
+    mainSelect.size =4;
 
 
 
@@ -154,7 +139,17 @@ echo 'File not found.';
 if (isMobileView()) {
   alert("mv");
 } else {
-  alert("dv");
-}
-*/
+  alert("dz");
+}*/
+
   </script>
+
+  <style>
+
+select {
+  height: 100px;
+  font-size: 14px;
+}
+
+
+  </style>
