@@ -65,11 +65,12 @@ $server_port=$_GET['port'];
 
       var connection_url="mycurl.php";
 
-     
+      var connection_url_test="mycurl.php?port="+"<?php echo $server_port; ?>";
 
       //alert(connection_url);
+       //alert(connection_url_test);
 
-      $.get(connection_url, function(response) {
+      $.get(connection_url_test, function(response) {
 
 
 
