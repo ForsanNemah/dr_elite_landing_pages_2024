@@ -76,7 +76,7 @@ echo 'File not found.';
     alert("found");
 
 
-    mainSelect.size = 4
+    mainSelect.size = 9;
 
 
 
