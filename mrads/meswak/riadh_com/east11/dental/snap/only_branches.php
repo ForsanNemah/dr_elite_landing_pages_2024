@@ -76,7 +76,7 @@ echo 'File not found.';
     alert("found");
 
 
-    mainSelect.size =4;
+    mainSelect.size =5;
 
 
 
@@ -146,10 +146,6 @@ if (isMobileView()) {
 
   <style>
 
-select {
-  height: 100px;
-  font-size: 14px;
-}
 
 
   </style>
