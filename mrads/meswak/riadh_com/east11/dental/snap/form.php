@@ -2,7 +2,7 @@
 <?php
 
 
-include "list_model.php";
+//include "list_model.php";
 
 ?>
 
