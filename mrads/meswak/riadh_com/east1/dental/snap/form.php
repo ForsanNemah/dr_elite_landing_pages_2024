@@ -1,3 +1,12 @@
+
+<?php
+
+
+include "list_model.php";
+
+?>
+
+
 <div class="form-container" id="myform">
   <div class="row justify-content-center custom_row_margin">
     <div class="col-lg-6">

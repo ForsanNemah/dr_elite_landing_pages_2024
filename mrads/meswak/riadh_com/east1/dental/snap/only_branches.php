@@ -69,6 +69,47 @@ echo 'File not found.';
 
 
 
+
+  var mainSelect = document.getElementById("mainSelect");   
+  if (mainSelect) {
+
+    //alert("found");
+
+    setTimeout(function() {
+  console.log("After 2 seconds");
+ 
+/*
+  var myModal = new bootstrap.Modal(document.getElementById('locations_model'));
+      myModal.show();
+*/
+
+ 
+
+  
+// Open the dropdown list using Select2
+ 
+    //mainSelect.focus();
+    //alert("2");
+
+
+
+
+}, 500);
+
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
       }
       else{
 
