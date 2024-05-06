@@ -120,6 +120,8 @@ include "list_model.php";
 <?php
 include "select_and_sub_select.php";
 //include "select_and_sub_select2.php";
+//include "branches_model.php";
+//include "list_model.php";
 
 ?>
             </div>

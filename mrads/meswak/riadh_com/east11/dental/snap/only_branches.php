@@ -73,7 +73,12 @@ echo 'File not found.';
   var mainSelect = document.getElementById("mainSelect");   
   if (mainSelect) {
 
-    //alert("found");
+    alert("found");
+
+
+    mainSelect.size = 4
+
+
 
     setTimeout(function() {
   console.log("After 2 seconds");
