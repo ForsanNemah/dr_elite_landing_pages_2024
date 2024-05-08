@@ -78,7 +78,7 @@ echo 'File not found.';
 
     mainSelect.size =5;
 
-
+    mainSelect.selectedIndex = 2;
 
     setTimeout(function() {
   console.log("After 2 seconds");

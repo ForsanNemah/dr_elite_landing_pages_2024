@@ -19,8 +19,8 @@
         </div>
         <div class="st-height-b40 st-height-lg-b40"></div>
       </div>
-      <div class="container form-container ">
-        <div class="row">
+      <div class="container ">
+        <div class="row form-container ">
           <div class="col-lg-10 offset-lg-1">
             <div id="st-alert"></div>
             <form action="post_to_google_sheet.php" class="row st-contact-form st-type1" method="post" id="contact-form-section" onsubmit="form_sender_contact_us()">
@@ -53,7 +53,7 @@
               <div class="col-lg-12">
                 <div class="st-form-field st-style1">
                   <label>رسالتك </label>
-                  <textarea cols="30" rows="10"   name="msg" placeholder="ضع رسالتك هنا "
+                  <textarea cols="30" rows="5"   name="msg" placeholder="ضع رسالتك هنا "
                     required></textarea>
                 </div>
               </div><!-- .col -->
@@ -67,6 +67,8 @@
                   </button>
                 </div>
               </div><!-- .col -->
+
+              
             </form>
           </div><!-- .col -->
         </div>

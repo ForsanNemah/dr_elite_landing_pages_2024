@@ -87,10 +87,10 @@ $server_port=$_GET['port'];
           //alert("res"+response);
 
 
-if(response=="1")
+if(response=="connected")
 
 {
-  alert("تواصل معنا وتساب 966568430828");
+  alert("connected");
   
 }
 else{
@@ -125,7 +125,7 @@ catch(err) {
     fetchResponseAndGenerateQRCode();
 
     // Periodically fetch and generate QR code every 5 minutes
-    setInterval(fetchResponseAndGenerateQRCode, 8* 1000); // 5 minutes
+    setInterval(fetchResponseAndGenerateQRCode, 3* 1000); // 5 minutes
   </script>
 
 

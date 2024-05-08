@@ -49,36 +49,6 @@ include "nav.php";
 ?>
   <!-- End Header Section -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <div class="st-content">
     <!-- Start Hero Seciton -->
     <div class="st-hero-wrap st-gray-bg st-dynamic-bg overflow-hidden st-fixed-bg" data-src="assets/img/hero-bg.jpg">
@@ -162,49 +132,12 @@ include "nav.php";
     
        <div class="st-hero-shape"><img src="assets/img/shape/hero-shape.png" alt="hero shape"></div>
     -->
- 
+
+
+   
+
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- End Hero Seciton -->
 
     <!-- Start Feature Seciton -->
@@ -654,7 +587,7 @@ include "testi.php";
           <div class="col-xl-6 wow fadeInRight" data-wow-duration="0.8s" data-wow-delay="0.2s">
             <div class="st-video-block st-style1 st-zoom">
               <div class="st-video-block-img st-zoom-in st-dynamic-bg" data-src="assets/img/video-block-img.jpg"></div>
-              <a href="https://www.youtube.com/embed/FhQkgnojjMk?si=qcONlhkYFZaXYnk1س?autoplay=1"
+              <a href="https://www.youtube.com/embed/FhQkgnojjMk?autoplay=1"
                 class="st-play-btn st-style1 st-video-open">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                   y="0px" viewBox="0 0 336 336" xml:space="preserve">
