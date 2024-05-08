@@ -92,6 +92,7 @@ if(response=="connected")
 {
   alert("connected");
   
+  window.location.href = "done.php";
 }
 else{
 
