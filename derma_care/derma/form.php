@@ -181,7 +181,7 @@ echo  $add_source;
  
 
 <div class="form-group">
-                                        <input name="service" type="text" class="form-control" placeholder="ملاحضات " dir="rtl" required>
+                                        <input name="service" type="text" class="form-control" placeholder="ملاحضات " dir="rtl"  >
                                     </div>
 
 

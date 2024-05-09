@@ -73,19 +73,23 @@ echo 'File not found.';
   var mainSelect = document.getElementById("mainSelect");   
   if (mainSelect) {
 
-    alert("found");
+    //alert("found");
 
 
-    mainSelect.size =5;
+    //mainSelect.size =5;
 
-    mainSelect.selectedIndex = 2;
+    //mainSelect.selectedIndex = 2;
 
+
+    /*
     setTimeout(function() {
   console.log("After 2 seconds");
  
 /*
   var myModal = new bootstrap.Modal(document.getElementById('locations_model'));
       myModal.show();
+
+      }, 500);
 */
 
  
@@ -99,7 +103,7 @@ echo 'File not found.';
 
 
 
-}, 500);
+
 
 
     
