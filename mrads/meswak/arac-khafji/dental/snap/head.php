@@ -1,43 +1,53 @@
+
+
+
+
+
+
 <head>
 
 
-
-<?php
-
-
  
-include "info.php";
 
-?>
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
-  <title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="title" content="">
+    <meta property="description" content=" ">
+    <meta property="url" content=" ">
+    <meta property="site_name" content=" ">
+    <meta property="og:type" content="">
+    <meta property="og:title" content=" ">
+    <meta property="og:description" content=" ">
+    <meta property="og:url" content=" ">
+    <meta property="og:site_name" content=" ">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/style.php">
+    <link rel="stylesheet" href="public/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>
+      
   
-  
-  
-<?php
+    <?php
 
-echo $website_name;
+include 'info.php';
+
+ echo $info['website_title'];
+
+
+
 
 ?>
 
-
-
-
-
-  </title>
   
-
-
-<link href="https://fonts.cdnfonts.com/css/tajawal" rel="stylesheet">
-
-<link rel="stylesheet" href="style.css">
-
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  </title>
+    
 
 
 
@@ -51,23 +61,39 @@ echo $website_name;
 
 
 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+       
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/media-queries.css">
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script>
-		!function (w, d, t) {
-		  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
-)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
-		
-		  ttq.load('CN6FRCRC77UC2DCHBISG');
-		  ttq.page();
-		}(window, document, 'ttq');
-	</script>
-
-
-
- 
-<script>
-var event_phn="<?=$phone_main?>";
+var event_phn="<?=$phn?>";
 var event_email="info@wmc-ksa.com";
 
 (function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
@@ -77,26 +103,60 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', '31104507-bf96-4c29-a273-a1bad59360d8');
+snaptr('init', '6974377e-909d-4489-8d24-ea92ac393cf5');
 
 snaptr('track', 'PAGE_VIEW');
  
  
 
+
+
+
+
+
+
     </script>
 
 
+<script>
+
+$(document).click(function(evt) {
+  snaptr('track','AD_CLICK');
+    });
+
+
+</script>
+
+
+ 
+
+
+ 
 
 
 
 
 
-
+ 
 
 
 
 
 <script>
+		!function (w, d, t) {
+		  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
+)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+		
+		  ttq.load('CNAI62RC77U50SR8JRN0');
+		  ttq.page();
+		}(window, document, 'ttq');
+
+
+
+
+
+
+
 
 
 
@@ -198,14 +258,166 @@ var sha256 = function sha256(ascii) {
 	return result;
 };
 
-//alert(sha256("7777"));
-
-</script>
 
 
 
 
 
 
-                
+	</script>
+
+
+
+
+
+
+
+
+
+
 </head>
+
+<style>
+
+
+
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+.carousel {
+  width:700px;
+  height:550px;
+  margin:0 auto;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    height:550px;
+    overflow: hidden;
+}
+
+ 
+
+@media only all and (max-width: 500px) {
+  
+
+  .carousel {
+  width:380px;
+  height:300px;
+  margin:0 auto;
+}
+
+
+
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    height:300px;
+    overflow: hidden;
+}
+
+
+
+}
+
+ 
+ 
+
+
+
+
+
+ 
+.form-control {
+    
+    height: 37px;
+
+}
+
+ 
+
+
+
+
+
+
+
+
+
+                 .pulsate {
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+}
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.5;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.5;
+    }
+}
+
+
+
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+ 
+}
+
+
+footer p,  {
+     padding-top: 0px; 
+}
+
+
+
+
+
+
+
+
+</style>

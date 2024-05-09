@@ -1,176 +1,8 @@
-<div class="form-container" id="myform">
-  <div class="row justify-content-center custom_row_margin">
-    <div class="col-lg-6">
-      <div class="card mt-5">
-        <div class="card-body form_bg" >
-          <h2 class="card-title text-center mb-4" style="color: white;">
-          <?php
-          echo $form1_des;
-          ?>
-<br>
 
-<?php
-          echo $form1_des2;
-          ?>
 
-
-
-          </h2>
-          <form method="post" action="post_to_google_sheet.php" onsubmit="form1_action()">
-
-
-
-
-          <input type="text" class="form-control" name="source" value="general landing page "  hidden>
-
-          <input type="text" class="form-control" name="is_w_app" value="0"  hidden>
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <div class="mb-3">
-              
-              <input type="text" class="form-control" name="name" placeholder="الاسم" required>
-            </div>
-
-
-            <div class="mb-3">
- 
-              <input id="phn_form1" type="number" class="form-control" name="phone" placeholder="أدخل  رقم جوالك هنا " required>
-            </div>
-
-
-
-            <div class="mb-3" hidden>
-
-
-              <select name="branch"    class="form-select">
-
-
-  <?php
-    $filename = 'branches.txt'; // Specify the path to your text file
-
-    // Check if the file exists
-    if (file_exists($filename)) {
-        // Read the file into an array, with each line as an element
-        $lines = file($filename, FILE_IGNORE_NEW_LINES);
-
-        // Output the HTML select tag
-        
-
-        // Iterate over the lines and create an option for each line
-        foreach ($lines as $line) {
-            echo '<option>' . htmlspecialchars($line) . '</option>';
-        }
-
-        // Close the HTML select tag
-        
-    } else {
-        echo 'File not found.';
-    }
-?>
-
-</select>
-
-            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <div class="mb-3">
-
-
-<select name="service"    class="form-select">
-
-
-<?php
-$filename = 'services.txt'; // Specify the path to your text file
-
-// Check if the file exists
-if (file_exists($filename)) {
-// Read the file into an array, with each line as an element
-$lines = file($filename, FILE_IGNORE_NEW_LINES);
-
-// Output the HTML select tag
-
-
-// Iterate over the lines and create an option for each line
-foreach ($lines as $line) {
-echo '<option>' . htmlspecialchars($line) . '</option>';
-}
-
-// Close the HTML select tag
-
-} else {
-echo 'File not found.';
-}
-?>
-
-</select>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<section class=" appointment"  >
+        <div class="appointment-section">
+            <div class="container">
 
 
             
@@ -179,19 +11,40 @@ echo 'File not found.';
 
 
 
-            <div class="text-center">
 
 
-            <img  class="img-fluid" id="loading_gif" src="images/loading.gif" alt="Italian Trulli"  width="50" height="50" >
 
 
-              <button id="form1_button" type="submit" class="btn btn-primary btn-form rounded-pill">تسجيل</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
+
+
+
+
+
+
+
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="form">
+                            <div class="appointment-form text-center">
+
+
+
+          
+
+<div class="container h-100 d-flex justify-content-center">
+<div class="appointment-title text-light" id="myloader"         >
+<div class="loader"></div> 
+</div>
+</div>
+
+
+<div class="container h-100 d-flex justify-content-center">
+
+<div class="appointment-title text-light"  id="done_icon"  >
+<img src="ads/done.gif" class="img-fluid" width='100px' height='100px' alt="Responsive image"   >
+
+</div>
+
 </div>
 
 
@@ -200,6 +53,50 @@ echo 'File not found.';
 
 
 
+                                <form id="form" role="form"      method="post" name="myform" bgcolor=”#800000">
+
+
+
+
+
+                                    <p class="appointment-title text-light pulsate" >     
+
+                                    <?php
+
+include 'info.php';
+
+ echo $info['ev_form_sub1'];
+
+
+
+
+?>
+                                    
+                                    </p>
+                                    <p class="appointment-title text-light pulsate" style="font-size:1.2em;direction:rtl">   
+                                  
+                                  
+                                  
+                                  
+                                    <?php
+
+include 'info.php';
+
+ echo $info['ev_form_sub2'];
+
+
+
+
+?>
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  </p>
 
 
 
@@ -212,38 +109,90 @@ echo 'File not found.';
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script>
-
-
-$('#loading_gif').hide();
-
-
-function form1_action() {
-  //alert("The form was submitted");
-  
  
-  //document.getElementById("form1_button").disabled = true;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    <div class="form-group">
+                                        <input name="name" type="text" class="form-control" placeholder="الاسم" dir="rtl" required>
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <input name="phone" id="phn_id" type="number" class="form-control" placeholder="رقم الهاتف" dir="rtl" required>
+                                    </div>
+
+                                   
+
+                                 
+
+
+                                   
+
+
+
+
+                                    <div class="form-group" hidden>
+                                        <input name="source" type="text" class="form-control"    value="<?php
+           require('info.php');
+//echo "wwe";
+ 
+echo  $add_source;
+
+?>">
+                                    </div>
+
+
+
+
+
  
 
-  //$('#form1_button').hide();
-  //$('#loading_gif').show();
+<br>
+
+<?php
+
+
+include "services_select.php";
+//include "branch_select.php";
+
+
+
+?>
+
+
  
-  //alert("wwe");
-  document.getElementById('form1_button').innerText = 'يرجى الإنتظار سيتم تحويلك الان';
+
+
+
+
+
+                                    <div class="form-group"  hidden >
+    <label class="sr-only" for="r-form-1-email">date</label>
+    <input type="text" name="date_and_time" id="today" placeholder=" التاريخ  " class="r-form-1-email form-control" id="r-form-1-email"  >
+</div>
+
+
+<div class="form-group" hidden>
+                                        <input name="whatsapp_link" id="w_link_id" type="text" class="form-control"   >
+                                    </div>
 
 
 
@@ -252,13 +201,6 @@ function form1_action() {
 
 
 
-  var event_phn=document.getElementById('phn_form1').value
- 
-
-  snaptr('track','SIGN_UP', {
-  
-    'user_phone_number': sha256("966"+event_phn)          
-});
 
 
 
@@ -270,24 +212,54 @@ function form1_action() {
 
 
 
-ttq.identify({
- 
-	"phone_number":sha256("966"+event_phn)  // string. The phone number of the customer if available. It must be hashed with SHA-256 on the client side.
- 
-});
-
-
-ttq.track('CompleteRegistration', {});
 
 
 
 
 
-//alert("submited"+event_phn);
 
 
 
 
+                                    <button id="send" type="submit" class="btn submit-btn">اضغط للتسجيل</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 passion">
+                        <div class="text-center text-lg-right">
+                            <h4 class="text-light">
+                            <?php
 
-}
-</script>
+include 'info.php';
+
+ echo $info['lt_sub1'];
+
+
+
+
+?>
+                            </h4>
+                            <br />
+                            <p class="text-light" style="font-size: 1.2em; font-size: 1.2em; font-family: inherit !important ">             <?php
+
+include 'info.php';
+
+ echo $info['lt_sub2'];
+
+
+
+
+?>
+             </p>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <br>
+   <br>
+    <section>
