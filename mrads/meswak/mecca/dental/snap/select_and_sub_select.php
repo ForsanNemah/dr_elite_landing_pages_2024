@@ -9,42 +9,14 @@
   <option value="" disabled selected>اختر موقعك</option>
  
  
- 
 
 
 
 </select>
 
-<select name="branch1" id="subSelect" class="form-control mt-4 mb-4" dir="rtl" required> 
+<select name="branch" id="subSelect" class="form-control mt-4 mb-4" dir="rtl" required> 
   <option value="" disabled selected>اختر الفرع </option>
- 
- 
 </select>
-
-
-
-
-
-
-
-<?php
-
-include "only_branches.php";
-
-?>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -153,7 +125,7 @@ mainSelect.addEventListener('change', function() {
 
   // Get the selected option value
   const selectedOption = mainSelect.value;
-//4san
+
   // Populate sub-options based on the selected option
   if (selectedOption && subOptions[selectedOption]) {
     subOptions[selectedOption].forEach(function(subOption) {
