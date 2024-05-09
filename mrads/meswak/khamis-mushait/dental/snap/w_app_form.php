@@ -1,38 +1,30 @@
-
-<?php
-
-
-//include "list_model.php";
-
-?>
-
-
-<div class="form-container" id="myform">
+<div class="form-container" id="w_app_form">
   <div class="row justify-content-center custom_row_margin">
     <div class="col-lg-6">
       <div class="card mt-5">
         <div class="card-body form_bg" >
           <h2 class="card-title text-center mb-4" style="color: white;">
+          
+          
           <?php
-          echo $form1_des;
+          echo $form2_des;
           ?>
+
 <br>
-
 <?php
-          echo $form1_des2;
+          echo $form2_des2;
           ?>
-
 
 
           </h2>
-          <form method="post" action="post_to_google_sheet.php" onsubmit="form1_action()">
+          <form method="post" action="post_to_google_sheet.php" onsubmit="form2_action()">
 
 
 
 
-          <input type="text" class="form-control" name="source" value="<?php echo $ad_source  ?> "  hidden>
+          <input type="text" class="form-control" name="source" value="<?php echo $ad_source ?> "  hidden>
 
-          <input type="text" class="form-control" name="is_w_app" value="0"  hidden>
+          <input type="text" class="form-control" name="is_w_app" value="1"  hidden>
 
 
 
@@ -54,77 +46,42 @@
 
             <div class="mb-3">
  
-              <input id="phn_form1" type="number" class="form-control" name="phone" placeholder="أدخل  رقم جوالك هنا " required>
+              <input id="phn_form2" type="number" class="form-control" name="phone" placeholder="أدخل  رقم جوالك هنا " required>
             </div>
 
 
 
-           
+            <div class="mb-3" hidden>
 
 
+              <select name="branch"    class="form-select">
 
 
+  <?php
+    $filename = 'branches.txt'; // Specify the path to your text file
 
+    // Check if the file exists
+    if (file_exists($filename)) {
+        // Read the file into an array, with each line as an element
+        $lines = file($filename, FILE_IGNORE_NEW_LINES);
 
+        // Output the HTML select tag
+        
 
+        // Iterate over the lines and create an option for each line
+        foreach ($lines as $line) {
+            echo '<option>' . htmlspecialchars($line) . '</option>';
+        }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <div class="mb-3"  >
-
-
-         
-<?php
-include "select_and_sub_select.php";
-include "model_locations.php";
-//include "select_and_sub_select2.php";
-//include "branches_model.php";
-//include "list_model.php";
-
+        // Close the HTML select tag
+        
+    } else {
+        echo 'File not found.';
+    }
 ?>
+
+</select>
+
             </div>
 
 
@@ -153,7 +110,19 @@ include "model_locations.php";
 
 
 
-            <div class="mb-3">
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="mb-3" hidden>
 
 
 <select name="service"    class="form-select">
@@ -214,10 +183,10 @@ echo 'File not found.';
             <div class="text-center">
 
 
-            <img  class="img-fluid" id="loading_gif" src="images/loading.gif" alt="Italian Trulli"  width="50" height="50" >
+            <img id="loading2" src="images/loading.gif" alt="Italian Trulli"  width="100" height="100" >
 
 
-              <button id="form1_button" type="submit" class="btn btn-primary btn-form rounded-pill">تسجيل</button>
+              <button id="form2_button" type="submit" class="btn btn-primary btn-form rounded-pill">تسجيل</button>
             </div>
           </form>
         </div>
@@ -260,22 +229,28 @@ echo 'File not found.';
 
 <script>
 
+var w_app_form_div = document.getElementById("w_app_form");
 
-$('#loading_gif').hide();
+
+w_app_form_div.style.display = "none";
 
 
-function form1_action() {
+$('#loading2').hide();
+
+
+function form2_action() {
   //alert("The form was submitted");
   
  
-  //document.getElementById("form1_button").disabled = true;
+  document.getElementById("form2_button").disabled = true;
+ 
  
 
-  //$('#form1_button').hide();
-  //$('#loading_gif').show();
+  //$('#loading2').show();
+  //$('#form2_button').hide();
  
   //alert("wwe");
-  document.getElementById('form1_button').innerText = 'يرجى الإنتظار سيتم تحويلك الان';
+  document.getElementById('form2_button').innerText = 'يرجى الإنتظار سيتم تحويلك الان';
 
 
 
@@ -283,8 +258,7 @@ function form1_action() {
 
 
 
-
-  var event_phn=document.getElementById('phn_form1').value
+  var event_phn=document.getElementById('phn_form2').value
  
 
   snaptr('track','SIGN_UP', {

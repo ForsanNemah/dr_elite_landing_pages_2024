@@ -1,32 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
-  <style>
-    .rtl-item {
-      direction: rtl;
-      text-align: right;
-    }
-  </style>
-  <title>Modal Popup Example</title>
-</head>
-<body>
-  <div class="container">
+ 
+<body >
+  <div class="container" hidden>
     <h1>Modal Popup Example</h1>
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#locations_model_model">
       Open Modal
     </button>
   </div>
 
   <!-- Modal -->
-  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="locations_model" tabindex="-1" aria-labelledby="locations_model_model" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title text-center" id="exampleModalLabel">Item List</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <h5 class="modal-title text-center" id="exampleModalLabel"> اختر موقعك</h5>
+          <button hidden type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <ul class="list-group">
@@ -34,7 +21,7 @@
 
 
           <?php
-$filename = 'branches.txt';
+$filename = 'locations.txt';
 $file = fopen($filename, 'r');
 
 // Read the file line by line
@@ -70,17 +57,65 @@ fclose($file);
           </ul>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button  id="close_model" type="button" class="btn btn-secondary" data-bs-dismiss="modal">اغلاق</button>
         </div>
       </div>
     </div>
   </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+ 
   <script>
+
+
+
+
+
+
+
+
     function alertItemName(item) {
+
+      closeModal();
       var itemName = item.innerHTML;
-      alert(itemName);
+
+      var itemIndex = Array.from(item.parentNode.children).indexOf(item);
+
+
+      //alert(itemName+itemIndex);
+
+
+      
+      document.getElementById("mainSelect").selectedIndex = itemIndex+1;
+      
+      document.getElementById('mainSelect').dispatchEvent(new Event('change'));
+
+
+
+    
+
+
+      //mainSelect_from_model.value = itemName;
+
+/*
+      var myModal_from_model = new bootstrap.Modal(document.getElementById('myModal'));
+      myModal_from_model.close();
+
+*/
+      
+    }
+
+
+
+
+    function closeModal() {
+
+      //alert("wwe");
+
+      var close_model = document.getElementById('close_model');
+
+// Simulate a click event on the button
+close_model.click();
+
+
     }
   </script>
 </body>

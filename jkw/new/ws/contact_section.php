@@ -24,9 +24,9 @@
           <div class="col-lg-10 offset-lg-1">
             <div id="st-alert"></div>
             <form action="post_to_google_sheet.php" class="row st-contact-form st-type1" method="post" id="contact-form-section" onsubmit="form_sender_contact_us()">
-              <div class="col-lg-6">
+              <div class="col-lg-6 mt-4">
                 <div class="st-form-field st-style1">
-                  <label>الاسم </label>
+                  <label hidden>الاسم </label>
                   <input type="text" id="name" name="name" placeholder="ضع اسمك هنا " required>
                 </div>
               </div><!-- .col -->
@@ -38,21 +38,21 @@
 
                 
 
-              <div class="col-lg-6">
+              <div class="col-lg-6 mt-4">
                 <div class="st-form-field st-style1">
-                  <label>الموضوع </label>
+                  <label hidden>الموضوع </label>
                   <input type="text"   name="subject" placeholder="الموضوع" required>
                 </div>
               </div><!-- .col -->
               <div class="col-lg-12">
                 <div class="st-form-field st-style1">
-                  <label>رقم الجوال</label>
+                  <label hidden>رقم الجوال</label>
                   <input type="number"  id="phn_contact_us_form"  name="phone" placeholder="رقم الجوال " required>
                 </div>
               </div><!-- .col -->
               <div class="col-lg-12">
                 <div class="st-form-field st-style1">
-                  <label>رسالتك </label>
+                  <label hidden>رسالتك </label>
                   <textarea cols="30" rows="5"   name="msg" placeholder="ضع رسالتك هنا "
                     required></textarea>
                 </div>

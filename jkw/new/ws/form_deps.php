@@ -29,10 +29,10 @@
           <div class="col-lg-10 offset-lg-1">
             <form method="POST" onsubmit="form_sender()" action="post_to_google_sheet.php" class="st-appointment-form" id="appointment-form-services">
               <div id="st-alert1"></div>
-              <div class="row">
+              <div class="row mt-4" >
                 <div class="col-lg-6">
                   <div class="st-form-field st-style1">
-                    <label>الاسم</label>
+                    <label hidden>الاسم</label>
                     <input type="text" id="uname" name="name" placeholder=" ضع اسمك هنا " required>
                   </div>
                 </div>
@@ -45,8 +45,8 @@
 
                 <div class="col-lg-6">
                   <div class="st-form-field st-style1">
-                    <label>رقم الجوال</label>
-                    <input type="number" id="phn_form1" name="phone" placeholder="5xxxxxxxx" required>
+                    <label hidden>رقم الجوال</label>
+                    <input type="number" id="phn_form1" name="phone" placeholder="رقم الجوال " required>
                   </div>
                 </div>
                 
@@ -54,11 +54,12 @@
 
                 <div class="col-lg-12">
                   <div class="st-form-field st-style1">
-                    <label>القسم  </label>
+                    <label hidden>القسم  </label>
                     <div class="st-custom-select-wrap">
                       <select name="service" id="udepartment" class="form-control"
                         data-placeholder="اختر القسم">
-                        <option></option>
+                        
+                        <option value="derma"> اختر القسم</option>
                         <option value="derma">الجلدية</option>
                         <option value="tagmeel">تجميل</option>
                         <option value="dental">اسنان</option>

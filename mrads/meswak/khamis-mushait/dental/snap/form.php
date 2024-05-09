@@ -1,12 +1,3 @@
-
-<?php
-
-
-//include "list_model.php";
-
-?>
-
-
 <div class="form-container" id="myform">
   <div class="row justify-content-center custom_row_margin">
     <div class="col-lg-6">
@@ -30,7 +21,7 @@
 
 
 
-          <input type="text" class="form-control" name="source" value="<?php echo $ad_source  ?> "  hidden>
+          <input type="text" class="form-control" name="source" value="<?php echo $ad_source ?>"  hidden>
 
           <input type="text" class="form-control" name="is_w_app" value="0"  hidden>
 
@@ -59,73 +50,50 @@
 
 
 
-           
+            <div class="mb-3" hidden>
 
 
+              <select name="branch"    class="form-select">
 
 
+  <?php
+    $filename = 'branches.txt'; // Specify the path to your text file
 
+    // Check if the file exists
+    if (file_exists($filename)) {
+        // Read the file into an array, with each line as an element
+        $lines = file($filename, FILE_IGNORE_NEW_LINES);
 
+        // Output the HTML select tag
+        
 
+        // Iterate over the lines and create an option for each line
+        foreach ($lines as $line) {
+            echo '<option>' . htmlspecialchars($line) . '</option>';
+        }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <div class="mb-3"  >
-
-
-         
-<?php
-include "select_and_sub_select.php";
-include "model_locations.php";
-//include "select_and_sub_select2.php";
-//include "branches_model.php";
-//include "list_model.php";
-
+        // Close the HTML select tag
+        
+    } else {
+        echo 'File not found.';
+    }
 ?>
+
+</select>
+
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -268,7 +236,7 @@ function form1_action() {
   //alert("The form was submitted");
   
  
-  //document.getElementById("form1_button").disabled = true;
+  document.getElementById("form1_button").disabled = true;
  
 
   //$('#form1_button').hide();

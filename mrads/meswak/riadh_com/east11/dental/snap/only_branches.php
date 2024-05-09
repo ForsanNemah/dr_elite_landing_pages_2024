@@ -70,6 +70,14 @@ echo 'File not found.';
 
 
 
+  var myModal = new bootstrap.Modal(document.getElementById('locations_model'));
+      myModal.show();
+    
+      
+
+   
+     
+
   var mainSelect = document.getElementById("mainSelect");   
   if (mainSelect) {
 
