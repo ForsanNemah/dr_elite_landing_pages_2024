@@ -11,9 +11,25 @@ $is_w_app=$_POST['is_w_app'];
 $source=$_POST['source'];
 $subject=$_POST['subject'];
 $msg=$_POST['msg'];
-$branch=$_POST['branch'];
+
+$branch1=$_POST['branch1'];
+$branch2=$_POST['branch2'];
 $location=$_POST['location'];
 
+echo  $branch1.$branch2;
+
+if (!empty($branch1)) {
+
+    $branch=$branch1;
+
+    echo "1 not empty ";
+}
+else{
+
+    $branch=$branch2;
+    echo "1  empty ";
+    
+}
 //$source="snap 1";
 
 date_default_timezone_set("Asia/Riyadh");
@@ -108,7 +124,7 @@ alert(msg);
 //window.history.go(-1);
 
 
-window.location.replace("index.php");
+//window.location.replace("index.php");
 
 </script>
 
