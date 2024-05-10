@@ -22,12 +22,12 @@ if (!empty($branch1)) {
 
     $branch=$branch1;
 
-    echo "1 not empty ";
+    //echo "1 not empty ";
 }
 else{
 
     $branch=$branch2;
-    echo "1  empty ";
+    //echo "1  empty ";
     
 }
 //$source="snap 1";
@@ -124,7 +124,7 @@ alert(msg);
 //window.history.go(-1);
 
 
-//window.location.replace("index.php");
+window.location.replace("index.php");
 
 </script>
 
