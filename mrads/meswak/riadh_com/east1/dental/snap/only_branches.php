@@ -1,7 +1,7 @@
 <div class="mb-3"  >
 
 
-<select name="branch"  id="branch_only_id"  class="form-select" onchange="onselect_for_branches()">
+<select name="branch1"  id="branch_only_id"  class="form-select" onchange="onselect_for_branches()">
 
 
 <?php
@@ -55,6 +55,7 @@ echo 'File not found.';
 
         //alert("ok");
         $("#branch_only_id").hide();
+        $('#branch_only_id').val('');
         $("#mainSelect").show();
         $("#subSelect").show();
 
