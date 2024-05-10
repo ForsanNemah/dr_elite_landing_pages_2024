@@ -50,7 +50,7 @@
 
 
 
-            <div class="mb-3" hidden>
+            <div class="mb-3">
 
 
               <select name="branch"    class="form-select">
