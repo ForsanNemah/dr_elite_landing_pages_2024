@@ -50,6 +50,33 @@
 
 
 
+<script>
+var event_phn="<?=$phn?>";
+var event_email="info@wmc-ksa.com";
+
+(function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
+{a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
+a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
+r.src=n;var u=t.getElementsByTagName(s)[0];
+u.parentNode.insertBefore(r,u);})(window,document,
+'https://sc-static.net/scevent.min.js');
+
+snaptr('init', ' aa10b33a-1621-44ed-b469-ec4e1373d01e');
+
+snaptr('track', 'PAGE_VIEW');
+ 
+ 
+
+
+
+
+
+
+
+    </script>
+
+
+
 
 </head>
 <body>
