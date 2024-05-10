@@ -17,7 +17,10 @@
 
 <html>
 <head>
+
   <title>Landing Page</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/css/bootstrap.min.css">
   <style>
     @keyframes slideInFromLeft {
