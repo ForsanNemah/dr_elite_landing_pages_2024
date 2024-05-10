@@ -115,6 +115,14 @@ fclose($file);
 // Simulate a click event on the button
 close_model.click();
 
+var myform_from_model = document.getElementById("myform");
+  if (myform_from_model) {
+    myform_from_model.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+
+  
+
 
     }
   </script>
