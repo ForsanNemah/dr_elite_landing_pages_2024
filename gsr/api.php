@@ -1,54 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Table with Bootstrap 5.0.0</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+  <style>
+    table {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+  </style>
+</head>
+<body>
 
-
-<style>
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-</style>
-
-
-
-<table>
-  <tr>
-    <th>الحملة</th>
-    <th>عدد المسجلين</th>
-    
-    <th>     رابط الشيت</th>
-     
-  </tr>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th class="text-center">الحملة</th>
+      <th class="text-center">عدد المسجلين</th>
+      <th class="text-center">رابط الشيت</th>
+    </tr>
+  </thead>
+  <tbody>
 
 <?php
  
+ ini_set('max_execution_time', 600); 
+
  $from_date=$_POST['from'];
  $to_date=$_POST['to'];
  $sheet_id=$_POST['sheet_id'];
 
- echo  $from_date."<br>";
- echo  $to_date;
+ ///echo  $from_date."<br>";
+ //echo  $to_date;
+
+ echo "<br>";
 
 
- /*
-
-/*
- $a = new DateTime("10-9-2023 19:24:13");
- $b = new DateTime("10-9-2023 00:00:00");
- if ( $a>=$b){ 
-
-    echo "yes";
+ echo '
  
-     
+ 
+ 
+ 
+ 
+ 
+ <div class="d-flex justify-content-center">
+   <div>'.$from_date.'</div>
+ 
+</div>
+ 
 
-} 
 
-else{
-    echo "no";
-}
-*/
-
-
+<div class="d-flex justify-content-center">
+ 
+<div>'.$to_date.'</div>
+</div>
 
  
+ 
+ 
+ 
+
+<div class="d-flex justify-content-center">
+ 
+ 
+</div>
+
+ 
+ 
+ 
+ 
+ ';
  error_reporting(E_ERROR | E_WARNING | E_PARSE);
  error_reporting(E_ERROR | E_PARSE);
  
@@ -58,17 +79,6 @@ else{
  //echo $today_date_and_time."<br>";
 
  
-
-
-
-
-
-
-
-
-
- 
-
 
  $defaults = array(
     CURLOPT_URL             => 'https://opensheet.elk.sh/'.$sheet_id.'/Sheet1',
@@ -82,87 +92,39 @@ $curl               = curl_init();
 curl_setopt_array($curl, $defaults);
 $curl_response      = curl_exec($curl);
 $json_objekat       = json_decode($curl_response);
-
-// DUMP THE CURL-ERROR INFORMATION:
-//var_dump(curl_error($curl));
 curl_close($curl);
 $json_array=json_decode($curl_response, TRUE);
-//echo $curl_response;
 
-foreach($json_array as $item) { //foreach element in $arr
+foreach($json_array as $item) {
   
-
     try {
-        $customer_name = $item['customer_name']; //etc
-        $sheet_link = $item['sheet_link']; //etc
+        $customer_name = $item['branch'];
+        $sheet_link = $item['sheet'];
         if(empty($sheet_link)) {
             continue;
              
         }
 
-
-        //echo $customer_name;
-        //echo $sheet_link."<br>";
         $sheet_link_1 = explode("/d/", $sheet_link);
-        //echo $sheet_link_1[1]."<br>";
-
         $sheet_link_2 = explode("/", $sheet_link_1[1]);
-        //echo $sheet_link_2[0]."<br>";
 
         get_sheet_data($sheet_link_2[0],$customer_name);
-        //break;
     
       }
       
       //catch exception
       catch(Exception $e) {
-
-        //echo $e;
         continue;
       }
 
-
-
-
-
-
-
 }
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 function get_sheet_data($sheet_id,$customer_name) {
-
   global  $from_date;
   global  $to_date;
 
     
     try {
-       //echo $sheet_id."<br>";
-
-
-
-
-
-
-
        $defaults = array(
         CURLOPT_URL             => 'https://opensheet.elk.sh/'.$sheet_id.'/Sheet1',
         CURLOPT_POST            => false,
@@ -175,153 +137,51 @@ function get_sheet_data($sheet_id,$customer_name) {
     curl_setopt_array($curl, $defaults);
     $curl_response      = curl_exec($curl);
     $json_objekat       = json_decode($curl_response);
-    
-    // DUMP THE CURL-ERROR INFORMATION:
-    //var_dump(curl_error($curl));
     curl_close($curl);
     $json_array=json_decode($curl_response, TRUE);
-    //echo $curl_response."<br>";
-
-    //$today_date_just=date('j-n-Y');
-    //echo   $today_date_just   ;
-    //$today_date_and_time= date('j-n-Y',strtotime( $date . "-1 day"));
-
-    //echo   $today_date_and_time   ;
-    
-    //$today_date_and_time=$today_date_and_time." 00:00:00";
-    
-
-    
 
     $customers_counter=0;
-//$from_date="1-9-2023";
-//$to_date="1-10-2023";
 
     foreach($json_array as $item) { 
-
         $date_and_time = $item['date_and_time'];
         $phone= $item['phone'];
-        $date_and_time=str_replace('/', '-', $date_and_time);
-
-
-        //echo $date_and_time."from sheet"."<br>";
-        //echo  $today_date_and_time."today"."<br>";
-
-        //echo $from_date."form";
-
-       // echo "<br>";
-
-        //echo $to_date."to";
+        $date_and_time=str_replace('/', '/', $date_and_time);
 
         $a = new DateTime(".$date_and_time.");
         $b = new DateTime(".$from_date.");
         $c = new DateTime(".$to_date.");
 
-
-//echo "<br>".$date_and_time."<br>";
-
-
-//or(1==1 and  strlen($phone)>=9)
-//$a >= $b and $a<=$c and  strlen($phone)>=9 
-        if (( $a >= $b and $a<$c  and  strlen($phone)>=9    ) ){
-
-            //echo "ok";
-    $customers_counter++;
-             
-        
+        if (( $a >= $b and $a<=$c  and  strlen($phone)>=9    ) ){
+            $customers_counter++;
         } 
         else{
-           // echo "no";
-continue;
-
+            continue;
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-       
-  
-
     }
-    
-
-
-
-/*
-
-   echo  $customer_name."\t". $customers_counter."
-   
-   
-   
-                          
-   
-   "."<br>";
-   
-
-*/
 
    echo "
-   
-   
-   
-   
    <tr>
-   <td>". $customer_name."</td>
-   <td>". $customers_counter."</td>
-  
-
-   <td>
-
-   <a target='_blank' href='https://docs.google.com/spreadsheets/d/".$sheet_id."'>فتح</a>
- 
-   
-   
-   
-   
-   
-   
-   </td>
- </tr>
-   
-   
-   
-   
-   
+     <td class='text-center'>". $customer_name."</td>
+     <td class='text-center'>". $customers_counter."</td>
+     <td class='text-center'>
+       <a target='_blank' href='https://docs.google.com/spreadsheets/d/".$sheet_id."'>فتح</a>
+     </td>
+   </tr>
    ";
-//echo "https://docs.google.com/spreadsheets/d/".$sheet_id."<br>";
-
-
-
-
-
-
-
     
       }
       
       //catch exception
       catch(Exception $e) {
-
         $customers_counter=0;
       }
-
-
-     
   }
 
- 
 ?>
 
-
-
+  </tbody>
 </table>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
