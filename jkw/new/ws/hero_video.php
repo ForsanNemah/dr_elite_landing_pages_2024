@@ -1,5 +1,12 @@
 
-
+<div class="container mt-4">
+    <div class="row">
+      <div class="col text-center">
+        <h1>فيديو تعريفي </h1>
+        
+      </div>
+    </div>
+  </div>
 
 <div class="container mt-4">
 
