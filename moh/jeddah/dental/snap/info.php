@@ -5,7 +5,7 @@ error_reporting(E_ERROR | E_PARSE);
 //$ad_source=echo "<script> alert(""); </script>";
 
  
-$action_url="https://script.google.com/macros/s/AKfycbwoK-15WvR05lOoFXrTz6ymo_RByDA7y2dk6LyKcK8SggRfNmotShYn6N6-GwYS50vd/exec";
+$action_url="https://script.google.com/macros/s/AKfycbzndSSM9thrLDXmeCxousShyAm0CCKiqu__kUihg4glQwy1o0gQg6B7Ktkxi50fZVnl7A/exec";
 
 $logo_h='100px';
 $logo_w='20px';
@@ -18,7 +18,7 @@ $insta_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $snap_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
-$site_name=" عيادات لابوتيه  ";
+$site_name="صفوة المهيدب -جدة  ";
 
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";
