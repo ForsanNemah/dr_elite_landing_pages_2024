@@ -15,6 +15,7 @@
 <table class="table table-bordered">
   <thead>
     <tr>
+    <th class="text-center"> المعرف</th>
       <th class="text-center">الحملة</th>
       <th class="text-center">عدد المسجلين</th>
       <th class="text-center">رابط الشيت</th>
@@ -95,7 +96,13 @@ $json_objekat       = json_decode($curl_response);
 curl_close($curl);
 $json_array=json_decode($curl_response, TRUE);
 
+
+$sheets_count=1;
+$sum_of_customers=0;
+
 foreach($json_array as $item) {
+
+
   
     try {
         $customer_name = $item['branch'];
@@ -109,6 +116,7 @@ foreach($json_array as $item) {
         $sheet_link_2 = explode("/", $sheet_link_1[1]);
 
         get_sheet_data($sheet_link_2[0],$customer_name);
+        $sheets_count++;
     
       }
       
@@ -119,9 +127,22 @@ foreach($json_array as $item) {
 
 }
 
+
+echo '
+
+<div class="d-flex justify-content-center">
+ 
+<div>'.$sum_of_customers.'</div>
+</div>
+
+
+';
+
 function get_sheet_data($sheet_id,$customer_name) {
   global  $from_date;
   global  $to_date;
+  global  $sheets_count;
+  global  $sum_of_customers;
 
     
     try {
@@ -153,6 +174,7 @@ function get_sheet_data($sheet_id,$customer_name) {
 
         if (( $a >= $b and $a<=$c  and  strlen($phone)>=9    ) ){
             $customers_counter++;
+            $sum_of_customers++;
         } 
         else{
             continue;
@@ -161,6 +183,9 @@ function get_sheet_data($sheet_id,$customer_name) {
 
    echo "
    <tr>
+
+ 
+   <td class='text-center'>".$sheets_count."</td>
      <td class='text-center'>". $customer_name."</td>
      <td class='text-center'>". $customers_counter."</td>
      <td class='text-center'>
