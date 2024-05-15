@@ -22,7 +22,7 @@ include "info.php";
 
 
   <div >
-    <div class="text-center image-container">
+    <div class="text-center image-container"  >
       <img src="images/vi.webp" alt="Book Image Mobile" class="img-fluid mobile-image">
       <img src="images/vi2.webp" alt="Book Image Desktop" class="img-fluid desktop-image">
       <a href="#myform">
