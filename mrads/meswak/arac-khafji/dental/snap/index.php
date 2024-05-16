@@ -157,6 +157,8 @@ include 'logo_section.php';
 <?php
 
 //include "video.php";
+$rootDir = $_SERVER['DOCUMENT_ROOT'];
+include $rootDir."/batch_meswak.php";
 include "form.php";
 ?>
 
