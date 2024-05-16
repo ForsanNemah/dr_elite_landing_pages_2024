@@ -1,5 +1,16 @@
 
 
+
+
+<?php
+$rootDir = $_SERVER['DOCUMENT_ROOT'];
+echo "Root Directory: " . $rootDir;
+
+
+?>
+
+
+
   <div class="row">
 
   <div class="d-flex justify-content-center mt-4 mr-4">
