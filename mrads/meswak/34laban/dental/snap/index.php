@@ -61,6 +61,7 @@ include "info.php";
  
 $rootDir = $_SERVER['DOCUMENT_ROOT'];
 include $rootDir."/royal_batch.php";
+echo  $rootDir;
 include "form.php";
 
 
