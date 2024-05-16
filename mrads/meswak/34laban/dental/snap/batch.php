@@ -3,8 +3,8 @@
 
 
 <?php
-$rootDir = $_SERVER['DOCUMENT_ROOT'];
-echo "Root Directory: " . $rootDir;
+//$rootDir = $_SERVER['DOCUMENT_ROOT'];
+//echo "Root Directory: " . $rootDir;
 
 
 ?>
