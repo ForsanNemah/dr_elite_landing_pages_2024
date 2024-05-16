@@ -1,12 +1,13 @@
-<div class="d-flex justify-content-center mt-4">
-<img src="https://ksa-ads.com/meswak_files/meswak_logo.png" alt="Logo"  class="img-fluid" height="300" width="300" >
-  </div>
+
 
   <div class="row">
 
-    
+  <div class="d-flex justify-content-center mt-4 mr-4">
+<img src="https://ksa-ads.com/meswak_files/meswak_logo.png" alt="Logo"  class="img-fluid" height="300" width="300" >
+  </div>
 
-    <div class=" row mt-4">
+
+    <div class=" row mt-4  ">
     <img src="https://ksa-ads.com/meswak_files/tandt.png" alt="Image" width="200">
     </div>
     
@@ -47,4 +48,22 @@ for (var i = 0; i < elements.length; i++) {
     background-size: cover;
     margin-top: 0;
 }
+
+
+
+
+
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)* -1);
+    margin-right: calc(var(--bs-gutter-x) / 2);
+    margin-left: calc(var(--bs-gutter-x) / -);
+}
+
+
+ 
 </style>
