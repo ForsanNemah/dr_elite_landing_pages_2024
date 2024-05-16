@@ -61,7 +61,7 @@ for (var i = 0; i < elements.length; i++) {
     flex-wrap: wrap;
     margin-top: calc(var(--bs-gutter-y)* -1);
     margin-right: calc(var(--bs-gutter-x) / 2);
-    margin-left: calc(var(--bs-gutter-x) / -);
+    margin-left: calc(var(--bs-gutter-x) / 2);
 }
 
 
