@@ -60,8 +60,7 @@ include "info.php";
  
  
 $rootDir = $_SERVER['DOCUMENT_ROOT'];
-include $rootDir."/royal_batch.php";
-echo  $rootDir;
+include $rootDir."/batch_meswak.php";
 include "form.php";
 
 
