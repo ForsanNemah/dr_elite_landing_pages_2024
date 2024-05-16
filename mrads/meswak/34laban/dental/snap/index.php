@@ -15,13 +15,20 @@ include "info.php";
 
 
 
+<body>
 
 
 
 
 
 
-  <div >
+
+
+
+
+
+  <div>
+
     <div class="text-center image-container"  >
       <img src="images/vi.webp" alt="Book Image Mobile" class="img-fluid mobile-image">
       <img src="images/vi2.webp" alt="Book Image Desktop" class="img-fluid desktop-image">
@@ -32,6 +39,7 @@ include "info.php";
       </a>
      
     </div>
+
   </div>
 
 
@@ -41,7 +49,7 @@ include "info.php";
 
 
   <?php
-
+include "batch.php";
 include "form.php";
 
 
