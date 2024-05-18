@@ -31,6 +31,7 @@ function get_qr() {
     if(  trim($response)==$server_port ){
 
         echo "connected";
+        
 
     }
     else{
