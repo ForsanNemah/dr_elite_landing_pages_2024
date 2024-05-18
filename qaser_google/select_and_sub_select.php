@@ -6,7 +6,7 @@
 
 
 <select name="location" id="mainSelect" class="form-control mt-4" dir="rtl" required>
-  <option value="" disabled selected>اختر موقعك</option>
+  <option value="" disabled selected>اختر  نوع الخدمة </option>
  
  
  
@@ -16,7 +16,7 @@
 </select>
 
 <select name="branch2" id="subSelect" class="form-control mt-4 mb-4" dir="rtl" required> 
-  <option value="" disabled selected>اختر الفرع </option>
+  <option value="" disabled selected>اختر الخدمة </option>
  
  
 </select>
@@ -29,7 +29,7 @@
 
 <?php
 
-include "only_branches.php";
+//include "only_branches.php";
 
 ?>
 

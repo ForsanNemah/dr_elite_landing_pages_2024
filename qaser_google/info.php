@@ -2,14 +2,13 @@
 
 
 $website_name="
-مجمع المسواك الطبي 
-
+مجمع قصر الجمال الطبي
 ";
 
 
 $phone_main="966541000065";
 
-$action_url="https://script.google.com/macros/s/AKfycby2bHBgf0nwpORRaHhtbw5UvRQlbmTs_vPSa2noFL9nTtHWhpoXUjVuUaM9g_qKWXxFXQ/exec";
+$action_url="https://script.google.com/macros/s/AKfycbySwGlLT65fuIZLLoBtUPPP2trE4oRqoFtC1vSs1ABTYkh_NZ8l6kcvhWlA2cpOoCBR4Q/exec";
 
 
 $form1_des="
@@ -43,7 +42,7 @@ $form2_des2="
 
 $footer_des1="
 
-مجمع المسواك الطبي 
+مجمع قصر الجمال الطبي
 
 ";
 
@@ -82,7 +81,7 @@ $footer_des4="
 
 
 $before_after=0;
-$services=1;
+$services=0;
 $derma_services=0;
 $services2=0;
 $faq=0;

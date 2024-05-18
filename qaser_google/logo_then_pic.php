@@ -16,7 +16,7 @@
   <div class="d-flex justify-content-center mt-4 mr-4">
 
 
-<img src="https://ksa-ads.com/meswak_files/meswak_logo.png" alt="Logo"  class="img-fluid" height="300" width="300" >
+
 
 
 
@@ -38,11 +38,16 @@ foreach ($files as $file) {
     // Check if the file is an image
     if (is_file($filePath) && getimagesize($filePath) !== false) {
         // Display the image path
-        echo "Image: $filePath<br>";
+        //echo "Image: $filePath<br>";
 
 
 
-       echo ' <img src="/'.$filePath.' " alt="Image" width="200">';
+        
+
+
+       echo ' <img src="'.$filePath.'" alt="Logo"  class="img-fluid" height="300" width="300" >
+
+       ' ;
     }
 }
 ?>
@@ -62,7 +67,7 @@ foreach ($files as $file) {
 
     <?php
 
-//echo ' <img src="https://ksa-ads.com/meswak_files/tandt.png" alt="Image" width="200">';
+echo ' <img src="https://ksa-ads.com/meswak_files/tandt.png" alt="Image" width="200">';
 
 ?>
    

@@ -119,7 +119,7 @@
          
 <?php
 include "select_and_sub_select.php";
-include "model_locations.php";
+//include "model_locations.php";
 //include "select_and_sub_select2.php";
 //include "branches_model.php";
 //include "list_model.php";
@@ -153,7 +153,7 @@ include "model_locations.php";
 
 
 
-            <div class="mb-3">
+            <div class="mb-3" hidden>
 
 
 <select name="service"    class="form-select">
