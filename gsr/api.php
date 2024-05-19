@@ -97,6 +97,9 @@ curl_close($curl);
 $json_array=json_decode($curl_response, TRUE);
 
 
+
+
+
 $sheets_count=1;
 $sum_of_customers=0;
 
@@ -161,6 +164,17 @@ function get_sheet_data($sheet_id,$customer_name) {
     curl_close($curl);
     $json_array=json_decode($curl_response, TRUE);
 
+    //print_r( removeDuplicateObjectsByPhoneNumber($json_array) );
+
+  $json_array=removeDuplicateObjectsByPhoneNumber($json_array);
+
+if(  $json_array==0){
+
+  return;
+
+}
+  
+
     $customers_counter=0;
 
     foreach($json_array as $item) {
@@ -173,6 +187,9 @@ function get_sheet_data($sheet_id,$customer_name) {
 
 
       try {
+
+
+       
 
 
         $date_and_time = $item['date_and_time'];
@@ -249,3 +266,77 @@ function get_sheet_data($sheet_id,$customer_name) {
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+<?php
+
+
+function removeDuplicateObjectsByPhoneNumber($array) {
+  // Step 1: Remove duplicate objects by phone number
+ 
+
+
+
+
+
+
+
+
+  try {  
+    
+    $uniqueArray = [];
+    $phoneNumbers = [];
+  
+    foreach ($array as $object) {
+
+
+      if (  isset($object['error'])   )  
+        
+      {
+
+        echo "error";
+      
+break;
+
+      }
+
+        $phoneNumber = $object['phone'];
+  
+        if (!in_array($phoneNumber, $phoneNumbers)) {
+            $uniqueArray[] = $object;
+            $phoneNumbers[] = $phoneNumber;
+        }
+    }
+  
+    // Step 2: Return the unique array
+    return $uniqueArray;
+
+    
+
+}   
+        //catch block  
+catch (TypeError $e) {  
+    return 0;
+
+    echo "error rd";
+}  
+
+
+
+
+
+
+
+}
+
+
+
+?>
