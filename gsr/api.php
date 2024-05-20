@@ -170,6 +170,29 @@ function get_sheet_data($sheet_id,$customer_name) {
 
 if(  $json_array==0){
 
+
+
+
+
+  echo "
+  <tr>
+
+
+  <td class='text-center'>".$sheets_count."</td>
+    <td class='text-center'>". $customer_name."</td>
+    <td class='text-center'>محمي </td>
+    <td class='text-center'>
+      <a target='_blank' href='https://docs.google.com/spreadsheets/d/".$sheet_id."'>فتح</a>
+    </td>
+  </tr>
+  ";
+
+
+
+
+
+
+  
   return;
 
 }
