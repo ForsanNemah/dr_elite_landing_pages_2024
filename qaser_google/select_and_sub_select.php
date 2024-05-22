@@ -15,7 +15,7 @@
 
 </select>
 
-<select name="service" id="subSelect" class="form-control mt-4 mb-4" dir="rtl" required> 
+<select name="service2" id="subSelect" class="form-control mt-4 mb-4" dir="rtl" required> 
   <option value="" disabled selected>اختر الخدمة </option>
  
  
