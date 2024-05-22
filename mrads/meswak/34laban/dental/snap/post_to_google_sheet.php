@@ -102,8 +102,9 @@ alert(msg);
 
 //window.history.go(-1);
 
+window.history.go(-1);
 
-window.location.replace("index.php");
+//window.location.replace("index.php");
 
 </script>
 
