@@ -36,7 +36,7 @@
       color: #6c757d;
     }
   </style>
-  <title>Success Page</title>
+  <title> تم التسجيل بنجاح </title>
 </head>
 <body class="rtl">
   <div class="container">
