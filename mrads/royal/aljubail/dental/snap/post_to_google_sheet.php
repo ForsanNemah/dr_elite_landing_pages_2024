@@ -53,6 +53,8 @@ curl_close($curlHandle);
 
 if($api_notification==1){
         
+
+    echo "api notification";
     $w_app_msg1="  لديك تسجيل  جديد  باسم  ".$name;
     $w_app_msg2=$w_app_msg1." برقم جوال ".$phone;
     
