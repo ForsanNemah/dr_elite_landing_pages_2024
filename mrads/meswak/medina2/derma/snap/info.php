@@ -7,7 +7,7 @@ $website_name="
 ";
 
 
-$phone_main="966595776790";
+$phone_main="966594404448";
 
 $action_url="https://script.google.com/macros/s/AKfycbxYDIh4QivHBuGA-C99JupgVSaHZaBE4ghBz0KbugHxPe0dCNx6GX4MlbQ65hmAUr7g/exec";
 
@@ -88,8 +88,8 @@ $faq=0;
 $process=0;
 $services_images=0;
 $footer=1;
-$w_app_button=0;
-$api_notification=0;
+$w_app_button=1;
+$api_notification=1;
 $ad_source="snap ";
 
 
