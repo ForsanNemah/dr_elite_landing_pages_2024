@@ -7,7 +7,7 @@ $website_name="
 ";
 
 
-$phone_main="966550125882";
+$phone_main="966550125882‬";
 
 $action_url="https://script.google.com/macros/s/AKfycbytdf_fAxrmmiG1imd3H7kvPcipaGkVUGWZL-0h9Ilgu7bRBDy8xOCWS_pPGc-3IQIrIQ/exec";
 
