@@ -19,6 +19,7 @@
       <th class="text-center">الحملة</th>
       <th class="text-center">عدد المسجلين</th>
       <th class="text-center">رابط الشيت</th>
+      <th class="text-center"> رابط صفحة الهبوط</th>
     </tr>
   </thead>
   <tbody>
@@ -110,6 +111,8 @@ foreach($json_array as $item) {
     try {
         $customer_name = $item['branch'];
         $sheet_link = $item['sheet'];
+        $landing_page = $item['landing_page'];
+        
         if(empty($sheet_link)) {
             continue;
              
@@ -118,7 +121,7 @@ foreach($json_array as $item) {
         $sheet_link_1 = explode("/d/", $sheet_link);
         $sheet_link_2 = explode("/", $sheet_link_1[1]);
 
-        get_sheet_data($sheet_link_2[0],$customer_name);
+        get_sheet_data($sheet_link_2[0],$customer_name,$landing_page);
         $sheets_count++;
     
       }
@@ -141,7 +144,7 @@ echo '
 
 ';
 
-function get_sheet_data($sheet_id,$customer_name) {
+function get_sheet_data($sheet_id,$customer_name,$landing_page) {
   global  $from_date;
   global  $to_date;
   global  $sheets_count;
@@ -177,13 +180,22 @@ if(  $json_array==0){
   echo "
   <tr>
 
-
+  
   <td class='text-center'>".$sheets_count."</td>
     <td class='text-center'>". $customer_name."</td>
     <td class='text-center'>محمي </td>
     <td class='text-center'>
       <a target='_blank' href='https://docs.google.com/spreadsheets/d/".$sheet_id."'>فتح</a>
     </td>
+
+
+
+
+    <td class='text-center'>
+      <a target='_blank' href='".$landing_page."'>فتح</a>
+    </td>
+
+
   </tr>
   ";
 
@@ -270,6 +282,17 @@ if(  $json_array==0){
      <td class='text-center'>
        <a target='_blank' href='https://docs.google.com/spreadsheets/d/".$sheet_id."'>فتح</a>
      </td>
+
+
+
+
+     <td class='text-center'>
+     <a target='_blank' href='".$landing_page."'>فتح</a>
+   </td>
+
+
+
+
    </tr>
    ";
     
