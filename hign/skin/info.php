@@ -22,7 +22,7 @@ $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
 $site_name="عيادات الهجن الخبر ";
 $dr_name="  ";
-$add_title="عروض بداية العام 2024 ";
+$add_title="عروض الصيف 2024 ";
 
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";

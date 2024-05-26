@@ -9,6 +9,70 @@
       border-collapse: collapse;
     }
   </style>
+
+
+<?php
+
+ 
+function split_date_string($date_string) {
+  // Split the date string by the "/" character
+  $date_parts = explode("/", $date_string);
+
+  // Check if the date string has the expected format
+  if (count($date_parts) != 3) {
+      return null; // Return null if the format is not as expected
+  }
+
+  // Extract the individual parts of the date
+  $year = $date_parts[0];
+  $month = $date_parts[1];
+  $day_time = $date_parts[2];
+
+  // Split the day_time part by the " " character
+  $day_time_parts = explode(" ", $day_time);
+
+  // Extract the day and time
+  $day = $day_time_parts[0];
+  $time = $day_time_parts[1];
+
+  // Return an associative array with the individual date and time components
+  return array(
+      "year" => $year,
+      "month" => $month,
+      "day" => $day,
+      "time" => $time
+  );
+}
+
+
+
+function convert_date_format($date_string) {
+  $original_format = 'd/m/Y H:i:s';
+  $new_format = 'Y/m/d H:i:s';
+  
+  $datetime = DateTime::createFromFormat($original_format, $date_string);
+  if ($datetime !== false) {
+      return $datetime->format($new_format);
+  }
+  
+  // Try again with leading zeros for single-digit values
+  $date_parts = explode(' ', $date_string);
+  $date_parts[0] = str_pad($date_parts[0], 2, '0', STR_PAD_LEFT);
+  $date_parts[1] = str_pad($date_parts[1], 2, '0', STR_PAD_LEFT);
+  $time_parts = explode(':', $date_parts[1]);
+  $time_parts[0] = str_pad($time_parts[0], 2, '0', STR_PAD_LEFT);
+  $time_parts[1] = str_pad($time_parts[1], 2, '0', STR_PAD_LEFT);
+  $date_parts[1] = implode(':', $time_parts);
+  $datetime = DateTime::createFromFormat($original_format, implode(' ', $date_parts));
+  
+  if ($datetime !== false) {
+      return $datetime->format($new_format);
+  }
+  
+  return null;
+}
+
+?>
 </head>
 <body>
 
@@ -230,6 +294,53 @@ if(  $json_array==0){
         $date_and_time = $item['date_and_time'];
         $phone= $item['phone'];
         $date_and_time=str_replace('/', '/', $date_and_time);
+
+        echo "<br>";
+        echo   $date_and_time."       ";
+   
+        
+
+       
+$date_parts = split_date_string($date_and_time);
+
+if ($date_parts !== null) {
+
+
+  if($date_parts["year"]>=2024)
+  {
+//echo "date is ok ";
+  }else{
+    //echo "date need to be converted  ";
+
+
+  
+
+
+    $date_and_time=convert_date_format($date_and_time);
+    
+
+  }
+     
+} else {
+    echo "The input string does not have the expected format.";
+}
+
+
+
+
+
+echo   $date_and_time;
+
+echo "<br>";
+
+
+
+
+
+
+
+
+
 
         $a = new DateTime(".$date_and_time.");
         $b = new DateTime(".$from_date.");
