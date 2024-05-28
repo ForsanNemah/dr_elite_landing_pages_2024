@@ -78,7 +78,7 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', '31104507-bf96-4c29-a273-a1bad59360d8');
+snaptr('init', '664374b3-00f5-44df-94b9-c21b47c8728a');
 
 snaptr('track', 'PAGE_VIEW');
  
