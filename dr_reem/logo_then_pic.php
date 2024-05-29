@@ -28,7 +28,7 @@
 
 
 
-<div class="row col-2">
+<div class="row col-4">
 
 
 
@@ -56,7 +56,7 @@ foreach ($files as $file) {
       
 
 
-     echo ' <img src="'.$filePath.'" alt="Logo"  class="" width="150" height="150"   >
+     echo ' <img src="'.$filePath.'" alt="Logo"  class="responsive"     >
 
 
      ' ;
