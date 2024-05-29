@@ -58,7 +58,11 @@ foreach ($files as $file) {
 
      echo ' <img src="'.$filePath.'" alt="Logo"  class="img-fluid"   >
 
+
      ' ;
+
+
+    
   }
 }
 ?>
@@ -72,6 +76,8 @@ foreach ($files as $file) {
 
 
 </div>
+ 
+
 </div>
 
 
@@ -79,8 +85,21 @@ foreach ($files as $file) {
 
 
 
+<div class="d-flex justify-content-center ">
+
+<h2>عيادات ايفا-حفر الباطن </h2>
+ 
+
+</div>
 
 
+
+<div class="d-flex justify-content-center">
+
+ 
+<h4>عيادة الدكتورة نهى رزق </h4>
+
+</div>
 
 
 

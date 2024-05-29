@@ -153,7 +153,7 @@
 
 
 
-            <div class="mb-3" hidden>
+            <div class="mb-3"  >
 
 
 <select name="service"    class="form-select">
