@@ -5,6 +5,13 @@
         <div class="card-body form_bg" >
           <h2 class="card-title text-center mb-4" style="color: white;">
           <?php
+
+$form1_des2="
+
+
+وسيتم التواصل معك فورا
+
+";
           echo $form1_des;
           ?>
 <br>
