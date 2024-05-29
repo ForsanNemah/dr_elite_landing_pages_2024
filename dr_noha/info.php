@@ -9,9 +9,9 @@ $website_name="
 ";
 
 
-$phone_main="966568430828";
+$phone_main="966567643642";
 
-$action_url="https://script.google.com/macros/s/AKfycbx_gtMOKo-QBPN5VaRp3A4nzWd_dNCArPCLRdqThgCoJ2tVh-ybi1nbhEas2yiuV8-F/exec";
+$action_url="https://script.google.com/macros/s/AKfycbxp69HiC0Y-PirGPkMoJ5c1UFesdbh7EITIWvndxee4Pk66jgLW_BtRJzdMUy63gHc/exec";
 
 $sheet_url="https://docs.google.com/spreadsheets/d/15ubpqR4FwRw27laCgA71Ob6Xp1SkHgMdULFDnKpRbqo/edit?usp=sharing";
 
