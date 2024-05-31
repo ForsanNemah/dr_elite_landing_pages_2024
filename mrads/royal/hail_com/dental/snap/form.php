@@ -217,7 +217,7 @@ echo 'File not found.';
             <img  class="img-fluid" id="loading_gif" src="images/loading.gif" alt="Italian Trulli"  width="50" height="50" >
 
 
-              <button id="form1_button" type="submit" class="btn btn-primary btn-form rounded-pill">تسجيل</button>
+              <button style=" font-size: 20px;" id="form1_button" type="submit" class="btn btn-primary btn-form rounded-pill">سجل الان </button>
             </div>
           </form>
         </div>
