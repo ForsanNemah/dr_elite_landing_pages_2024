@@ -24,7 +24,7 @@
 
 
 
-<div class="d-flex justify-content-center mt-4 mr-4">
+<div class="d-flex justify-content-center  ">
 
 
 
@@ -124,7 +124,7 @@ echo $dr_name;
 
   <div class="row">
 
-  <div class="d-flex justify-content-center mt-4 mr-4">
+  <div class="d-flex justify-content-center  ">
 
 
 
@@ -145,7 +145,7 @@ echo $dr_name;
   </div>
 
 
-    <div class=" row mt-4  ">
+    <div class=" row    ">
 
     <?php
 
