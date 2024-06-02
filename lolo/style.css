@@ -1,11 +1,15 @@
 :root {
 
-    --form_bg: #515153;
+    --form_bg: #bc9632;
     --button_bg: #fc5c8d;
+    --reg_btn_bg: #444446;
+    
   }
 
 
 
+
+  
 
   .form_bg {
     
@@ -32,11 +36,31 @@ color: rgb(255, 255, 255);
 .btn-primary {
    
 
-    color: #000;
-    background-color: var(--button_bg);
+    color: #fdfdfd;
+    background-color: var(--reg_btn_bg);
     border-color: #0d6efd;
     
 }
+
+
+
+
+
+
+
+
+
+
+.btn-register{
+   
+
+  color: #000;
+  background-color: var(--button_bg);
+  border-color: #0d6efd;
+  
+}
+
+
 
 
 

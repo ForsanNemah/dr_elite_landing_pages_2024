@@ -12,11 +12,32 @@
     <div class="col-lg-6">
       <div class="card mt-2">
         <div class="card-body form_bg" >
-          <h2 class="card-title text-center mb-4" style="color: white;">
+          <h1 class="card-title text-center  pulsate" style="color: black;">
           <?php
           echo $form1_des;
           ?>
-<br>
+ 
+
+
+
+          </h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <h2 class="card-title text-center mb-4" style="color: white;">
+        
 
 <?php
           echo $form1_des2;
@@ -25,6 +46,7 @@
 
 
           </h2>
+
           <form method="post" action="post_to_google_sheet.php" onsubmit="form1_action()">
 
 

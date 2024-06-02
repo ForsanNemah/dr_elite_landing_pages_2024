@@ -145,11 +145,11 @@ echo $dr_name;
   </div>
 
 
-    <div class=" row    ">
+    <div class="row"    >
 
     <?php
 
-echo ' <img src="https://ksa-ads.com/meswak_files/tandt.png" alt="Image" width="200">';
+echo ' <img src="https://ksa-ads.com/meswak_files/tandt.png" alt="Image"  class="responsive">';
 
 ?>
    
