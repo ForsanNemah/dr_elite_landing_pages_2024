@@ -149,7 +149,7 @@ echo $dr_name;
 
     <?php
 
-echo ' <img src="tandt.png" alt="Image" width="200">';
+echo ' <img src="taby_only.png" alt="Image" width="200">';
 
 ?>
    
