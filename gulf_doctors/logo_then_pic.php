@@ -145,7 +145,7 @@ echo $dr_name;
   </div>
 
 
-    <div class=" row mt-4  ">
+    <div class=" row    ">
 
     <?php
 

@@ -10,7 +10,7 @@
 <div class="form-container" id="myform" data-aos-duration="1500"  data-aos="zoom-in-up">
   <div class="row justify-content-center custom_row_margin">
     <div class="col-lg-6">
-      <div class="card mt-5">
+      <div class="card  ">
         <div class="card-body form_bg" >
           <h2 class="card-title text-center mb-4" style="color: white;">
           <?php
