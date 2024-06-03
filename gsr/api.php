@@ -28,8 +28,10 @@ function processString($input_string) {
       
       $parts_0[1]=split_time_string($parts_0[1]);
 
-      
-      $final_date= implode("/", $reversed_parts)." ".$parts_0[1];
+      $only_date=fix_date(implode("/", $reversed_parts));
+
+$final_date=$only_date." ".$parts_0[1];
+      //$final_date= implode("/", $reversed_parts)." ".$parts_0[1];
       return  $final_date;
   }
   
@@ -64,6 +66,19 @@ function split_time_string($time_string) {
 }
 
 
+
+
+function fix_date($input_string) {
+  $parts = explode("/", $input_string);
+  
+  foreach ($parts as $key => $part) {
+      if (strlen($part) < 2) {
+          $parts[$key] = "0" . $part;
+      }
+  }
+  
+  return implode("/", $parts);
+}
 
  
 
@@ -288,24 +303,26 @@ if(  $json_array==0){
 
         $date_and_time = $item['date_and_time'];
         $phone= $item['phone'];
-        $date_and_time=str_replace('/', '/', $date_and_time);
+        //$date_and_time=str_replace('/', '/', $date_and_time);
         $date_and_time=str_replace('  ', ' ', $date_and_time);
 
+
+        /*
         echo "<br>";
         echo   $date_and_time."       ";
-   
+   */
         
 
         $date_and_time=processString($date_and_time);
 
 
-
+/*
 
 echo   $date_and_time."after";
 
 echo "<br>";
 
-
+*/
 
 
 
