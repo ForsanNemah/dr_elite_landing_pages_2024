@@ -1,59 +1,22 @@
-<?php
-
-
-include 'info.php';
-
-
-//echo $sheet_url;
- $sheet_link_1 = explode("/d/", $sheet_url);
-        $sheet_link_2 = explode("/", $sheet_link_1[1]);
-
-
-//echo $sheet_link_2[0];
+<script>
 
 
 
 
-
-$pixel_api = 'https://opensheet.elk.sh/'.$sheet_link_2[0].'/pixels';
-
-//echo $pixel_api;
-$response = file_get_contents($pixel_api);
-$keywords_content="";
-$description="";
-$counter=1;
-if ($response !== false) {
-    // Parse the response as JSON
-    $data = json_decode($response, true);
-
-    if ($data !== null) {
-        // Loop through the rows and display key-value pairs
-        foreach ($data as $row) {
-
-            $snap = $row['snap'];
-
-           if($counter==1){
-            $snap = $row['snap'];
-
-           }
-           $counter++;
-           
-            
-           
-            //echo "keyword:". $keyword;
-          
-            //echo "<br>";
-        }
+async function getPixelData() {
+  try {
+    const response = await fetch('https://opensheet.elk.sh/1oDQXyrvBOa5XTHzZA9x1q4Euh2SkZucPqB3up-JrF0Y/pixels');
+    if (!response.ok) {
+      throw new Error(`HTTP error ${response.status}`);
+    }
+    const data = await response.json();
+    //alert(JSON.stringify(data, null, 2));
+   
 
 
-      
-
-        //echo   "<h dir='rtl'>$keywords_content</h>" ;
-        //echo   "<h dir='rtl'>$description</h>" ;
-
-
-echo '
-
+    var object_0= data[0];
+    alert(object_0.snap);
+    
 
  
 
@@ -64,38 +27,27 @@ echo '
 
 
 
-<script type="text/javascript">
 
- 
 
+
+
+
+
+
+
+
+
+
+    return 0;
+  } catch (error) {
+    console.error('Error fetching pixel data:', error);
+    throw error;
+  }
+}
+
+getPixelData();
  
 
 
 
 </script>
-
-
-
-
-
-
-
-
-
-
-
-';
-
-    } else {
-        // Handle JSON parsing error
-        echo 'Failed to parse the JSON response.';
-    }
-} else {
-    // Handle error
-    echo 'Failed to retrieve the response.';
-}
-
-
-
-
-?>
