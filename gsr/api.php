@@ -335,7 +335,15 @@ echo "<br>";
         $b = new DateTime(".$from_date.");
         $c = new DateTime(".$to_date.");
 
+
+        echo "<br>" . $a->format('Y/m/d H:i:s') . "<br>";
+        echo "<br>" . $b->format('Y/m/d H:i:s') . "<br>";
+        echo "<br>" . $c->format('Y/m/d H:i:s') . "<br>";
+
+
+
         if (( $a >= $b and $a<=$c  and  strlen($phone)>=9    ) ){
+          echo "<br> in <br>";
             $customers_counter++;
             $sum_of_customers++;
         } 

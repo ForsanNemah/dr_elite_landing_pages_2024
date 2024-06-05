@@ -15,7 +15,7 @@ $phone_main="966552611534";
 
 $action_url="https://script.google.com/macros/s/AKfycbxN4PPStNMR-Z5jtyvkI9vz16Lat6bGA-NB6Ui3juAX2shDJECTuwKCAkY64l6WdnY/exec";
 
-$sheet_url="https://docs.google.com/spreadsheets/d/15ubpqR4FwRw27laCgA71Ob6Xp1SkHgMdULFDnKpRbqo/edit?usp=sharing";
+$sheet_url="https://docs.google.com/spreadsheets/d/1oDQXyrvBOa5XTHzZA9x1q4Euh2SkZucPqB3up-JrF0Y/edit?usp=sharing";
 
 $form1_des="
 احجز الان
