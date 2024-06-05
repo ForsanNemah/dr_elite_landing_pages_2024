@@ -26,7 +26,7 @@ $cta_text="احجز الان ";
 $form1_des2="
 
 
-واحصل على استشارة تسويقية مجانا 
+واحصل على كشف مجاني الان 
 
 ";
 
@@ -107,6 +107,7 @@ $w_app_button=1;
 $api_notification=1;
 $ad_source="snap ";
 $header1=1;
+$header2=0;
 $parteners=0;
 $about_image=0;
 

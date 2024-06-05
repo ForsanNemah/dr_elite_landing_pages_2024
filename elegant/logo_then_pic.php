@@ -149,7 +149,7 @@ echo $dr_name;
 
     <?php
 
-echo ' <img src="taby_only.png" alt="Image" width="200">';
+echo ' <img src="tandt.png" alt="Image" width="200">';
 
 ?>
    
@@ -158,10 +158,13 @@ echo ' <img src="taby_only.png" alt="Image" width="200">';
   </div>
 
 <?php
+/*
 $form1_des2="
 
 واحصل علي خصومات تصل الي 50%
 ";
+
+*/
 
 ?>
 
@@ -169,7 +172,7 @@ $form1_des2="
 
 
 //alert("wwe");
-
+/*
 var elements = document.getElementsByClassName('image-container');
 
 // Loop through the elements and hide them
@@ -177,7 +180,7 @@ for (var i = 0; i < elements.length; i++) {
   elements[i].style.display = 'none';
 }
 
-
+*/
 //alert("wwe2");
 
 

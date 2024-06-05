@@ -22,7 +22,22 @@ include "info.php";
 
 
 
-  <div >
+ 
+
+
+
+  <?php
+
+ 
+
+
+
+if($header2==1){
+  echo '
+
+
+
+ <div >
     <div class="text-center image-container">
       <img src="images/v.jpg" alt="Book Image Mobile" class="img-fluid mobile-image">
       <img src="images/h.jpg" alt="Book Image Desktop" class="img-fluid desktop-image">
@@ -38,6 +53,16 @@ include "info.php";
 
 
 
+
+
+';
+
+}
+ 
+
+
+
+?>
 
 
 
