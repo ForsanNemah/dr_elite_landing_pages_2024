@@ -79,7 +79,7 @@ u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
 snaptr('init', '664374b3-00f5-44df-94b9-c21b47c8728a');
-
+snaptr('init', '6dd030e2-9f73-4c57-a963-76eb6785f85');
 snaptr('track', 'PAGE_VIEW');
  
  
