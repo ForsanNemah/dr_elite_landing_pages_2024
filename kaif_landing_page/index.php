@@ -179,7 +179,7 @@ function open_store() {
         
 });
 
- // window.location.href = "https://www.kaifalshiuokh.com/";
+  window.location.href = "https://www.kaifalshiuokh.com/";
 }
 
 
