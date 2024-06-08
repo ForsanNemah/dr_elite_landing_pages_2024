@@ -73,7 +73,7 @@ if(1==1){
     
     send_w_app_msg_groups("120363216158625125",$w_app_msg4,"2000");
 
-
+    split_by_hyphen($emp_name,$w_app_msg4);
 
 
 
@@ -392,6 +392,18 @@ echo "w_api start 2";
 
 
 
+      function split_by_hyphen($input_string,$msg) {
+        $parts = explode("-", $input_string);
+        
+        /*
+        foreach ($parts as $part) {
+            echo $part . "\n";
+        }
+        */
+        
+        echo  $parts[1];
 
+        send_w_app_msg($parts[1],$msg,"2000");
+    }
 
 ?>
