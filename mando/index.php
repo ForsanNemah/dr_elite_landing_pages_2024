@@ -23,7 +23,7 @@ include "nav.php";
 
 
   <div >
-    <div class="text-center image-container">
+    <div class="text-center image-container mt-4">
       <img src="images/v.jpg" alt="Book Image Mobile" class="img-fluid mobile-image">
       <img src="images/h.jpg" alt="Book Image Desktop" class="img-fluid desktop-image">
       <a href="#myform">
