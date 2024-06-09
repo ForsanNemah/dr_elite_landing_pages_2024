@@ -22,31 +22,8 @@
         <li class="nav-item">
           <a class="nav-link" href="index.php" onclick="toggleNavbar()">الرئيسية</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about_id" onclick="toggleNavbar()">من نحن</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#services_id" onclick="toggleNavbar()">الخدمات</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="offers.php" onclick="toggleNavbar()">العروض </a>
-        </li>
-
-
-
-
-
-        <li class="nav-item" hidden>
-          <a class="nav-link" href="#customers_id" onclick="toggleNavbar()">عملاؤنا</a>
-        </li>
-
-
-
-        <li class="nav-item">
-          <a class="nav-link" href="#footer_id" onclick="toggleNavbar()">تواصل معنا</a>
-        </li>
+       
+      
       </ul>
     </div>
   </div>

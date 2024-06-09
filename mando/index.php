@@ -6,7 +6,7 @@
 
 include "head.php";
 include "info.php";
-//include "nav.php";
+include "nav.php";
 
 ?>
 
