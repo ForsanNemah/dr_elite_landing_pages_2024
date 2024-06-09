@@ -223,7 +223,8 @@ function get_sheet_data($sheet_id,$customer_name,$landing_page) {
   global  $to_date;
   global  $sheets_count;
   global  $sum_of_customers;
-
+  $uniqe_phones = array();
+  array_push($uniqe_phones,"966568430828");
     
     try {
        $defaults = array(
@@ -243,12 +244,12 @@ function get_sheet_data($sheet_id,$customer_name,$landing_page) {
 
     //print_r( removeDuplicateObjectsByPhoneNumber($json_array) );
 
-  $json_array=removeDuplicateObjectsByPhoneNumber($json_array);
+  //$json_array=removeDuplicateObjectsByPhoneNumber($json_array);
 
-if(  $json_array==0){
+if(  array_key_exists('error', $json_array)  ){
 
 
-
+// $json_array==0
 
 
   echo "
@@ -331,22 +332,52 @@ echo "<br>";
 
 
 
+
+
         $a = new DateTime(".$date_and_time.");
         $b = new DateTime(".$from_date.");
         $c = new DateTime(".$to_date.");
 
 
-        echo "<br>" . $a->format('Y/m/d H:i:s') . "<br>";
+        //echo "<br>" . $a->format('Y/m/d H:i:s') . "<br>";
         //echo "<br>" . $b->format('Y/m/d H:i:s') . "<br>";
         //echo "<br>" . $c->format('Y/m/d H:i:s') . "<br>";
 
 
 
         if (( $a >= $b and $a<=$c  and  strlen($phone)>=9    ) ){
-          echo "<br> in <br>";
+          //echo "<br> in <br>";
 
-            $customers_counter=$customers_counter+1;
-            $sum_of_customers=$sum_of_customers+1;
+         
+
+
+          
+//echo "<br> phone=".$phone."<br>";
+
+        
+
+          if (in_array($phone, $uniqe_phones)) {
+            //echo "Item 'item4' exists in the array.";
+        } else {
+          array_push($uniqe_phones,$phone);
+          $customers_counter=$customers_counter+1;
+          $sum_of_customers=$sum_of_customers+1;
+        }
+
+        
+
+/*
+        
+        $customers_counter=$customers_counter+1;
+        $sum_of_customers=$sum_of_customers+1;
+*/
+
+
+
+
+
+
+           
 
         } 
         else{
@@ -381,6 +412,10 @@ echo "<br>";
       
       
     }
+
+    //var_dump($uniqe_phones);
+
+
 
    echo "
    <tr>

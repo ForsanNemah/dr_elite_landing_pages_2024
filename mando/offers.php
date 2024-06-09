@@ -22,7 +22,13 @@ include "nav_offers.php";
 
 
 
+<?php
 
+
+include "offers_section.php";
+
+
+?>
 
 
 
