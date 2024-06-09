@@ -65,6 +65,7 @@ echo $website_name;
 
 
 
+/*
 ttq.identify({
  
 	 
@@ -73,7 +74,7 @@ ttq.identify({
 
 
 ttq.track('CompleteRegistration', {});
-
+*/
 
 	</script>
 
