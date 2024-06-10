@@ -65,7 +65,7 @@ include "info.php";
 
 <?php
 
-include "seo_keywords.php";
+//include "seo_keywords.php";
 
 
 ?>

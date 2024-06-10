@@ -206,7 +206,7 @@ var sha256 = function sha256(ascii) {
 
 <?php
 
-include "seo_keywords.php";
+//include "seo_keywords.php";
 
 ?>
 
