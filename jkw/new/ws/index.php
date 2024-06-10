@@ -665,9 +665,6 @@ include "footer.php";
   <script src="assets/js/main.js"></script>
 
 
-
-
-
   <script>
     $(document).ready(function() {
       //alert("1");

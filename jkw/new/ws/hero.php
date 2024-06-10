@@ -1,4 +1,4 @@
-<div class="st-hero-wrap st-gray-bg st-dynamic-bg overflow-hidden st-fixed-bg" data-src="assets/img/hero-bg.jpg">
+<div   class="st-hero-wrap st-gray-bg st-dynamic-bg overflow-hidden st-fixed-bg" data-src="assets/img/hero-bg.jpg" >
       <div class="st-hero st-style1">
         <div class="container">
           <div class="st-hero-text">
