@@ -84,14 +84,13 @@ snaptr('track','SIGN_UP', {
 
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-sm-12 text-center">
-        <img src="logo.png" alt="Brand Logo" class="responsive" >
-        
-      </div>
-      
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6 text-center">
+      <img src="logo.png" alt="Brand Logo" class="img-fluid">
     </div>
+  </div>
+</div>
 
 
     <div class="row">
