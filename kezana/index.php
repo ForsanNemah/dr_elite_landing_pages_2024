@@ -61,7 +61,7 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', '8772654e-0324-40d2-be94-a40694aa232c');
+snaptr('init', 'f6c1d321-4efd-46e2-b4d3-eabdbb1d2ce2');
 
 snaptr('track', 'PAGE_VIEW');
  
@@ -69,7 +69,10 @@ snaptr('track', 'PAGE_VIEW');
 
 
 
-
+snaptr('track','SIGN_UP', {
+  
+        
+});
 
 
 
@@ -180,10 +183,7 @@ snaptr('track', 'PAGE_VIEW');
 //open_store();
 function open_store() {
   
-  snaptr('track','SIGN_UP', {
   
-        
-});
 
   window.location.href = "https://api.whatsapp.com/send?phone=966599081837&text=%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA%20%D8%A7%D9%83%D8%AB%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%B9%D8%B1%D8%B6%20";
 }
