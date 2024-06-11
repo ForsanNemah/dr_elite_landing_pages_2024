@@ -22,19 +22,7 @@ include "info.php";
 
 
 
-  <div >
-    <div class="text-center image-container">
-      <img src="images/v.jpg" alt="Book Image Mobile" class="img-fluid mobile-image">
-      <img src="images/h.jpg" alt="Book Image Desktop" class="img-fluid desktop-image">
-      <a href="#myform">
 
-
-      <button class="btn btn-primary centered-button  btn-booking rounded-pill pulsate"> حجز استشارة مجانية</button>
-
-      </a>
-     
-    </div>
-  </div>
 
 
 
@@ -58,6 +46,38 @@ include "info.php";
 
 if($header1==1){
   include "logo_then_pic.php";
+
+}
+
+else{
+
+
+echo '
+
+
+
+  <div >
+    <div class="text-center image-container">
+      <img src="images/v.jpg" alt="Book Image Mobile" class="img-fluid mobile-image">
+      <img src="images/h.jpg" alt="Book Image Desktop" class="img-fluid desktop-image">
+      <a href="#myform">
+
+
+      <button class="btn btn-primary centered-button  btn-booking rounded-pill pulsate"> حجز استشارة مجانية</button>
+
+      </a>
+     
+    </div>
+  </div>
+
+
+
+
+
+
+';
+
+
 
 }
 include "form.php";

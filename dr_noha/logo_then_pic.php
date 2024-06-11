@@ -133,7 +133,7 @@ foreach ($files as $file) {
 
     <?php
 
-echo ' <img src="https://ksa-ads.com/meswak_files/tandt.png" alt="Image" width="200">';
+echo ' <img src="tandt.png" alt="Image" width="200">';
 
 ?>
    
