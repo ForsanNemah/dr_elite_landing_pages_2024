@@ -19,13 +19,18 @@ echo $userInfo['name'];
 
 //getAllUsers();
 
+$servername = "localhost";
+$username = "u640377465_gstm";
+$password = "Forsan@2023";
+$database = "u640377465_gstm";
+
 
  function getUserById($id) {
     // Database connection details
-    $servername = "localhost";
-    $username = "u640377465_gstm";
-    $password = "Forsan@2023";
-    $database = "u640377465_gstm";
+    global $servername;
+    global $username ;
+    global $password;
+    global $database ;
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $database);
@@ -70,10 +75,10 @@ echo $userInfo['name'];
 
 function getAllUsers() {
     // Database connection details
-    $servername = "localhost";
-    $username = "u640377465_gstm";
-    $password = "Forsan@2023";
-    $database = "u640377465_gstm";
+    global $servername;
+    global $username ;
+    global $password;
+    global $database ;
 
 
     // Create connection
@@ -262,11 +267,10 @@ function getAllUsers() {
 
 function getAllUsers_to_table() {
     // Database connection details
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $database = "gstm";
-
+    global $servername;
+    global $username ;
+    global $password;
+    global $database ;
     // Create connection
     $conn = new mysqli($servername, $username, $password, $database);
 
