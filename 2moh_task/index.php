@@ -2,5 +2,5 @@
 
 
 
-header("Location: /2moh_task");
+header("Location:2moh_tasks2/index.php");
 ?>
