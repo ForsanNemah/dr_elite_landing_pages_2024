@@ -98,21 +98,41 @@ snaptr('track','SIGN_UP', {
          <br>
      <h2>
 
-الخزانة الفريدة
+ 
 
 
 </h2>
+
+ 
+
+
+
+
+
+
+
+
+  <div class="row mt-4">
+      <div class="col-12 text-center">
+        <a     onclick="open_store()"   class="btn btn-success d-block mb-2 pulsing-button " >     الحصول على العرض  عبر واتساب</a>
+       
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
       </div>
       
     </div>
 
 
-    <div class="row mt-4">
-      <div class="col-12 text-center">
-        <a     onclick="open_store()"   class="btn btn-success d-block mb-2 animated-button" >     الحصول على العرض  عبر واتساب</a>
-       
-      </div>
-    </div>
+  
     <div class="row mt-4">
       <div class="col-12">
         <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -161,14 +181,7 @@ snaptr('track','SIGN_UP', {
     </div>
   </div>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      var buttons = document.querySelectorAll(".animated-button");
-      buttons.forEach(function(button) {
-        button.classList.add("animate__animated", "animate__slideInLeft");
-      });
-    });
-  </script>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
@@ -251,5 +264,44 @@ function detectDeviceType() {
   font-family: 'Tajawal', sans-serif;
                                                 
  }
+
+
+
+
+
+
+
+ .pulsing-button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      background-color: #4CAF50;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7);
+      }
+      70% {
+        transform: scale(1.1);
+        box-shadow: 0 0 0 10px rgba(76, 175, 80, 0);
+      }
+      100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(76, 175, 80, 0);
+      }
+    }
+ 
+
+
 
 </style>
