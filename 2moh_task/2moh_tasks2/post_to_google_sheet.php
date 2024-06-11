@@ -3,6 +3,7 @@
 error_reporting(E_ERROR | E_PARSE);
 ini_set('max_execution_time', '0');
 include "info.php";
+include "init.php";
 
 $name=$_POST['name'];
 $des=$_POST['des'];
@@ -13,6 +14,8 @@ $task_sender_name=$_POST['task_sender_name'];
 $emp_name=$_POST['emp_name'];
 $branch=$_POST['branch'];
 
+$userInfo_sender= getUserById($task_sender_name);
+$userInfo_reciver= getUserById($emp_name);
 //$source="snap 1";
 
 date_default_timezone_set("Asia/Riyadh");
@@ -32,8 +35,8 @@ $postParameter = array(
     'des' => $des,
     'files_url' => $files_url,
     'whatsapp_link' => $whatsapp_link,
-    'task_sender_name' => $task_sender_name,
-    'emp_name' => $emp_name,
+    'task_sender_name' => $userInfo_sender["name"],
+    'emp_name' => $userInfo_reciver['name'],
     'branch' => $branch,
     'source' => $source
     
@@ -50,12 +53,15 @@ $postParameter = array(
 
 if(1==1){
 
-    $action_url="https://script.google.com/macros/s/AKfycbx5AQiVvF8GlzMv6QQFh1_HlxvA2b5Egh4_lpYTG9vCrFCf_zdAxPGnrISYZPAZjhDl/exec";
+    //$action_url="https://script.google.com/macros/s/AKfycbx5AQiVvF8GlzMv6QQFh1_HlxvA2b5Egh4_lpYTG9vCrFCf_zdAxPGnrISYZPAZjhDl/exec";
         
 
 
- 
+   
+    $action_url= $userInfo_reciver['gs_api'];
 
+    //echo $action_url."action url ";
+    //die;
 
     $curlHandle = curl_init($action_url);
     curl_setopt($curlHandle, CURLOPT_POSTFIELDS, $postParameter);
@@ -72,13 +78,13 @@ if(1==1){
 
 
     $w_app_msg1=" مهمة جديدة  بعنوان  ".":".$name."\n";
-    $w_app_msg2=$w_app_msg1." مسند المهمة"." :".$task_sender_name."\n";
-    $w_app_msg3=$w_app_msg2." مستلم المهمة".":".$emp_name."\n";
+    $w_app_msg2=$w_app_msg1." مسند المهمة"." :".$userInfo_sender['name']."\n";
+    $w_app_msg3=$w_app_msg2." مستلم المهمة".":".$userInfo_reciver['name']."\n";
     $w_app_msg4=$w_app_msg3."وصف المهمة".":".$des."\n";
     
-    send_w_app_msg_groups("120363216158625125",$w_app_msg4,"2000");
-
-    split_by_hyphen($emp_name,$w_app_msg4);
+    //send_w_app_msg_groups("120363216158625125",$w_app_msg4,"2000");
+    send_w_app_msg($userInfo_reciver['phone'],$w_app_msg4,"2000");
+    //split_by_hyphen($w_app_msg4);
 
 
 
@@ -211,7 +217,7 @@ else{
 
 function send_w_app_msg($phone,$msg,$token) {
 
-
+ 
     
 
 echo "w_api start 2";
