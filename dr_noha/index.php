@@ -546,6 +546,8 @@ include "faq.php";
 
 
 
+include "slider.php";
+
 if($footer==1){
   
   include "map.php";
