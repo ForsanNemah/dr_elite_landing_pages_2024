@@ -76,13 +76,14 @@ snaptr('track', 'PAGE_VIEW');
     </script>
 
 
-
+<link href="https://fonts.cdnfonts.com/css/tajawal" rel="stylesheet">
+                
 
 </head>
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center">
+      <div class="col-12 col-sm-12 text-center">
         <img src="logo.png" alt="Brand Logo" class="responsive" >
         
       </div>
@@ -246,6 +247,10 @@ function detectDeviceType() {
 <style>
 
 
- 
+ body{
+
+  font-family: 'Tajawal', sans-serif;
+                                                
+ }
 
 </style>
