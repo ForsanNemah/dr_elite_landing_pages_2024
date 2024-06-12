@@ -114,7 +114,7 @@ snaptr('track','SIGN_UP', {
 
   <div class="row mt-4">
       <div class="col-12 text-center">
-        <a     onclick="open_store()"   class="btn btn-success d-block mb-2 pulsing-button " >     الحصول على العرض  عبر واتساب</a>
+        <a     onclick="open_store()"   class="btn btn-success d-block mb-2 pulsing-button " >        انقر هنا للحصول على العرض       </a>
        
       </div>
     </div>
