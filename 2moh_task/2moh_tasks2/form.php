@@ -77,11 +77,7 @@
 
 
 
-            <div class="mb-3">
-              
-              <input type="text" class="form-control" name="files_url" placeholder="رابط ملفات المهمة (اختياري)"  >
-            </div>
-
+          
 
 
 
