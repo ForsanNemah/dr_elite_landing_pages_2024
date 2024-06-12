@@ -38,7 +38,7 @@ if ($err) {
 
 	$response = json_decode($response, true);
 //$mediaUrl = $response['medias'][0]['url'];
-$mediaUrl = $response['url'];
+$mediaUrl = $response['medias'][0]['url'];
 
 echo  $mediaUrl;
 }
