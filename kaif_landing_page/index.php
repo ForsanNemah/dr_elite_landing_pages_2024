@@ -62,10 +62,11 @@ u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
 snaptr('init', '8772654e-0324-40d2-be94-a40694aa232c');
+snaptr('init', 'a699aaca-bb4b-4ec1-bd76-5081ea0a0eea');
 
 snaptr('track', 'PAGE_VIEW');
  
- 
+snaptr('track', 'ADD_TO_CART');
 
 
 
