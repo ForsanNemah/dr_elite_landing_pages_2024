@@ -22,21 +22,20 @@ echo $userInfo['name'];
 
 //getAllUsers();
 
-/*
 $servername = "localhost";
 $username = "u640377465_gstm";
 $password = "Forsan@2023";
 $database = "u640377465_gstm";
-*/
 
+/*
 $servername = "localhost";
 $username = "root";
 $password = "";
 $database = "gstm";
 
+*/
 
-
-//echo getUserById(1)['name'];
+//echo getUserById( $_SESSION['current_user_id'] )['name'];
 
 
 
