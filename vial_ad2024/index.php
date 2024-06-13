@@ -66,7 +66,7 @@ snaptr('init', 'a699aaca-bb4b-4ec1-bd76-5081ea0a0eea');
 
 snaptr('track', 'PAGE_VIEW');
  
- 
+snaptr('track', 'ADD_TO_CART');
 
 
 
