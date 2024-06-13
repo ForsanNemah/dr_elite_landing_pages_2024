@@ -4,9 +4,76 @@
 <?php
 
 
+
+session_start();
+
+
+
+include "init.php";
+
+
+
+if (isset($_SESSION['current_user_id'])) {
+  echo "The session variable 'username' is set.";
+} else {
+  echo "The session variable 'username' is not set.";
+  header("Location: login.php");
+
+}
+
 include "head.php";
 include "info.php";
-include "init.php";
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
 
 ?>
 

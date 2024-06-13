@@ -1,6 +1,9 @@
 <?php
 
 
+
+
+
 //$userInfo= getUserById(1);
 //print_r($userInfo);
 
@@ -19,10 +22,22 @@ echo $userInfo['name'];
 
 //getAllUsers();
 
+/*
 $servername = "localhost";
 $username = "u640377465_gstm";
 $password = "Forsan@2023";
 $database = "u640377465_gstm";
+*/
+
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "gstm";
+
+
+
+//echo getUserById(1)['name'];
+
 
 
  function getUserById($id) {
@@ -61,6 +76,76 @@ $database = "u640377465_gstm";
     $stmt->close();
     $conn->close();
 }
+
+
+
+
+
+
+
+
+
+ 
+
+
+ function check_login($id,$pass) {
+    // Database connection details
+    global $servername;
+    global $username ;
+    global $password;
+    global $database ;
+
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $database);
+
+    // Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+
+    // Prepare the SQL query
+    $stmt = $conn->prepare("SELECT * FROM users WHERE id = ?");
+    $stmt->bind_param("i", $id);
+
+    // Execute the query
+    $stmt->execute();
+    $result = $stmt->get_result();
+
+    // Check if there is a result
+    if ($result->num_rows > 0) {
+        // Fetch the user data
+        $user = $result->fetch_assoc();
+        //return $user;
+
+        if($user['id']==$id ){
+
+
+            if($user['pass']==$pass ){
+
+                return 1;
+
+
+            }
+            else{
+
+                return 0;
+            }
+
+
+        }
+        else{
+ return 0;
+
+        }
+    } else {
+        return 0; // Return null if no user is found
+    }
+
+    // Close the statement and connection
+    $stmt->close();
+    $conn->close();
+}
+
 
 
 

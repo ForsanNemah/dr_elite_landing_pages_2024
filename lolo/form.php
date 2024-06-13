@@ -239,7 +239,7 @@ echo 'File not found.';
             <img  class="img-fluid" id="loading_gif" src="images/loading.gif" alt="Italian Trulli"  width="50" height="50" >
 
 
-              <button id="form1_button" type="submit" class="btn btn-primary   rounded-pill">احجز الان</button>
+              <button id="form1_button" type="submit" class="btn btn-register  rounded-pill">احجز الان</button>
             </div>
           </form>
         </div>
@@ -290,7 +290,7 @@ function form1_action() {
   //alert("The form was submitted");
   
  
-  //document.getElementById("form1_button").disabled = true;
+  document.getElementById("form1_button").disabled = true;
  
 
   //$('#form1_button').hide();

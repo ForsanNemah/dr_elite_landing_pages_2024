@@ -1,3 +1,5 @@
+ 
+
 <div class="form-container" id="myform">
   <div class="row justify-content-center custom_row_margin">
     <div class="col-lg-6">
@@ -153,8 +155,8 @@
 
 
 <?php
-  echo '<option value="0"> مسند المهمة</option>';
-getAllUsers();
+  echo '<option value="'. getUserById( $_SESSION['current_user_id'] )['id'].'"> '. getUserById( $_SESSION['current_user_id'] )['name'].'  </option>';
+ 
 ?>
 
 </select>
