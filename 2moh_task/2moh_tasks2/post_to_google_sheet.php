@@ -13,6 +13,7 @@ $source=$_POST['source'];
 $task_sender_name=$_POST['task_sender_name'];
 $emp_name=$_POST['emp_name'];
 $branch=$_POST['branch'];
+$time=$_POST['time'];
 
 $userInfo_sender= getUserById($task_sender_name);
 $userInfo_reciver= getUserById($emp_name);
@@ -38,6 +39,7 @@ $postParameter = array(
     'task_sender_name' => $userInfo_sender["name"],
     'emp_name' => $userInfo_reciver['name'],
     'branch' => $branch,
+    'time' => $time,
     'source' => $source
     
 );
