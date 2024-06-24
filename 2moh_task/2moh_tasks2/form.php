@@ -224,7 +224,7 @@ getAllUsers();
               <div class="mb-3">
               
 
-              <input type="text" class="form-control" name="time" placeholder="عدد الدقائق الازمة" required>
+              <input type="number" class="form-control" name="time" placeholder="عدد الدقائق الازمة" required>
    
    
               </div>
