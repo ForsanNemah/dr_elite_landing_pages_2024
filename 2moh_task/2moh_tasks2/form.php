@@ -217,16 +217,7 @@ getAllUsers();
 
 
 
-<div class="mb-3">
-              
-
-
-              <textarea required class="form-control"  name="des" rows="4" cols="50" placeholder=" وصف المهمة" >
-  </textarea>
-   
-   
-              </div>
-
+ 
               
 
 
