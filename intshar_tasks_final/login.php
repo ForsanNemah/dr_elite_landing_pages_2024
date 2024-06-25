@@ -18,7 +18,7 @@
         </div>
         <div class="mb-3">
           <label for="exampleInputPassword1" class="form-label">كلمة المرور</label>
-          <input name="user_pass" type="password" class="form-control" id="pass_login_form">
+          <input name="user_pass" type="number" class="form-control" id="pass_login_form">
         </div>
         <div class="d-grid">
           <button type="submit" class="btn btn-primary">إرسال</button>

@@ -279,7 +279,17 @@ getAllUsers_to_table();
 
 
 
-
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="text-center">
+          <form action="logout.php" method="post">
+            <button class="btn btn-danger" type="submit">Logout</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
