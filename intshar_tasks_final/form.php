@@ -284,7 +284,7 @@ getAllUsers_to_table();
       <div class="col-md-6">
         <div class="text-center">
           <form action="logout.php" method="post">
-            <button class="btn btn-danger" type="submit">Logout</button>
+            <button class="btn btn-danger" type="submit">تسجيل خروج </button>
           </form>
         </div>
       </div>
