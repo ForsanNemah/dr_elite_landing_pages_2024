@@ -23,9 +23,9 @@ echo $userInfo['name'];
 //getAllUsers();
 
 $servername = "localhost";
-$username = "u640377465_gstm_intshar";
+$username = "u640377465_gstm_int2";
 $password = "Forsan@2023";
-$database = "u640377465_gstm_intshar";
+$database = "u640377465_gstm_int2";
 
 /*
 $servername = "localhost";
