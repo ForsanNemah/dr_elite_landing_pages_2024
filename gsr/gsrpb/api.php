@@ -207,7 +207,7 @@ foreach($json_array as $item) {
 
 }
 
-
+/*
 echo '
 
 <div class="d-flex justify-content-center">
@@ -218,12 +218,15 @@ echo '
 
 ';
 
+*/
+
 function get_sheet_data($sheet_id,$customer_name,$landing_page) {
   global  $from_date;
   global  $to_date;
   global  $sheets_count;
   global  $sum_of_customers;
   $uniqe_phones = array();
+  $branches_array = array();
   array_push($uniqe_phones,"966568430828");
     
     try {
@@ -363,6 +366,8 @@ echo "<br>";
           array_push($uniqe_phones,$phone);
           $customers_counter=$customers_counter+1;
           $sum_of_customers=$sum_of_customers+1;
+          
+          array_push($branches_array,$branch);
         }
 
         
@@ -417,9 +422,10 @@ echo "<br>";
     //var_dump($uniqe_phones);
 
 
+ 
 
    echo "
-   <tr>
+   <tr style='background-color: #f2f2f2;'>
 
  
    <td class='text-center'>".$sheets_count."</td>
@@ -442,6 +448,44 @@ echo "<br>";
    </tr>
    ";
     
+
+   
+ echo '
+ 
+ 
+
+ 
+
+
+
+
+ 
+ 
+ 
+
+ 
+ 
+ ';
+
+
+ 
+ $branch_counts = array_count_values($branches_array);
+ foreach ($branch_counts as $branch => $count) {
+     echo "<tr>";
+     echo "<td>$branch</td>";
+     echo "<td>$count</td>";
+     echo "</tr>";
+ }
+ 
+
+
+ echo '
+ 
+ 
+ 
+ ';
+
+
       }
       
       //catch exception
