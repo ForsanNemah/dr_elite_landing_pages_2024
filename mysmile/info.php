@@ -14,9 +14,9 @@ $dr_name="
 
 $phone_main="966568430828";
 
-$action_url="https://script.google.com/macros/s/AKfycbyaiqFVWgQCeesSzRoVTkjRtScc5Upz6sB_hWlxJUrQz4Yu19lEpIdgd7q70oLhIddC/exec";
+$action_url="https://script.google.com/macros/s/AKfycbyBDSihSxSOHmssDDWblre6RVxJbT08GirAp5qoGHoch6C2YsDAZzFD6awwSv39Hzg4/exec";
 
-$sheet_url="https://docs.google.com/spreadsheets/d/15ubpqR4FwRw27laCgA71Ob6Xp1SkHgMdULFDnKpRbqo/edit?usp=sharing";
+$sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF1xpPkV0_PTJK-MI/edit?usp=sharing";
 
 $form1_des="
 احجز الان
