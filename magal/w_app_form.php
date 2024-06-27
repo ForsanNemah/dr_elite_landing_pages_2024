@@ -261,10 +261,7 @@ function form2_action() {
   var event_phn=document.getElementById('phn_form2').value
  
 
-  snaptr('track','SIGN_UP', {
-  
-    'user_phone_number': sha256("966"+event_phn)          
-});
+ 
 
 
 
@@ -273,17 +270,29 @@ function form2_action() {
 
 
 
-
-
+  if( tiktok_pixel_on==1){
 
 ttq.identify({
- 
-	"phone_number":sha256("966"+event_phn)  // string. The phone number of the customer if available. It must be hashed with SHA-256 on the client side.
- 
+
+"phone_number":sha256("966"+event_phn)  // string. The phone number of the customer if available. It must be hashed with SHA-256 on the client side.
+
 });
 
 
 ttq.track('CompleteRegistration', {});
+
+}
+
+
+if( snap_pixel_on==1){
+
+
+snaptr('track','SIGN_UP', {
+
+'user_phone_number': sha256("966"+event_phn)          
+});
+
+}
 
 
 

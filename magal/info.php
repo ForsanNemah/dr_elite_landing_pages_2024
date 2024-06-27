@@ -3,7 +3,7 @@
 
 $website_name="
 
-مجمع ابتسامتي الطبي
+مجمع مجال الطبي 
  
 ";
 
@@ -14,7 +14,7 @@ $dr_name="
 
 $phone_main="966568430828";
 
-$action_url="https://script.google.com/macros/s/AKfycbyBDSihSxSOHmssDDWblre6RVxJbT08GirAp5qoGHoch6C2YsDAZzFD6awwSv39Hzg4/exec";
+$action_url="https://script.google.com/macros/s/AKfycbwd77VkAW2g5c8VboIwt8Lj0FtDmkaYDwMxvT1hLTb6er8aEISmB5JMjiJO6R48ugIhLA/exec";
 
 $sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF1xpPkV0_PTJK-MI/edit?usp=sharing";
 

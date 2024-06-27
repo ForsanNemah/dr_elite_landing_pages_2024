@@ -56,9 +56,10 @@ echo $website_name;
  
 <script>
 
-	var snap_pixel_on=0;
+	var snap_pixel_on=1;
+	var tiktok_pixel_on=1;
 
-	if( snap_pixel_on==1){
+	if( tiktok_pixel_on==1){
 
 
 		!function (w, d, t) {
@@ -68,7 +69,7 @@ echo $website_name;
 		  ttq.load('CN6FRCRC77UC2DCHBISG');
 		  ttq.page();
 		}(window, document, 'ttq');
-		
+
 
 	}
 		
@@ -80,8 +81,15 @@ echo $website_name;
 
 
  
+
+
 <script>
-var event_phn="<?=$phone_main?>";
+
+
+
+if(snap_pixel_on==1)
+{
+var event_phn="966568430828";
 var event_email="info@wmc-ksa.com";
 
 (function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
@@ -101,7 +109,7 @@ snaptr('init', 'b00f5a25-e6f1-462e-954c-e0ad9a423e01');
 
 snaptr('track', 'PAGE_VIEW');
 
-
+}
 
     </script>
 
