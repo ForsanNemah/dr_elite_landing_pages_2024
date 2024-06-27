@@ -67,7 +67,7 @@ echo $website_name;
 
  
 <script>
-var event_phn="<?=$phone_main?>";
+var event_phn="966568430828";
 var event_email="info@wmc-ksa.com";
 
 (function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
