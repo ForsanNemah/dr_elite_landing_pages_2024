@@ -1,30 +1,31 @@
 <?php
 
+ 
 
 
 // Check if the request method is POST
-if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-    $profile_id = $_GET['profile_id'];
-    $phone = $_GET['phone'];
-    $msg = $_GET['msg'];
-    $auth = $_GET['auth'];
+    $profile_id = $_POST['profile_id'];
+    $phone = $_POST['phone'];
+    $msg = $_POST['msg'];
+    $auth = $_POST['auth'];
 
     // Check if the required parameters are set
-    if (isset($_GET['auth']) && isset($_GET['profile_id']) && isset($_GET['phone']) && isset($_GET['msg'])) {
+    if (isset($_POST['auth']) && isset($_POST['profile_id']) && isset($_POST['phone']) && isset($_POST['msg'])) {
         // Retrieve the values of the parameters
       
 
         send_text_msg();
 
         // Perform your desired actions with the submitted data
-        echo "profile_id: $profile_id, phone: $phone, msg: $msg";
+       // echo "profile_id: $profile_id, phone: $phone, msg: $msg";
     } else {
         echo "One or more required parameters are missing.";
-        echo  "vars".$profile_id .$phone.$msg.$auth;
+        //echo  "vars".$profile_id .$phone.$msg.$auth;
     }
 } else {
-    echo "This script should be accessed via a GET request.";
+    echo "This script should be accessed via a _POST request.";
 }
 
 
