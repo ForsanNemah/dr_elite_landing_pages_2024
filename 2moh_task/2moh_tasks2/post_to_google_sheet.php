@@ -476,7 +476,7 @@ curl_setopt_array($curl, array(
     CURLOPT_FOLLOWLOCATION => true,
     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
     CURLOPT_CUSTOMREQUEST => 'POST',
-    CURLOPT_POSTFIELDS => json_encode($data),
+    CURLOPT_POSTFIELDS => $data ,
     CURLOPT_HTTPHEADER => array(
         'Content-Type: application/json',
         'Authorization: ' . $auth
