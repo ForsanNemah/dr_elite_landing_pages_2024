@@ -454,6 +454,7 @@ echo "w_api start 2";
 
 
     function send_with_wapi($auth, $profileId, $phone, $message) {
+        
         $curl = curl_init();
     
         curl_setopt_array($curl, array(
