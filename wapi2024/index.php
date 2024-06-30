@@ -5,13 +5,16 @@
 
 // Check if the request method is POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    
+    $profile_id = $_POST['profile_id'];
+    $phone = $_POST['phone'];
+    $msg = $_POST['msg'];
+    $auth = $_POST['auth'];
+
     // Check if the required parameters are set
     if (isset($_POST['auth']) && isset($_POST['profile_id']) && isset($_POST['phone']) && isset($_POST['msg'])) {
         // Retrieve the values of the parameters
-        $profile_id = $_POST['profile_id'];
-        $phone = $_POST['phone'];
-        $msg = $_POST['msg'];
-        $auth = $_POST['auth'];
+      
 
         send_text_msg();
 
@@ -19,6 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo "profile_id: $profile_id, phone: $phone, msg: $msg";
     } else {
         echo "One or more required parameters are missing.";
+        echo  $profile_id .$phone.$msg.$auth;
     }
 } else {
     echo "This script should be accessed via a POST request.";
@@ -54,8 +58,8 @@ curl_setopt_array($curl, array(
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => 'POST',
   CURLOPT_POSTFIELDS =>'{
-  "body": $msg,
-  "recipient": $phone
+  "body":"'.$msg.'",
+  "recipient": "'.$phone.'"
 }',
   CURLOPT_HTTPHEADER => array(
     'Authorization:'.  $auth,
