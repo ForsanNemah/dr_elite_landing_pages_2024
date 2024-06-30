@@ -459,7 +459,7 @@ echo "w_api start 2";
 
 
 
-        echo "". $auth ."". $profileId ."". $phone.$message ;
+       // echo "". $auth ."". $profileId ."". $phone.$message ;
         $curl = curl_init();
 
 $data = array(
@@ -480,7 +480,7 @@ curl_setopt_array($curl, array(
     CURLOPT_CUSTOMREQUEST => 'POST',
     CURLOPT_POSTFIELDS => $data ,
     CURLOPT_HTTPHEADER => array(
-        'Content-Type: application/json',
+        'Content-Type: application/x-www-form-urlencoded',
         'Authorization: ' . $auth
     ),
 ));
