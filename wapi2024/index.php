@@ -4,7 +4,7 @@
 
 
 // Check if the request method is POST
-if ($_SERVER['REQUEST_METHOD'] === 'get') {
+if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 
     $profile_id = $_GET['profile_id'];
     $phone = $_GET['phone'];
