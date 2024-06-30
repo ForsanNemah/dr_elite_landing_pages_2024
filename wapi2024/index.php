@@ -2,7 +2,7 @@
 
 
 
-<?php
+
 // Check if the request method is POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Check if the required parameters are set
@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 } else {
     echo "This script should be accessed via a POST request.";
 }
-?>
+
 
 
 
