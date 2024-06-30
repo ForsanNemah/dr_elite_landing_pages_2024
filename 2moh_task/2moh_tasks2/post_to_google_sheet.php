@@ -80,10 +80,10 @@ if(1==1){
 
 
     $w_app_msg1=" مهمة جديدة  بعنوان  "."/".$name."";
-    $w_app_msg2=$w_app_msg1." مسند المهمة"." /".$userInfo_sender['name']."\n";
-    $w_app_msg3=$w_app_msg2." مستلم المهمة"."/".$userInfo_reciver['name']."\n";
-    $w_app_msg4=$w_app_msg3."وصف المهمة"."/".$des."\n";
-    $w_app_msg5=$w_app_msg4."  الزمن الازم" ."/".$time." دقيقة"."\n";
+    $w_app_msg2=$w_app_msg1." مسند المهمة"." /".$userInfo_sender['name']."";
+    $w_app_msg3=$w_app_msg2." مستلم المهمة"."/".$userInfo_reciver['name']."";
+    $w_app_msg4=$w_app_msg3."وصف المهمة"."/".$des."";
+    $w_app_msg5=$w_app_msg4."  الزمن الازم" ."/".$time." دقيقة"."";
     
 
 
@@ -91,13 +91,13 @@ if(1==1){
 
  
 
-$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', '120363216158625125@g.us',  $w_app_msg1);
+$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', '120363216158625125@g.us',  $w_app_msg5);
 
 echo print_r($result) ;
 
 
 
-$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', $userInfo_reciver['phone']."@c.us", "test 2");
+$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', $userInfo_reciver['phone']."@c.us", $w_app_msg5);
 
 
 
