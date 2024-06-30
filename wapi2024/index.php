@@ -1,6 +1,6 @@
 <?php
 
- 
+header("Access-Control-Allow-Origin: *");
 
 
 // Check if the request method is POST
@@ -58,7 +58,7 @@ curl_setopt_array($curl, array(
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => 'POST',
   CURLOPT_POSTFIELDS =>'{
-  "body":"'.$msg).'",
+  "body":"'.urldecode($msg).'",
   "recipient": "'.$phone.'"
 }',
   CURLOPT_HTTPHEADER => array(
