@@ -5,7 +5,7 @@
 
 // Check if the request method is POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    
+
     $profile_id = $_POST['profile_id'];
     $phone = $_POST['phone'];
     $msg = $_POST['msg'];
@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo "profile_id: $profile_id, phone: $phone, msg: $msg";
     } else {
         echo "One or more required parameters are missing.";
-        echo  $profile_id .$phone.$msg.$auth;
+        echo  "vars".$profile_id .$phone.$msg.$auth;
     }
 } else {
     echo "This script should be accessed via a POST request.";
