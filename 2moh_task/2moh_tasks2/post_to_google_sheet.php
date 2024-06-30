@@ -458,9 +458,12 @@ echo "w_api start 2";
  
 
 
-
-       // echo "". $auth ."". $profileId ."". $phone.$message ;
-        $curl = curl_init();
+        $data = array(
+            'auth' => ''.$auth,
+            'profile_id' => ''.$profileId,
+            'phone' => ''.$phone,
+            'msg' => ''.$message,
+        );
 
 
         
@@ -477,7 +480,7 @@ curl_setopt_array($curl, array(
   CURLOPT_FOLLOWLOCATION => true,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => 'POST',
-  CURLOPT_POSTFIELDS => 'auth=40703bb7812b727ec01c24f2da518c407342559c&profile_id=aedd0dc2-8453&phone=966568430828&msg=uiop%5B\'',
+  CURLOPT_POSTFIELDS =>  $data,
   CURLOPT_HTTPHEADER => array(
     'Content-Type: application/x-www-form-urlencoded',
     'Authorization: 40703bb7812b727ec01c24f2da518c407342559c'
