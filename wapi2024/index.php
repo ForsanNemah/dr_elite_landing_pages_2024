@@ -4,15 +4,15 @@
 
 
 // Check if the request method is POST
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if ($_SERVER['REQUEST_METHOD'] === 'get') {
 
-    $profile_id = $_POST['profile_id'];
-    $phone = $_POST['phone'];
-    $msg = $_POST['msg'];
-    $auth = $_POST['auth'];
+    $profile_id = $_GET['profile_id'];
+    $phone = $_GET['phone'];
+    $msg = $_GET['msg'];
+    $auth = $_GET['auth'];
 
     // Check if the required parameters are set
-    if (isset($_POST['auth']) && isset($_POST['profile_id']) && isset($_POST['phone']) && isset($_POST['msg'])) {
+    if (isset($_GET['auth']) && isset($_GET['profile_id']) && isset($_GET['phone']) && isset($_GET['msg'])) {
         // Retrieve the values of the parameters
       
 
@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo  "vars".$profile_id .$phone.$msg.$auth;
     }
 } else {
-    echo "This script should be accessed via a POST request.";
+    echo "This script should be accessed via a GET request.";
 }
 
 
