@@ -87,11 +87,9 @@ if(1==1){
     
 
 
-    $auth = "40703bb7812b727ec01c24f2da518c407342559c";
-$profile_id = "aedd0dc2-8453";
  
 
-$result = send_to_wapi($auth, $profile_id, "120363216158625125@g.us", $w_app_msg5);
+$result = send_to_wapi("40703bb7812b727ec01c24f2da518c407342559c", "aedd0dc2-8453", "120363216158625125@g.us", $w_app_msg5);
 
 if ($result['status_code'] == 200) {
     echo "Request successful. Response: " . $result['response'];
@@ -106,9 +104,9 @@ if ($result['status_code'] == 200) {
 
 
 
+$result = send_to_wapi("40703bb7812b727ec01c24f2da518c407342559c", "aedd0dc2-8453", $userInfo_reciver['phone']."@c.us", $w_app_msg5);
 
-
-$result = send_to_wapi($auth, $profile_id, $userInfo_reciver['phone']."@c.us", $w_app_msg5);
+ 
 
 if ($result['status_code'] == 200) {
     echo "Request successful. Response: " . $result['response'];
