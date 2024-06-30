@@ -79,11 +79,11 @@ if(1==1){
 
 
 
-    $w_app_msg1=" مهمة جديدة  بعنوان  "."/".$name."";
-    $w_app_msg2=$w_app_msg1." مسند المهمة"." /".$userInfo_sender['name']."";
-    $w_app_msg3=$w_app_msg2." مستلم المهمة"."/".$userInfo_reciver['name']."";
-    $w_app_msg4=$w_app_msg3."وصف المهمة"."/".$des."";
-    $w_app_msg5=$w_app_msg4."  الزمن الازم" ."/".$time." دقيقة"."";
+    $w_app_msg1=" مهمة جديدة  بعنوان  ".":".$name."/";
+    $w_app_msg2=$w_app_msg1." مسند المهمة"." :".$userInfo_sender['name']."/";
+    $w_app_msg3=$w_app_msg2." مستلم المهمة".":".$userInfo_reciver['name']."";
+    $w_app_msg4=$w_app_msg3."وصف المهمة".":".$des."/";
+    $w_app_msg5=$w_app_msg4."  الزمن الازم" .":".$time." دقيقة"."";
     
 
 
@@ -99,6 +99,49 @@ echo print_r($result) ;
 
 $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', $userInfo_reciver['phone']."@c.us", $w_app_msg5);
 
+
+
+
+function send_with_wapi($auth, $profileId, $phone, $message) {
+    $curl = curl_init();
+
+    curl_setopt_array($curl, array(
+        CURLOPT_URL => 'https://ads.2moh.net/wapi2024/',
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_ENCODING => '',
+        CURLOPT_MAXREDIRS => 10,
+        CURLOPT_TIMEOUT => 0,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+        CURLOPT_CUSTOMREQUEST => 'POST',
+        CURLOPT_POSTFIELDS => http_build_query([
+            'auth' => $auth,
+            'profile_id' => $profileId,
+            'phone' => $phone,
+            'msg' => $message
+        ]),
+        CURLOPT_HTTPHEADER => array(
+            'Content-Type: application/x-www-form-urlencoded',
+            'Authorization: ' . $auth
+        ),
+    ));
+
+    $response = curl_exec($curl);
+
+    if ($response === false) {
+        $error = curl_error($curl);
+        curl_close($curl);
+        return $error;
+    }
+
+    $statusCode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+    curl_close($curl);
+
+    return [
+        'status_code' => $statusCode,
+        'response' => $response
+    ];
+}
 
 
  
@@ -454,48 +497,5 @@ echo "w_api start 2";
 
 
 
-
-
-
-    function send_with_wapi($auth, $profileId, $phone, $message) {
-        $curl = curl_init();
-    
-        curl_setopt_array($curl, array(
-            CURLOPT_URL => 'https://ads.2moh.net/wapi2024/',
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_ENCODING => '',
-            CURLOPT_MAXREDIRS => 10,
-            CURLOPT_TIMEOUT => 0,
-            CURLOPT_FOLLOWLOCATION => true,
-            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-            CURLOPT_CUSTOMREQUEST => 'POST',
-            CURLOPT_POSTFIELDS => http_build_query([
-                'auth' => $auth,
-                'profile_id' => $profileId,
-                'phone' => $phone,
-                'msg' => $message
-            ]),
-            CURLOPT_HTTPHEADER => array(
-                'Content-Type: application/x-www-form-urlencoded',
-                'Authorization: ' . $auth
-            ),
-        ));
-    
-        $response = curl_exec($curl);
-    
-        if ($response === false) {
-            $error = curl_error($curl);
-            curl_close($curl);
-            return $error;
-        }
-    
-        $statusCode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
-        curl_close($curl);
-    
-        return [
-            'status_code' => $statusCode,
-            'response' => $response
-        ];
-    }
 
 ?>
