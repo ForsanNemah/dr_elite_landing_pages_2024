@@ -83,7 +83,7 @@ if(1==1){
 
     $w_app_msg2=$w_app_msg1." مسند المهمة"." :".$userInfo_sender['name']."\\n";
     $w_app_msg3=$w_app_msg2." مستلم المهمة".":".$userInfo_reciver['name']."\\n";
-    $w_app_msg4=$w_app_msg3."وصف المهمة".":".$des."'\\n'";
+    $w_app_msg4=$w_app_msg3."وصف المهمة".":".$des."\\n";
     $w_app_msg5=$w_app_msg4."  الزمن الازم" .":".$time." دقيقة"."\\n";
     
 
@@ -140,7 +140,7 @@ $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8
  
  //window.history.go(-1);
  
- //window.history.go(-1);
+ window.history.go(-1);
  
  //window.location.replace("https://almeswak.ksa-ads.com/34laban/dental/snap/done.php");
  
