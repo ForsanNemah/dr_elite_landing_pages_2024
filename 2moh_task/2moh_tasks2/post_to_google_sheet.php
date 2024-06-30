@@ -79,15 +79,16 @@ if(1==1){
 
 
 
-    $w_app_msg1=" مهمة جديدة  بعنوان  ".":".$name."|";
-    $w_app_msg2=$w_app_msg1." مسند المهمة"." :".$userInfo_sender['name']."|";
-    $w_app_msg3=$w_app_msg2." مستلم المهمة".":".$userInfo_reciver['name']."|";
-    $w_app_msg4=$w_app_msg3."وصف المهمة".":".$des."/";
-    $w_app_msg5=$w_app_msg4."  الزمن الازم" .":".$time." دقيقة"."|";
+    $w_app_msg1=" مهمة جديدة  بعنوان  ".":".$name."\n";
+    $w_app_msg2=$w_app_msg1." مسند المهمة"." :".$userInfo_sender['name']."\n";
+    $w_app_msg3=$w_app_msg2." مستلم المهمة".":".$userInfo_reciver['name']."\n";
+    $w_app_msg4=$w_app_msg3."وصف المهمة".":".$des."\n";
+    $w_app_msg5=$w_app_msg4."  الزمن الازم" .":".$time." دقيقة"."\n";
     
 
 
  
+    echo $w_app_msg5;
 
  
 
