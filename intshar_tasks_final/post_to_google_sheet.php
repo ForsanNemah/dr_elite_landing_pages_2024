@@ -79,11 +79,11 @@ if(1==1){
 
 
 
-    $w_app_msg1=" مهمة جديدة  بعنوان  ".":".$name."\n";
-    $w_app_msg2=$w_app_msg1." مسند المهمة"." :".$userInfo_sender['name']."\n";
-    $w_app_msg3=$w_app_msg2." مستلم المهمة".":".$userInfo_reciver['name']."\n";
-    $w_app_msg4=$w_app_msg3."وصف المهمة".":".$des."\n";
-    $w_app_msg5=$w_app_msg4."  الزمن الازم" .":".$time." دقيقة"."\n";
+    $w_app_msg1=" مهمة جديدة  بعنوان  ".":".$name."\\n";
+    $w_app_msg2=$w_app_msg1." مسند المهمة"." :".$userInfo_sender['name']."\\n";
+    $w_app_msg3=$w_app_msg2." مستلم المهمة".":".$userInfo_reciver['name']."\\n";
+    $w_app_msg4=$w_app_msg3."وصف المهمة".":".$des."\\n";
+    $w_app_msg5=$w_app_msg4."  الزمن الازم" .":".$time." دقيقة"."\\n";
     
     send_w_app_msg_groups("120363249383561282",$w_app_msg5,"2000");
     send_w_app_msg($userInfo_reciver['phone'],$w_app_msg5,"2000");
