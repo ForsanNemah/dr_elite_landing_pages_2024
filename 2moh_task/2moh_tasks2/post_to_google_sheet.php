@@ -151,7 +151,7 @@ if ($result['status_code'] == 200) {
  
  //window.history.go(-1);
  
- window.history.go(-1);
+ //window.history.go(-1);
  
  //window.location.replace("https://almeswak.ksa-ads.com/34laban/dental/snap/done.php");
  
