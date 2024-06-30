@@ -462,7 +462,7 @@ echo "w_api start 2";
        // echo "". $auth ."". $profileId ."". $phone.$message ;
         $curl = curl_init();
 
-$data = array(
+$postFields = array(
     'auth' => $auth,
     'profile_id' => $profileId,
     'phone' => $phone,
@@ -478,28 +478,20 @@ curl_setopt_array($curl, array(
     CURLOPT_FOLLOWLOCATION => true,
     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
     CURLOPT_CUSTOMREQUEST => 'POST',
-    CURLOPT_POSTFIELDS => $data ,
+    CURLOPT_POSTFIELDS => $postFields,
     CURLOPT_HTTPHEADER => array(
         'Content-Type: application/x-www-form-urlencoded',
-        'Authorization: ' . $auth
+        'Authorization: ' .$auth
     ),
 ));
 
 $response = curl_exec($curl);
 
-if ($response === false) {
-    $error = curl_error($curl);
-    curl_close($curl);
-    return $error;
-}
-
-$statusCode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
 curl_close($curl);
+return $response;
 
-return [
-    'status_code' => $statusCode,
-    'response' => $response
-];
+
+
 
     }
     
