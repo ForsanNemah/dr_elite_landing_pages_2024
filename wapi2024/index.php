@@ -46,6 +46,18 @@ function send_text_msg() {
     global $profile_id, $phone, $msg,  $auth;
 
 
+    $data = array(
+       
+        'profile_id' => $profile_id,
+        'phone' => $phone,
+        'msg' => $msg,
+        'auth' => $auth
+    );
+    
+    $json_data = json_encode($data);
+
+
+
     $curl = curl_init();
 
 curl_setopt_array($curl, array(
@@ -57,10 +69,7 @@ curl_setopt_array($curl, array(
   CURLOPT_FOLLOWLOCATION => true,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => 'POST',
-  CURLOPT_POSTFIELDS =>'{
-  "body":'.$msg.',
-  "recipient": '.$phone.'
-}',
+  CURLOPT_POSTFIELDS =>$json_data,
   CURLOPT_HTTPHEADER => array(
     'Authorization:'.  $auth,
     'Content-Type: application/json'
