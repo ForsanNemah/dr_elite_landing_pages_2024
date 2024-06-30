@@ -459,7 +459,7 @@ echo "w_api start 2";
 
 
 
-        echo "". $auth ."". $profileId ."". $phone ;
+        echo "". $auth ."". $profileId ."". $phone.$message ;
         $curl = curl_init();
 
 $data = array(
