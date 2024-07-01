@@ -149,7 +149,7 @@ echo $dr_name;
 
     <?php
 
-echo ' <img src="tandt.png" alt="Image"  class="responsive">';
+//echo ' <img src="tandt.png" alt="Image"  class="responsive">';
 
 ?>
    
