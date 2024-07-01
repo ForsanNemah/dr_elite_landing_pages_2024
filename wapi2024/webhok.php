@@ -19,9 +19,12 @@ if(isset($event)){
 
     $chat_id = $event['messages'][0]['chatId'];
 $message = $event['messages'][0]['body'];
+$profile_id = $event['profile_id'][0]['body'];
+
+
 
     
-    $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', '966568430828@c.us', $chat_id. $message);
+    $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', '966568430828@c.us', $chat_id. $message.$profile_id);
 
     //echo print_r($result) ;
 
