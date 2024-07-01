@@ -19,7 +19,7 @@ if(isset($event)){
 
     $chat_id = $event['messages'][0]['chatId'];
 $message = $event['messages'][0]['body'];
-$profile_id = $event['profile_id'][0]['body'];
+$profile_id = $event['messages'][0]['profile_id'];
 
 
 
