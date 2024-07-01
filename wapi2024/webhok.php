@@ -23,10 +23,27 @@ $profile_id = $event['messages'][0]['profile_id'];
 
 
 
-    
-    $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', '966568430828@c.us', $chat_id. $message.$profile_id);
 
-    //echo print_r($result) ;
+
+$userInfo= getUserByUserProfile($profile_id);
+
+if ($userInfo !== null) {
+$user_name= $userInfo['name'];
+$token= $userInfo['token'];
+$sheet_url= $userInfo['sheet_url'];
+ $sheet_id=getSheetIdFromUrl($sheet_url);
+
+
+get_sheet_msgs($sheet_id,$user_name,$token,$sheet_url,$message);
+
+} else {
+    echo "User not found.";
+}
+
+
+
+    
+
 
 
 
@@ -163,19 +180,77 @@ $database = "gstm";
 
 
 
-
-$userInfo= getUserByUserProfile("3d9d4721-1b46");
-//print_r($userInfo);
-
-
-if ($userInfo !== null) {
-     
-
-echo $userInfo['name'];
-
-} else {
-    echo "User not found.";
+ 
+function getSheetIdFromUrl($url) {
+    $parts = parse_url($url);
+    $path = explode('/', $parts['path']);
+    $id = $path[3];
+    return $id;
 }
+
+
+
+function get_sheet_msgs($sheet_id,$user_name,$token,$sheet_url,$message)   
+{
+    $url = 'https://opensheet.elk.sh/'.$sheet_id.'/Sheet1';
+
+    $keywords_content = "";
+    $description = "";
+    $counter = 1;
+    
+    try {
+        $response = file_get_contents($url);
+    
+        if ($response !== false) {
+            // Parse the response as JSON
+            $data = json_decode($response, true);
+    
+            if ($data !== null) {
+                // Loop through the rows and display key-value pairs
+                foreach ($data as $row) {
+
+
+
+                    $a = $row['a'];
+                    $b = $row['b'];
+
+                    echo $a."<br>";
+                    echo $b."<br>";
+
+
+                    if($message==$a){
+
+                        $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', '966568430828@c.us',$b);
+
+                        //echo print_r($result) ;
+
+                    }
+
+
+    
+                    
+                   
+                }
+    
+             
+     
+            } else {
+                // Handle JSON parsing error
+                throw new Exception('Failed to parse the JSON response.');
+            }
+        } else {
+            // Handle error
+            throw new Exception('Failed to retrieve the response.');
+        }
+    } catch (Exception $e) {
+        // Handle exceptions
+        //echo 'Error: ' . $e->getMessage();
+    }
+
+}
+
+
+
 
 
 ?>
