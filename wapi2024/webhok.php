@@ -12,12 +12,14 @@ if(isset($event)){
     file_put_contents($file, $data, FILE_APPEND | LOCK_EX);
 
 
+    print_r($data);
 
+    /*
     $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', '966568430828@c.us',"test web hok ");
 
     echo print_r($result) ;
 
-
+*/
 
 
 
