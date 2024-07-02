@@ -19,6 +19,12 @@ $userInfo_sender= getUserById($task_sender_name);
 $userInfo_reciver= getUserById($emp_name);
 //$source="snap 1";
 
+$name = str_replace("\n", "\\n", $name);
+$des = str_replace("\n", "\\n", $des);
+
+
+
+
 date_default_timezone_set("Asia/Riyadh");
 $date = date('Y/m/d H:i:s');
 
