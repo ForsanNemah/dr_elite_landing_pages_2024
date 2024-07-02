@@ -204,14 +204,11 @@ function getSheetIdFromUrl($url) {
 function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$message,$chat_id )   
 {
 
-    $result = send_with_wapi($token, $profile_id, $chat_id ,'form sheet');
+    //$result = send_with_wapi($token, $profile_id, $chat_id ,'form sheet');
 
 
     $url = 'https://opensheet.elk.sh/'.$sheet_id.'/Sheet1';
-
-    $keywords_content = "";
-    $description = "";
-    $counter = 1;
+ 
     
     try {
         $response = file_get_contents($url);
