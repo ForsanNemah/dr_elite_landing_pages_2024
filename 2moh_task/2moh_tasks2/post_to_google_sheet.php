@@ -21,7 +21,7 @@ $userInfo_reciver= getUserById($emp_name);
 
 $name = str_replace("\n", "\\n", $name);
  
-
+$des = str_replace("\n", "\\n", $des);
 
 
 
