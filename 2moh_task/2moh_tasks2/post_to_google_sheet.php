@@ -20,7 +20,7 @@ $userInfo_reciver= getUserById($emp_name);
 //$source="snap 1";
 
 $name = str_replace("\n", "\\n", $name);
-$des = str_replace("\n", "\\n", $des);
+ 
 
 
 
