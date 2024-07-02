@@ -226,10 +226,14 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
                     $a = $row['a'];
                     $b = $row['b'];
 
+
+                    $a = str_replace("\n", "\\n", $a);
+                    $b = str_replace("\n", "\\n", $b);
+
                     echo $a."<br>";
                     echo $b."<br>";
 
-                    
+
                     $a = str_replace(' ', '', $a);
                     $message = str_replace(' ', '', $message);
                     
