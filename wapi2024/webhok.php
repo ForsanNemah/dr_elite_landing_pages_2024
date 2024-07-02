@@ -129,8 +129,8 @@ function send_with_wapi($auth, $profileId, $phone, $message) {
 
 
         
-        //$servername = "srv1192.hstgr.io";
-        $servername = "localhost";
+        $servername = "srv1192.hstgr.io";
+        //$servername = "localhost";
 $username = "u640377465_wapipro";
 $password = "Forsan@2023";
 $database = "u640377465_wapipro";
@@ -147,7 +147,7 @@ $database = "gstm";
 
 
 
- function getUserByUserProfile($user_profile) {
+ function getUserByUserProfile($profile_id) {
     // Database connection details
     global $servername;
     global $username ;
@@ -164,7 +164,7 @@ $database = "gstm";
 
     // Prepare the SQL query
     $stmt = $conn->prepare("SELECT * FROM users WHERE profile_id = ?");
-    $stmt->bind_param("i", $user_profile);
+    $stmt->bind_param("i", $profile_id);
 
     // Execute the query
     $stmt->execute();
@@ -263,6 +263,29 @@ function get_sheet_msgs($sheet_id,$user_name,$token,$sheet_url,$message)
 
 
 
+
+/*
+
+$userInfo= getUserByUserProfile("aedd0dc2-8453");
+
+if ($userInfo !== null) {
+$user_name= $userInfo['name'];
+$token= $userInfo['token'];
+$sheet_url= $userInfo['sheet_url'];
+ $sheet_id=getSheetIdFromUrl($sheet_url);
+
+
+
+ echo $user_name,'', $sheet_id,'', $sheet_id,
+
+get_sheet_msgs($sheet_id,$user_name,$token,$sheet_url,$message);
+
+} else {
+    echo "User not found.";
+}
+
+
+*/
 
 
 ?>
