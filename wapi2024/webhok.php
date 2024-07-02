@@ -39,6 +39,9 @@ $sheet_url= $userInfo['sheet_url'];
  $sheet_id=getSheetIdFromUrl($sheet_url);
 
 
+
+ echo $user_name,'', $sheet_id,'', $sheet_id,
+
 get_sheet_msgs($sheet_id,$user_name,$token,$sheet_url,$message);
 
 } else {
@@ -126,8 +129,8 @@ function send_with_wapi($auth, $profileId, $phone, $message) {
 
 
         
-        $servername = "srv1192.hstgr.io";
-        //$servername = "localhost";
+        //$servername = "srv1192.hstgr.io";
+        $servername = "localhost";
 $username = "u640377465_wapipro";
 $password = "Forsan@2023";
 $database = "u640377465_wapipro";
