@@ -263,7 +263,7 @@ if($services==1){
   
   ';
 
-  include "services.php";
+  //include "services.php";
 
 }
 
@@ -308,7 +308,7 @@ if($services2==1){
   
   ';
 
-  include "services2.php";
+ // include "services2.php";
 
 }
 
@@ -358,7 +358,7 @@ if($derma_services==1){
   
   ';
 
-  include "derma_services.php";
+  //include "derma_services.php";
 
 }
 
@@ -387,7 +387,7 @@ if($services_images==1){
 
   
 
-  include "services_images.php";
+  //include "services_images.php";
 
 }
 
@@ -566,7 +566,7 @@ include "faq.php";
 
 
 
-include "slider.php";
+//include "slider.php";
 
 if($footer==1){
   
