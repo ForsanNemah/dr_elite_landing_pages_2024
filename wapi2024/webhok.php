@@ -60,7 +60,7 @@ $sheet_url= $userInfo['sheet_url'];
 
  echo $user_name,'', $sheet_id,'', $sheet_id,
 
-get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$message);
+get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$message,$chat_id );
 
 } else {
     echo "User not found.";
@@ -201,10 +201,10 @@ function getSheetIdFromUrl($url) {
 
 
 
-function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$message)   
+function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$message,$chat_id )   
 {
 
-    $result = send_with_wapi($token, $profile_id, '966568430828@c.us','form sheet');
+    $result = send_with_wapi($token, $profile_id, $chat_id ,'form sheet');
 
 
     $url = 'https://opensheet.elk.sh/'.$sheet_id.'/Sheet1';
@@ -235,8 +235,9 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
 
                     if($message==$a){
 
-                        $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', '966568430828@c.us',$b);
+                        //$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', '966568430828@c.us',$b);
 
+                        $result = send_with_wapi($token, $profile_id, $chat_id ,$b);
                         //echo print_r($result) ;
 
                     }
