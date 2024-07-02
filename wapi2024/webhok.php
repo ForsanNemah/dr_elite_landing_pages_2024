@@ -2,6 +2,24 @@
 include "index.php";
 
 echo "this is web hook";
+$servername = "srv1192.hstgr.io";
+//$servername = "localhost";
+$username = "u640377465_wapipro";
+$password = "Forsan@2023";
+$database = "u640377465_wapipro";
+
+/*
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "gstm";
+
+*/
+
+//echo getUserById( $_SESSION['current_user_id'] )['name'];
+
+
+
 
 $data = file_get_contents("php://input");
 
@@ -129,22 +147,7 @@ function send_with_wapi($auth, $profileId, $phone, $message) {
 
 
         
-        $servername = "srv1192.hstgr.io";
-        //$servername = "localhost";
-$username = "u640377465_wapipro";
-$password = "Forsan@2023";
-$database = "u640377465_wapipro";
-
-/*
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "gstm";
-
-*/
-
-//echo getUserById( $_SESSION['current_user_id'] )['name'];
-
+   
 
 
  function getUserByUserProfile($profile_id) {
