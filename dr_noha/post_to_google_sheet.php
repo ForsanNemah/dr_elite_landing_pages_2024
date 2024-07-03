@@ -154,6 +154,13 @@ if($api_notification==1){
     $w_app_msg2=$w_app_msg1." برقم جوال ".$phone;
     
 
+    $w_app_msg2 = str_replace("\n", "\\n",  $w_app_msg2);
+
+    $w_app_msg2 = str_replace("\r", "\\r",  $w_app_msg2);
+
+    
+
+
     $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', $phone_main.'@c.us',  $w_app_msg5);
 
 echo print_r($result) ;
@@ -215,7 +222,7 @@ alert(msg);
 //window.history.go(-1);
 
 
-window.location.replace("done.php");
+//window.location.replace("done.php");
 
 </script>
 
@@ -365,6 +372,6 @@ echo "w_api start 2";
         }
     
         
-        
+
 
 ?>

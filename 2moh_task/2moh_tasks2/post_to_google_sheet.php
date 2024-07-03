@@ -97,7 +97,7 @@ if(1==1){
  
     echo $w_app_msg5;
 
- 
+    $w_app_msg5 = str_replace("\n", "\\n",  $w_app_msg5);
 
 $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', '120363216158625125@g.us',  $w_app_msg5);
 
