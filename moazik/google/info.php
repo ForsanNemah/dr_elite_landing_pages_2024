@@ -2,19 +2,19 @@
 
 
 $website_name="
-
+مجمع موزاييك الطبي
 
  
 ";
 
 $dr_name="
 
-عروض العيد 2024
+عروض الصيف 
 ";
 
 $phone_main="966550520249";
 
-$action_url="https://script.google.com/macros/s/AKfycbzhdQo3cgaPuqd1aEWIHnlj2qg9TnyZ8bkFkaimHXEw-OwMA4Y_CcESLZxYGZ9tI3i2fw/exec";
+$action_url="https://script.google.com/macros/s/AKfycbxSlP5MfmpS0ObKPmol-AuT5HQ5n60YZlj_zNSfcFQNvSoBJhi0Ff90iDc0L_LoO-Ch/exec";
 
 $sheet_url="https://docs.google.com/spreadsheets/d/15ubpqR4FwRw27laCgA71Ob6Xp1SkHgMdULFDnKpRbqo/edit?usp=sharing";
 
@@ -103,9 +103,9 @@ $faq=0;
 $process=0;
 $services_images=0;
 $footer=0;
-$w_app_button=1;
-$api_notification=1;
-$ad_source="snap ";
+$w_app_button=0;
+$api_notification=0;
+$ad_source="google ";
 $header1=1;
 $parteners=0;
 $about_image=0;
