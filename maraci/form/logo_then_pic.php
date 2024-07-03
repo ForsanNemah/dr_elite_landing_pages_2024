@@ -149,7 +149,14 @@ echo $dr_name;
 
     <?php
 
-echo ' <img src="tandt.png" alt="Image"  class="responsive">';
+
+if($taby_and_tamara==1){
+  echo ' <img src="tandt.png" alt="Image"  class="responsive">';
+
+}
+
+
+
 
 ?>
    

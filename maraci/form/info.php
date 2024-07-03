@@ -13,9 +13,9 @@ $dr_name="
 
 ";
 
-$phone_main="966568430828";
+$phone_main="966570050026";
 
-$action_url="https://script.google.com/macros/s/AKfycbxEqUbrPlOaekZUcA9zqEyl1PmZdn2Obzp8d4kOUry5kRchBVHs4TXKIEJU2Ux1zgIq/exec";
+$action_url="https://script.google.com/macros/s/AKfycbzLCGKB5d-xKmNmWnD06mN3g6YXSaR4CJNSCKF4ODbMDht7abZFBlASyavzXWxXjyVU/exec";
 
 $sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF1xpPkV0_PTJK-MI/edit?usp=sharing";
 
@@ -26,15 +26,14 @@ $cta=0;
 $cta_text="احجز الان ";
 $form1_des2="
 
-
-خصومات تصل الى 50%
-
+ 
+واستمتع بعروض الصيف 
 ";
 
 $form1_des3="
 
 
-فتح الملف والكشف مجانا
+ 
 
 ";
 
@@ -124,5 +123,7 @@ $parteners=0;
 $about_image=0;
 
 $services_list=0;
+$taby_and_tamara=0;
+
 
 ?>
