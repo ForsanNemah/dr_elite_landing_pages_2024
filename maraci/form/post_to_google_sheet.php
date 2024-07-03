@@ -158,7 +158,7 @@ if($api_notification==1){
 
     $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', $phone_main.'@c.us',  $w_app_msg2);
     
-    echo print_r($result) ;
+     print_r($result) ;
 
 }
 
