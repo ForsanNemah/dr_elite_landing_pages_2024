@@ -105,24 +105,10 @@ $sheet_url= $userInfo['sheet_url'];
 
 
 
- if($is_me == "true" && $from_user == $to_user )
+ if($is_me)
 {
+   
     get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$message,$chat_id );
-    
-}
-else{
-
-
-    if($is_me =="true"){
-
-        get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$message,$chat_id );
-
-    }
-    else{
-
-        get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$message,$chat_id );
-
-    }
 }
 
 
