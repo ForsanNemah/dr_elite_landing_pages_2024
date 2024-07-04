@@ -75,34 +75,15 @@ $sheet_url= $userInfo['sheet_url'];
 
 
 
+ 
 
 
 
 
 
 
-
- if($is_me=="true" && $from==$to )
-{
-    get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$message,$chat_id );
-    
-}
-else{
-
-
-    if($is_me=="false"){
-
-        get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$message,$chat_id );
-
-    }
-   
-
-
-}
-
-
-
-
+ 
+get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$message,$chat_id );
 
 } else {
     echo "User not found.";
