@@ -2,11 +2,7 @@
 include "index.php";
 
 echo "this is web hook";
-$servername = "srv1192.hstgr.io";
-//$servername = "localhost";
-$username = "u640377465_wapipro";
-$password = "Forsan@2023";
-$database = "u640377465_wapipro";
+include "env.php";
 
 /*
 $servername = "localhost";
