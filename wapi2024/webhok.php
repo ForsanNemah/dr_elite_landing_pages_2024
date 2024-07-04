@@ -35,10 +35,14 @@ if(isset($event)){
 $message = $event['messages'][0]['body'];
 $profile_id = $event['messages'][0]['profile_id'];
 
-/*
 $is_me = $event['messages'][0]['is_me'];
 $from = $event['messages'][0]['from'];
 $to = $event['messages'][0]['to'];
+
+
+
+/*
+
 
 
  if($is_me == "true" && $from==$to )
