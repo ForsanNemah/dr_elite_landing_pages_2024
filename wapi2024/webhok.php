@@ -103,7 +103,7 @@ $sheet_url= $userInfo['sheet_url'];
  
 
 
-
+/*
 
  if($is_me == "true" && $from_user == $to_user )
 {
@@ -121,7 +121,7 @@ else{
 }
 
 
-
+*/
 
 
 
