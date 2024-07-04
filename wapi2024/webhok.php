@@ -34,6 +34,13 @@ if(isset($event)){
     $chat_id = $event['messages'][0]['chatId'];
 $message = $event['messages'][0]['body'];
 $profile_id = $event['messages'][0]['profile_id'];
+$is_me = $event['messages'][0]['is_me'];
+$from = $event['messages'][0]['from'];
+$to = $event['messages'][0]['to'];
+
+
+
+
 
 
 if($message=="chat_id"){
@@ -66,7 +73,36 @@ $sheet_url= $userInfo['sheet_url'];
 
  echo $user_name,'', $sheet_id,'', $sheet_id,
 
-get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$message,$chat_id );
+
+
+
+
+
+
+
+
+
+ if($is_me=="true" && $from==$to )
+{
+    get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$message,$chat_id );
+    
+}
+else{
+
+
+    if($is_me=="false"){
+
+        get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$message,$chat_id );
+
+    }
+   
+
+
+}
+
+
+
+
 
 } else {
     echo "User not found.";
