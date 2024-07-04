@@ -36,8 +36,8 @@ $message = $event['messages'][0]['body'];
 $profile_id = $event['messages'][0]['profile_id'];
 
 $is_me = $event['messages'][0]['is_me'];
-$from = $event['messages'][0]['from'];
-$to = $event['messages'][0]['to'];
+$from_user = $event['messages'][0]['from'];
+$to_user = $event['messages'][0]['to'];
 
 
 
@@ -103,9 +103,9 @@ $sheet_url= $userInfo['sheet_url'];
  
 
 
-/*
 
- if($is_me == "true" && $from==$to )
+
+ if($is_me == "true" && $from_user == $to_user )
 {
     get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$message."1",$chat_id );
     
@@ -113,7 +113,7 @@ $sheet_url= $userInfo['sheet_url'];
 else{
 
 
-    if($is_me=="false"){
+    if($is_me =="false"){
 
         get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$message."2",$chat_id );
 
@@ -123,10 +123,10 @@ else{
 
 
 
-*/
 
 
 
+` 
 
 
  
