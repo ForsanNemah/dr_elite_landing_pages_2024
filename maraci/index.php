@@ -147,9 +147,19 @@ snaptr('track', 'ADD_TO_CART');
     </div>
     <div class="row mt-4">
       <div class="col-12 text-center">
-        <a href="https://api.whatsapp.com/send?phone=966570050026&text=%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA%20%D8%A3%D9%83%D8%AB%D8%B1%20" class="btn btn-success d-block mb-2 animated-button" > معلومات أكثر </a>
+        <a href="https://api.whatsapp.com/send?phone=966570050026&text=%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA%20%D8%A3%D9%83%D8%AB%D8%B1%20" class="btn btn-success d-block mb-2 animated-button" >  واتساب </a>
  
       </div>
+
+
+
+
+      <div class="col-12 text-center">
+        <a href="tel:966570050026" class="btn btn-success d-block mb-2 animated-button" >  اتصل بنا    </a>
+ 
+      </div>
+
+
     </div>
     <div class="row mt-4">
       <div class="col-12">
