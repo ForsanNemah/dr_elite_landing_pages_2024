@@ -96,7 +96,7 @@ $sheet_url= $userInfo['sheet_url'];
 
  //$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', '966568430828@c.us', $sheet_id);
 
- echo $user_name,'', $sheet_id,'', $sheet_id,
+ echo $user_name,'', $sheet_id,'', $sheet_id;
 
 
 
