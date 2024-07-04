@@ -9,7 +9,23 @@ $database = "u640377465_wapipro";
 
 /*
 
+$userInfo= getUserById(2);
 
+if ($userInfo !== null) {
+$user_name= $userInfo['name'];
+$token= $userInfo['token'];
+$sheet_url= $userInfo['sheet_url'];
+ 
+
+ //$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', '966568430828@c.us', $sheet_id);
+
+ echo $user_name,'', $sheet_url;
+
+ 
+
+} else {
+    echo "User not found.";
+}
 
 
 
