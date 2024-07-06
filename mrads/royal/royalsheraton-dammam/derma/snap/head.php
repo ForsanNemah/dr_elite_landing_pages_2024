@@ -79,10 +79,12 @@ u.parentNode.insertBefore(r,u);})(window,document,
 
 snaptr('init', '31104507-bf96-4c29-a273-a1bad59360d8');
 snaptr('init', '6fc02db2-6e68-40ab-8290-979b40236fe2');
+snaptr('init', '8772654e-0324-40d2-be94-a40694aa232c');
+
 snaptr('track', 'PAGE_VIEW');
  
  
-
+snaptr('track', 'PURCHASE');
     </script>
 
 

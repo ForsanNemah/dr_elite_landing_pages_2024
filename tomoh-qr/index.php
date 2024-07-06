@@ -1,0 +1,1 @@
+<img src="https://qrmenu.ksa-ads.com/storage/01J22DDYQ85741SY3BBTXK6G45.jpg" alt="Fried rolls with cilantro garnish on a patterned plate">
