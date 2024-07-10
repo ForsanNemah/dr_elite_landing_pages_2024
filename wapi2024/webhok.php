@@ -302,6 +302,9 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
 
 
 
+
+
+
             $restart_bot=get_last_message_date_if_more_than_one_hour($profile_id,$token,$chat_id);
 
 
@@ -311,7 +314,8 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
 
             }
             else{
-                $result = send_with_wapi($token, $profile_id, $chat_id ,"not started");
+                
+               // $result = send_with_wapi($token, $profile_id, $chat_id ,"not started");
 
             }
 
