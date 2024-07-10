@@ -46,12 +46,23 @@ $timestamp = $data['messages'][1]['time'];
 
 $normalTime = date("Y-m-d H:i:s", $timestamp);
  //$normalTime;
-    echo $normalTime;
+    //echo $normalTime;
 
 
-    echo isCurrentTimeGreaterThanNormalTimeByOneHour($normalTime);
+    //echo isCurrentTimeGreaterThanNormalTimeByOneHour($normalTime);
  
 
+    if(isCurrentTimeGreaterThanNormalTimeByOneHour($normalTime)){
+
+      return true;
+
+
+    }
+    else{
+
+      return false;
+
+    }
     
     
     
