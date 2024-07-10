@@ -3,6 +3,7 @@ include "index.php";
 
 echo "this is web hook";
 include "env.php";
+include "get_last_msg.php";
 
 /*
 $servername = "localhost";
@@ -38,6 +39,11 @@ $profile_id = $event['messages'][0]['profile_id'];
 $is_me = $event['messages'][0]['is_me'];
 $from_user = $event['messages'][0]['from'];
 $to_user = $event['messages'][0]['to'];
+
+
+
+
+
 
 
 
@@ -309,6 +315,19 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
                     $message = str_replace(' ', '', $message);
                     
 
+                    $restart_bot=get_last_message_date_if_more_than_one_hour($profile_id,$token,$chat_id);
+
+
+                    if($restart_bot){
+
+                        $result = send_with_wapi($token, $profile_id, $chat_id ,"bot started from 0 ");
+
+                    }
+                    else{
+                        $result = send_with_wapi($token, $profile_id, $chat_id ,"bot  not started from 0 ");
+
+                    }
+
 
                     if($message==$a){
 
@@ -341,6 +360,12 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
     }
 
 }
+
+
+
+
+
+
 
 
 
