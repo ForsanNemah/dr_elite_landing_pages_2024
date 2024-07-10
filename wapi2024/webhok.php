@@ -295,7 +295,7 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
             $data = json_decode($response, true);
 
 
-
+            $first_object = reset($data);
 
 
 
@@ -307,11 +307,11 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
 
             if($restart_bot){
 
-                $result = send_with_wapi($token, $profile_id, $chat_id ,"bot started from 0 ");
+                $result = send_with_wapi($token, $profile_id, $chat_id ,$first_object['b']);
 
             }
             else{
-                $result = send_with_wapi($token, $profile_id, $chat_id ,"bot  not started from 0 ");
+                $result = send_with_wapi($token, $profile_id, $chat_id ,$first_object['b']);
 
             }
 
