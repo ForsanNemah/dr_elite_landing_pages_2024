@@ -314,7 +314,7 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
                     $a = str_replace(' ', '', $a);
                     $message = str_replace(' ', '', $message);
                     
-
+/*
                     $restart_bot=get_last_message_date_if_more_than_one_hour($profile_id,$token,$chat_id);
 
 
@@ -328,7 +328,7 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
 
                     }
 
-
+*/
                     if($message==$a){
 
                         //$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', '966568430828@c.us',$b);
