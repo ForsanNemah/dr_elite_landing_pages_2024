@@ -92,7 +92,7 @@ $normalTime = date("Y-m-d H:i:s", $timestamp);
       $currentDateTimeTimestamp = strtotime($currentDateTime);
   
       // Check if the current time is greater than the normal time by at least one hour
-      if ($currentDateTimeTimestamp >= ($normalTimeTimestamp + 1*60)) {
+      if ($currentDateTimeTimestamp >= ($normalTimeTimestamp + 60*60)) {
         echo "ok";
           return true;
          
