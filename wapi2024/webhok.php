@@ -311,7 +311,7 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
 
             }
             else{
-                $result = send_with_wapi($token, $profile_id, $chat_id ,$chat_id);
+                $result = send_with_wapi($token, $profile_id, $chat_id ,"not started");
 
             }
 
