@@ -84,20 +84,20 @@ $normalTime = date("Y-m-d H:i:s", $timestamp);
 
     function isCurrentTimeGreaterThanNormalTimeByOneHour($normalTime) {
       $currentDateTime = date('Y-m-d H:i:s');
-      echo "<br>";
-  echo "".$currentDateTime;
-  echo "<br>";
+      //echo "<br>";
+  //echo "".$currentDateTime;
+  //echo "<br>";
       // Convert the normal time and current time to Unix timestamps
       $normalTimeTimestamp = strtotime($normalTime);
       $currentDateTimeTimestamp = strtotime($currentDateTime);
   
       // Check if the current time is greater than the normal time by at least one hour
       if ($currentDateTimeTimestamp >= ($normalTimeTimestamp + 60*60)) {
-        echo "ok";
+        //echo "ok";
           return true;
          
       } else {
-        echo " not ok";
+        //echo " not ok";
           return false;
       }
   }

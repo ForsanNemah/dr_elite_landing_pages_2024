@@ -303,25 +303,25 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
 
 
 
-/*
+
 
             $restart_bot=get_last_message_date_if_more_than_one_hour($profile_id,$token,$chat_id);
 
 
             if($restart_bot){
 
-                $result = send_with_wapi($token, $profile_id, $chat_id ,$first_object['b']  );
+                $result = send_with_wapi($token, $profile_id, $chat_id ,$restart_bot );
 
             }
             else{
 
-               // $result = send_with_wapi($token, $profile_id, $chat_id ,"not started");
+                $result = send_with_wapi($token, $profile_id, $chat_id ,"not started".$restart_bot);
 
             }
 
 
 
-*/
+
 
 
 
