@@ -23,20 +23,21 @@
   <meta http-equiv="refresh" content="6">
 
   <?php
-   
+    $qrCode;
 
    include "env.php";
   ?>
 
 
-  <title>Centered Image</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-8">
-        <img class="responsive" src="<?php 
+
+
+
+
+
+
+
+
+<?php 
 
 
 
@@ -53,10 +54,46 @@ if (isset($_GET['id'])) {
 
 
 
+  $userInfo= getUserById(4);
+
+  if ($userInfo !== null) {
+  $user_name= $userInfo['name'];
+  $token= $userInfo['token'];
+  $sheet_url= $userInfo['sheet_url'];
+   
+  
+   //$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', '966568430828@c.us', $sheet_id);
+  
+   //echo $user_name,'', $sheet_url;
+  
+   
+  
+  } else {
+      echo "User not found.";
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     $userInfo= getUserById($_GET['id']);
 
-    if ($userInfo !== null) {
+    //echo $_GET['id'];
+    if ($userInfo != null) {
+
     $user_name= $userInfo['name'];
     $token= $userInfo['token'];
     $sheet_url= $userInfo['sheet_url'];
@@ -69,6 +106,8 @@ $profileId = $profile_id;
 $authToken = $token;
 
 $result = getWappiQRCode($profileId, $authToken);
+
+
 if ($result['httpCode'] == 200) {
     //echo $result['response'];
 
@@ -77,16 +116,60 @@ if ($result['httpCode'] == 200) {
 $qrCode = $json['qrCode'];
 
 
-echo  $qrCode ;
+echo '
+
+ <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-8">
+        <img class="responsive" src="'.$qrCode.'" class="img-fluid" alt="Centered Image">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//echo  $qrCode ;
      
     
     } else {
 
 
-        header("Location:done.php");
+        //header("Location:done.php");
 
-
-        echo "User not found.";
+        echo $result['response'];
+        //echo "User not found.";
     }
     
 
@@ -146,16 +229,27 @@ echo '
         
         
         
-        
-        
-        
-        
-        
-        
-        " class="img-fluid" alt="Centered Image">
-      </div>
-    </div>
-  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <title>Centered Image</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+ 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

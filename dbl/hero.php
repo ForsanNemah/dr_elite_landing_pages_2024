@@ -3,7 +3,7 @@
         <div class="container">
           <div class="st-hero-text">
             <div class="st-height-b40 st-height-lg-b40"></div>
-            <h1 class="st-hero-title cd-headline slide">
+            <h1 class="st-hero-title cd-headline slide herotext hide-on-mobile">
       ابتسامة استثنائية
 
 <!--
@@ -18,7 +18,7 @@
 
 -->
             </h1>
-            <div class="st-hero-subtitle">
+            <div class="st-hero-subtitle herotext hide-on-mobile">
 
 
            
@@ -30,7 +30,7 @@
 
 
             <div class="st-hero-btn">
-              <a href="#appointment" class="st-btn st-style1 st-color1 st-smooth-move">
+              <a href="#appointment" class="st-btn st-style1 st-color1 st-smooth-move hide-on-mobile">
                 
             
             
