@@ -298,7 +298,14 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
 
             //$first_object = reset($data);
 
+            $first_replay="";
+            foreach ($data as $row) {
 
+                $first_replay = $row['b'];
+
+break;
+
+            }
 
 
 
@@ -313,8 +320,8 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
 
                 $result = send_with_wapi($token, $profile_id, $chat_id , 'started');
 
-$first_replay=$data[0];
-                $result = send_with_wapi($token, $profile_id, $chat_id ,$first_replay['b']."replay 1" );
+ 
+                $result = send_with_wapi($token, $profile_id, $chat_id ,$first_replay );
 
             } 
             else{
