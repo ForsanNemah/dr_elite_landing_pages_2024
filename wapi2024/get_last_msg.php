@@ -3,7 +3,7 @@
 
 
 
-//get_last_message_date_if_more_than_one_hour('aedd0dc2-8453','40703bb7812b727ec01c24f2da518c407342559c','966568430828');
+get_last_message_date_if_more_than_one_hour('aedd0dc2-8453','40703bb7812b727ec01c24f2da518c407342559c','966568430828');
 
 
  
@@ -42,11 +42,11 @@ function get_last_message_date_if_more_than_one_hour($profile_id,$token,$chat_id
    
     //print_r($data);
 $timestamp = $data['messages'][1]['time'];
-
+//echo $timestamp;
 
 $normalTime = date("Y-m-d H:i:s", $timestamp);
- //$normalTime;
-    //echo $normalTime;
+ $normalTime;
+    echo $normalTime;
 
 
     //echo isCurrentTimeGreaterThanNormalTimeByOneHour($normalTime);
@@ -85,7 +85,7 @@ $normalTime = date("Y-m-d H:i:s", $timestamp);
     function isCurrentTimeGreaterThanNormalTimeByOneHour($normalTime) {
       $currentDateTime = date('Y-m-d H:i:s');
       //echo "<br>";
-  //echo "".$currentDateTime;
+  echo "".$currentDateTime;
   //echo "<br>";
       // Convert the normal time and current time to Unix timestamps
       $normalTimeTimestamp = strtotime($normalTime);
@@ -93,11 +93,11 @@ $normalTime = date("Y-m-d H:i:s", $timestamp);
   
       // Check if the current time is greater than the normal time by at least one hour
       if ($currentDateTimeTimestamp >= ($normalTimeTimestamp + 60*60)) {
-        //echo "ok";
+        echo "ok";
           return true;
          
       } else {
-        //echo " not ok";
+        echo " not ok";
           return false;
       }
   }
