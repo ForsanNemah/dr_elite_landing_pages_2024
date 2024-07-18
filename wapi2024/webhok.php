@@ -315,7 +315,7 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
             } 
             else{
 
-                //$result = send_with_wapi($token, $profile_id, $chat_id ,"not started".$restart_bot);
+                $result = send_with_wapi($token, $profile_id, $chat_id ,"not started".$restart_bot);
 
             }
 
@@ -355,6 +355,7 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
                     $a = str_replace(' ', '', $a);
                     $message = str_replace(' ', '', $message);
                     
+                    /*
 
                     $restart_bot=get_last_message_date_if_more_than_one_hour($profile_id,$token,$chat_id);
 
@@ -368,6 +369,7 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
                         $result = send_with_wapi($token, $profile_id, $chat_id ,"bot  not started from 0 ");
 
                     }
+                        */
 
 
                     if($message==$a){
