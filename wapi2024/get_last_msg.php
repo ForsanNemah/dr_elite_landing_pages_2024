@@ -3,7 +3,7 @@
 
 
 
-get_last_message_date_if_more_than_one_hour('aedd0dc2-8453','40703bb7812b727ec01c24f2da518c407342559c','966568430828');
+//get_last_message_date_if_more_than_one_hour('aedd0dc2-8453','40703bb7812b727ec01c24f2da518c407342559c','966568430828');
 
 
  
