@@ -292,14 +292,14 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
     
         if ($response !== false) {
             // Parse the response as JSON
-            /*
+            
             $data = json_decode($response, true);
 
 
-            $first_object = reset($data);
+            //$first_object = reset($data);
 
 
-*/
+
 
 
 
