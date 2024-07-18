@@ -310,6 +310,9 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
 
             if($restart_bot && strpos($chat_id,"@c.us") !== false){
 
+                $result = send_with_wapi($token, $profile_id, $chat_id , 'started');
+
+
                 $result = send_with_wapi($token, $profile_id, $chat_id ,$first_object['b'] );
 
             } 
