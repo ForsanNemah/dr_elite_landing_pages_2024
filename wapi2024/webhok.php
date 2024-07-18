@@ -301,7 +301,8 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
             $first_replay="";
             foreach ($data as $row) {
 
-                $first_replay = $row['b'];
+                $b = str_replace("\n", "\\n", $row['b']);
+                $first_replay = $b;
 
 break;
 
