@@ -320,9 +320,18 @@ break;
             if($restart_bot && strpos($chat_id,"@c.us") !== false ){
 
                 $result = send_with_wapi($token, $profile_id, $chat_id , 'started');
+               
+try{
+    $result = send_with_wapi($token, $profile_id, $chat_id , $first_replay );
 
+        }catch(Exception $e){   
+
+            $result = send_with_wapi($token, $profile_id, $chat_id ,$e->getMessage()."eception" );
  
-                $result = send_with_wapi($token, $profile_id, $chat_id ,$first_replay );
+
+        }
+ 
+             
 
             } 
             else{
