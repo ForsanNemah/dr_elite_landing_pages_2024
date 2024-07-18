@@ -296,7 +296,7 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
             $data = json_decode($response, true);
 
 
-            $first_object = reset($data);
+            //$first_object = reset($data);
 
 
 
@@ -314,7 +314,7 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
                 $result = send_with_wapi($token, $profile_id, $chat_id , 'started');
 
 
-                $result = send_with_wapi($token, $profile_id, $chat_id ,$first_object->b );
+                $result = send_with_wapi($token, $profile_id, $chat_id ,$first_object[0]['b'] );
 
             } 
             else{
