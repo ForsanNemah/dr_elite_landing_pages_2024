@@ -322,7 +322,7 @@ break;
 
 
 
-                $result = send_with_wapi($token, $profile_id, $chat_id , 'started');
+                //$result = send_with_wapi($token, $profile_id, $chat_id , 'started');
                 //$result = send_with_wapi($token, $profile_id, $chat_id , 'started');
                 //$result = send_with_wapi($token, $profile_id, $chat_id , 'started');
 try{
