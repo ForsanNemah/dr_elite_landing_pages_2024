@@ -309,7 +309,7 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
             $restart_bot=get_last_message_date_if_more_than_one_hour($profile_id,$token,$chat_id);
 
 //&& strpos($chat_id,"@c.us") !== false
-            if($restart_bot ){
+            if($restart_bot && strpos($chat_id,"@c.us") !== false ){
 
                 $result = send_with_wapi($token, $profile_id, $chat_id , 'started');
 
