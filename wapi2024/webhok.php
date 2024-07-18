@@ -326,7 +326,7 @@ break;
                 //$result = send_with_wapi($token, $profile_id, $chat_id , 'started');
                 //$result = send_with_wapi($token, $profile_id, $chat_id , 'started');
 try{
-    $result = send_with_wapi($token, $profile_id, $chat_id , $first_replay );
+    $result = send_with_wapi($token, $profile_id, $chat_id , $first_replay."ww" );
 
         }catch(Exception $e){   
 
