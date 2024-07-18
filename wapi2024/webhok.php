@@ -298,7 +298,7 @@ function get_sheet_msgs($sheet_id,$user_name,$profile_id,$token,$sheet_url,$mess
 
             //$first_object = reset($data);
 
-            $first_replay="";
+            $first_replay=".";
             foreach ($data as $row) {
 
                 $b = str_replace("\n", "\\n", $row['b']);
@@ -320,9 +320,11 @@ break;
 //&& strpos($chat_id,"@c.us") !== false
             if($restart_bot && strpos($chat_id,"@c.us") !== false ){
 
+
+
                 $result = send_with_wapi($token, $profile_id, $chat_id , 'started');
-                $result = send_with_wapi($token, $profile_id, $chat_id , 'started');
-                $result = send_with_wapi($token, $profile_id, $chat_id , 'started');
+                //$result = send_with_wapi($token, $profile_id, $chat_id , 'started');
+                //$result = send_with_wapi($token, $profile_id, $chat_id , 'started');
 try{
     $result = send_with_wapi($token, $profile_id, $chat_id , $first_replay );
 
@@ -334,7 +336,7 @@ try{
         }
  
 
-        $result = send_with_wapi($token, $profile_id, $chat_id , 'started 5');
+        //$result = send_with_wapi($token, $profile_id, $chat_id , 'started 5');
              
 
             } 
