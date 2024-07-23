@@ -1,35 +1,18 @@
-<div   class="overflow-hidden st-hero-wrap st-gray-bg st-dynamic-bg st-fixed-bg" data-src="images/baner.jpeg" >
+
+<!-- //data-src="images/bh.jpeg" -->
+
+
+<div    class=" st-hero-wrap st-gray-bg st-dynamic-bg" data-src="images/bv.png"   >
       <div class="st-hero st-style1">
         <div class="container">
-          <div class="st-hero-text">
-            <div class="st-height-b40 st-height-lg-b40"></div>
-            <h1 class="st-hero-title cd-headline slide herotext hide-on-mobile">
-      ابتسامة استثنائية
-
-<!--
-
-              <span class="cd-words-wrapper">
-                <b class="is-visible">الباطنة</b>
-                <b>أطفال</b>
-                <b>النساء والتوليد</b>
-                <b>الاسنان</b>
-                <b>التجميل</b>
-              </span>
-
--->
-            </h1>
-            <div class="st-hero-subtitle herotext hide-on-mobile">
 
 
-           
-           مع معمل الجمال الرقمي 
-            
-            
-            
-            </div>
 
 
-            <div class="st-hero-btn">
+
+
+
+        <div class="st-hero-btn">
               <a href="#appointment" class="st-btn st-style1 st-color1 st-smooth-move hide-on-mobile">
                 
             
@@ -38,7 +21,7 @@
             
             
             
-              انضم إلينا وكن طبيب معتمد
+              انضم إلينا وكن طبيبا معتمد
             
             
             
@@ -67,6 +50,45 @@
 
 
 
+          <div class="st-hero-text">
+            <div class="st-height-b40 st-height-lg-b40"></div>
+            <h1 class="st-hero-title cd-headline slide herotext hide-on-mobile">
+      <!-- ابتسامة استثنائية -->
+
+<!--
+
+              <span class="cd-words-wrapper">
+                <b class="is-visible">الباطنة</b>
+                <b>أطفال</b>
+                <b>النساء والتوليد</b>
+                <b>الاسنان</b>
+                <b>التجميل</b>
+              </span>
+
+-->
+            </h1>
+            <div class="st-hero-subtitle herotext hide-on-mobile">
+
+
+<!--            
+           مع معمل الجمال الرقمي 
+            
+             -->
+            
+            </div>
+
+
+          
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -112,7 +134,7 @@
 
             
             
-            <div class="mt-4 st-hero-btn">
+            <!-- <div class="mt-4 st-hero-btn">
               <a href="#appointment" class="st-btn st-style1 st-color1 st-smooth-move">
                 
             
@@ -138,7 +160,7 @@
              
  
 
-            </div>
+            </div> -->
 
 
 
@@ -207,5 +229,27 @@
 
     </div>
 
+
+
+    <style>
+   .st-hero.st-style1 {
+    height: 650px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+    </style>
 
     

@@ -18,7 +18,8 @@ include "w_app.php";
 
 
 <body class="rtl">
-  <div class="st-perloader">
+
+  <!-- <div class="st-perloader">
     <div class="st-perloader-in">
       <div class="st-wave-first">
         <svg enable-background="new 0 0 300.08 300.08" viewBox="0 0 300.08 300.08" xmlns="http://www.w3.org/2000/svg">
@@ -37,7 +38,9 @@ include "w_app.php";
         </svg>
       </div>
     </div>
-  </div>
+  </div> -->
+
+
   <!-- Start Header Section -->
  <?php
 
@@ -56,7 +59,7 @@ include "nav.php";
 <?php
 
 
-include "hero.php";
+include "hero2.php";
 ?>
     <!-- Start Feature Seciton -->
 

@@ -1,4 +1,4 @@
-<header class="st-site-header st-style1 st-sticky-header">
+<header class=" st-site-header st-style1 st-sticky-header" >
     <div class="st-top-header">
       <div class="container">
         <div class="st-top-header-in">
@@ -35,7 +35,7 @@
 
 
 
-    <div class="st-main-header">
+    <div class="st-main-header"  >
   <div class="container">
     <div class="st-main-header-in">
       <div class="st-main-header-left">
@@ -81,6 +81,15 @@ echo $web_site_name;
   </div>
 </div>
   </header>
+
+
+
+  <style>
+
+
+ 
+
+  </style>
 
 
 
