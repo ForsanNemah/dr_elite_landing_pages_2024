@@ -8,6 +8,40 @@
 </a>
 
 
+<?php 
+
+
+/*
+$w_message="   الاطلاع على العروض ";
+echo '
+
+
+<a href="https://api.whatsapp.com/send?phone='.$phone_main.'&text='.urlencode($w_message).'" class="float" >
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+
+';
+
+*/
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <style>
 
 
