@@ -25,7 +25,7 @@
 
 
   <div >
-    <div class="text-center image-container mobile-image " style=" margin-top: 15%;">
+    <div class="text-center image-container mobile-image " style=" margin-top: 17%;">
       <img src="images/vbi.png" alt="Book Image Mobile" class="img-fluid mobile-image">
       <img src="images/hbi.png" alt="Book Image Desktop" class="img-fluid desktop-image">
       <a href="#appointment">
@@ -86,7 +86,7 @@
   
       .centered-button {
       position: absolute;
-      top: 57%;
+      top: 59%;
       left: 50%;
       transform: translate(-50%, -300%);
     }
