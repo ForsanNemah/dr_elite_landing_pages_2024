@@ -178,11 +178,6 @@ ttq.track('CompleteRegistration', {});
 
 
 
-.form-container {
-  background-color: #bcd7df;
-  margin-left:5%;
-  margin-right:5%;
-}
 
 
  

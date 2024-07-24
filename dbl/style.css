@@ -94,3 +94,42 @@ body {
       display: none;
     }
   }
+
+
+
+
+
+
+
+
+/* form bg */
+
+  .form-container {
+    background-color: #257fb5;
+    margin-left:5%;
+    margin-right:5%;
+  }
+  
+
+
+/* faq section clour. */
+  .st-accordian.active .st-accordian-title {
+    color: #fff;
+    background-color: #257fb5;
+    border-color: #0cb8b6;
+    pointer-events: none;
+    border-radius: 7px 7px 0 0;
+}
+
+
+
+
+/* fonts clour . */
+h1, h2, h3, h4, h3, h6 {
+    clear: both;
+    color: #0220a9;
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+    line-height: 1.2em;
+}
