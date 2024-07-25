@@ -10,9 +10,9 @@
 <div class="form-container" id="myform" data-aos-duration="1500"  data-aos="zoom-in-up">
   <div class="row justify-content-center custom_row_margin">
     <div class="col-lg-6">
-      <div class="card  ">
+      <div class="card ">
         <div class="card-body form_bg" >
-          <h2 class="card-title text-center mb-4" style="color: white;">
+          <h2 class="mb-4 text-center card-title" style="color: white;">
           <?php
           echo $form1_des;
           ?>
@@ -217,7 +217,7 @@ echo 'File not found.';
             <img  class="img-fluid" id="loading_gif" src="images/loading.gif" alt="Italian Trulli"  width="50" height="50" >
 
 
-              <button id="form1_button" type="submit" class="btn btn-primary   rounded-pill">احجز الان</button>
+              <button id="form1_button" type="submit" class="btn btn-primary rounded-pill">احجز الان</button>
             </div>
           </form>
         </div>
