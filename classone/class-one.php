@@ -3,14 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <link href="https://fonts.cdnfonts.com/css/tajawal" rel="stylesheet">
-                
-
-
-    
-    <title>متجر كلاس ون</title>
+    <title>Zoom Out Screen with Logo</title>
+    <!-- Include the Tejwal font from Fontsource CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/tejwal/400.css">
     <style>
         body, html {
             margin: 0;
@@ -22,13 +17,11 @@
             justify-content: center;
             align-items: center;
             background-color: #f0f0f0;
-            font-family: 'Tajawal', sans-serif;
-                                                
         }
 
-        .expand {
-            width: 100px;
-            height: 100px;
+        .zoom-out {
+            width: 100vw;
+            height: 100vh;
             background-color: #233064; /* Updated background color */
             display: flex;
             flex-direction: column; /* Arrange items vertically */
@@ -36,60 +29,49 @@
             align-items: center;
             color: white;
             font-size: 24px;
-            border-radius: 10px;
-            animation: expandToFullScreen 1.5s forwards, disappear 1.5s 3s forwards;
+            border-radius: 0; /* Full-screen corners */
+            animation: zoomOut 3s forwards;
+            animation-delay: 1s; /* Delay before starting animation */
             transition: all 0.5s ease-in-out;
         }
 
         .logo {
-            width: 100px; /* Increased width */
-            height: 100px; /* Increased height */
+            width: 150px; /* Increased width */
+            height: 150px; /* Increased height */
             object-fit: contain; /* Ensure the image fits within the container */
             border-radius: 5px;
             margin-bottom: 10px; /* Space between logo and text */
         }
 
         .brand-name {
-            font-size: 20px;
+            font-size: 24px;
             text-align: center;
+            font-family: 'Tejwal', sans-serif; /* Apply Tejwal font */
         }
 
-        @keyframes expandToFullScreen {
+        @keyframes zoomOut {
             0% {
-                width: 100px;
-                height: 100px;
-            }
-            100% {
-                width: 100vw;
-                height: 100vh;
-            }
-        }
-
-        @keyframes disappear {
-            0% {
+                transform: scale(1);
                 opacity: 1;
             }
             100% {
+                transform: scale(0);
                 opacity: 0;
             }
         }
     </style>
 </head>
 <body>
-    <div class="expand">
+    <div class="zoom-out">
         <img src="logo.png" alt="Brand Logo" class="logo"> <!-- Updated logo source -->
-        <div class="brand-name" hidden>     
-
-
-
-كلاس ون 
-        </div>
+        <div  hidden class="brand-name">Brand  </div>
     </div>
 
     <script>
+        // The display is set to 'none' after the animation completes
         setTimeout(() => {
-            document.querySelector('.expand').style.display = 'none';
-        }, 3000);
+            document.querySelector('.zoom-out').style.display = 'none';
+        }, 5000); // Total time = 2s delay + 3s animation
     </script>
 </body>
 </html>
