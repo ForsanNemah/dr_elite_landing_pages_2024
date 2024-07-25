@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zoom Out Screen with Logo</title>
     <!-- Include the Tejwal font from Fontsource CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/tejwal/400.css">
+    <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
     <style>
         body, html {
             margin: 0;
@@ -17,6 +17,7 @@
             justify-content: center;
             align-items: center;
             background-color: #f0f0f0;
+            font-family: 'Tajawal';
         }
 
         .zoom-out {
@@ -36,17 +37,17 @@
         }
 
         .logo {
-            width: 150px; /* Increased width */
-            height: 150px; /* Increased height */
+            width: 200px; /* Increased width */
+            height: 250px; /* Increased height */
             object-fit: contain; /* Ensure the image fits within the container */
-            border-radius: 5px;
-            margin-bottom: 10px; /* Space between logo and text */
+            border-radius: 0px;
+            margin-bottom: 0px; /* Space between logo and text */
         }
 
         .brand-name {
             font-size: 24px;
             text-align: center;
-            font-family: 'Tejwal', sans-serif; /* Apply Tejwal font */
+             
         }
 
         @keyframes zoomOut {
@@ -64,8 +65,93 @@
 <body>
     <div class="zoom-out">
         <img src="logo.png" alt="Brand Logo" class="logo"> <!-- Updated logo source -->
-        <div  hidden class="brand-name">Brand  </div>
+        <div    class="brand-name">
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <div clss="container">
+
+      
+
+
+
+
+        <h3 class="centered-text">
+
+        كلاس ون للشوكلاته الفاخرة
+        </h3>
+
+        
+        <h3 class="centered-text">
+
+
+
+ثقة - إبداع - تميز
+
+
+
+</h3>
+ 
+
+
+  
     </div>
+
+
+
+
+
+
+
+   
+
+
+
+
+ 
+
+
+     
+
+
+
+
+   
+
+
+
+    
+
+
+
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+    </div>
+
+
+
+   
 
     <script>
         // The display is set to 'none' after the animation completes
@@ -75,3 +161,14 @@
     </script>
 </body>
 </html>
+
+
+
+
+
+<style>
+    .centered-text {
+        display: flex;
+        justify-content: center;
+    }
+  </style>
