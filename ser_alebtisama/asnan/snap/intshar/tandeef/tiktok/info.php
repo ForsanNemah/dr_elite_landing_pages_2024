@@ -22,7 +22,7 @@ $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
 $site_name="عيادة سر الابتسامة";
 $dr_name="  ";
-$add_title=" عروض الربيع";
+$add_title=" عروض الصيف";
 
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";
