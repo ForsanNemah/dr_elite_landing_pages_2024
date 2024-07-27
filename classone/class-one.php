@@ -170,5 +170,6 @@
     .centered-text {
         display: flex;
         justify-content: center;
+        color: #dca93a;
     }
   </style>
