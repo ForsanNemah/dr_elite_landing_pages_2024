@@ -56,6 +56,12 @@ include "nav.php";
     <!-- Start Hero Seciton -->
    
     <!-- End Hero Seciton -->
+
+
+    <div id="home">
+
+
+    </div>
 <?php
 
 

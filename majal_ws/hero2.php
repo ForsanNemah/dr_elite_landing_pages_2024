@@ -88,7 +88,7 @@
       position: absolute;
       top: 59%;
       left: 50%;
-      transform: translate(-50%, -300%);
+      transform: translate(-50%, -500%);
     }
   
   
