@@ -57,7 +57,7 @@ echo $website_name;
 <script>
 
 	var snap_pixel_on=1;
-	var tiktok_pixel_on=1;
+	var tiktok_pixel_on=0;
 
 
 

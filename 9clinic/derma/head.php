@@ -57,7 +57,7 @@ echo $website_name;
 <script>
 
 	var snap_pixel_on=1;
-	var tiktok_pixel_on=1;
+	var tiktok_pixel_on=0;
 
 
 
@@ -114,7 +114,7 @@ snaptr('init', 'b03a5fe0-a066-4e30-a1e9-28ab9616adf9');
  
  
 
-snaptr('init', 'b67a49ad-d1f1-445f-941f-31aea29bc8e4');
+snaptr('init', '9a9d0dcd-2253-4519-8ac0-2fdc2a3bdf2b');
 
 
 snaptr('track', 'PAGE_VIEW');
