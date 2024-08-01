@@ -61,6 +61,16 @@ include "nav.php";
 
 include "hero2.php";
 ?>
+
+
+
+
+<?php
+
+
+include "about.php";
+
+?>
     <!-- Start Feature Seciton -->
 
 
@@ -72,7 +82,7 @@ include "hero2.php";
     <?php
 
 
-include "hero_video.php";
+//include "hero_video.php";
 ?>
 
 
@@ -129,12 +139,7 @@ include "services.php";
 
     <!-- Start About Seciton -->
     
-    <?php
-
-
-include "about.php";
-
-?>
+ 
     <!-- End About Seciton -->
 
     <!-- Start department Section -->

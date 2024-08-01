@@ -68,7 +68,7 @@ echo $website_name;
 
 	
 
-	if( tiktok_pixel_on==1){
+	if( tiktok_pixel_on==0){
 
 
 		!function (w, d, t) {
@@ -114,7 +114,7 @@ snaptr('init', 'b03a5fe0-a066-4e30-a1e9-28ab9616adf9');
  
  
 
-snaptr('init', 'b67a49ad-d1f1-445f-941f-31aea29bc8e4');
+snaptr('init', 'b65f8347-81d7-416d-9039-288fead775dc');
 
 
 snaptr('track', 'PAGE_VIEW');
