@@ -24,7 +24,7 @@
 
 
 
-<div class="d-flex justify-content-center mt-4 mr-4">
+<div class="mt-4 mr-4 d-flex justify-content-center">
 
 
 
@@ -108,7 +108,7 @@ foreach ($files as $file) {
 
   <div class="row">
 
-  <div class="d-flex justify-content-center mt-4 mr-4">
+  <div class="mt-4 mr-4 d-flex justify-content-center">
 
 
 
@@ -129,7 +129,7 @@ foreach ($files as $file) {
   </div>
 
 
-    <div class=" row mt-4  ">
+    <div class="mt-4 row">
 
     <?php
 
@@ -144,7 +144,7 @@ echo ' <img src="tandt.png" alt="Image" width="200">';
 <?php
 $form1_des2="
 
-واحصل علي خصومات تصل الي 50%
+عروض الصيف من عيادات إيفا
 ";
 
 ?>
