@@ -24,7 +24,7 @@
 
 
 
-<div class="d-flex justify-content-center  ">
+<div class="d-flex justify-content-center ">
 
 
 
@@ -124,7 +124,7 @@ echo $dr_name;
 
   <div class="row">
 
-  <div class="d-flex justify-content-center  ">
+  <div class="d-flex justify-content-center ">
 
 
 
@@ -151,7 +151,7 @@ echo $dr_name;
 
 
 if($taby_and_tamara==1){
-  echo ' <img src="tandt.png" alt="Image"  class="responsive">';
+  echo ' <img src="taby_only_new.png" alt="Image"  class="responsive">';
 
 }
 
