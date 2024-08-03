@@ -31,8 +31,9 @@ $map_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.64682408292
 
 $form1_des="
 
+BACK TO SCHOOL
 
-عروض الصيف
+
 ";
 $cta=0;
 $cta_text="احجز الان";
