@@ -295,6 +295,23 @@ echo '
 
 
 
+<div class="row"     >
+
+<?php
+
+
+if($taby_and_tamara==1){
+echo ' <img src="taby_only_new.png" alt="Image"  class="responsive">';
+
+}
+
+
+
+
+?>
+
+</div>
+
 
 
 
