@@ -6,7 +6,7 @@
 
 <body>
     <div class="zoom-out">
-        <img src="http://localhost/dr_elite_landing_pages_2024/classone/logo.png" alt="Brand Logo" class="logo"> <!-- Updated logo source -->
+        <img src="https://ads.2moh.net/classone/logo.png" alt="Brand Logo" class="logo"> <!-- Updated logo source -->
         <div    class="brand-name">
 
 
