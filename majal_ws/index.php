@@ -186,7 +186,7 @@ include "form_deps.php";
 
     <?php
 
-include "counter.php";
+//include "counter.php";
 
 ?>
 
