@@ -4,7 +4,7 @@
 
 
 
-header("Location:https://www.royalclinicsksa.com:4431/View/Royal/LandPage.aspx?token=TallHAI1ro");
+header("Location:https://www.almeswakclinics.com:44319/View/Almeswak/LandPage.aspx?token=TallHAI1mn");
 
 
 
