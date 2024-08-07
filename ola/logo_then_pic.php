@@ -85,7 +85,7 @@ foreach ($files as $file) {
 
 
 
-<div class="d-flex justify-content-center ">
+<div class="mt-5 d-flex justify-content-center ">
 
 <h2>
 
@@ -102,7 +102,7 @@ echo $website_name;
 
 
 
-<div class="d-flex justify-content-center">
+<div class=" d-flex justify-content-center">
 
  
 <h4> 
