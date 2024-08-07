@@ -6,7 +6,7 @@
  
 
 <div class="py-3 text-center footer-copyright">    
-    <a style="color:blue;" href="#">بواسطة Mispay</a>
+    <a style="color:blue;" href="#">بواسطة طموح للتسويق الالكتروني </a>
  
  
 
