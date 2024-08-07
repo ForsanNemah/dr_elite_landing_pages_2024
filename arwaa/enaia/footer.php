@@ -5,8 +5,8 @@
 <!-- Copyright -->
  
 
-<div class="footer-copyright text-center py-3">    
-    <a style="color:blue;" href="#">  مغناطيس للتسويق </a>
+<div class="py-3 text-center footer-copyright">    
+    <a style="color:blue;" href="#">بواسطة Mispay</a>
  
  
 
@@ -15,7 +15,7 @@
 <!-- Copyright -->
 
 
-<div class="footer-copyright text-center py-3">    
+<div class="py-3 text-center footer-copyright">    
  
  
  <a style="color:blue;" href="privicy.php">سياسة الخصوصية  </a>
