@@ -151,7 +151,7 @@ echo $dr_name;
 
 
 if($taby_and_tamara==1){
-  echo ' <img src="tandt.png" alt="Image"  class="responsive">';
+ // echo ' <img src="tandt.png" alt="Image"  class="responsive">';
 
 }
 
