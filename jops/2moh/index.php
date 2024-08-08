@@ -43,11 +43,39 @@
           مختص تسويق إلكتروني
         </button>
       </a>
+      
       <a href="https://forms.gle/X5kLRdmAeeGyqAc1A">
         <button type="button" class="btn btn-primary rounded-pill btn-custom">
           مصمم جرافيك
         </button>
       </a>
+
+
+
+
+
+
+
+
+
+
+      <a href="https://forms.gle/q4Ych9yHqunQN6527">
+        <button type="button" class="btn btn-primary rounded-pill btn-custom">
+          كاتب محتوى 
+        </button>
+      </a>
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
   </div>
 
