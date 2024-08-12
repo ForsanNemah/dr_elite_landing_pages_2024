@@ -1,81 +1,102 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expanding Screen with Logo</title>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #f0f0f0;
-        }
+<script>
 
-        .expand {
-            width: 100px;
-            height: 100px;
-            background-color: #233064; /* Updated background color */
-            display: flex;
-            flex-direction: column; /* Arrange items vertically */
-            justify-content: center;
-            align-items: center;
-            color: white;
-            font-size: 24px;
-            border-radius: 10px;
-            animation: expandToFullScreen 1.5s forwards, disappear 1.5s 3s forwards;
-            transition: all 0.5s ease-in-out;
-        }
 
-        .logo {
-            width: 80px;
-            height: 80px;
-            object-fit: contain; /* Ensure the image fits within the container */
-            border-radius: 5px;
-            margin-bottom: 10px; /* Space between logo and text */
-        }
 
-        .brand-name {
-            font-size: 20px;
-            text-align: center;
-        }
+function createWhatsAppButton() {
+      // Create the WhatsApp button element
+      var button = document.createElement('a');
+      button.href = 'https://api.whatsapp.com/send?phone=<your_phone_number>';
+      button.target = '_blank';
 
-        @keyframes expandToFullScreen {
-            0% {
-                width: 100px;
-                height: 100px;
-            }
-            100% {
-                width: 100vw;
-                height: 100vh;
-            }
-        }
+      // Add the CSS styles to the button element
+      button.style.position = 'fixed';
+      button.style.bottom = '20px';
+      button.style.right = '20px';
+      button.style.backgroundColor = '#25d366';
+      button.style.color = 'white';
+      button.style.padding = '20px 26px';
+      button.style.borderRadius = '50%';
+      button.style.fontSize = '28px';
+      button.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.3)';
+      button.style.zIndex = '9999';
+      button.style.transition = 'transform 0.3s ease';
+      button.style.display = 'flex';
+      button.style.alignItems = 'center';
+      button.style.justifyContent = 'center';
 
-        @keyframes disappear {
-            0% {
-                opacity: 1;
-            }
-            100% {
-                opacity: 0;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="expand">
-        <img src="https://via.placeholder.com/80" alt="Brand Logo" class="logo">
-        <div class="brand-name">Brand Name</div>
-    </div>
+      // Add the hover effect
+      button.addEventListener('mouseover', function() {
+        button.style.transform = 'scale(1.1)';
+      });
 
-    <script>
-        setTimeout(() => {
-            document.querySelector('.expand').style.display = 'none';
-        }, 4500);
-    </script>
-</body>
-</html>
+      button.addEventListener('mouseout', function() {
+        button.style.transform = 'scale(1)';
+      });
+
+      // Create the WhatsApp icon element
+      var icon = document.createElement('i');
+      icon.classList.add('fab', 'fa-whatsapp');
+      icon.style.fontSize = '28px';
+      icon.style.verticalAlign = 'middle';
+      button.appendChild(icon);
+
+      // Append the button to the body
+      document.body.appendChild(button);
+
+      // Add responsive styles
+      addResponsiveStyles(button, icon);
+    }
+
+    // Function to add responsive styles
+    function addResponsiveStyles(button, icon) {
+      // Media query for smaller screens
+      var mediaQuery = window.matchMedia('(max-width: 767px)');
+
+      // Function to apply responsive styles
+      function applyResponsiveStyles() {
+        if (mediaQuery.matches) {
+          button.style.bottom = '10px';
+          button.style.right = '10px';
+          button.style.padding = '18px 22px';
+          button.style.fontSize = '24px';
+          icon.style.fontSize = '24px';
+        } else {
+          button.style.bottom = '20px';
+          button.style.right = '20px';
+          button.style.padding = '20px 26px';
+          button.style.fontSize = '28px';
+          icon.style.fontSize = '28px';
+        }
+      }
+
+      // Apply initial styles
+      applyResponsiveStyles();
+
+      // Listen for window resize events and apply responsive styles
+      mediaQuery.addListener(applyResponsiveStyles);
+    }
+
+    // Load the Font Awesome JavaScript library
+    var script = document.createElement('script');
+    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js';
+    script.integrity = 'sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==';
+    script.crossOrigin = 'anonymous';
+    script.onload = function() {
+      createWhatsAppButton();
+    };
+    document.head.appendChild(script);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </script>
