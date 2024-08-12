@@ -40,6 +40,9 @@ let expirationHours = 24; // Cookie will expire in 24 hours
 let cookieFound = getCookie(cookieName);
 if (cookieFound != "") {
   console.log("Cookie found!");
+ 
+
+  window.location.replace('https://api.whatsapp.com/send?phone=966920006802&text=%D8%B4%D9%81%D8%AA%20%D8%A7%D8%B9%D9%84%D8%A7%D9%86%D9%83%D9%85%20%D8%B9%D9%84%D9%89%20%D8%AC%D9%88%D8%AC%D9%84%20-%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA%20%D8%A3%D9%83%D8%AB%D8%B1%20');
 } else {
   console.log("Cookie not found.");
   setCookie(cookieName, cookieValue, expirationHours);
