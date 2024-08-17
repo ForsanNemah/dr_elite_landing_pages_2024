@@ -35,7 +35,7 @@ function openUrl() {
     $urlIndex = $currentCount % count($urls);
 
     // Output or open the URL (for demonstration, I'll just echo the URL)
-    echo "Opening: " . $urls[$urlIndex] . PHP_EOL;
+    //echo "Opening: " . $urls[$urlIndex] . PHP_EOL;
 
     
     // Increment the counter
@@ -53,7 +53,7 @@ function openUrl() {
 
 // Call the function
 openUrl();
-echo "<br>".$url_to_open;
+//echo "<br>".$url_to_open;
 // header("Location: $url_to_open")
 
 
