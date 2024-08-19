@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button in the Middle</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class="d-flex flex-column align-items-center justify-content-center vh-100">
+
+
+
+    <button class="btn btn-primary" onclick="window.location.href='https://docs.google.com/spreadsheets/d/1ffvAmLGsHkgNvQoRokkI7uZpbHMbTSlh/edit?gid=1165494110#gid=1165494110'">الميديا بلان </button>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrM7Frb4T9Q8AiBm+FWHGo/cWXFSkJNk2gn+T9UYfJ+M311e/Ppb" crossorigin="anonymous"></script>
+</body>
+</html>
