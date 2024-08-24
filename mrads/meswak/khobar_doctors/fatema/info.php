@@ -17,7 +17,7 @@ $dr_name="
 
 $phone_main="966566817409";
 
-$action_url="https://script.google.com/macros/s/AKfycbxw8t_z3WbI9z5OZiTTTxNXPiJQX9xfRbLa1uSuLXkMLdFDl56AGVDelJJRoSaXQOS6MQ/exec";
+$action_url="https://script.google.com/macros/s/AKfycbzjQEGIP6BQHteBfzCvMHfqEdRmWzl1nFTXi15maQM0muMRr4DHl6iOuXVMJreq0Qvs/exec";
  
 $sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF1xpPkV0_PTJK-MI/edit?usp=sharing";
 
