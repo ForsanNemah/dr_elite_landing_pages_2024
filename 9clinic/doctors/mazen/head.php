@@ -1,7 +1,7 @@
 <head>
 
 <script>
-
+/*
 //alert("hello");
 
 // Function to set a cookie
@@ -50,7 +50,7 @@ if (cookieFound != "") {
  
 
 
-
+*/
 
 </script>
 
