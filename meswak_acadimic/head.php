@@ -10,9 +10,6 @@ error_reporting(E_ERROR | E_PARSE);
 session_start();
 
 
-function hash_to_256($input_string) {
-    return hash('sha256', $input_string);
-}
 
 
 

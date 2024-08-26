@@ -413,6 +413,9 @@ echo "w_api start 2";
          
      
         
-
+        function hash_to_256($input_string) {
+            return hash('sha256', $input_string);
+        }
+        
 
 ?>
