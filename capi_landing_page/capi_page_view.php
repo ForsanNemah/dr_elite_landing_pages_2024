@@ -17,8 +17,8 @@ function sendSnapchatConversion($pixel_id, $timestamp, $event_conversion_type, $
     ));
 
     curl_setopt_array($curl, array(
-       // CURLOPT_URL => 'https://tr.snapchat.com/v2/conversion',
-        CURLOPT_URL => 'https://tr.snapchat.com/v2/conversion/validate',
+        CURLOPT_URL => 'https://tr.snapchat.com/v2/conversion',
+        //CURLOPT_URL => 'https://tr.snapchat.com/v2/conversion/validate',
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => '',
         CURLOPT_MAXREDIRS => 10,
@@ -57,9 +57,6 @@ function sendSnapchatConversion($pixel_id, $timestamp, $event_conversion_type, $
 
 
 
-function hash_to_256($input_string) {
-    return hash('sha256', $input_string);
-}
 
 
 
@@ -71,8 +68,6 @@ function hash_to_256($input_string) {
 
 
 
-$pixel_id = "77ec2e1e-c2bb-468f-8d2e-f99b7ec9983c";
-$authorization_token = "eyJhbGciOiJIUzI1NiIsImtpZCI6IkNhbnZhc1MyU0hNQUNQcm9kIiwidHlwIjoiSldUIn0.eyJhdWQiOiJjYW52YXMtY2FudmFzYXBpIiwiaXNzIjoiY2FudmFzLXMyc3Rva2VuIiwibmJmIjoxNzI0NjIwODIzLCJzdWIiOiJhMTAzMjVhMi0zMzU1LTRkMjMtODhmOC04MmFmZTc3NzYzOTR-UFJPRFVDVElPTn4yNTZmYTNlNi1iZDhmLTQwMTctYTQ2MC0yYjU2OGI4MDJiMWQifQ.7-CnLhZlNw3mr9vkdWMMtVoUz0CONBGZibDPEOEo8Es";
 $timestamp =time();
 $event_conversion_type = "WEB";
 $event_type = "PAGE_VIEW";
@@ -90,7 +85,7 @@ $click_id = "7b3a7917-a82a-47e8-9728-e1b3b045abb2";
 
 $response = sendSnapchatConversion($pixel_id, $timestamp, $event_conversion_type, $event_type, $hashed_ip_address, $user_agent, $click_id, $authorization_token);
 
-echo $response;
+//echo $response;
 
 
 

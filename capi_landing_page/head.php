@@ -3,10 +3,58 @@
 
 
 <?php
+error_reporting(E_ERROR | E_PARSE);
+
+
+
+session_start();
+
+
+function hash_to_256($input_string) {
+    return hash('sha256', $input_string);
+}
+
+
+
+
+
+
+
+
+
+
+
+$ScCid = $_GET['scCid'];
+
+
+
+//echo $ScCid;
+$_SESSION['ScCid']=$ScCid;
+//session_start();
+//echo $_SESSION['ScCid']." from session";
+//echo  $_SESSION['ScCid'];
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  
 include "info.php";
+
+include "capi_signup.php";
 
 ?>
 

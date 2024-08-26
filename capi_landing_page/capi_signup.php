@@ -1,7 +1,7 @@
 <?php
 
-include "info.php";
-function sendSnapchatConversion($pixel_id, $timestamp, $event_conversion_type, $event_type, $hashed_email, $hashed_phone_number, $hashed_ip_address, $user_agent, $click_id, $authorization_token) {
+ 
+function sendSnapchatConversion_sign_up($pixel_id, $timestamp, $event_conversion_type, $event_type, $hashed_email, $hashed_phone_number, $hashed_ip_address, $user_agent, $click_id, $authorization_token) {
     $curl = curl_init();
 
     $postData = json_encode(array(
@@ -56,10 +56,7 @@ function sendSnapchatConversion($pixel_id, $timestamp, $event_conversion_type, $
 
 
 
-function hash_to_256($input_string) {
-    return hash('sha256', $input_string);
-}
-
+ 
 
 
 
@@ -98,8 +95,18 @@ echo $response;
 
 
 
+ 
+$timestamp =time();
+$event_conversion_type = "WEB";
+$event_type = "SIGN_UP";
+$hashed_ip_address = hash_to_256($_SERVER['REMOTE_ADDR']);
+$user_agent = $_SERVER['HTTP_USER_AGENT'];
+$hashed_email = hash_to_256($user_email_to_hash);
+$hashed_phone_number = hash_to_256($user_phone_to_hash);
+$click_id = $user_click_id;
+$response = sendSnapchatConversion_sign_up($pixel_id, $timestamp, $event_conversion_type, $event_type, $hashed_email, $hashed_phone_number, $hashed_ip_address, $user_agent, $click_id, $authorization_token);
 
-
+//echo $response;
 
 
 

@@ -1,11 +1,17 @@
 <?php
+session_start();
+echo $_SESSION['ScCid']." from session";
+
 
 error_reporting(E_ERROR | E_PARSE);
 ini_set('max_execution_time', '0');
 include "info.php";
 
+
+
 $name=$_POST['name'];
 $phone=$_POST['phone'];
+$email=$_POST['email'];
 $service=$_POST['service'];
 $is_w_app=$_POST['is_w_app'];
 $source=$_POST['source'];
@@ -15,6 +21,31 @@ $msg=$_POST['msg'];
 $branch1=$_POST['branch1'];
 $branch2=$_POST['branch2'];
 $location=$_POST['location'];
+
+
+
+
+
+
+
+
+$user_email_to_hash=$email;
+$user_phone_to_hash=$phpne;
+$user_click_id=$_SESSION['ScCid'];
+include "capi_signup.php";
+
+//die;
+
+
+
+ 
+
+
+
+
+
+
+
 
 //echo  $branch1.$branch2;
 

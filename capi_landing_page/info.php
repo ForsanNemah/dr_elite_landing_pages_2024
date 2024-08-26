@@ -17,15 +17,15 @@ $dr_name="
 
 ";
 
-$phone_main="966599499320";
+$phone_main="966590013452";
 
-$action_url="https://script.google.com/macros/s/AKfycbwRNslaUy_IZCUwxK7dqCDTaAdMIiDZtaZlC_Ca1mwLsDzpr4eeABuYBMmuKxNWmLFX/exec";
+$action_url="https://script.google.com/macros/s/AKfycbzuHRiNI3Ql6o0fzom8GxzrlgAOuWlKLfQ2sXP7dpm54FoauFbyM2078WgO-xfXmrse/exec";
 
 $sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF1xpPkV0_PTJK-MI/edit?usp=sharing";
 
 $form1_des="
 
-عروض الصيف
+عروض اليوم الوطني
 ";
 $cta=0;
 $cta_text="احجز الان";
@@ -134,6 +134,26 @@ $taby_and_tamara=1;
 
 
 
+$pixel_id = "77ec2e1e-c2bb-468f-8d2e-f99b7ec9983c";
+$authorization_token = "eyJhbGciOiJIUzI1NiIsImtpZCI6IkNhbnZhc1MyU0hNQUNQcm9kIiwidHlwIjoiSldUIn0.eyJhdWQiOiJjYW52YXMtY2FudmFzYXBpIiwiaXNzIjoiY2FudmFzLXMyc3Rva2VuIiwibmJmIjoxNzI0NjIwODIzLCJzdWIiOiJhMTAzMjVhMi0zMzU1LTRkMjMtODhmOC04MmFmZTc3NzYzOTR-UFJPRFVDVElPTn4yNTZmYTNlNi1iZDhmLTQwMTctYTQ2MC0yYjU2OGI4MDJiMWQifQ.7-CnLhZlNw3mr9vkdWMMtVoUz0CONBGZibDPEOEo8Es";
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+*/
 
 ?>
