@@ -118,7 +118,7 @@ $footer2=0;
 $w_app_button=1;
 $api_notification=1;
 $ad_source="snap ";
-$header1=1;
+$header1=0;
 $parteners=0;
 $about_image=0;
 
