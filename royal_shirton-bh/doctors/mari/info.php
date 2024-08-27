@@ -15,7 +15,7 @@ $dr_name="
 
 ";
 
-$phone_main="966569958652";
+$phone_main="966541000937";
 
 $action_url="https://script.google.com/macros/s/AKfycbzNK05kyj3OjIq_x3gnSuJBNLq2z6NRu7IAzsmK75ElFBKaf00PCDx8tfUmkkQM85y_/exec";
 
@@ -117,8 +117,8 @@ $process=0;
 $services_images=0;
 $footer=1;
 $footer2=0;
-$w_app_button=0;
-$api_notification=0;
+$w_app_button=1;
+$api_notification=1;
 $ad_source="snap ";
 $header1=1;
 $parteners=0;
