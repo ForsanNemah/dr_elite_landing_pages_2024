@@ -239,11 +239,11 @@ include "hero_video.php";
 
             <div class="section-title">
           
-          <p>  مطعم دلع كرشك </p>
+          <p contenteditable="true">  مطعم دلع كرشك </p>
         </div>
 
 
-            <p class=" ">
+            <p contenteditable="true" class=" ">
              
 
 
@@ -266,7 +266,7 @@ include "hero_video.php";
 
         <div class="section-title">
           <h2>لماذا نحن </h2>
-          <p>لماذا تختار مطعمنا </p>
+          <p contenteditable="true">لماذا تختار مطعمنا </p>
         </div>
 
         <div class="row">
@@ -282,7 +282,7 @@ include "hero_video.php";
 
          
               </h4>
-              <p>
+              <p contenteditable="true">
                 
               نفتخر بتقديم تشكيلة واسعة من الأطباق المصرية المميزة، بدءًا من الاطباق  الممتعة مثل الفلافل والحمص، وصولًا إلى الأطباق الرئيسية مثل الكشري والملوخية والمشويات بانواعها، بالإضافة إلى الحلويات الشهية مثل البسبوسة والكنافة وام علي.
               
@@ -304,7 +304,7 @@ include "hero_video.php";
        
 
               </h4>
-              <p>
+              <p contenteditable="true">
                 
               نحرص على استخدام أفضل المكونات الطازجة والتوابل الأصلية لإعداد الطعام بطريقة تحافظ على الطعم الأصيل والجودة العالية.
               
@@ -327,7 +327,7 @@ include "hero_video.php";
     
 
               </h4>
-              <p>
+              <p contenteditable="true">
                 
                  
               
@@ -350,7 +350,7 @@ include "hero_video.php";
 
         <div class="section-title">
           <h2>المنيو</h2>
-          <p>تصفح قائمة طعامنا  اللذيذة</p>
+          <p contenteditable="true">تصفح قائمة طعامنا  اللذيذة</p>
 
 
       
@@ -477,7 +477,7 @@ include "hero_video.php";
 
         <div class="section-title">
           <h2>Specials</h2>
-          <p>Check Our Specials</p>
+          <p contenteditable="true">Check Our Specials</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -506,8 +506,8 @@ include "hero_video.php";
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
                     <h3>Architecto ut aperiam autem id</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                    <p contenteditable="true" class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                    <p contenteditable="true">Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/specials-1.png" alt="" class="img-fluid">
@@ -518,8 +518,8 @@ include "hero_video.php";
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
                     <h3>Et blanditiis nemo veritatis excepturi</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
+                    <p contenteditable="true" class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                    <p contenteditable="true">Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/specials-2.png" alt="" class="img-fluid">
@@ -530,8 +530,8 @@ include "hero_video.php";
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
                     <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
-                    <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
-                    <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+                    <p contenteditable="true" class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
+                    <p contenteditable="true">Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/specials-3.png" alt="" class="img-fluid">
@@ -542,8 +542,8 @@ include "hero_video.php";
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
                     <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
-                    <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
-                    <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
+                    <p contenteditable="true" class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
+                    <p contenteditable="true">Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/specials-4.png" alt="" class="img-fluid">
@@ -554,8 +554,8 @@ include "hero_video.php";
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
                     <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
-                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                    <p contenteditable="true" class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
+                    <p contenteditable="true">Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/specials-5.png" alt="" class="img-fluid">
@@ -575,7 +575,7 @@ include "hero_video.php";
 
         <div class="section-title">
           <h2>Events</h2>
-          <p>Organize Your Events in our Restaurant</p>
+          <p contenteditable="true">Organize Your Events in our Restaurant</p>
         </div>
 
         <div class="events-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -589,9 +589,9 @@ include "hero_video.php";
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Birthday Parties</h3>
                   <div class="price">
-                    <p><span>$189</span></p>
+                    <p contenteditable="true"><span>$189</span></p>
                   </div>
-                  <p class="fst-italic">
+                  <p contenteditable="true" class="fst-italic">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                     magna aliqua.
                   </p>
@@ -600,7 +600,7 @@ include "hero_video.php";
                     <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
                     <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
                   </ul>
-                  <p>
+                  <p contenteditable="true">
                     Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
                     velit esse cillum dolore eu fugiat nulla pariatur
                   </p>
@@ -616,9 +616,9 @@ include "hero_video.php";
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Private Parties</h3>
                   <div class="price">
-                    <p><span>$290</span></p>
+                    <p contenteditable="true"><span>$290</span></p>
                   </div>
-                  <p class="fst-italic">
+                  <p contenteditable="true" class="fst-italic">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                     magna aliqua.
                   </p>
@@ -627,7 +627,7 @@ include "hero_video.php";
                     <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
                     <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
                   </ul>
-                  <p>
+                  <p contenteditable="true">
                     Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
                     velit esse cillum dolore eu fugiat nulla pariatur
                   </p>
@@ -643,9 +643,9 @@ include "hero_video.php";
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Custom Parties</h3>
                   <div class="price">
-                    <p><span>$99</span></p>
+                    <p contenteditable="true"><span>$99</span></p>
                   </div>
-                  <p class="fst-italic">
+                  <p contenteditable="true" class="fst-italic">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                     magna aliqua.
                   </p>
@@ -654,7 +654,7 @@ include "hero_video.php";
                     <li><i class="bi bi-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
                     <li><i class="bi bi-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
                   </ul>
-                  <p>
+                  <p contenteditable="true">
                     Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
                     velit esse cillum dolore eu fugiat nulla pariatur
                   </p>
@@ -675,7 +675,7 @@ include "hero_video.php";
 
         <div class="section-title">
           <h2>الحجز</h2>
-          <p>
+          <p contenteditable="true">
 
           اكتشفوا عبق الثقافة المصرية
           
@@ -746,7 +746,7 @@ include "hero_video.php";
 
         <div class="section-title">
           <h2>اراء العملاء</h2>
-          <p>ماذا قال عملاؤنا عنا </p>
+          <p contenteditable="true">ماذا قال عملاؤنا عنا </p>
         </div>
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -754,7 +754,7 @@ include "hero_video.php";
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <p>
+                <p contenteditable="true">
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
 
                   الاكل رائع والخدمة ممتازة والاسعار فى المتناول ، وشكر خاص للشيف حمدى مرمر على الفطير وطعمه الجميل
@@ -771,7 +771,7 @@ include "hero_video.php";
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <p>
+                <p contenteditable="true">
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
 
 
@@ -793,7 +793,7 @@ include "hero_video.php";
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <p>
+                <p contenteditable="true">
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
 
 
@@ -814,7 +814,7 @@ include "hero_video.php";
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <p>
+                <p contenteditable="true">
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
 
                   تقيمي للمشويات ممتازه سلطه الطحينة والباذنجان المخلل ممتازين بيتزا وفطيرة دلع كرشك ممتازين الممبار ممتاز
@@ -834,7 +834,7 @@ include "hero_video.php";
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <p>
+                <p contenteditable="true">
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
 
 
@@ -863,7 +863,7 @@ include "hero_video.php";
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>معرض الصور </h2>
-          <p>بعض الصور من مطعمنا </p>
+          <p contenteditable="true">بعض الصور من مطعمنا </p>
         </div>
       </div>
 
@@ -1017,7 +1017,7 @@ echo '
 
         <div class="section-title">
           <h2>Chefs</h2>
-          <p>Our Proffesional Chefs</p>
+          <p contenteditable="true">Our Proffesional Chefs</p>
         </div>
 
         <div class="row">
@@ -1087,7 +1087,7 @@ echo '
 
         <div class="section-title">
           
-          <p>تواصل معنا </p>
+          <p contenteditable="true">تواصل معنا </p>
         </div>
       </div>
 
@@ -1104,7 +1104,7 @@ echo '
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>العنوان</h4>
-                <p>
+                <p contenteditable="true">
                  
                   <a href="https://maps.app.goo.gl/evtnkb9b7TNhZwDNA">
                 
@@ -1119,7 +1119,7 @@ echo '
               <div class="open-hours">
                 <i class="bi bi-clock"></i>
                 <h4>ساعات العمل</h4>
-                <p>
+                <p contenteditable="true">
                
                   
                 <a href=""> 
@@ -1137,7 +1137,7 @@ echo '
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>الايميل</h4>
-                <p>
+                <p contenteditable="true">
                   
                 
 
@@ -1156,7 +1156,7 @@ echo '
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>موبايل</h4>
-                <p>
+                <p contenteditable="true">
                 
                 
                  <a href="tel: <?php echo $phone;?>"> <?php echo $phone;?></a>
@@ -1214,7 +1214,7 @@ echo '
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
               <h3>دلع كرشك</h3>
-              <p>
+              <p contenteditable="true">
 
 
              
@@ -1267,7 +1267,7 @@ echo '
 
           <div class="col-lg-4 col-md-6 footer-newsletter" hidden>
             <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <p contenteditable="true">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>

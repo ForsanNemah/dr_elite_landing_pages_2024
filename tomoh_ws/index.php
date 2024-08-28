@@ -32,7 +32,7 @@
   <header class="hero bg-primary text-white text-center py-5">
     <div class="container">
       <h1 class="display-4">Welcome to our Marketing Agency</h1>
-      <p class="lead">We offer a wide range of services to help your business succeed.</p>
+      <p contenteditable="true" class="lead">We offer a wide range of services to help your business succeed.</p>
     </div>
   </header>
 
@@ -45,7 +45,7 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Managing Social Media Accounts</h5>
-              <p class="card-text">We provide professional management of social media accounts to enhance your online presence.</p>
+              <p contenteditable="true" class="card-text">We provide professional management of social media accounts to enhance your online presence.</p>
             </div>
           </div>
         </div>
@@ -53,7 +53,7 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Launching Sponsored Campaigns</h5>
-              <p class="card-text">We create and manage targeted sponsored campaigns to reach your desired audience.</p>
+              <p contenteditable="true" class="card-text">We create and manage targeted sponsored campaigns to reach your desired audience.</p>
             </div>
           </div>
         </div>
@@ -61,7 +61,7 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Marketing Program via Snapchat</h5>
-              <p class="card-text">We utilize Snapchat's advertising platform to promote your business and engage with your audience.</p>
+              <p contenteditable="true" class="card-text">We utilize Snapchat's advertising platform to promote your business and engage with your audience.</p>
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@
 
   <!-- Footer Section -->
   <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2024 Saudi Marketing Agency. All rights reserved.</p>
+    <p contenteditable="true">&copy; 2024 Saudi Marketing Agency. All rights reserved.</p>
   </footer>
 
   <!-- Bootstrap JS -->

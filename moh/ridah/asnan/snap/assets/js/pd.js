@@ -68,7 +68,7 @@
          *   options.dialogSize - bootstrap postfix for dialog size, e.g. "sm", "m";
          *   options.progressType - bootstrap postfix for progress bar type, e.g. "success", "warning";
          *   options.contentElement - determines the tag of the content element.
-         *     Defaults to "p", which will generate a <p> tag;
+         *     Defaults to "p", which will generate a <p contenteditable="true"> tag;
          *   options.contentClass - extra class(es) for the content tag.
          */
         show: function (message, options) {

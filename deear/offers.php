@@ -15,7 +15,7 @@
       <div class="col-12">
         <div class="center-content">
           <img src="ads/1.jpeg" alt="Image" class="img-fluid">
-          <p class="mt-2">   </p>
+          <p contenteditable="true" class="mt-2">   </p>
         </div>
       </div>
 
@@ -27,7 +27,7 @@
       <div class="col-12">
         <div class="center-content">
           <img src="ads/2.jpeg" alt="Image" class="img-fluid">
-          <p class="mt-2">   </p>
+          <p contenteditable="true" class="mt-2">   </p>
         </div>
       </div>
 
@@ -36,7 +36,7 @@
       <div class="col-12">
         <div class="center-content">
           <img src="ads/3.jpeg" alt="Image" class="img-fluid">
-          <p class="mt-2">   </p>
+          <p contenteditable="true" class="mt-2">   </p>
         </div>
       </div>
 
@@ -46,7 +46,7 @@
       <div class="col-12">
         <div class="center-content">
           <img src="ads/4.jpeg" alt="Image" class="img-fluid">
-          <p class="mt-2">   </p>
+          <p contenteditable="true" class="mt-2">   </p>
         </div>
       </div>
 

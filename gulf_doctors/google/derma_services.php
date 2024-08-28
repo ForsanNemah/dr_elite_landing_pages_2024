@@ -9,7 +9,7 @@
               <img src="images/zeraa.png" alt="Service 1 Icon">
             </div>
             <h3 class="service-name">الفيلر</h3>
-            <p class="service-description">
+            <p contenteditable="true" class="service-description">
 
 
             الفيلر او الحشو الجلدي هو مادة يتم حقنها تحت الجلد لتعطي مظهر بامتلاء الوجه. حقن الفيلر هو من الإجراءات التجميلية الأكثر شيوعا على مستوى العالم ويستخدم للنساء والرجال على حد سواء.يمكن استخدام الفيلر في علاج التجاعيد خاصة تجاعيد ما تحت العين  وملء الفجوات والترهلات في الوجه. كذلك يستخدم الفيلر لتجميل وملء الشفتين وملء وتكبير الخدين.
@@ -27,7 +27,7 @@
               <img src="images/ebtesama.png" alt="Service 2 Icon">
             </div>
             <h3 class="service-name">البوتوكس التجميلي</h3>
-            <p class="service-description">
+            <p contenteditable="true" class="service-description">
 
 
             يتم استخدام المادة المعروفة باسم التوكسين بوتولينيوم او البوتوكس كما هو الاسم الشائع لها. حيث تعمل هذة المادة على منع  وتقليل انقباض العضلات ولهذا فهي تستخدم كعلاج للحقن في الوجه لعلاج التجاعيد وخطوط الابتسام وتقليل ظهور التجاعيد على المدى البعيد.
@@ -43,7 +43,7 @@
               <img src="images/tar.png" alt="Service 3 Icon">
             </div>
             <h3 class="service-name">خيوط الوجه التجميلية</h3>
-            <p class="service-description">
+            <p contenteditable="true" class="service-description">
 
             يتم عمل شد ورفع للوجه باستخدام خيط تجميلي معقم مصنوع من الياف دقيقة من مادة تسمى بولي ديوكسانون (PDS).
 هذة الخيوط تعرف ايضا باسم خيوط باريس ، يتم ادخال وتركيب هذة الخيوط في الوجه بواسطة خبير التجميل حيث تعمل على تحفيز إنتاج الكولاجين ورفع الجلد وتعطي نتائج ممتازة.وهي إجراء مثالي لمن يرغب في عمل شد وتجميل الوجه بدون التدخلات الجراحية.
@@ -65,7 +65,7 @@
               <img src="images/taq.png" alt="Service 1 Icon">
             </div>
             <h3 class="service-name"> الليزر</h3>
-            <p class="service-description">
+            <p contenteditable="true" class="service-description">
 
             يستخدم الليزر في العديد من الإجراءات التجميلية. بخلاف ازالة الشعر يمكن استخدام الليزر في عدة تطبيقات مثل ازالة الوشم او التاتو وعلاج الدوالي او الاوردة الدموية البارزة.  ويمكن استخدام الليزر لعلاج بشرة الوجه من خلال عمل تقشير للبشرة وازالة التصبغات وحفر الوجه او علاج المسامات الواسعه وتقليل وعلاج مشكلات حبوب الشباب.
 
@@ -82,7 +82,7 @@
               <img src="images/mo.png" alt="Service 2 Icon">
             </div>
             <h3 class="service-name"> الرينجنيرا</h3>
-            <p class="service-description">
+            <p contenteditable="true" class="service-description">
             
             
             تقنية الرينجنيرا هي تقنية علاجية حديثة لعلاج مشاكل تقصف وتساقط الشعر والتي قد تحدث نتيجة للاجهاد او نقص بعض العناصر الغذائية.
@@ -99,7 +99,7 @@
               <img src="images/qas.png" alt="Service 3 Icon">
             </div>
             <h3 class="service-name"> حقن ميزوثيرابي علاجية</h3>
-            <p class="service-description">
+            <p contenteditable="true" class="service-description">
 
 
 

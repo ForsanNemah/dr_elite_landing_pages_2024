@@ -15,7 +15,7 @@ include 'logo_section.php';
 
 
 
-<p class="text-right " style="background: #D3D3D3;" dir="rtl">
+<p contenteditable="true" class="text-right " style="background: #D3D3D3;" dir="rtl">
     
     
 

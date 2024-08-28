@@ -69,7 +69,7 @@
 
                         
                         <h4 class="service-name">عيادة الطبيب العام</h4>
-                        <p class="service-description">
+                        <p contenteditable="true" class="service-description">
 
                         تقدم عيادات الطب العام الرعاية الوقائية والأولية للمشاكل الطبية الشائعة، فضلاً عن توفير خدمات التشخيص المبكر ، والتحويل للاستشاري المتخصص عند الحاجة.
 
@@ -81,7 +81,7 @@
                     <div class="service-card">
                         <i class="fa fa-globe service-icon"></i>
                         <h4 class="service-name">عيادة أنف وأذن و حنجرة</h4>
-                        <p class="service-description">
+                        <p contenteditable="true" class="service-description">
 
                         يقدم قسم الأنف والأذن والحنجرة رعاية شاملة لجميع الاضطرابات المتعلقة بالأذن والأنف والحنجرة والرأس والرقبة في المرضى من جميع الأعمار
 
@@ -94,7 +94,7 @@
                     <div class="service-card">
                         <i class="fa fa-rocket service-icon"></i>
                         <h4 class="service-name">الباطنة العام</h4>
-                        <p class="service-description">
+                        <p contenteditable="true" class="service-description">
 
 
 
@@ -111,14 +111,14 @@
                     <div class="service-card">
                         <i class="fa fa-cogs service-icon"></i>
                         <h4 class="service-name">أطفال</h4>
-                        <p class="service-description">توفير أفضل رعاية صحية للأطفال. فنحن نقدم خدمة طبية شاملة لمساعدتك مع طفلك في رحلته لحظة بلحظة</p>
+                        <p contenteditable="true" class="service-description">توفير أفضل رعاية صحية للأطفال. فنحن نقدم خدمة طبية شاملة لمساعدتك مع طفلك في رحلته لحظة بلحظة</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="service-card">
                         <i class="fa fa-globe service-icon"></i>
                         <h4 class="service-name">النساء والتوليد</h4>
-                        <p class="service-description">تخصص طبي يشمل التخصصات الفرعية في كل من التوليد ( الحمل والولادة وفترة ما بعد الولادة ) وأمراض النساء</p>
+                        <p contenteditable="true" class="service-description">تخصص طبي يشمل التخصصات الفرعية في كل من التوليد ( الحمل والولادة وفترة ما بعد الولادة ) وأمراض النساء</p>
                     </div>
                 </div>
                 <!-- Add more service cards as needed -->
@@ -126,7 +126,7 @@
                     <div class="service-card">
                         <i class="fa fa-rocket service-icon"></i>
                         <h4 class="service-name">الاسنان</h4>
-                        <p class="service-description">متوفر داخل المركز قسم للأشعة ومعمل للتركيبات بالإضافة لأحدث تكنولوجيا وأجهزة في طب الأسنان. فريق متكامل من الأطباء في كل تخصصات طب الأسنان</p>
+                        <p contenteditable="true" class="service-description">متوفر داخل المركز قسم للأشعة ومعمل للتركيبات بالإضافة لأحدث تكنولوجيا وأجهزة في طب الأسنان. فريق متكامل من الأطباء في كل تخصصات طب الأسنان</p>
                     </div>
                 </div>
             </div>
@@ -145,14 +145,14 @@
                     <div class="service-card">
                         <i class="fa fa-cogs service-icon"></i>
                         <h4 class="service-name">عيون</h4>
-                        <p class="service-description">متخصصون في علاج جميع مشاكل وأمراض العيون ونستخدم أحدث وافضل الأجهزة</p>
+                        <p contenteditable="true" class="service-description">متخصصون في علاج جميع مشاكل وأمراض العيون ونستخدم أحدث وافضل الأجهزة</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="service-card">
                         <i class="fa fa-globe service-icon"></i>
                         <h4 class="service-name">عيادة التجميل</h4>
-                        <p class="service-description">هي الإختيار الأفضل لجراحات التجميل و الإجراءات الغير جراحية للعناية بالبشرة و الجسم</p>
+                        <p contenteditable="true" class="service-description">هي الإختيار الأفضل لجراحات التجميل و الإجراءات الغير جراحية للعناية بالبشرة و الجسم</p>
                     </div>
                 </div>
                 <!-- Add more service cards as needed -->
@@ -160,7 +160,7 @@
                     <div class="service-card">
                         <i class="fa fa-rocket service-icon"></i>
                         <h4 class="service-name">جلدية</h4>
-                        <p class="service-description">خدمات تجميلية في مجال الجلدية والليزر، والتجميل غير الجراحي، ومن أهم الخدمات التي يقدمها: علاج تساقط الشعر; علاج الهالات السوداء</p>
+                        <p contenteditable="true" class="service-description">خدمات تجميلية في مجال الجلدية والليزر، والتجميل غير الجراحي، ومن أهم الخدمات التي يقدمها: علاج تساقط الشعر; علاج الهالات السوداء</p>
                     </div>
                 </div>
             </div>
@@ -193,7 +193,7 @@
                     <div class="service-card">
                         <i class="fa fa-cogs service-icon"></i>
                         <h4 class="service-name">قسم الاشعه</h4>
-                        <p class="service-description">الأشعة التداخلية أو علم الأشعة التداخلي، هو عبارة عن اختصاص طبي مستقل انفصل عن علم الأشعة بعدما كان اختصاص فرعي به
+                        <p contenteditable="true" class="service-description">الأشعة التداخلية أو علم الأشعة التداخلي، هو عبارة عن اختصاص طبي مستقل انفصل عن علم الأشعة بعدما كان اختصاص فرعي به
 
 </p>
                     </div>
@@ -202,7 +202,7 @@
                     <div class="service-card">
                         <i class="fa fa-globe service-icon"></i>
                         <h4 class="service-name">قسم العمالة الوافدة</h4>
-                        <p class="service-description">تم تأسيس القسم بناءأ على شروط ومواصفات الشئون الصحية بأحدث ماتوصلت اليه تكنولوجيا المختبر ات الطبية من حيث الاجهزة المستخدمة فى الفحص على الفيروسات والامراض المعدية،</p>
+                        <p contenteditable="true" class="service-description">تم تأسيس القسم بناءأ على شروط ومواصفات الشئون الصحية بأحدث ماتوصلت اليه تكنولوجيا المختبر ات الطبية من حيث الاجهزة المستخدمة فى الفحص على الفيروسات والامراض المعدية،</p>
                     </div>
                 </div>
                 <!-- Add more service cards as needed -->
@@ -210,7 +210,7 @@
                     <div class="service-card">
                         <i class="fa fa-rocket service-icon"></i>
                         <h4 class="service-name">قسم المختبر</h4>
-                        <p class="service-description">نقدم جميع أنواع الفحوصات المخبرية مثل فحوصات الكيمياء والهرمونات، وصور الدم، والفيروسات، وغيرها. ...</p>
+                        <p contenteditable="true" class="service-description">نقدم جميع أنواع الفحوصات المخبرية مثل فحوصات الكيمياء والهرمونات، وصور الدم، والفيروسات، وغيرها. ...</p>
                     </div>
                 </div>
             </div>

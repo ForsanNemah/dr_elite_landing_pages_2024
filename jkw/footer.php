@@ -51,7 +51,7 @@
 
 
 
-                        <p class="footer-info">
+                        <p contenteditable="true" class="footer-info">
                         
                         2024 مجمع عيادات جميل خطاب
     
@@ -68,9 +68,9 @@
                 
                 <div class="col-md-4">
                     <!-- Additional information about the website -->
-                    <p class="footer-info">العنوان: Al Hufuf and Al Mubarraz 5046 الهفوف والمبرز</p>
-                    <p class="footer-info">ايميل: info@example.com</p>
-                    <p class="footer-info">اتصال: +1 123 456 7890</p>
+                    <p contenteditable="true" class="footer-info">العنوان: Al Hufuf and Al Mubarraz 5046 الهفوف والمبرز</p>
+                    <p contenteditable="true" class="footer-info">ايميل: info@example.com</p>
+                    <p contenteditable="true" class="footer-info">اتصال: +1 123 456 7890</p>
                 </div>
                 <div class="col-md-4 text-center">
                     <!-- Social media links -->

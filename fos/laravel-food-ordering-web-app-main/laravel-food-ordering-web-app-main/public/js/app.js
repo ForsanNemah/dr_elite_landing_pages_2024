@@ -21414,11 +21414,11 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
      * @example
      *
      * var p = _.wrap(_.escape, function(func, text) {
-     *   return '<p>' + func(text) + '</p>';
+     *   return '<p contenteditable="true">' + func(text) + '</p>';
      * });
      *
      * p('fred, barney, & pebbles');
-     * // => '<p>fred, barney, &amp; pebbles</p>'
+     * // => '<p contenteditable="true">fred, barney, &amp; pebbles</p>'
      */
     function wrap(value, wrapper) {
       return partial(castFunction(wrapper), value);
@@ -34610,7 +34610,7 @@ function createPatchFunction (backend) {
                 'The client-side rendered virtual DOM tree is not matching ' +
                 'server-rendered content. This is likely caused by incorrect ' +
                 'HTML markup, for example nesting block-level elements inside ' +
-                '<p>, or missing <tbody>. Bailing hydration and performing ' +
+                '<p contenteditable="true">, or missing <tbody>. Bailing hydration and performing ' +
                 'full client-side render.'
               );
             }
@@ -35772,7 +35772,7 @@ function updateDOMProps (oldVnode, vnode) {
       cur !== oldProps[key]
     ) {
       // some property updates can throw
-      // e.g. `value` on <progress> w/ non-finite value
+      // e.g. `value` on <p contenteditable="true"rogress> w/ non-finite value
       try {
         elm[key] = cur;
       } catch (e) {}

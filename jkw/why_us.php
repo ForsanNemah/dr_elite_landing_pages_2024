@@ -57,7 +57,7 @@
                         <div class="card-body">
                         <i class="fa fa-cogs service-icon"></i>
                             <h5 class="card-title">Quality Products</h5>
-                            <p class="card-text">We offer high-quality products that meet your needs and exceed your expectations.</p>
+                            <p contenteditable="true" class="card-text">We offer high-quality products that meet your needs and exceed your expectations.</p>
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                         <div class="card-body">
                         <i class="fa fa-cogs service-icon"></i>
                             <h5 class="card-title">Exceptional Service</h5>
-                            <p class="card-text">Our dedicated team provides exceptional service to ensure your satisfaction.</p>
+                            <p contenteditable="true" class="card-text">Our dedicated team provides exceptional service to ensure your satisfaction.</p>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                         <div class="card-body">
                         <i class="fa fa-cogs service-icon"></i>
                             <h5 class="card-title">Competitive Pricing</h5>
-                            <p class="card-text">We offer competitive pricing without compromising on quality.</p>
+                            <p contenteditable="true" class="card-text">We offer competitive pricing without compromising on quality.</p>
                         </div>
                     </div>
                 </div>

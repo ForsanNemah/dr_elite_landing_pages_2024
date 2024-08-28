@@ -42,7 +42,7 @@
   <div class="container">
     <div class="success-box">
       <h1> تم التسجيل بنجاح </h1>
-      <p> 
+      <p contenteditable="true"> 
 
 
 سيتم التواصل معكم لتحديد موعد الكشف  

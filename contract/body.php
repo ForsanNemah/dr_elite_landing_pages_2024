@@ -39,7 +39,7 @@
 
 
     <div class="row">
-  <div class="col text-center" style="margin-top: 100px ;">
+  <div class="text-center col" style="margin-top: 100px ;">
     
   <h6>
 
@@ -52,7 +52,7 @@
  
 
   </div>
-  <div class="col text-center">
+  <div class="text-center col">
 
 
   <img src="logo2.png" class="img-fluid" alt="Responsive image">
@@ -67,7 +67,7 @@
 </h3>
     </div>
    
-  <div class="col text-center" style="margin-top: 100px ;">
+  <div class="text-center col" style="margin-top: 100px ;">
   
 
   <h6>
@@ -119,7 +119,7 @@
 
 
 
-<div class="contact-info mt-4">
+<div class="mt-4 contact-info">
                 <div><strong>الطرف الأول:</strong> 
                 
                 شركة قمة الإنتشار   للخدمات التسويقية سجل تجاري رقم (2053126009) ومقرها
@@ -131,7 +131,7 @@
                 <div><strong>البريد الإلكتروني:</strong>info@intshar.com</div>
                 <div><strong>رقم الجوال:</strong>966539811400</div>
             </div>
-            <div contenteditable="true" class="contact-info mt-3">
+            <div contenteditable="true" class="mt-3 contact-info">
                 <div contenteditable="true"><strong>الطرف الثاني:</strong>   <?php echo $company_name;?> سجل تجاري رقم (<?php echo $company_id;?>) ومقرها الرئيسي في <?php echo $address;?>
                     ويمثلها فيما يخص هذه الاتفاقية ( <?php echo $customer_name;?> )</div>
                 <div><strong>البريد الإلكتروني:</strong> <?php echo $email;?></div>
@@ -167,7 +167,7 @@
             </ol>
            
 
-            <h2 class="h5 mt-4">ثالثاً: التزامات الطرف الثاني</h2>
+            <h2 class="mt-4 h5">ثالثاً: التزامات الطرف الثاني</h2>
             <ul>
                 <li>يلتزم الطرف الثاني بتعيين مسؤول تواصل دائم مع الطرف الأول في مدة أقصاها 2 يوم عمل من توقيع
                     الاتفاقية.</li>
@@ -176,14 +176,14 @@
                 <li>اعتماد الأعمال المرسلة للطرف الأول في مدة أقصاها 2 يوم عمل.</li>
             </ul>
 
-            <h2 class="h5 mt-4">رابعاً: مدة الاتفاقية</h2>
+            <h2 class="mt-4 h5">رابعاً: مدة الاتفاقية</h2>
             <p contenteditable="true">اتفق الطرفان على أن تكون مدة الاتفاقية شهر ميلادي واحد اعتبارًا من تاريخ   <?php echo $contract_date;?>.</p>
 
-            <h2 class="h5 mt-4">خامساً: قيمة الانفاقية و آلية السداد</h2>
+            <h2 class="mt-4 h5">خامساً: قيمة الانفاقية و آلية السداد</h2>
             <p contenteditable="true">اتفق الطرفان على أن تكون قيمة الدفع الشهرية مقدماً وذلك بما يعادل مبلغ وقدره <?php echo $cost;?> ريال سعودي، كتابة (فقط
             <?php echo $cost_string;?> ريال لا غير).</p>
 
-            <h2 class="h5 mt-4">سادساً: فسخ الاتفاقية</h2>
+            <h2 class="mt-4 h5">سادساً: فسخ الاتفاقية</h2>
             <ul>
                 <li contenteditable="true">في حال رغب أحد الطرفين فسخ الاتفاقية، يلتزم بإخطار الطرف الآخر وذلك قبل 14 يوماً من تاريخ الدفع
                     التالية مع التسبب بتسديد جميع المستحقات المالية إن وجدت للطرف الأول.</li>
@@ -192,14 +192,14 @@
                 <li>إذا أفلس الطرف الثاني أو أصبح في حكم المفلس طبقا لنظام المحكمة، مع تقديم الوثائق التي تثبت ذلك.</li>
             </ul>
 
-            <h2 class="h5 mt-4">سابعاً: إرجاع الأرقام السرية</h2>
+            <h2 class="mt-4 h5">سابعاً: إرجاع الأرقام السرية</h2>
             <p contenteditable="true">
                 يلتزم الطرف الأول بتسليم جميع الأرقام السرية الخاصة بالحسابات المتفق عليها فور إنهاء هذه الاتفاقية، ويجب
                 على الطرف الثاني تغيير الأرقام السرية الخاصة بحسابات التواصل الاجتماعي المتفق عليها بعد استلامها من
                 الطرف الأول خلال مدة لا تزيد عن 48 ساعة من إنهاء الاتفاقية.
             </p>
 
-            <h2 class="h5 mt-4">ثامناً: أحكام عامة</h2>
+            <h2 class="mt-4 h5">ثامناً: أحكام عامة</h2>
             <ul>
                 
 
@@ -207,7 +207,7 @@
 
             </ul>
 
-            <h2 class="h5 mt-4">تاسعاً: طريقة التواصل</h2>
+            <h2 class="mt-4 h5">تاسعاً: طريقة التواصل</h2>
             <p>
                 يكون البريد الإلكتروني أو الواتساب للطرف الأول ومسؤول المتابعة لدى الطرف الثاني هو الوسيلة الرسمية
                 للتعامل بين الطرفين.
@@ -221,7 +221,7 @@
 
 
 
-            <h2 class="h5 mt-4">عاشرا: التوقيع  </h2>
+            <h2 class="mt-4 h5">عاشرا: التوقيع  </h2>
             <p>
                 
             </p>

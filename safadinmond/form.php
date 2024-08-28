@@ -59,7 +59,7 @@
 
 
 
-                                    <p class="appointment-title text-light pulsate" >     
+                                    <p contenteditable="true" class="appointment-title text-light pulsate" >     
 
                                     <?php
 
@@ -73,7 +73,7 @@ include 'info.php';
 ?>
                                     
                                     </p>
-                                    <p class="appointment-title text-light pulsate" style="font-size:1.2em;direction:rtl">   
+                                    <p contenteditable="true" class="appointment-title text-light pulsate" style="font-size:1.2em;direction:rtl">   
                                   
                                   
                                   
@@ -244,7 +244,7 @@ include 'info.php';
 ?>
                             </h4>
                             <br />
-                            <p class="text-light" style="font-size: 1.2em; font-size: 1.2em; font-family: inherit !important ">             <?php
+                            <p contenteditable="true" class="text-light" style="font-size: 1.2em; font-size: 1.2em; font-family: inherit !important ">             <?php
 
 include 'info.php';
 

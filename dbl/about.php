@@ -51,7 +51,7 @@
                   <div class="st-text-block-text">
 
 
-                    <p>
+                    <p contenteditable="true">
                       
                     فريق العمل:
 
@@ -61,7 +61,7 @@
                     
                     </p>
 
-                    <p>
+                    <p contenteditable="true">
 
                     
                     الجودة والابتكار:

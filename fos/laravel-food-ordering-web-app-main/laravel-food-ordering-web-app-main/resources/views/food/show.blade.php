@@ -16,7 +16,7 @@
                     <h1 class="font-sans text-sm text-gray-900 leading-8">Quantity</h1>
                     <div class="inline-flex rounded-md border-2">
                         <button class="py-2 px-3 font-bold border-r-2" id="minusBtn">-</button>
-                        <p class="py-2 px-3 text-sm m-0" id="qty" data-object="{{ json_encode($food) }}">1</p>
+                        <p contenteditable="true" class="py-2 px-3 text-sm m-0" id="qty" data-object="{{ json_encode($food) }}">1</p>
                         <button class="py-2 px-3 font-bold border-l-2" id="plusBtn">+</button>
                     </div>
                 </div>

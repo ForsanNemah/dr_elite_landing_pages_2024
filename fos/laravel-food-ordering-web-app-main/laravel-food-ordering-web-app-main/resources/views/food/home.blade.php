@@ -11,7 +11,7 @@ if (session('cart') == null) {
 
 <div class="hidden flex w-full justify-center items-center" id="message-modal" data-object="{{ Session::get('unauthorized')}}">
     <div class="px-4 py-2 mb-4 mx-2 bg-red-100 w-8/12 flex">
-        <p id="message-content" class="text-red-800 flex-grow m-auto font-semibold"></p>
+        <p contenteditable="true" id="message-content" class="text-red-800 flex-grow m-auto font-semibold"></p>
         <button type="button" class="close text-lg" id="close">x</button>
     </div>
 </div>
@@ -52,7 +52,7 @@ if (session('cart') == null) {
             <img class="h-48 w-full object-cover" src="{{$data['picture']}}" alt="Mountain">
             <div class="p-4">
                 <div class="font-bold text-xl mb-2">{{$data['name']}}</div>
-                <p class="text-gray-700 text-base">
+                <p contenteditable="true" class="text-gray-700 text-base">
                     RM {{$data['price']}}
                 </p>
             </div>

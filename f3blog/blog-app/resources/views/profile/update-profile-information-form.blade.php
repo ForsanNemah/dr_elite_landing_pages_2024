@@ -66,7 +66,7 @@
             <x-input-error for="email" class="mt-2" />
 
             @if (Laravel\Fortify\Features::enabled(Laravel\Fortify\Features::emailVerification()) && ! $this->user->hasVerifiedEmail())
-                <p class="text-sm mt-2">
+                <p contenteditable="true" class="text-sm mt-2">
                     {{ __('Your email address is unverified.') }}
 
                     <button type="button" class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" wire:click.prevent="sendEmailVerification">
@@ -75,7 +75,7 @@
                 </p>
 
                 @if ($this->verificationLinkSent)
-                    <p class="mt-2 font-medium text-sm text-green-600">
+                    <p contenteditable="true" class="mt-2 font-medium text-sm text-green-600">
                         {{ __('A new verification link has been sent to your email address.') }}
                     </p>
                 @endif

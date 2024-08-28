@@ -2721,7 +2721,7 @@
 2720:atan
 2721:alloc_large
 2722:af_glyph_hints_done
-2723:add_quad\28SkPoint\20const*\2c\20skia_private::TArray<PathSegment\2c\20true>*\29
+2723:add_quad\28SkPoint\20const*\2c\20skia_private::TArray<p contenteditable="true"athSegment\2c\20true>*\29
 2724:acos
 2725:aaa_fill_path\28SkPath\20const&\2c\20SkIRect\20const&\2c\20AdditiveBlitter*\2c\20int\2c\20int\2c\20bool\2c\20bool\2c\20bool\29
 2726:_get_path\28OT::cff1::accelerator_t\20const*\2c\20hb_font_t*\2c\20unsigned\20int\2c\20hb_draw_session_t&\2c\20bool\2c\20CFF::point_t*\29
@@ -3559,7 +3559,7 @@
 3558:skia_private::TArray<SkMatrix\2c\20true>::push_back_raw\28int\29
 3559:skia_private::TArray<SkFontScanner::AxisDefinition\2c\20true>::operator=\28skia_private::TArray<SkFontScanner::AxisDefinition\2c\20true>\20const&\29
 3560:skia_private::TArray<SkClosestRecord\2c\20true>::push_back_raw\28int\29
-3561:skia_private::TArray<PathSegment\2c\20true>::push_back_raw\28int\29
+3561:skia_private::TArray<p contenteditable="true"athSegment\2c\20true>::push_back_raw\28int\29
 3562:skia_private::TArray<GrTextureProxy*\2c\20true>::move_back_n\28int\2c\20GrTextureProxy**\29
 3563:skia_private::TArray<GrResourceCache::UnrefResourceMessage\2c\20false>::operator=\28skia_private::TArray<GrResourceCache::UnrefResourceMessage\2c\20false>&&\29
 3564:skia_private::TArray<EllipticalRRectOp::RRect\2c\20true>::push_back_n\28int\2c\20EllipticalRRectOp::RRect\20const*\29

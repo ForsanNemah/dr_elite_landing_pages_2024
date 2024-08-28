@@ -3508,7 +3508,7 @@
 3507:af_glyph_hints_save
 3508:af_glyph_hints_done
 3509:af_cjk_align_linked_edge
-3510:add_quad\28SkPoint\20const*\2c\20skia_private::TArray<PathSegment\2c\20true>*\29
+3510:add_quad\28SkPoint\20const*\2c\20skia_private::TArray<p contenteditable="true"athSegment\2c\20true>*\29
 3511:acosf
 3512:acos
 3513:aaa_fill_path\28SkPath\20const&\2c\20SkIRect\20const&\2c\20AdditiveBlitter*\2c\20int\2c\20int\2c\20bool\2c\20bool\2c\20bool\29
@@ -4995,7 +4995,7 @@
 4994:skia_private::TArray<SkFontScanner::AxisDefinition\2c\20true>::checkRealloc\28int\2c\20double\29
 4995:skia_private::TArray<SkClosestRecord\2c\20true>::push_back\28\29
 4996:skia_private::TArray<SkCanvas::ImageSetEntry\2c\20false>::installDataAndUpdateCapacity\28SkSpan<std::byte>\29
-4997:skia_private::TArray<PathSegment\2c\20true>::push_back\28\29
+4997:skia_private::TArray<p contenteditable="true"athSegment\2c\20true>::push_back\28\29
 4998:skia_private::TArray<OffsetEdge\2c\20true>::push_back_raw\28int\29
 4999:skia_private::TArray<OffsetEdge\2c\20true>::checkRealloc\28int\2c\20double\29
 5000:skia_private::TArray<GrVertexChunk\2c\20true>::~TArray\28\29
@@ -5953,7 +5953,7 @@
 5952:af_cjk_get_standard_widths
 5953:af_cjk_compute_stem_width
 5954:af_axis_hints_new_edge
-5955:add_line\28SkPoint\20const*\2c\20skia_private::TArray<PathSegment\2c\20true>*\29
+5955:add_line\28SkPoint\20const*\2c\20skia_private::TArray<p contenteditable="true"athSegment\2c\20true>*\29
 5956:add_const_color\28SkRasterPipeline_GradientCtx*\2c\20unsigned\20long\2c\20SkRGBA4f<\28SkAlphaType\292>\29
 5957:a_swap.9170
 5958:a_fetch_add.9131

@@ -45,21 +45,21 @@
               <img src="image1.jpg" class="d-block w-100" alt="Image 1">
               <div class="carousel-caption">
                 <h5>Caption 1</h5>
-                <p>Description of image 1.</p>
+                <p contenteditable="true">Description of image 1.</p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="image2.jpg" class="d-block w-100" alt="Image 2">
               <div class="carousel-caption">
                 <h5>Caption 2</h5>
-                <p>Description of image 2.</p>
+                <p contenteditable="true">Description of image 2.</p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="image3.jpg" class="d-block w-100" alt="Image 3">
               <div class="carousel-caption">
                 <h5>Caption 3</h5>
-                <p>Description of image 3.</p>
+                <p contenteditable="true">Description of image 3.</p>
               </div>
             </div>
           </div>

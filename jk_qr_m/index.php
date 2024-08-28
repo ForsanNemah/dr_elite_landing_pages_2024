@@ -144,11 +144,11 @@
 
 
 
-  <p>
+  <p contenteditable="true">
       <a href="https://jameelkhattab.com/home/offers.php" class="website-link">عروضنا</a>
     </p>
 
-    <p>
+    <p contenteditable="true">
       <a href="https://jameelkhattab.com/" class="website-link">موقعنا الإلكتروني </a>
     </p>
   </footer>

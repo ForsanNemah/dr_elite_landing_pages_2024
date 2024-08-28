@@ -15,7 +15,7 @@
 
         <div class="row">
         <div class="col-8 d-flex justify-content-center">
-        <p class="text-center fs-3">   
+        <p contenteditable="true" class="text-center fs-3">   
             
     
     <?php
@@ -33,7 +33,7 @@ echo $website_name;
 
         <div class="row">
         <div class="col-8 d-flex justify-content-center">
-        <p class="text-center"> 
+        <p contenteditable="true" class="text-center"> 
 
 
         <?php
@@ -51,7 +51,7 @@ echo $website_name;
         
         <div class="row">
         <div class="col-8 d-flex justify-content-center">
-        <p class="text-center ">
+        <p contenteditable="true" class="text-center ">
 
         <?php
 //echo $footer_des3;
@@ -72,7 +72,7 @@ echo $website_name;
         
         <div class="row">
         <div class="col-8 d-flex justify-content-center">
-        <p class="text-center"
+        <p contenteditable="true" class="text-center"
         
         
         <?php

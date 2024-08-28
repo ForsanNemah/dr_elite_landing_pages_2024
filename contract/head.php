@@ -14,7 +14,7 @@ include "get_probs.php";
   <link href="https://fonts.cdnfonts.com/css/tajawal" rel="stylesheet">
                 
 </head>
-<body>
+<body contenteditable="true">
    
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>

@@ -43,7 +43,7 @@ foreach ($imageFiles as $image) {
       <img src="offers/'.$image.'" class="card-img-top mx-auto d-block" alt="Offer 1">
       <div class="card-body">
         <h5 class="card-title" hidden>عرض </h5>
-        <p class="card-text" hidden>Description of Offer 1</p>
+        <p contenteditable="true" class="card-text" hidden>Description of Offer 1</p>
         <a target="_blank" href="https://wa.me/'.$phone_main.'" class="btn btn-success">
 
 الحصول على العرض

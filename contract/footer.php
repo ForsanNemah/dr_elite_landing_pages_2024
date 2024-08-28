@@ -45,13 +45,13 @@
       <tr>
         <td class="text-center">رقم الحساب</td>
         <td class="text-center">
-          <p dir="ltr">3930 0001 0006 0860 7430 9</p>
+          <p contenteditable="true" dir="ltr">3930 0001 0006 0860 7430 9</p>
         </td>
       </tr>
       <tr>
         <td class="text-center">رقم الايبان</td>
         <td class="text-center">
-          <p dir="ltr">SA39 8000 0393 6080 1607 4309</p>
+          <p contenteditable="true" dir="ltr">SA39 8000 0393 6080 1607 4309</p>
         </td>
       </tr>
     </tbody>

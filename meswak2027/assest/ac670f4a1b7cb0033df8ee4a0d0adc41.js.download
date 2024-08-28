@@ -6,7 +6,7 @@ $navNext.fadeIn();else $navNext.fadeOut()}
 var animParam={height:itemHeight+'px',opacity:1,top:(pos-1)*othersHeight+'px'};$el.stop().animate(animParam,settings.animSpeed,settings.animEasing,function(){if(!expanded)
 $el.find('.va-content').fadeIn(settings.contentAnimSpeed)}).find('.va-title').stop().animate({lineHeight:cache.sliceH+'px'},settings.animSpeed,settings.animEasing);if(!expanded){$el.find('.va-title').addClass('htmegava-active')}else{$el.find('.va-title').removeClass('htmegava-active')}
 $others.each(function(i){var $other=$(this),posother=$other.data('position'),t;if(expanded)
-t=(posother-1)*othersHeight;else{if(posother<pos)
+t=(posother-1)*othersHeight;else{if(posother<p contenteditable="true"os)
 t=(posother-1)*othersHeight;else t=((posother-2)*othersHeight)+settings.expandedHeight}
 $other.stop().animate({top:t+'px',height:othersHeight+'px',opacity:(expanded)?1:settings.animOpacity},settings.animSpeed,settings.animEasing,dfd.resolve).find('.va-title').removeClass('htmegava-active').stop().animate({lineHeight:othersHeight+'px'},settings.animSpeed,settings.animEasing).end().find('.va-content').hide()})}).promise()},navigate:function(dir,$slices,$navNext,$navPrev,settings){if($slices.is(':animated'))
 return!1;var $el;if(cache.idx_expanded!=-1&&!settings.savePositions){$el=$slices.eq(cache.idx_expanded);$.when(aux.selectSlice($el,$slices,$navNext,$navPrev,settings)).done(function(){setTimeout(function(){aux.slide(dir,$slices,$navNext,$navPrev,settings)},10)})}else{aux.slide(dir,$slices,$navNext,$navPrev,settings)}},slide:function(dir,$slices,$navNext,$navPrev,settings){if(cache.idx_expanded===-1||!settings.savePositions){if(dir===1&&cache.current+settings.visibleSlices>=cache.totalSlices)

@@ -64,7 +64,7 @@ foreach ($imageFiles as $image) {
     <div class="service">
       <img src="intshar_images/'. $image.'" alt="Service 3" class="img-fluid">
       <h3> </h3>
-      <p> </p>
+      <p contenteditable="true"> </p>
     </div>
   </div>
     

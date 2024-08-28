@@ -34,7 +34,7 @@
                 <br>
 <br>
                     <h4 class="about-us-heading">مجمع عيادات الدكتور جميل خطاب</h4>
-                    <p class="about-us-description">
+                    <p contenteditable="true" class="about-us-description">
                         
                     
                     

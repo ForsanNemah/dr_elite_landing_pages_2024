@@ -9,7 +9,7 @@
           <img src="images/process1.png" alt="Process 1 Icon">
         </div>
         <h3 class="process-name">الاتصال</h3>
-        <p class="process-description">
+        <p contenteditable="true" class="process-description">
           اتصل بنا ليتمكن خبراؤنا من التواصل معك بأسرع وقت
         </p>
       </div>
@@ -18,7 +18,7 @@
           <img src="images/process2.png" alt="Process 2 Icon">
         </div>
         <h3 class="process-name">التشخيص</h3>
-        <p class="process-description">
+        <p contenteditable="true" class="process-description">
           يقوم أطبائنا بالتشخيص المناسب ووضع خطة علاجية متكاملة
         </p>
       </div>
@@ -27,7 +27,7 @@
           <img src="images/process3.png" alt="Process 3 Icon">
         </div>
         <h3 class="process-name">الحجز</h3>
-        <p class="process-description">
+        <p contenteditable="true" class="process-description">
           تحديد موعد لاستقبالكم في عيادتنا
         </p>
       </div>
@@ -36,7 +36,7 @@
           <img src="images/process4.png" alt="Process 4 Icon">
         </div>
         <h3 class="process-name">بدأ العلاج</h3>
-        <p class="process-description">
+        <p contenteditable="true" class="process-description">
           إجراء العلاج المناسب للحالة بإشراف أطباؤنا المتخصصين
         </p>
       </div>
