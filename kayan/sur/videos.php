@@ -1,51 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Section</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        video {
-            width: 100%; /* Ensure video fills the card width */
-            height: auto; /* Maintain aspect ratio */
-        }
-    </style>
-</head>
-<body>
 
-<div class="container mt-5">
-    <div class="row">
-        <?php
-        $videoDir = 'kayan/';
-        $videos = array_diff(scandir($videoDir), array('.', '..'));
+<?php
+$videos = [
+    'SlQB3LMxdiY',
+    'tbdV8ky05-E',
+    's7yxNYakHCI',
+    'ZTWHwVAJ8V4',
+    // Add more video URLs as needed
+];
+?>
 
-        $count = 0; // To track the number of videos in the row
 
-        foreach ($videos as $video) {
-            $videoPath = $videoDir . $video;
-            if ($count % 3 == 0 && $count != 0) {
-                echo '</div><div class="row">'; // Close the current row and start a new one
-            }
-            ?>
-            <div class="mb-4 col-4 col-sm-6 col-md-4">
-                <div class="card">
-                    <video controls class="card-img-top" preload="metadata">
-                        <source src="<?php echo $videoPath; ?>" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <div class="card-body">
-                        <h5 class="card-title"><?php echo pathinfo($video, PATHINFO_FILENAME); ?></h5>
-                    </div>
-                </div>
-            </div>
-            <?php
-            $count++;
-        }
-        ?>
+
+
+
+<div class="mt-4 text-center"  >
+
+<h1>
+
+
+خدماتنا
+
+</h1>
+
+</div
+
+      
+
+<div class="container mt-4">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="row">
+            <?php foreach ($videos as $video):
+                
+              
+//echo $video;
+              
+echo '
+
+
+
+
+ <div class="container ">
+  <div class="row justify-content-center">
+    <div class="col-lg-4">
+      <div class="iframe-container">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/'.$video.'" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+           
+      </div>
     </div>
+  </div>
 </div>
+ <br>
 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+';
+                
+             endforeach; ?>
+        </div>
+    </div>
+
+ 
