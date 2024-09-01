@@ -193,6 +193,13 @@ if($api_notification==1){
     
      print_r($result) ;
 
+
+
+     $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453',$group_id.'@g.us',  $w_app_msg2);
+
+echo print_r($result) ;
+
+
 }
 
 
@@ -220,9 +227,13 @@ if($is_w_app=="1"){
         
         $w_app_msg2 = str_replace("\n", "\\n",  $w_app_msg2);
 
+
+        /*
         $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453',$phone_main.'@c.us',  $w_app_msg2);
         
         echo print_r($result) ;
+
+        */
 
         
 

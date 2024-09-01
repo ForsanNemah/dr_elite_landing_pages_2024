@@ -15,6 +15,7 @@ $dr_name="
 ";
 
 $phone_main="966505506913";
+$group_id="120363286796663924";
 
 $action_url="https://script.google.com/macros/s/AKfycbxp69HiC0Y-PirGPkMoJ5c1UFesdbh7EITIWvndxee4Pk66jgLW_BtRJzdMUy63gHc/exec";
 
