@@ -181,10 +181,10 @@ curl_close($curlHandle);
 
 if($api_notification==1){
         
-    $w_app_msg1="  لديك تسجيل  جديد  باسم  ".$name;
+    $w_app_msg1="  لديك تسجيل  جديد  باسم ".$name;
     $w_app_msg2=$w_app_msg1." برقم جوال ".$phone;
     
-    $w_app_msg3=$w_app_msg2." خدمة   ".$service;
+    $w_app_msg3=$w_app_msg2." خدمة   ".$service." lp3";
     
     
     $w_app_msg3 = str_replace("\n", "\\n",  $w_app_msg3);
@@ -192,6 +192,14 @@ if($api_notification==1){
     $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', $phone_main.'@c.us',  $w_app_msg3);
     
      print_r($result) ;
+
+
+
+     
+     $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', '120363301321001980@g.us',  $w_app_msg3);
+    
+     print_r($result) ;
+
 
 }
 
