@@ -242,7 +242,7 @@ function form2_action() {
   //alert("The form was submitted");
   
  
-  //document.getElementById("form1_button").disabled = true;
+  document.getElementById("form1_button").disabled = true;
  
  
 

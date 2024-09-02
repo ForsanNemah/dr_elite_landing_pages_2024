@@ -286,7 +286,7 @@ function form1_action() {
   //alert("The form was submitted");
   
  
-  //document.getElementById("form1_button").disabled = true;
+  document.getElementById("form1_button").disabled = true;
  
 
   //$('#form1_button').hide();
