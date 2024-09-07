@@ -119,10 +119,9 @@ snaptr('init', '9d462518-e893-4292-aef7-c54b0e57f28f');
 
 snaptr('track', 'PAGE_VIEW');
 
-
+snaptr('track','SIGN_UP');
 
 }
-
     </script>
 
 
