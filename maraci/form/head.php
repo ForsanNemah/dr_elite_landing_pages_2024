@@ -4,7 +4,7 @@
 
 <?php
 
-
+header("Location:https://2moh.net/");
  
 include "info.php";
 
