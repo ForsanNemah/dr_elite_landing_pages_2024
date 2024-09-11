@@ -7,7 +7,7 @@
 
 <?php
 
-header("Location:https://2moh.net/");
+//header("Location:https://2moh.net/");
 ?>
 
 
