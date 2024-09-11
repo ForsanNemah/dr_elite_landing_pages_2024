@@ -95,6 +95,12 @@
             </div>
 
 
+            <div class="mb-3">
+              
+              <input type="text" class="form-control" name="city" placeholder="المدينة" required>
+            </div>
+
+
 
            
 

@@ -15,7 +15,7 @@ $msg=$_POST['msg'];
 $branch1=$_POST['branch1'];
 $branch2=$_POST['branch2'];
 $location=$_POST['location'];
-
+$city=$_POST['city'];
 //echo  $branch1.$branch2;
 
 if (!empty($branch1)) {
@@ -53,6 +53,7 @@ $postParameter = array(
     'msg' => $msg,
     'branch' => $branch,
     'location' => $location,
+    'city' => $city,
     'source' => $source
     
 );
@@ -153,7 +154,7 @@ if($api_notification==1){
     $w_app_msg1="  لديك تسجيل  جديد  باسم  ".$name;
     $w_app_msg2=$w_app_msg1." برقم جوال ".$phone;
     
-    $w_app_msg3=$w_app_msg2." خدمة   ".$service;
+    $w_app_msg3=$w_app_msg2." مدينة   ".$city;
     
     
     $w_app_msg3 = str_replace("\n", "\\n",  $w_app_msg3);
