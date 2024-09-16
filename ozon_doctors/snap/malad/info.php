@@ -3,35 +3,31 @@
 
 $website_name="
 
-العيادة الأولى للصحة النفسية
 
-
-
+مجمع اوزون الطبي 
  
 ";
 
 $dr_name="
 
-<br>
-مدعمة بالذكاء الاصطناعي
+
 ";
 
-$phone_main="971585181280";
-$group_id="120363329896921034";
+$phone_main="966504548820";
 
-$action_url="https://script.google.com/macros/s/AKfycbzdpqGOFKz_GYvo2dckvlUkPGpfiBryviQWXzXRlmTB5YWvTgwRMSm1glCqROQsU30FzQ/exec";
+$action_url="https://script.google.com/macros/s/AKfycbycZeiAiuu-JZiAF-59-aN3uRW-jYiKw_KmX-DIwmEmPg2AVKxDMPAMlN9-f2fo0_WW/exec";
 
 $sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF1xpPkV0_PTJK-MI/edit?usp=sharing";
 
 $form1_des="
-
-عروض اليوم الوطني
+احجز الان
 ";
 $cta=0;
-$cta_text="احجز الان";
+$cta_text="احجز الان ";
 $form1_des2="
 
-سجل بياناتك وسيتم التواصل معكم مباشرة 
+ 
+خصومات تصل الى 50%
 ";
 
 $form1_des3="
@@ -121,41 +117,13 @@ $footer=1;
 $footer2=0;
 $w_app_button=1;
 $api_notification=1;
-$group_notification=1;
 $ad_source="snap ";
-$header1=0;
+$header1=1;
 $parteners=0;
 $about_image=0;
 
 $services_list=1;
 $taby_and_tamara=1;
-$footer_cr=1;
-$videos=1;
 
-
-
-
-
-$pixel_id = "77ec2e1e-c2bb-468f-8d2e-f99b7ec9983c";
-$authorization_token = "eyJhbGciOiJIUzI1NiIsImtpZCI6IkNhbnZhc1MyU0hNQUNQcm9kIiwidHlwIjoiSldUIn0.eyJhdWQiOiJjYW52YXMtY2FudmFzYXBpIiwiaXNzIjoiY2FudmFzLXMyc3Rva2VuIiwibmJmIjoxNzI0NjIwODIzLCJzdWIiOiJhMTAzMjVhMi0zMzU1LTRkMjMtODhmOC04MmFmZTc3NzYzOTR-UFJPRFVDVElPTn4yNTZmYTNlNi1iZDhmLTQwMTctYTQ2MC0yYjU2OGI4MDJiMWQifQ.7-CnLhZlNw3mr9vkdWMMtVoUz0CONBGZibDPEOEo8Es";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-
-
-*/
 
 ?>
