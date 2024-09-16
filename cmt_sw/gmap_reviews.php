@@ -43,7 +43,7 @@
         $apiKey = 'AIzaSyAAZ90wzgTYiDpYeZf6uQbf_XcDhxD8VcY'; // Use a secure method to store API keys
 
         // Define the Place ID for the specific location
-        $placeId = 'ChIJ2x3ZbD7pST4R0GY0lP0ONXg';  // Replace with the actual Place ID of the location
+        $placeId = 'ChIJG9E1XFVrXz4RtVjLz1o2Cdc';  // Replace with the actual Place ID of the location
 
         try {
             // URL for the Place Details API request
@@ -103,7 +103,7 @@
                             echo '<p class="card-text">' . htmlspecialchars($review['text']) . '</p>';
                             // Display the review link
                             if (isset($review['author_url'])) {
-                                echo '<a href="' . htmlspecialchars($review['author_url']) . '" target="_blank" class="review-link">عرض المراجعة الأصلية</a>';
+                                echo '<a href="' . htmlspecialchars($review['author_url']) . '" target="_blank" class="review-link" style="text-decoration: none;">عرض المراجعة الأصلية</a>';
                             }
                             echo '</div>';
                             echo '</div>';
