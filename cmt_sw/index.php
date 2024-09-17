@@ -387,6 +387,7 @@ if($parteners==1){
 
 }
 
+include "team.php";
 
 
 
