@@ -2,8 +2,7 @@
 
 
 $website_name="
-
-العيادة الأولى للصحة النفسية
+عيادة تشافي
 
 
 
@@ -124,7 +123,7 @@ $api_notification=1;
 $group_notification=1;
 $ad_source="snap ";
 $header=2;
-$parteners=0;
+$parteners=1;
 $about_image=0;
 
 $services_list=1;

@@ -1,6 +1,6 @@
 <style>
   body {
-    padding-top: 0px; /* Add padding to the top of the body to account for the fixed navbar */
+    padding-top: 5px; /* Add padding to the top of the body to account for the fixed navbar */
   }
   .navbar-nav .nav-link {
     color: #333; /* Set the text color of the navigation items to dark gray */
@@ -11,35 +11,30 @@
   }
 </style>
 
-<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" dir="rtl">
   <div class="container">
-    <a class="navbar-brand" href="#">قمة الإنتشار</a>
+    <a class="navbar-brand ms-auto" href="#"> 
+      <?php echo $website_name ?>
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
+      <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="index.php" onclick="toggleNavbar()">الرئيسية</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about_id" onclick="toggleNavbar()">من نحن</a>
+          <a class="nav-link" href="#about2" onclick="toggleNavbar()">من نحن</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#services_id" onclick="toggleNavbar()">الخدمات</a>
+          <a class="nav-link" href="#why_us" onclick="toggleNavbar()">لماذا نحن</a>
         </li>
-
-
-
-
         <li class="nav-item">
-          <a class="nav-link" href="#customers_id" onclick="toggleNavbar()">عملاؤنا</a>
+          <a class="nav-link" href="#customers_id" onclick="toggleNavbar()">المعالجين</a>
         </li>
-
-
-
         <li class="nav-item">
-          <a class="nav-link" href="#footer_id" onclick="toggleNavbar()">تواصل معنا</a>
+          <a class="nav-link" href="#myform" onclick="toggleNavbar()">تواصل معنا</a>
         </li>
       </ul>
     </div>
