@@ -170,7 +170,7 @@ snaptr('init', 'b2436d09-c13e-4280-9181-caa1960c5448');
 //snaptr('init', 'a00b3504-1613-44db-89ed-1e40e8831c77');
 snaptr('init', 'b00f5a25-e6f1-462e-954c-e0ad9a423e01');
 snaptr('track', 'PAGE_VIEW');
-snaptr('track', 'PURCHASE');
+//snaptr('track', 'PURCHASE');
 
 
 

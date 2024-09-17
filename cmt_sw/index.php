@@ -44,52 +44,28 @@ include "head.php";
 
 
 
-if($header1==1){
+if($header==0){
   include "logo_then_pic.php";
 
 }
-else{
-
-echo '
 
 
-
-  <div >
-    <div class="text-center image-container">
-      <img src="images/v.jpg" alt="Book Image Mobile" class="img-fluid mobile-image">
-      <img src="images/h.jpg" alt="Book Image Desktop" class="img-fluid desktop-image">
-      <a href="#packages">
-
-
-      <button class="btn btn-primary centered-button btn-booking rounded-pill pulsate"> 
-      
-      
-      
-      
-      احجز الحين
-      
-      
-      
-      </button>
-
-      </a>
-     
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-';
+if($header==1){
+  include "header1.php";
 
 }
+
+if($header==2){
+  include "header2.php";
+
+}
+
+
+ 
 //include "form.php";
-include "about.php";
+
 include "packages.php";
+include "about.php";
 include "gmap_reviews.php";
 
 

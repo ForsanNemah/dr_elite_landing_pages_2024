@@ -123,7 +123,7 @@ $w_app_button=1;
 $api_notification=1;
 $group_notification=1;
 $ad_source="snap ";
-$header1=0;
+$header=2;
 $parteners=0;
 $about_image=0;
 
