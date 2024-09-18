@@ -12,7 +12,7 @@ $dr_name="
 
 ";
 
-$phone_main="966568430828";
+$phone_main="966558979922";
 
 $action_url="https://script.google.com/macros/s/AKfycbwd77VkAW2g5c8VboIwt8Lj0FtDmkaYDwMxvT1hLTb6er8aEISmB5JMjiJO6R48ugIhLA/exec";
 
