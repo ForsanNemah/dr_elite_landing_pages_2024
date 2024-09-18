@@ -2,10 +2,11 @@
 // API Key from Google Cloud
 $apiKey = 'AIzaSyAAZ90wzgTYiDpYeZf6uQbf_XcDhxD8VcY';
 
-// Define latitude, longitude, and type at the beginning
-$latitude = 26.29512108585685; // Example latitude
-$longitude = 50.20409725411967; // Example longitude
-$type = 'marketing'; // Example type, e.g., 'hospital', 'restaurant', etc.
+// Get latitude, longitude, type, and radius from the form submission
+$latitude = $_POST['latitude']; // Example latitude
+$longitude = $_POST['longitude']; // Example longitude
+$type = $_POST['type']; // Example type, e.g., 'hospital', 'restaurant', etc.
+$radius = $_POST['radius']; // Radius posted from the form
 
 // Function to perform the API request
 function fetchDataFromApi($url) {
@@ -21,8 +22,7 @@ function fetchDetailsForPlace($placeId, $apiKey) {
 }
 
 // Function to get places of a specific type from different nearby locations
-function getAllPlaces($latitude, $longitude, $type, $apiKey) {
-    $radius = 50000; // 20 km
+function getAllPlaces($latitude, $longitude, $type, $radius, $apiKey) {
     $allPlaces = []; // Array to store all results
     $visitedPlaceIds = []; // To avoid duplicates
 
@@ -39,7 +39,7 @@ function getAllPlaces($latitude, $longitude, $type, $apiKey) {
         $adjustedLatitude = $latitude + $adjustment[0];
         $adjustedLongitude = $longitude + $adjustment[1];
 
-        // Build the Google Places API URL
+        // Build the Google Places API URL with the radius parameter from the form
         $url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=$adjustedLatitude,$adjustedLongitude&radius=$radius&type=$type&key=$apiKey";
 
         do {
@@ -76,8 +76,8 @@ function getAllPlaces($latitude, $longitude, $type, $apiKey) {
     return $allPlaces;
 }
 
-// Fetch all places using multiple adjusted locations
-$allPlaces = getAllPlaces($latitude, $longitude, $type, $apiKey);
+// Fetch all places using the provided latitude, longitude, type, and radius
+$allPlaces = getAllPlaces($latitude, $longitude, $type, $radius, $apiKey);
 ?>
 
 <!DOCTYPE html>
@@ -91,7 +91,7 @@ $allPlaces = getAllPlaces($latitude, $longitude, $type, $apiKey);
 </head>
 <body>
 <div class="container mt-5">
-    <h2>Places Near Specified Location (20 km Radius)</h2>
+    <h2>Places Near Specified Location (Radius: <?= $radius ?> meters)</h2>
     <table class="table table-bordered table-striped">
         <thead class="thead-dark">
         <tr>

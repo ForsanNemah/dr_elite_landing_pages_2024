@@ -16,7 +16,7 @@
             </div>
             <div class="st-height-b0 st-height-lg-b30"></div>
           </div> -->
-
+  
 
           <div class="col-lg-12">
             <h2 class="st-accordian-heading">الاسئلة الشائعة</h2>

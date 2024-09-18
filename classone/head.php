@@ -19,7 +19,7 @@
         }
 
         .zoom-out {
-            width: 100vw;
+            width: 100vw;`  1
             height: 100vh;
             background-color: #233064; /* Updated background color */
             display: flex;
