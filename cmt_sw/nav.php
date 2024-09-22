@@ -31,7 +31,7 @@
           <a class="nav-link" href="#why_us" onclick="toggleNavbar()">لماذا نحن</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#customers_id" onclick="toggleNavbar()">المعالجين</a>
+          <a class="nav-link" href="#therapist_id" onclick="toggleNavbar()">المعالجين</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#myform" onclick="toggleNavbar()">تواصل معنا</a>

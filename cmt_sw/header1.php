@@ -9,7 +9,7 @@ echo '
       <a href="#packages">
 
 
-      <button class="btn btn-primary centered-button btn-booking rounded-pill pulsate"> 
+      <button   class="btn btn-primary centered-button btn-booking rounded-pill pulsate"> 
       
       
       

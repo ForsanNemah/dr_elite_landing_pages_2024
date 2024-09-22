@@ -11,7 +11,7 @@ include "nav.php";
 
 ?>
 
-<body bgcolor="green">
+<body class="mainbg">
 
 
 

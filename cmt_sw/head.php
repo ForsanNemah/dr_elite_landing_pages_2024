@@ -332,5 +332,14 @@ var sha256 = function sha256(ascii) {
 
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+<script>
+  function checkLength(input) {
+    if (input.value.length < 9) {
+      input.setCustomValidity(" الرجاء ادخال رقم هاتف صحيح  ");
+    } else {
+      input.setCustomValidity(""); // Valid input
+    }
+  }
+</script>
 
 </head>

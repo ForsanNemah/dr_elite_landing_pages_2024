@@ -5,9 +5,9 @@
 //include "list_model.php";
 
 ?>
+ 
 
-
-<div class="form-container mt-5" id="myform" data-aos-duration="1500"  data-aos="zoom-in-up">
+<div class="mt-5 form-container" id="myform" data-aos-duration="1500"  data-aos="zoom-in-up">
   <div class="row justify-content-center custom_row_margin">
     <div class="col-lg-6">
       <div class="mt-2 card">
@@ -90,9 +90,9 @@
 
 
             <div class="mb-3">
- 
-              <input id="phn_form1" type="number" class="form-control" name="phone" placeholder=" رقم الجوال " required>
-            </div>
+  <input id="phn_form1" type="number" class="form-control" name="phone" placeholder=" رقم الجوال " required minlength="9" oninput="checkLength(this)">
+</div>
+
 
 
 

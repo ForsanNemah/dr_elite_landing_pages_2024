@@ -1,7 +1,7 @@
 
 
 
-<div id="customers_id" class="mb-4"  >
+<div id="ss" class="mb-4"  >
 
 <br>
 <br>
@@ -9,9 +9,9 @@
 
 
 
-<div class="container mt-4" id="cases_section">
+<div class="container mt-4" id="therapist_id">
   <div class="row justify-content-center">
-    <div class="col-lg-8 text-center">
+    <div class="text-center col-lg-8">
       <h1 style="color: green;">
     
     
@@ -42,7 +42,7 @@
 
 
 
-<div class="container d-flex justify-content-center mt-4">
+<div class="container mt-4 d-flex justify-content-center">
 
 
   <div class="row">

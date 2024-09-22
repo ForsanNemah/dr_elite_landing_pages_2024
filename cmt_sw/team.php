@@ -67,10 +67,10 @@
         }
     </style>
  
-    <section class="container text-center mt-5">
-        <div class="row mb-4">
+    <section class="container mt-5 text-center" id="therapist_id">
+        <div class="mb-4 row">
             <div class="col-12">
-                <h2 class="section-title">تعرف على فريقنا المهني</h2>
+                <h2 class="mt-5 section-title">تعرف على فريقنا المهني</h2>
                 <p class="lead">
                     كمدربين رئيسيين، وعلماء نفس، ومستشارين في المهارات الشخصية، وميسرين شاملين، نركز باستمرار على توجيه عملائنا للنجاح كقادة والتعامل بمهارة مع التغيير.
                 </p>
