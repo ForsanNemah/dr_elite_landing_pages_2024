@@ -203,11 +203,13 @@ if($api_notification==1){
     
      print_r($result) ;
 
-
+/*
 
      $result = send_with_wapi($wapi_token, $wapi_profile_id,$group_id.'@g.us',  $w_app_msg3);
 
 echo print_r($result) ;
+
+*/
 
 
 }
@@ -234,7 +236,7 @@ if($group_notification==1){
 
 */
 
-     $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453',$group_id.'@g.us',  $w_app_msg3);
+$result = send_with_wapi($wapi_token, $wapi_profile_id,$group_id.'@g.us',  $w_app_msg3);
 
 echo print_r($result) ;
 
