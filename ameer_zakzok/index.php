@@ -79,7 +79,7 @@ if($header==2){
 
 
 <?php
-
+include "form.php";
 include "w_app_form.php";
 
 
@@ -568,7 +568,7 @@ include "faq.php";
 
 <?php
 
-include "form.php";
+
 
 if($footer==1){
   
