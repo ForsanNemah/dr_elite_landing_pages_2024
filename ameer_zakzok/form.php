@@ -7,7 +7,7 @@
 ?>
  
 
-<div class=" form-container" id="myform" data-aos-duration="1500"  data-aos="zoom-in-up">
+<div class="mt-5 form-container" id="myform" data-aos-duration="1500"  data-aos="zoom-in-up">
   <div class="row justify-content-center custom_row_margin">
     <div class="col-lg-6">
       <div class="mt-2 card">
