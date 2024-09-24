@@ -585,10 +585,18 @@ if($map==1){
 
 
 
+
 if($footer2==1){
   
   include "footer2.php";
 }
+
+
+if($w_btn_only==1){
+  
+  include "w_btn_only.php";
+}
+
 
 
 

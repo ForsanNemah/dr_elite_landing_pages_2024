@@ -15,7 +15,7 @@ $dr_name="
 <br>
 ";
 
-$phone_main="966533360368";
+$phone_main="966542102388";
 $group_id="120363280747235979";
 $logo="footer_logo/royal.png";
 
@@ -136,6 +136,7 @@ $taby_and_tamara=1;
 $footer_cr=1;
 $videos=0;
 $snap_capi=0;
+$w_btn_only=1;
 
 
 
