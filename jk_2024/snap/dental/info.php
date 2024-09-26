@@ -3,7 +3,7 @@
 
 $website_name="
 
-مجمع رويال الطبي
+مركز الدكتور جميل خطاب
 
 
 
@@ -12,18 +12,18 @@ $website_name="
 
 $dr_name="
 
-<br>
+الاحساء
 ";
 
-$phone_main="966542102388";
+$phone_main="966559833446";
 $group_id="120363319693410850";
-$logo="footer_logo/royal.png";
+$logo="footer_logo/jk.png";
 
-$dental_services_select=0;
-$derma_services_select=1;
+$dental_services_select=1;
+$derma_services_select=2;
 
 
-$action_url="https://script.google.com/macros/s/AKfycbypeKUyqlKjAsUOCkgzHb6Tw5yzT7l-Jy9VKgNkiwqd4n-FkutcrS2lSOE2NBibwtFP_w/exec";
+$action_url="https://docs.google.com/spreadsheets/d/1ZPvsrOA_Fv0hDHrKqwI26srldUYJRZXICDRcFIuhsG0/edit?usp=sharing";
 
 $sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF1xpPkV0_PTJK-MI/edit?usp=sharing";
 
@@ -124,7 +124,7 @@ $services_images=0;
 $footer=1;
 $footer2=0;
 $w_app_button=0;
-$api_notification=0;
+$api_notification=1;
 $group_notification=0;
 $ad_source="snap ";
 $header=0;
