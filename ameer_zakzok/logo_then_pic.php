@@ -37,7 +37,7 @@
   <div class="row">
     <?php
     if($taby_and_tamara==1){
-      echo ' <img src="tandt.png" alt="Image" class="responsive">';
+      echo ' <img src="taby_only.png" alt="Image" class="responsive">';
     }
     ?>
   </div>
