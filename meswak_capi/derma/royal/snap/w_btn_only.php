@@ -1,9 +1,9 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 
+<!-- https://wa.me/<?php //echo $phone_main; ?> -->
 
-
-<a href="https://wa.me/<?php echo $phone_main; ?>" class="float"   >
+<a href="w_btn_clik_notifi.php" class="float"   >
 <i class="fa fa-whatsapp my-float"></i>
 </a>
 

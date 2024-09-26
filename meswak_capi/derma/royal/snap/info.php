@@ -16,7 +16,7 @@ $dr_name="
 ";
 
 $phone_main="966542102388";
-$group_id="120363280747235979";
+$group_id="120363319693410850";
 $logo="footer_logo/royal.png";
 
 $dental_services_select=0;
