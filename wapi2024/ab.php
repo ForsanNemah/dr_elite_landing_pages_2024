@@ -1,5 +1,5 @@
 <?php
-include "index.php";
+//include "index.php";
 
 echo "this is web hook";
 //include "env.php";
@@ -152,7 +152,7 @@ if($message=="chat_id"){
 
 
 
-}
+//}
 
 
 
