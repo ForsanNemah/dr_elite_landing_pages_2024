@@ -13,7 +13,7 @@ $dr_name="
 
 ";
 
-$phone_main="966534010999";
+$phone_main="966509833818";
 
 $action_url="https://script.google.com/macros/s/AKfycbwkTHxkp93zIHtQFUKu0IIG_8az83nadg3XaJ17DjYnbbPqllhGQwfycp7oPQjqPlvcdg/exec";
 
@@ -124,6 +124,11 @@ $about_image=0;
 
 $services_list=1;
 $taby_and_tamara=1;
+
+
+$wapi_profile_id="a0aca078-18a5";
+$wapi_token="9f9151b56d756354026b368ecc644edec19343b4";
+$group_id="120363323468008306";
 
 
 ?>
