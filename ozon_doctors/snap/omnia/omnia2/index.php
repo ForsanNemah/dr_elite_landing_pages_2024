@@ -6,6 +6,8 @@
 
 include "head.php";
 include "info.php";
+include "w_btn_only.php";
+
 //include "nav.php";
 
 ?>
@@ -60,7 +62,7 @@ echo '
       <a href="#myform">
 
 
-      <button class="btn btn-primary centered-button  btn-booking rounded-pill pulsate"> حجز استشارة مجانية</button>
+      <button class="btn btn-primary centered-button btn-booking rounded-pill pulsate"> حجز استشارة مجانية</button>
 
       </a>
      
@@ -175,7 +177,7 @@ if($before_after==1){
   
   <a href="#cases_section">
 
-  <button class="btn btn-primary    btn-booking rounded-pill pulsate"> 
+  <button class="btn btn-primary btn-booking rounded-pill pulsate"> 
 
 شوف حالات قبل وبعد 
 
@@ -232,7 +234,7 @@ if($services==1){
   
   
   
-  <div class="text-center  mt-4">
+  <div class="mt-4 text-center">
 
   <h1>
  
@@ -290,7 +292,7 @@ if($services2==1){
   
   
   
-  <div class="text-center  mt-4">
+  <div class="mt-4 text-center">
 
   <h1>
  
@@ -340,7 +342,7 @@ if($derma_services==1){
   
   
   
-  <div class="text-center  mt-4">
+  <div class="mt-4 text-center">
 
   <h1>
  
@@ -461,7 +463,7 @@ if($cta==1){
 
 
   <a href="#myform">
-  <button class="btn btn-primary    btn-booking rounded-pill pulsate"> 
+  <button class="btn btn-primary btn-booking rounded-pill pulsate"> 
 '.$cta_text.'
   
     </button>
