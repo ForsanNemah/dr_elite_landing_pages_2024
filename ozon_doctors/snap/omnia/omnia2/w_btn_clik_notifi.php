@@ -6,7 +6,7 @@ echo "w_btn_clik_notifi";
 $wapi_profile_id="a0aca078-18a5";
 $wapi_token="9f9151b56d756354026b368ecc644edec19343b4";
 $group_id="120363296562623104";
-$result = send_with_wapi($wapi_token, $wapi_profile_id,$group_id.'@g.us', " قام احد العملاء بالنقر على زر الواتساب في صفحة الهبوط ");
+$result = send_with_wapi($wapi_token, $wapi_profile_id,$phone_main.'@c.us', " قام احد العملاء بالنقر على زر الواتساب في صفحة الهبوط ");
 
 echo print_r($result) ;
 
