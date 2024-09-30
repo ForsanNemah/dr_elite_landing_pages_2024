@@ -9,6 +9,11 @@ $result = send_with_wapi($wapi_token, $wapi_profile_id,$group_id.'@g.us', " قا
 echo print_r($result) ;
 
 
+$result = send_with_wapi($wapi_token, $wapi_profile_id,$phone_main.'@c.us', " قام احد العملاء بالنقر على زر الواتساب في صفحة الهبوط ");
+
+echo print_r($result) ;
+
+
 header("Location:https://wa.me/".$phone_main);
 
 
