@@ -6,6 +6,7 @@
 
 include "head.php";
 include "info.php";
+include "w_btn_only.php";
 //include "nav.php";
 
 ?>
