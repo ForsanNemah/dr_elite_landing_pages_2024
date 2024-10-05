@@ -115,7 +115,7 @@ $process=0;
 $services_images=0;
 $footer=1;
 $footer2=0;
-$w_app_button=1;
+$w_app_button=0;
 $api_notification=1;
 $ad_source="snap ";
 $header1=0;
@@ -124,6 +124,12 @@ $about_image=0;
 
 $services_list=1;
 $taby_and_tamara=1;
+
+
+$wapi_profile_id="a0aca078-18a5";
+$wapi_token="9f9151b56d756354026b368ecc644edec19343b4";
+$group_id="120363305825012369";
+
 
 
 ?>
