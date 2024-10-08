@@ -19,7 +19,7 @@ $dr_name="
 
 $phone_main="966920006802";
 
-$action_url="https://script.google.com/macros/s/AKfycbxcKW0KJQywD9WWmA-40opSok_knNErWxgjFFWdbTtNS6562HjHkwBvyAEnyz4jzoaAZA/exec";
+$action_url="https://script.google.com/macros/s/AKfycbwn6Ql19sjYNQWKQQtVS4hGhkfGYTAb6TSZ7ZaVgyxs9ynIYViSID8isOVe6zkAJ6WmIw/exec";
 
 $sheet_url="https://script.google.com/macros/s/AKfycbzYXkjDojvTSa8eR0w9GK1EQLDFrAH2ODophKmQEWoht87BCmbDCIkY-nORgQ5fs_0A/exec";
 
@@ -31,7 +31,7 @@ $map_url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.64682408292
 
 $form1_des="
 
-BACK TO SCHOOL
+عروض اكتوبر
 
 ";
 $cta=0;
