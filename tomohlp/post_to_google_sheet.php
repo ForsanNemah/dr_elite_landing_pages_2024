@@ -203,13 +203,13 @@ if($api_notification==1){
     
      print_r($result) ;
 
-/*
+
 
      $result = send_with_wapi($wapi_token, $wapi_profile_id,$group_id.'@g.us',  $w_app_msg3);
 
 echo print_r($result) ;
 
-*/
+
 
 
 }
