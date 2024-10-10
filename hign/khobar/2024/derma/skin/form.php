@@ -25,7 +25,7 @@
                 <div class="row">
                     <div class="col-12 col-lg-6">
                         <div class="form">
-                            <div class="appointment-form text-center">
+                            <div class="text-center appointment-form">
 
 
 
@@ -166,7 +166,7 @@ echo  $add_source;
 
 
 
-//include "services_select.php";
+include "services_select.php";
 
 ?>
 
