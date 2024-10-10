@@ -22,7 +22,8 @@ $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
 $site_name="عيادات الهجن الخبر ";
 $dr_name="  ";
-$add_title="  عروض اليوم الوطني 2024     ";
+
+$add_title="   عروض اكتوبر           ";
 
 $sidebar1_msg="نحلم ونحقق";
 $sidebar2_msg="خدماتنا ";
