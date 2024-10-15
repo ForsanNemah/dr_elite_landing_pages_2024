@@ -17,7 +17,7 @@ $dr_name="
 <br>
 ";
 
-$phone_main="966539811900";
+$phone_main="966539203332";
 $group_id="120363301321001980";
 $logo="footer_logo/kayan.png";
 
