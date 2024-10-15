@@ -199,17 +199,32 @@ if($api_notification==1){
     
     $w_app_msg3 = str_replace("\n", "\\n",  $w_app_msg3);
 
-    $result = send_with_wapi($wapi_token, $wapi_profile_id, $phone_main.'@c.us',  $w_app_msg3);
+
+
+
+    if($pm_register==1){
+        
+$pm_msg1=" مرحبا ".$name;
+$pm_msg2=$pm_msg1."  شاكرين تسجيلك معنا وفي حال كان لديك اي استفسار لا تتردد في السؤال";
+
+    $result = send_with_wapi($wapi_token, $wapi_profile_id, '966'.$phone.'@c.us',$pm_msg2);
+
+    
+     print_r($result) ;
+
+    }
+
+     $result = send_with_wapi($wapi_token, $wapi_profile_id, $phone_main.'@c.us',  $w_app_msg3);
     
      print_r($result) ;
 
 
-
+/*
      $result = send_with_wapi($wapi_token, $wapi_profile_id,$group_id.'@g.us',  $w_app_msg3);
 
-echo print_r($result) ;
+print_r($result) ;
 
-
+*/
 
 
 }

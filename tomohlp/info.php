@@ -30,7 +30,7 @@ $sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF
 $form1_des="
 
 عروض اليوم الوطني
-";
+"; 
 $cta=0;
 $cta_text="احجز الان";
 $form1_des2="
@@ -124,8 +124,8 @@ $services_images=0;
 $footer=1;
 $footer2=0;
 $w_app_button=0;
-$api_notification=0;
-$group_notification=0;
+$api_notification=1;
+$group_notification=1;
 $ad_source="snap ";
 $header=0;
 $parteners=0;
@@ -137,6 +137,7 @@ $footer_cr=1;
 $videos=0;
 $snap_capi=0;
 $w_btn_only=1;
+$pm_register=1;
 
 
 
