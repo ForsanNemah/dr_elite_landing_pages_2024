@@ -137,7 +137,7 @@ $footer_cr=1;
 $videos=0;
 $snap_capi=0;
 $w_btn_only=1;
-$pm_register=1;
+$pm_register=0;
 
 
 
