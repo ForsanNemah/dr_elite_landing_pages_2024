@@ -19,7 +19,7 @@ $dr_name="
 
 $phone_main="966539811900";
 
-$action_url="https://script.google.com/macros/s/AKfycbxPuc7GqZfFUEuNud6mieQSmZ1A52ocShWTsCXO5lHZ9-QvGkMK19oxZkIK9D9Gpw4/exec";
+$action_url="https://script.google.com/macros/s/AKfycbz_oBfXZrPYAD2V3N86xoK3KRGlgFj60iBv9tCFbn0kq4DcJUpVnttfB8kjVabN7XOQRw/exec";
 
 $sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF1xpPkV0_PTJK-MI/edit?usp=sharing";
 
