@@ -43,13 +43,18 @@ $profile_id = $event['messages'][0]['profile_id'];
 $is_me = $event['messages'][0]['is_me'];
 $from_user = $event['messages'][0]['from'];
 $to_user = $event['messages'][0]['to'];
+$message_id = $event['messages'][0]['id'];
 
 
 
 //
 if($to_user==$group_a){
 
-    $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453',$group_b, $message);
+    //$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453',$group_b, $message);
+
+
+
+    wapiforword('aedd0dc2-8453', '40703bb7812b727ec01c24f2da518c407342559c', $message_id, $group_b);
 
 }
 
@@ -474,4 +479,46 @@ get_sheet_msgs($sheet_id,$user_name,$token,$sheet_url,$message);
 */
 
 
+
+
+
+
+
+
+
+
+function wapiforword($profile_id, $authorization, $message_id, $recipient) {
+    $curl = curl_init();
+
+    $data = array(
+        "message_id" => $message_id,
+        "recipient" => $recipient
+    );
+
+    curl_setopt_array($curl, array(
+        CURLOPT_URL => 'https://wappi.pro/api/sync/message/forward?profile_id=' . $profile_id,
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_ENCODING => '',
+        CURLOPT_MAXREDIRS => 10,
+        CURLOPT_TIMEOUT => 0,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+        CURLOPT_CUSTOMREQUEST => 'POST',
+        CURLOPT_POSTFIELDS => json_encode($data),
+        CURLOPT_HTTPHEADER => array(
+            'Content-Type: application/json',
+            'Authorization: ' . $authorization
+        ),
+    ));
+
+    $response = curl_exec($curl);
+
+    if (curl_errno($curl)) {
+        echo 'cURL error: ' . curl_error($curl);
+    } else {
+        echo $response;
+    }
+
+    curl_close($curl);
+}
 ?>
