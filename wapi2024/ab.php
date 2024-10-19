@@ -49,7 +49,7 @@ $to_user = $event['messages'][0]['to'];
 
 if($to_user==$group_a){
 
-    $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453',$group_b, $to_user);
+    $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453',$group_b, $message);
 
 }
 
