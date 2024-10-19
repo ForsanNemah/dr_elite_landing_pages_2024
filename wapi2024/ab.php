@@ -2,6 +2,10 @@
 //include "index.php";
 
 echo "this is web hook";
+
+$group_a="120363331373447780";
+$group_b="120363348465495758";
+
 //include "env.php";
 //include "get_last_msg.php";
 
@@ -43,7 +47,7 @@ $to_user = $event['messages'][0]['to'];
 
 
 
-
+$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453',$data, '966568430828@c.us');
 
 
 
