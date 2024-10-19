@@ -3,8 +3,8 @@
 
 echo "this is web hook";
 
-$group_a="120363331373447780";
-$group_b="120363348465495758";
+$group_a="120363331373447780@g.us";
+$group_b="120363348465495758@g.us";
 
 //include "env.php";
 //include "get_last_msg.php";
