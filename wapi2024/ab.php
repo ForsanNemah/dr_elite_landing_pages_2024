@@ -55,7 +55,7 @@ $type = $event['messages'][0]['type'];
 
 
 //
-if($chat_id==$group_a){
+if($chat_id==$group_a && $chat_id==$to_user){
 
     
 
