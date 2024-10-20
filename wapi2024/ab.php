@@ -49,6 +49,8 @@ $is_me = $event['messages'][$i]['is_me'];
 $from_user = $event['messages'][$i]['from'];
 $to_user = $event['messages'][$i]['to'];
 $message_id = $event['messages'][$i]['id'];
+$type = $event['messages'][$i]['type'];
+
 
 
 
@@ -59,9 +61,9 @@ if($chat_id==$group_a){
 
 
 
-    //wapiforword('aedd0dc2-8453', '40703bb7812b727ec01c24f2da518c407342559c', $message_id, $group_b);
+    wapiforword('aedd0dc2-8453', '40703bb7812b727ec01c24f2da518c407342559c', $message_id, $group_b);
 
-    //$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453',$group_b, $caption);
+    $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453',$group_b, $caption);
 
 
 }
