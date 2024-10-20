@@ -3,8 +3,12 @@
 
 echo "this is web hook";
 
-$group_a="120363331373447780@g.us";
-$group_b="120363348465495758@g.us";
+
+
+$group1 = ['120363331373447780@g.us', 'banana', 'cherry'];
+$group2 = ['120363348465495758@g.us', 'yellow', 'purple'];
+
+
 
 //include "env.php";
 //include "get_last_msg.php";
@@ -54,8 +58,27 @@ $type = $event['messages'][0]['type'];
 
 
 
+$group_b = lookupValue($chat_id, $group1, $group2);
+echo $result; // Output: yellow
+
+
+/* 
+$group_a="120363331373447780@g.us";
+$group_b="120363348465495758@g.us";
+*/
+
+
+
+
+
+
+
+
+
+
+
 //
-if($chat_id==$group_a && $chat_id==$to_user){
+if($chat_id==$group_a && $chat_id==$to_user && $group_b!="0"){
 
     
 
@@ -536,5 +559,69 @@ function wapiforword($profile_id, $authorization, $message_id, $recipient) {
     }
 
     curl_close($curl);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function lookupValue($value, $group1, $group2) {
+    // Search for the value in group1
+    $index = array_search($value, $group1);
+    
+    // If the value is found and the index exists in group2
+    if ($index !== false && isset($group2[$index])) {
+        // Return the value from group2 using the same index
+        return $group2[$index];
+    }
+    
+    // Print "not found" if the value is not found or index does not exist in group2
+    return "0";
+}
+
+
+
+
+
+
+
+
+
+
 ?>
