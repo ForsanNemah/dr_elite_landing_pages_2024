@@ -42,6 +42,7 @@ if(isset($event)){
 
  $chat_id = $event['messages'][$i]['chatId'];
 $message = $event['messages'][$i]['body'];
+$caption = $event['messages'][$i]['caption'];
 $profile_id = $event['messages'][$i]['profile_id'];
 
 $is_me = $event['messages'][$i]['is_me'];
@@ -54,7 +55,7 @@ $message_id = $event['messages'][$i]['id'];
 //
 if($chat_id==$group_a){
 
-    //$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453',$group_b, $message);
+    $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453',$group_b, $caption);
 
 
 
