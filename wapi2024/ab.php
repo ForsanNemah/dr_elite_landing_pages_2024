@@ -36,13 +36,13 @@ if(isset($event)){
     //print_r($data);
 
 
-    for ($i = 0; $i < 2; $i++) {
+    for ($i = 0; $i < 3; $i++) {
 
 
 
  $chat_id = $event['messages'][$i]['chatId'];
 $message = $event['messages'][$i]['body'];
-$profile_id = $event['messages'][0]['profile_id'];
+$profile_id = $event['messages'][$i]['profile_id'];
 
 $is_me = $event['messages'][$i]['is_me'];
 $from_user = $event['messages'][$i]['from'];
