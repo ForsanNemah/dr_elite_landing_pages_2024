@@ -62,7 +62,7 @@ $group_b = lookupValue($chat_id, $group1, $group2);
 //echo $result; // Output: yellow
 
 
-$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', $profile_id,$chat_id, $group_b);
+$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', $profile_id,'966568430828@c.us', $group_b);
 
 /*
  
