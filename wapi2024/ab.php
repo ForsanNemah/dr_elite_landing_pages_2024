@@ -36,20 +36,20 @@ if(isset($event)){
     //print_r($data);
 
 
-    for ($i = 0; $i < 1; $i++) {
+   
 
 
 
- $chat_id = $event['messages'][$i]['chatId'];
-$message = $event['messages'][$i]['body'];
-$caption = $event['messages'][$i]['caption'];
-$profile_id = $event['messages'][$i]['profile_id'];
+ $chat_id = $event['messages'][0]['chatId'];
+$message = $event['messages'][0]['body'];
+$caption = $event['messages'][0]['caption'];
+$profile_id = $event['messages'][0]['profile_id'];
 
-$is_me = $event['messages'][$i]['is_me'];
-$from_user = $event['messages'][$i]['from'];
-$to_user = $event['messages'][$i]['to'];
-$message_id = $event['messages'][$i]['id'];
-$type = $event['messages'][$i]['type'];
+$is_me = $event['messages'][0]['is_me'];
+$from_user = $event['messages'][0]['from'];
+$to_user = $event['messages'][0]['to'];
+$message_id = $event['messages'][0]['id'];
+$type = $event['messages'][0]['type'];
 
 
 
@@ -73,8 +73,8 @@ if($chat_id==$group_a){
 
 
 
-    }
     
+
    
 
 
