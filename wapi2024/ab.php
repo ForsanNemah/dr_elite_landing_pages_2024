@@ -71,9 +71,9 @@ $group_b="120363348465495758@g.us";
 
 
 
+// && $group_b!="0"
 
-
-if($chat_id==$group_a && $chat_id==$to_user && $group_b!="0"){
+if($chat_id==$group_a && $chat_id==$to_user){
 
     
 
