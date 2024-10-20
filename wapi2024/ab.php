@@ -36,7 +36,7 @@ if(isset($event)){
     //print_r($data);
 
 
-    for ($i = 0; $i < 20; $i++) {
+    for ($i = 0; $i < 1; $i++) {
 
 
 
@@ -52,13 +52,13 @@ $message_id = $event['messages'][$i]['id'];
 
 
 //
-if($to_user==$group_a){
+if($chat_id==$group_a){
 
     //$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453',$group_b, $message);
 
 
 
-    //wapiforword('aedd0dc2-8453', '40703bb7812b727ec01c24f2da518c407342559c', $message_id, $group_b);
+    wapiforword('aedd0dc2-8453', '40703bb7812b727ec01c24f2da518c407342559c', $message_id, $group_b);
 
 }
 
