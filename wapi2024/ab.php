@@ -57,7 +57,7 @@ $type = $event['messages'][0]['type'];
 
 
 
-/*
+
 $group_b = lookupValue($chat_id, $group1, $group2);
 $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', $profile_id,'966568430828@c.us', $group_b);
 
@@ -67,11 +67,13 @@ $group_a="120363331373447780@g.us";
 
 */
 
-$group_b="120363348465495758@g.us";
+//$group_b="120363348465495758@g.us";
 
 
 
 // && $group_b!="0"
+
+$group_a= $chat_id;
 
 if($chat_id==$group_a && $chat_id==$to_user){
 
