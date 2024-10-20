@@ -5,8 +5,8 @@ echo "this is web hook";
 
 
 
-$group1 = ['120363331373447780@g.us', 'banana', 'cherry'];
-$group2 = ['120363348465495758@g.us', 'yellow', 'purple'];
+$group1 = ['120363331373447780@g.us', '120363348465495758@g.us', 'cherry'];
+$group2 = ['120363348465495758@g.us', '120363331373447780@g.us', 'purple'];
 
 
 
@@ -61,8 +61,8 @@ $type = $event['messages'][0]['type'];
 $group_b = lookupValue($chat_id, $group1, $group2);
 echo $result; // Output: yellow
 
-
-/* 
+/*
+ 
 $group_a="120363331373447780@g.us";
 $group_b="120363348465495758@g.us";
 */
@@ -73,11 +73,6 @@ $group_b="120363348465495758@g.us";
 
 
 
-
-
-
-
-//
 if($chat_id==$group_a && $chat_id==$to_user && $group_b!="0"){
 
     
