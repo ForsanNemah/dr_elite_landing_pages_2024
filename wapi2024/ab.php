@@ -83,6 +83,9 @@ if($chat_id==$group_a  && $group_a != $group_b ){
 
     wapiforword('aedd0dc2-8453', '40703bb7812b727ec01c24f2da518c407342559c', $message_id, $group_b);
 
+
+    if($type=="image" || $type=="video" || $type=="document"  ){
+
     $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453',$group_b, $caption);
 
 
