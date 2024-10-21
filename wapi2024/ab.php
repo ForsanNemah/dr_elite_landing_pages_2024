@@ -54,6 +54,8 @@ $from_user = $event['messages'][0]['from'];
 $to_user = $event['messages'][0]['to'];
 $message_id = $event['messages'][0]['id'];
 $type = $event['messages'][0]['type'];
+$is_forwarded = $event['messages'][0]['is_forwarded'];
+
 
 
 
@@ -75,7 +77,7 @@ $group_a="120363331373447780@g.us";
 // && $chat_id==$to_user
 $group_a= $chat_id;
 
-if($chat_id==$group_a  && $group_a !=$group_b ){
+if($chat_id==$group_a  && !$is_forwarded ){
 
     
 
