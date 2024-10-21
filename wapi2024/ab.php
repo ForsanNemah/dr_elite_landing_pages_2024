@@ -71,11 +71,11 @@ $group_a="120363331373447780@g.us";
 
 
 
-// 
+//  && $group_b!="0"
 
 $group_a= $chat_id;
 
-if($chat_id==$group_a && $chat_id==$to_user  && $group_b!="0"){
+if($chat_id==$group_a && $chat_id==$to_user ){
 
     
 
