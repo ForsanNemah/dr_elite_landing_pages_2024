@@ -3,11 +3,11 @@
 include "info.php";
 echo "w_btn_clik_notifi";
 
-
+/*
 $result = send_with_wapi($wapi_token, $wapi_profile_id,$group_id.'@g.us', " قام احد العملاء بالنقر على زر الواتساب في صفحة الهبوط ");
 
 echo print_r($result) ;
-
+*/
 $result = send_with_wapi($wapi_token, $wapi_profile_id,$phone_main.'@c.us', " قام احد العملاء بالنقر على زر الواتساب في صفحة الهبوط ");
 
 echo print_r($result) ;
