@@ -31,7 +31,7 @@
     }
 
     .video-background {
-      margin-top: 250px;
+      margin-top: 170px;
       position: fixed;
       top: 0;
       left: 0;
@@ -96,10 +96,13 @@ include "w_app.php";
 
 
   <div class="container">
+
+
     <div class="mt-5 text-center">
       <img src="logo.jpeg" alt="Logo" class="img-fluid " width="200" height="200">
-      <h1 class="mt-4 pulsate">     طموح لتقنية المعلومات    </h1>
+      <h1 class="mt-4 pulsate" hidden>     طموح لتقنية المعلومات    </h1>
     </div>
+    
     <div class="mt-5 text-center">
 
 

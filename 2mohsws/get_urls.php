@@ -20,34 +20,13 @@ try {
             // Loop through the rows and display key-value pairs
             foreach ($data as $row) {
 
-
                 $name = $row['name'];
                 $url = $row['url'];
 
-                //echo $name;
-
-
                 echo '
-                
-                
-                
-                
-                  <a href="'.$url.'" class="mt-4 btn btn-primary btn-lg col-6"> '.$name.'  </a>
-                
-                
-                
-                
-                
-                
-                
-                
+                  <a href="'.$url.'" class="mt-4 btn btn-lg col-6" style="background-color: #00ff41; color: #fff;"> '.$name.'  </a>
                 ';
- 
             }
-
-          
-
-        
         } else {
             // Handle JSON parsing error
             throw new Exception('Failed to parse the JSON response.');
