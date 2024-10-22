@@ -7,13 +7,84 @@
  
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>منيو مطعم دلع كرشك </title>
+  <title>       طموح لتقنية المعلومات   </title>
 
   <link href="https://fonts.cdnfonts.com/css/tajawal" rel="stylesheet">
-                
+    
+  
+
+
+
+
+
+
+
+
+
+  <style>
+    /* Make sure the video takes the full width and height of the viewport */
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .video-background {
+      margin-top: 250px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Ensures the video covers the entire background */
+      z-index: -1; /* Places it behind other content */
+    }
+
+    .content {
+      position: relative;
+      z-index: 1; /* Ensures content appears above the video */
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+
+
+
+
+
+
+
+
+
+
+
 </head>
 
 <body>
+
+
+
+
+
+
+
+
+
+<video class="video-background " autoplay muted loop>
+    <source src="header_bg.webm" type="video/webm">
+    Your browser does not support HTML5 video.
+  </video>
+
+
+
+
+
+
+
+
+
 
 <?php
 
