@@ -25,12 +25,15 @@ include "w_app.php";
 
 
   <div class="container">
-    <div class="text-center mt-5">
+    <div class="mt-5 text-center">
       <img src="logo.jpeg" alt="Logo" class="img-fluid " width="200" height="200">
-      <h1 class="mt-4 pulsate">منيو مطعم دلع كرشك </h1>
+      <h1 class="mt-4 pulsate">     طموح لتقنية المعلومات    </h1>
     </div>
-    <div class="text-center mt-5">
-      <a href="https://drive.google.com/file/d/1l1jl1AL3ePAoAecibRwMSEG4OcfG2726/view?usp=sharing" class="btn btn-primary btn-lg  col-6 "> عرض المنيو</a>
+    <div class="mt-5 text-center">
+
+
+    <?php include "get_urls.php" ?>
+    
  
 <br>
 <br>
@@ -42,7 +45,7 @@ include "w_app.php";
 
   </div>
 
-  <footer class="bg-light text-center mt-5">
+  <footer class="mt-5 text-center bg-light" hidden>
     <div class="container">
       <ul class="list-inline">
 
