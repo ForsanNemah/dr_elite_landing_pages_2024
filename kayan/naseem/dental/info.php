@@ -18,7 +18,7 @@ $dr_name="
 ";
 
 $phone_main="966539811900";
-$group_id="120363301321001980";
+$group_id="120363347157512994";
 $logo="footer_logo/kayan.png";
 
 $dental_services_select=1;
