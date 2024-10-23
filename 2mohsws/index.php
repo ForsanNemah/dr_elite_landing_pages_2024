@@ -31,7 +31,7 @@
     }
 
     .video-background {
-      margin-top: 170px;
+      margin-top: 0px;
       position: fixed;
       top: 0;
       left: 0;
@@ -100,7 +100,7 @@ include "w_app.php";
 
     <div class="mt-5 text-center">
       <img src="logo.jpeg" alt="Logo" class="img-fluid " width="200" height="200">
-      <h1 class="mt-4 pulsate" hidden>     طموح لتقنية المعلومات    </h1>
+      <h1 class="mt-4 pulsate" >     طموح لتقنية المعلومات    </h1>
     </div>
     
     <div class="mt-5 text-center">
@@ -162,6 +162,7 @@ a {
     -webkit-animation: pulsate 1s ease-out;
     -webkit-animation-iteration-count: infinite; 
     opacity: 0.5;
+    color: white;
 }
 @-webkit-keyframes pulsate {
     0% { 
