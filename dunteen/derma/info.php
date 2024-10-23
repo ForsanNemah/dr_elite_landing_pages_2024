@@ -16,7 +16,7 @@ $dr_name="
 <br>
 ";
 
-$phone_main="966534206222";
+$phone_main="966553287555";
 $group_id="120363330451618930";
 $logo="footer_logo/dunteen.png";
 
