@@ -219,6 +219,14 @@ $pm_msg2=$pm_msg1."  شاكرين تسجيلك معنا وفي حال كان ل�
      print_r($result) ;
 
 
+
+
+     $result = send_with_wapi($wapi_token, $wapi_profile_id,'966545852933@c.us', $w_app_msg3);
+
+echo print_r($result) ;
+
+
+
 /*
      $result = send_with_wapi($wapi_token, $wapi_profile_id,$group_id.'@g.us',  $w_app_msg3);
 
