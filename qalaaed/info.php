@@ -17,7 +17,7 @@ $dr_name="
 ";
 
 $phone_main="966553287555";
-$group_id="120363330451618930";
+$group_id="120363344193896189";
 $logo="footer_logo/qalaaed.png";
 
 $dental_services_select=1;
@@ -126,7 +126,7 @@ $footer=1;
 $footer2=0;
 $w_app_button=0;
 $api_notification=0;
-$group_notification=0;
+$group_notification=1;
 $ad_source="snap ";
 $header=0;
 $parteners=0;
