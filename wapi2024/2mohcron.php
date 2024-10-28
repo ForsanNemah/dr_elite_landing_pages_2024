@@ -17,6 +17,11 @@ https://docs.google.com/spreadsheets/d/1DJ2fD_Ga4jhy8-bsopdlH2f6zfbmh1rUPxXn9p2B
 شيت حملات م اسلام
 
 https://docs.google.com/spreadsheets/d/14Fzvj2cNzhw5dXUQmrqUD1UCZRwbQm3H1AOr6YsFsDo/edit?usp=sharing
+
+
+شيت حملات م عقيل 
+
+https://docs.google.com/spreadsheets/d/1Bqz-DpYNwhM5dTKzZFAHLCQ9yFp_GkLle8kldjkw_PQ/edit?gid=0#gid=0
 ';
 
 
