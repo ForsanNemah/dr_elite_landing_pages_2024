@@ -16,9 +16,11 @@ https://docs.google.com/spreadsheets/d/1uwx_hqFHOfcI2g_2AbM6DcjeudoovX0a4IlCxlgo
 
 شيت الحملات الفعالة
 
-https://docs.google.com/spreadsheets/d/1H4Yj6GfrtP45zv2ED-kaY31lskZ-dn2egQwDH71R7ck/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/140FPKMFu5b5t_YF1lVuSsBZ7GsuZK2QoSmCwQd_Y3aQ/edit?usp=sharing
 
----
+شيت عملاء ادارة الحسابات 
+
+https://docs.google.com/spreadsheets/d/15JKxBSQL6p7uwcEA0dZ3dWYQV_gRR_K6hMKosd-X68M/edit?usp=drivesdk
 
 عزيزي الموظف،
 
