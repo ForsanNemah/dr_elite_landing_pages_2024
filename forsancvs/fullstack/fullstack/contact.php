@@ -24,7 +24,14 @@
         <i class="flex-shrink-0 bi bi-telephone"></i>
         <div>
           <h3>اتصل بي </h3>
-          <p>966568430828</p>
+          <p>
+
+
+          <a href="tel:+966568430828">966568430828</a>
+
+
+
+          </p>
         </div>
       </div><!-- End Info Item -->
 
@@ -32,7 +39,15 @@
         <i class="flex-shrink-0 bi bi-envelope"></i>
         <div>
           <h3>كلمني ايميل</h3>
-          <p>info@4sansoft.com</p>
+          <p>
+
+
+          <a href="mailto:info@4sansoft.com">info@4sansoft.com</a>
+
+
+
+
+          </p>
         </div>
       </div><!-- End Info Item -->
 

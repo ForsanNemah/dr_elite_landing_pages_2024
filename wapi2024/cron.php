@@ -22,6 +22,19 @@ https://docs.google.com/spreadsheets/d/140FPKMFu5b5t_YF1lVuSsBZ7GsuZK2QoSmCwQd_Y
 
 https://docs.google.com/spreadsheets/d/15JKxBSQL6p7uwcEA0dZ3dWYQV_gRR_K6hMKosd-X68M/edit?usp=drivesdk
 
+
+
+التقرير اليومي  ا بلال 
+
+https://docs.google.com/spreadsheets/d/1F02HWQ6nWcrkSdj47ZvW8eOoLG-5nDi0ivvNk4j5QRs/edit?usp=sharing
+
+
+
+التقرير اليومي المصمم نورا 
+
+https://docs.google.com/spreadsheets/d/1O5d2rPEYgCunIeTfK-0yPAXjvjnYJriME3GFS_u9PUk/edit?usp=sharing
+
+
 عزيزي الموظف،
 
 لتقديم خدمة مميزة لعملائنا، نود منك الالتزام بالتوجيهات التالية:
