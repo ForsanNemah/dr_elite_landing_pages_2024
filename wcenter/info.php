@@ -20,7 +20,7 @@ $phone_main="966553287555";
 $group_id="120363328215366020";
 $logo="footer_logo/wcenter.png";
 
-$dental_services_select=0;
+$dental_services_select=1;
 $derma_services_select=0;
 
 
