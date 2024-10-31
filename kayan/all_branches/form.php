@@ -204,7 +204,7 @@ if($dental_services_select==1){
 <div class="mb-3"  >
 
 
-<select name="branch1"    class="form-select">
+<select required name="branch1"    class="form-select"   >
 
 
 
@@ -212,28 +212,10 @@ if($dental_services_select==1){
 ';
 
 
-$filename = 'dental_services.txt'; // Specify the path to your text file
-
-// Check if the file exists
-if (file_exists($filename)) {
-// Read the file into an array, with each line as an element
-$lines = file($filename, FILE_IGNORE_NEW_LINES);
-
-// Output the HTML select tag
-
-
-// Iterate over the lines and create an option for each line
-foreach ($lines as $line) {
-echo '<option>' . htmlspecialchars($line) . '</option>';
-}
-
-// Close the HTML select tag
-
-} else {
-echo 'File not found.';
-}
-
-
+echo '<option value="" disabled  selected >اختر الفرع </option>';
+echo '<option value="mo"      >فرع المبرز   </option>';
+echo '<option value="ha"      > فرع الحمراء </option>';
+echo '<option value="na"      > فرع النسيم </option>';
 
 echo '
 </select>

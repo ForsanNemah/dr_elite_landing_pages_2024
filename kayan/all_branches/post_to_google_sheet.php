@@ -24,6 +24,26 @@ $branch2=$_POST['branch2'];
 $location=$_POST['location'];
 
 
+if($branch1=="mo"){
+
+    $action_url="https://script.google.com/macros/s/AKfycbzDZLPfxdCt2cfHrrxVMyn4_nnhiiX1VPCN_FjnmQh-TtvQ2SPKJy7h8AT-uKLoeIgH/exec";
+
+}
+
+
+if($branch1=="ha"){
+
+    $action_url="https://script.google.com/macros/s/AKfycbwq3RZI-V59pvNFJHUWjErxM--iusIMUmAWjn6dP6pkGTmCZHukb6nJ1cJaHRMLRblo/exec";
+
+}
+
+
+
+if($branch1=="na"){
+
+    $action_url="https://script.google.com/macros/s/AKfycbzSjzB6i2FsIGuhxdFHV0xt44OiTR43JnU9B3pwOQedAWpo4b7_BFZT3ZfEIoVo9seX/exec";
+
+}
 
 
 
