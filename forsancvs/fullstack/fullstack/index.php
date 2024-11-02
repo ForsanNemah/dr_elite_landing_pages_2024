@@ -78,6 +78,7 @@
     <!-- Portfolio Section -->
      <!-- /Portfolio Section -->
 <?php //include "portfolio.php"; ?>
+<?php include "sites.php"; ?>
     <!-- Services Section -->
 
     
