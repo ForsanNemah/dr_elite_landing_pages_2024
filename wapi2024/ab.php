@@ -55,7 +55,7 @@ $to_user = $event['messages'][0]['to'];
 $message_id = $event['messages'][0]['id'];
 $type = $event['messages'][0]['type'];
 $is_forwarded = $event['messages'][0]['is_forwarded'];
-
+$contact_name = $event['messages'][0]['contact_name'];
 
 
 
@@ -85,7 +85,7 @@ if($chat_id==$group_a  && !$is_forwarded ){
 
     wapiforword('aedd0dc2-8453', '40703bb7812b727ec01c24f2da518c407342559c', $message_id, $group_b);
 
-    //$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453',$group_b, $caption);
+    $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453',$group_b, $contact_name);
 
 
 }
