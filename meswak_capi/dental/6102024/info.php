@@ -29,7 +29,7 @@ $sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF
 
 $form1_des="
 
-عروض اكتوبر  
+ عروض اكتوبر خصومات تصل الى 50%    
 
 ";
 $cta=0;
