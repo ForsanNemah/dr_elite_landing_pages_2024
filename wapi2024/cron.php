@@ -34,6 +34,8 @@ https://docs.google.com/spreadsheets/d/1F02HWQ6nWcrkSdj47ZvW8eOoLG-5nDi0ivvNk4j5
 
 https://docs.google.com/spreadsheets/d/1O5d2rPEYgCunIeTfK-0yPAXjvjnYJriME3GFS_u9PUk/edit?usp=sharing
 
+حسابات العملاء 
+https://docs.google.com/spreadsheets/d/15TRRslg8BLE5yLVoHsqk5b9jjg0nz8qWg_YTyvoxJVo/edit?usp=drivesdk
 
 عزيزي الموظف،
 
@@ -88,13 +90,21 @@ https://docs.google.com/spreadsheets/d/1O5d2rPEYgCunIeTfK-0yPAXjvjnYJriME3GFS_u9
 ';
 
 
+$message2='
+يرجى  اتمام المهام المسندة وابلاغنا باي جديد تم .
+
+';
 
 $message = str_replace(["\r\n", "\r", "\n"], "\\n", $message);
 
 
+$message2 = str_replace(["\r\n", "\r", "\n"], "\\n", $message2);
 
 $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', '73817eb8-ed42','120363328424447180@g.us', $message );
 
+
+
+$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', '73817eb8-ed42','120363332297917440@g.us', $message2 );
 
 
 function send_with_wapi($auth, $profileId, $phone, $message) {
