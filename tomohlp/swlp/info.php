@@ -17,7 +17,7 @@ $dr_name="
  💔
 ";
 
-$phone_main="966560564731";
+$phone_main="966569070115";
 $group_id="120363345095090780";
 $logo="footer_logo/2moh.png";
 
