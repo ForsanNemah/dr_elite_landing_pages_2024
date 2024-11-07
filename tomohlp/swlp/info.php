@@ -18,7 +18,7 @@ $dr_name="
 ";
 
 $phone_main="966560564731";
-$group_id="120363293040099791";
+$group_id="120363345095090780";
 $logo="footer_logo/2moh.png";
 
 $dental_services_select=0;
