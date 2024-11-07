@@ -19,7 +19,7 @@ $dr_name="
 
 $phone_main="966569070115";
 $group_id="120363345095090780";
-$logo="footer_logo/2moh.png";
+$logo="footer_logo/2moh2.png";
 
 $dental_services_select=0;
 $derma_services_select=1;
