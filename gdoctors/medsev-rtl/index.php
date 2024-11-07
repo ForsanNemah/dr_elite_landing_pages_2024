@@ -1,37 +1,6 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-       <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css">
-        <!-- Owl Carousel CSS -->
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-        <!-- Meanmenu CSS -->
-        <link rel="stylesheet" href="assets/css/meanmenu.css">
-        <!-- Icofonts CSS -->
-        <link rel="stylesheet" href="assets/css/icofont.min.css">
-        <!-- Slick Slider CSS -->
-        <link rel="stylesheet" href="assets/css/slick.min.css">
-        <link rel="stylesheet" href="assets/css/slick-theme.min.css">
-        <!-- Magnific Popup CSS -->
-        <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
-        <!-- Animate CSS -->
-        <link rel="stylesheet" href="assets/css/animate.min.css">
-        <!-- Odometer CSS -->
-        <link rel="stylesheet" href="assets/css/odometer.min.css">
-        <!-- Style CSS -->
-        <link rel="stylesheet" href="assets/css/style.css">
-        <!-- Responsive CSS -->
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        <!-- Theme Dark CSS -->
-        <link rel="stylesheet" href="assets/css/theme-dark.css">
-        <!-- RTL CSS -->
-        <link rel="stylesheet" href="assets/css/rtl.css">
-
-        <title>
+  
 
 
 
@@ -40,12 +9,22 @@
 
 
 
-        مجمع اطباء الخليج 
-        </title>
 
-        <link rel="icon" type="image/png" href="assets/img/favicon.png">
-    </head>
-    
+<?php include 'header.php'; ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <body>
 
         <!-- Preloader -->
@@ -70,15 +49,22 @@
                             <div class="header-top-left">
                                 <ul>
                                     <li>
-                                        <a href="tel:+07554332322">
+                                        <a href="tel:+<?php echo $phone1; ?>">
                                             <i class="icofont-ui-call"></i>
-                                            Call : +07 554 332 322
+
+
+
+                                         اتصال :<?php echo $phone1; ?>
+
+
+                                         
+
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="mailto:hello@medsev.com">
+                                        <a href="mailto:<?php echo $email; ?>">
                                             <i class="icofont-ui-message"></i>
-                                            hello@medsev.com
+                                            <?php echo $email; ?>
                                         </a>
                                     </li>
                                     <li>
@@ -89,29 +75,46 @@
                             </div>
                         </div>
                     </div>
+                    
+
                     <div class="col-sm-3 col-lg-3">
-                        <div class="header-top-item">
-                            <div class="header-top-right">
-                                <ul>
-                                    <li>
-                                        <a href="https://www.facebook.com/login/" target="_blank">
-                                            <i class="icofont-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/i/flow/login" target="_blank">
-                                            <i class="icofont-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                       <a href="https://www.pinterest.com/" target="_blank">
-                                            <i class="icofont-pinterest"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+    <div class="header-top-item">
+        <div class="header-top-right">
+            <ul>
+                <li>
+                    <a hidden href="https://www.facebook.com/login/" target="_blank">
+                        <i class="icofont-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/gulf_doctors" target="_blank">
+                        <i class="icofont-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a hidden href="https://x.com/login" target="_blank">
+                        <i class="icofont-x"></i> <!-- 'icofont-x' for X (Twitter) icon -->
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.tiktok.com/@gulf_doctors" target="_blank">
+                        <i class="icofont-tiktok"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.snapchat.com/add/gulf_doctors?invite_id=CWzeXKqd&locale=en_SA%40calendar%3Dgregorian&share_id=WJrojDpkRT6FTiybzsgNmg&sid=e5c879793be5402dbd8636621636767b" target="_blank">
+                        <i class="icofont-snapchat"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+                    
+
+
                 </div>
             </div>
         </div>
@@ -122,7 +125,7 @@
             <!-- Menu For Mobile Device -->
             <div class="mobile-nav">
                 <a href="index.html" class="logo">
-                    <img src="assets/img/logo-two.png" alt="Logo">
+                    <img src="images/logo3.png" alt="Logo">
                 </a>
             </div>
 
@@ -131,13 +134,16 @@
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
                         <a class="navbar-brand" href="index.html">
-                            <img src="assets/img/logo.png" alt="Logo">
+                            <img src="images/logo.png" alt="Logo">
                         </a>
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link dropdown-toggle active">Home</a>
-                                    <ul class="dropdown-menu">
+                                    <a href="index.php" class="nav-link ">
+
+                                    الرئيسية
+                                    </a>
+                                    <ul class="dropdown-menu" hidden>
                                         <li class="nav-item">
                                             <a href="#" class="nav-link active">Home Page 1</a>
                                         </li>
@@ -156,9 +162,12 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="about.html" class="nav-link">About</a>
+                                    <a href="about.html" class="nav-link">
+
+                                    من نحن
+                                    </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item" hidden>
                                     <a href="#" class="nav-link dropdown-toggle">Pages</a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
@@ -194,8 +203,8 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link dropdown-toggle">Services</a>
-                                    <ul class="dropdown-menu">
+                                    <a href="#" class="nav-link ">الخدمات</a>
+                                    <ul class="dropdown-menu" hidden>
                                         <li class="nav-item">
                                             <a href="service.html" class="nav-link">Service</a>
                                         </li>
@@ -205,8 +214,8 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link dropdown-toggle">Doctor</a>
-                                    <ul class="dropdown-menu">
+                                    <a href="#" class="nav-link ">الدكاترة</a>
+                                    <ul class="dropdown-menu"   hidden>
                                         <li class="nav-item">
                                             <a href="doctor.html" class="nav-link">Doctor</a>
                                         </li>
@@ -215,7 +224,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item" hidden>
                                     <a href="#" class="nav-link dropdown-toggle">Blog</a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
@@ -227,7 +236,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="contact.html" class="nav-link">Contact Us</a>
+                                    <a href="contact.html" class="nav-link">   تواصل معنا</a>
                                 </li>
                             </ul>
                             <div class="nav-srh">
@@ -265,17 +274,26 @@
 
 
                                 </h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                <p>
+                                    
+                                
+ 
+                                يسعدنا استقبالكم في عيادات التجميل والجلدية والليزر والأسنان
+                                والباطنيه والنساء والولادة
+                            
+                            
+                            
+                            </p>
                                 <div class="common-btn">
-                                    <a href="appointment.html">Get Appointment</a>
-                                    <a class="cmn-btn-right" href="about.html">Learn More</a>
+                                    <a href="appointment.html">حجز موعد </a>
+                                    <a hidden class="cmn-btn-right" href="about.html">Learn More</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="slider-item slider-item-img">
+            <div class="slider-item slider-item-img"  >
                 <div class="d-table">
                     <div class="d-table-cell">
                         <div class="container">
@@ -283,12 +301,21 @@
                                 <div class="slider-shape-two">
                                     <img src="assets/img/home-one/home-slider/2.png" alt="Shape">
                                 </div>
-                                <h1>Caring Health is Important Than All</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                                <div class="common-btn">
-                                    <a href="appointment.html">Get Appointment</a>
-                                    <a class="cmn-btn-right" href="about.html">Learn More</a>
-                                </div>
+                                <h1>الاهتمام بالصحة اهم من كل شيئ </h1>
+                                <p>
+                                    
+                                
+ 
+                                    يسعدنا استقبالكم في عيادات التجميل والجلدية والليزر والأسنان
+                                    والباطنيه والنساء والولادة
+                                
+                                
+                                
+                                </p>
+                                    <div class="common-btn">
+                                        <a href="appointment.html">حجز موعد </a>
+                                        <a hidden class="cmn-btn-right" href="about.html">Learn More</a>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -302,12 +329,21 @@
                                 <div class="slider-shape-three">
                                     <img src="assets/img/home-one/home-slider/3.png" alt="Shape">
                                 </div>
-                                <h1>We Offer Highly Treatments</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                                <div class="common-btn">
-                                    <a href="appointment.html">Get Appointment</a>
-                                    <a class="cmn-btn-right" href="about.html">Learn More</a>
-                                </div>
+                                <h1>نوفر عناية فائقة</h1>
+                                <p>
+                                    
+                                
+ 
+                                    يسعدنا استقبالكم في عيادات التجميل والجلدية والليزر والأسنان
+                                    والباطنيه والنساء والولادة
+                                
+                                
+                                
+                                </p>
+                                    <div class="common-btn">
+                                        <a href="appointment.html">حجز موعد </a>
+                                        <a hidden class="cmn-btn-right" href="about.html">Learn More</a>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -326,7 +362,7 @@
                             <h3>
                                 <span class="odometer" data-count="850">00</span>
                             </h3>
-                            <p>Patients Beds</p>
+                            <p>سرير</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3 col-lg-3">
@@ -336,7 +372,7 @@
                                 <span class="odometer" data-count="2500">00</span>
                                 <span class="target">+</span>
                             </h3>
-                            <p>Happy Patients</p>
+                            <p> مريض سعيد </p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3 col-lg-3">
@@ -345,16 +381,16 @@
                             <h3>
                                 <span class="odometer" data-count="750">00</span>
                             </h3>
-                            <p>Doctors  & Nurse</p>
+                            <p>دكتور و  ممرض</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3 col-lg-3">
                         <div class="counter-item">
                             <i class="icofont-badge"></i>
                             <h3>
-                                <span class="odometer" data-count="18">00</span>
+                                <span class="odometer" data-count="3">00</span>
                             </h3>
-                            <p>Year Experience</p>
+                            <p> سنة من الخبرة  </p>
                         </div>
                     </div>
                 </div>
@@ -376,23 +412,35 @@
                     <div class="col-lg-6">
                         <div class="about-item about-right">
                             <img src="assets/img/home-one/5.png" alt="About">
-                            <h2>About Our Hospital</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                            <h2>
+
+
+                        عن مجمع اطباء الخليج
+                            </h2>
+                            <p>
+                                
+                           
+                            نحن في مجمع أطباء الخليج نسعى لتقديم رعاية طبية متكاملة ومتميزة في مجالات التجميل، الجلدية، الليزر، وطب الأسنان. يضم المجمع نخبة من الأطباء المتخصصين وأحدث التقنيات لضمان تقديم خدمات ذات جودة عالية تلبي احتياجات عملائنا بثقة واحترافية.
+                        
+                        
+                        
+                        
+                        </p>
                             <ul>
                                 <li>
                                     <i class="icofont-check-circled"></i>
-                                    Browse Our Website
+                                   تصفح موقعنا
                                 </li>
                                 <li>
                                     <i class="icofont-check-circled"></i>
-                                    Choose Service
+                                    اختر خدمة
                                 </li>
                                 <li>
                                     <i class="icofont-check-circled"></i>
-                                    Send Messege
+                                 ارسل رسالة 
                                 </li>
                             </ul>
-                            <a href="about.html">Know More</a>
+                            <a href="about.html">تواصل معنا عبر واتساب </a>
                         </div>
                     </div>
                 </div>
@@ -401,142 +449,15 @@
         <!-- End About -->
 
         <!-- Services -->
-        <section class="services-area pb-70">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Our Hospital Services</h2>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="service-item">
-                            <div class="service-front">
-                                <i class="icofont-doctor"></i>
-                                <h3>Expert Doctor</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                            </div>
-                            <div class="service-end">
-                                <i class="icofont-doctor"></i>
-                                <h3>Expert Doctor</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                                <a href="service-details.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay=".5s">
-                        <div class="service-item">
-                            <div class="service-front">
-                                <i class="icofont-prescription"></i>
-                                <h3>Diagnosis</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                            </div>
-                            <div class="service-end">
-                                <i class="icofont-prescription"></i>
-                                <h3>Diagnosis</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                                <a href="service-details.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay=".7s">
-                        <div class="service-item">
-                            <div class="service-front">
-                                <i class="icofont-patient-file"></i>
-                                <h3>Pathology</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                            </div>
-                            <div class="service-end">
-                                <i class="icofont-patient-file"></i>
-                                <h3>Pathology</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                                <a href="service-details.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay=".9s">
-                        <div class="service-item">
-                            <div class="service-front">
-                                <i class="icofont-tooth"></i>
-                                <h3>Dental Care</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                            </div>
-                            <div class="service-end">
-                                <i class="icofont-tooth"></i>
-                                <h3>Dental Care</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                                <a href="service-details.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="service-item">
-                            <div class="service-front">
-                                <i class="icofont-heart-beat-alt"></i>
-                                <h3>Cardiology</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                            </div>
-                            <div class="service-end">
-                                <i class="icofont-heart-beat-alt"></i>
-                                <h3>Cardiology</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                                <a href="service-details.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay=".5s">
-                        <div class="service-item">
-                            <div class="service-front">
-                                <i class="icofont-drug"></i>
-                                <h3>Medicine</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                            </div>
-                            <div class="service-end">
-                                <i class="icofont-drug"></i>
-                                <h3>Medicine</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                                <a href="service-details.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay=".7s">
-                        <div class="service-item">
-                            <div class="service-front">
-                                <i class="icofont-dna-alt-1"></i>
-                                <h3>Neurology</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                            </div>
-                            <div class="service-end">
-                                <i class="icofont-dna-alt-1"></i>
-                                <h3>Neurology</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                                <a href="service-details.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay=".9s">
-                        <div class="service-item">
-                            <div class="service-front">
-                                <i class="icofont-ambulance-cross"></i>
-                                <h3>Ambulance</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                            </div>
-                            <div class="service-end">
-                                <i class="icofont-ambulance-cross"></i>
-                                <h3>Ambulance</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                                <a href="service-details.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
+<?php include 'services.php'; ?>
         <!-- End Services -->
 
         <!-- Expertise -->
-        <section class="expertise-area pb-70">
+        <section class="mb-5 expertise-area pb-70">
             <div class="container">
                 <div class="section-title">
-                    <h2>Our Expertise</h2>
+                    <h2> خبراتنا   </h2>
                 </div>
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6">
@@ -546,8 +467,8 @@
                                     <a href="blog-details.html">
                                         <div class="expertise-inner">
                                             <i class="icofont-doctor-alt"></i>
-                                            <h3>Certified Doctors</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                            <h3>دكاترة موثوقين</h3>
+                                            <p hidden>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -555,8 +476,8 @@
                                     <a href="blog-details.html">
                                         <div class="expertise-inner">
                                             <i class="icofont-stretcher"></i>
-                                            <h3>Emergency</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                            <h3>طوارئ 24 ساعة</h3>
+                                            <p hidden>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -564,8 +485,8 @@
                                     <a href="blog-details.html">
                                         <div class="expertise-inner">
                                             <i class="icofont-network"></i>
-                                            <h3>Teachnology</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                            <h3> نستخدم احدث التقنيات</h3>
+                                            <p hidden>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -573,8 +494,8 @@
                                     <a href="blog-details.html">
                                         <div class="expertise-inner">
                                             <i class="icofont-ambulance-cross"></i>
-                                            <h3>Ambulance</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                            <h3>توفر سيارت اسعاف</h3>
+                                            <p hidden>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -594,427 +515,30 @@
         <!-- End Expertise -->
 
         <!-- Video -->
-        <div class="video-wrap">
-            <div class="container-fluid p-0">
-                <div class="tab-content" id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                        <div class="video-area">
-                            <div class="d-table">
-                                <div class="d-table-cell">
-                                    <div class="container">
-                                        <div class="video-item">
-                                            <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-youtube">
-                                                <i class="icofont-ui-play"></i>
-                                            </a>
-                                            <div class="video-content">
-                                                <h3>Hospital Introduction</h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                        <div class="video-area">
-                            <div class="d-table">
-                                <div class="d-table-cell">
-                                    <div class="container">
-                                        <div class="video-item">
-                                            <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-youtube">
-                                                <i class="icofont-ui-play"></i>
-                                            </a>
-                                            <div class="video-content">
-                                                <h3>About Our Pharmacy</h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                        <div class="video-area">
-                            <div class="d-table">
-                                <div class="d-table-cell">
-                                    <div class="container">
-                                        <div class="video-item">
-                                            <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-youtube">
-                                                <i class="icofont-ui-play"></i>
-                                            </a>
-                                            <div class="video-content">
-                                                <h3>Our reasearch  center and  lab </h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-icu" role="tabpanel" aria-labelledby="pills-icu-tab">
-                        <div class="video-area">
-                            <div class="d-table">
-                                <div class="d-table-cell">
-                                    <div class="container">
-                                        <div class="video-item">
-                                            <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-youtube">
-                                                <i class="icofont-ui-play"></i>
-                                            </a>
-                                            <div class="video-content">
-                                                <h3>CCU & ICU</h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-doctor" role="tabpanel" aria-labelledby="pills-doctor-tab">
-                        <div class="video-area">
-                            <div class="d-table">
-                                <div class="d-table-cell">
-                                    <div class="container">
-                                        <div class="video-item">
-                                            <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popup-youtube">
-                                                <i class="icofont-ui-play"></i>
-                                            </a>
-                                            <div class="video-content">
-                                                <h3>Our Doctors</h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="container">
-                <ul class="video-nav nav nav-pills" id="pills-tab" role="tablist">
-                    <li class="nav-item video-nav-item">
-                        <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Hospital Introduction</a>
-                    </li>
-                    <li class="nav-item video-nav-item">
-                        <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Pharmacy</a>
-                    </li>
-                    <li class="nav-item video-nav-item">
-                        <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Reasearch & Lab</a>
-                    </li>
-        
-                    <li class="nav-item video-nav-item">
-                        <a class="nav-link" id="pills-icu-tab" data-bs-toggle="pill" href="#pills-icu" role="tab" aria-controls="pills-icu" aria-selected="false">CCU & ICU</a>
-                    </li>
-                    <li class="nav-item video-nav-item">
-                        <a class="nav-link" id="pills-doctor-tab" data-bs-toggle="pill" href="#pills-doctor" role="tab" aria-controls="pills-doctor" aria-selected="false">Doctors</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+
+
         <!-- End Video -->
 
         <!-- Doctors -->
-        <section class="doctors-area ptb-100">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Meet Our Doctors</h2>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="doctor-item">
-                            <div class="doctor-top">
-                                <img src="assets/img/home-one/doctor/1.jpg" alt="Doctor">
-                                <a href="appointment.html">Get Appointment</a>
-                            </div>
-                            <div class="doctor-bottom">
-                                <h3>
-                                    <a href="doctor-details.html">Dr. Babatunde</a>
-                                </h3>
-                                <span>Neurosurgeon</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".5s">
-                        <div class="doctor-item">
-                            <div class="doctor-top">
-                                <img src="assets/img/home-one/doctor/2.jpg" alt="Doctor">
-                                <a href="appointment.html">Get Appointment</a>
-                            </div>
-                            <div class="doctor-bottom">
-                                <h3>
-                                    <a href="doctor-details.html">Dr. Addision Smith</a>
-                                </h3>
-                                <span>Neurosurgeon</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6   col-lg-4 wow fadeInUp" data-wow-delay=".7s">
-                        <div class="doctor-item">
-                            <div class="doctor-top">
-                                <img src="assets/img/home-one/doctor/3.jpg" alt="Doctor">
-                                <a href="appointment.html">Get Appointment</a>
-                            </div>
-                            <div class="doctor-bottom">
-                                <h3>
-                                    <a href="doctor-details.html">Dr. Sarah Tylor</a>
-                                </h3>
-                                <span>Dental Surgeon</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="doctor-btn">
-                    <a href="doctor.html">See All</a>
-                </div>
-            </div>
-        </section>
+
         <!-- End Doctors -->
 
         <!-- Blog -->
-        <section class="blog-area pt-100 pb-70">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Our Latest Blogs</h2>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="blog-item">
-                            <div class="blog-top">
-                                <a href="blog-details.html">
-                                    <img src="assets/img/home-one/11.jpg" alt="Blog">
-                                </a>
-                            </div>
-                            <div class="blog-bottom">
-                                <h3>
-                                    <a href="blog-details.html">In this hospital there are special surgeon.</a>
-                                </h3>
-                                <p>Lorem ipsum is  dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
-                                <ul>
-                                    <li>
-                                        <a href="blog-details.html">
-                                            Read More
-                                            <i class="icofont-long-arrow-right"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <i class="icofont-calendar"></i>
-                                        Jan 03, 2024
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".5s">
-                        <div class="blog-item">
-                            <div class="blog-top">
-                                <a href="blog-details.html">
-                                    <img src="assets/img/home-one/12.jpg" alt="Blog">
-                                </a>
-                            </div>
-                            <div class="blog-bottom">
-                                <h3>
-                                    <a href="blog-details.html">World AIDS Day, designated on 1 December.</a>
-                                </h3>
-                                <p>Lorem ipsum is  dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
-                                <ul>
-                                    <li>
-                                        <a href="blog-details.html">
-                                            Read More
-                                            <i class="icofont-long-arrow-right"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <i class="icofont-calendar"></i>
-                                        Jan 03, 2024
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6   col-lg-4 wow fadeInUp" data-wow-delay=".7s">
-                        <div class="blog-item">
-                            <div class="blog-top">
-                                <a href="blog-details.html">
-                                    <img src="assets/img/home-one/13.jpg" alt="Blog">
-                                </a>
-                            </div>
-                            <div class="blog-bottom">
-                                <h3>
-                                    <a href="blog-details.html">More than 80 clinical trials launch to test coronavirus.</a>
-                                </h3>
-                                <p>Lorem ipsum is  dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
-                                <ul>
-                                    <li>
-                                        <a href="blog-details.html">
-                                            Read More
-                                            <i class="icofont-long-arrow-right"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <i class="icofont-calendar"></i>
-                                        Jan 03, 2024
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
+        <?php //include 'footer.php'; ?>
         <!-- End Blog -->
 
         <!-- Footer -->
-        <footer class="pb-70">
+    
 
             <!-- Newsletter -->
-            <div class="newsletter-area">
-                <div class="container">
-                    <div class="row newsletter-wrap align-items-center">
-                        <div class="col-lg-7">
-                            <div class="newsletter-item">
-                                <h2>Join Our Newsletter</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-5">
-                            <div class="newsletter-item">
-                                <div class="newsletter-form">
-                                    <form class="newsletter-form" data-toggle="validator">
-                                        <input type="email" class="form-control" placeholder="Enter Your Email" name="EMAIL" required autocomplete="off">
-        
-                                        <button class="btn newsletter-btn" type="submit">
-                                            Subscribe
-                                        </button>
-        
-                                        <div id="validator-newsletter" class="form-result"></div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+            
             <!-- End Newsletter -->
 
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="footer-item">
-                            <div class="footer-contact">
-                                <h3>Contact Us</h3>
-                                <ul>
-                                    <li>
-                                        <i class="icofont-ui-message"></i>
-                                        <a href="mailto:info@medisev.com">info@medisev.com</a>
-                                        <a href="mailto:hello@medisev.com">hello@medisev.com</a>
-                                    </li>
-                                    <li>
-                                        <i class="icofont-stock-mobile"></i>
-                                        <a href="tel:+07554332322">Call: +07 554 332 322</a>
-                                        <a href="tel:+236256256365">Call: +236 256 256 365</a>
-                                    </li>
-                                    <li>
-                                        <i class="icofont-location-pin"></i>
-                                        210-27 Quadra, Market Street,<br> Victoria Canada
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-2">
-                        <div class="footer-item">
-                            <div class="footer-quick">
-                                <h3>Quick Links</h3>
-                                <ul>
-                                    <li>
-                                        <a href="about.html">About us</a>
-                                    </li>
-                                    <li>
-                                        <a href="blog.html">Blog</a>
-                                    </li>
-                                    <li>
-                                        <a href="blog-details.html">Our Expertise</a>
-                                    </li>
-                                    <li>
-                                        <a href="faq.html">Faq</a>
-                                    </li>
-                                    <li>
-                                        <a href="doctor.html">Doctors</a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html">Contact us</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="footer-item">
-                            <div class="footer-quick">
-                                <h3>Our Services</h3>
-                                <ul>
-                                    <li>
-                                        <a href="service-details.html">Dental Care</a>
-                                    </li>
-                                    <li>
-                                        <a href="service-details.html">Cardiology</a>
-                                    </li>
-                                    <li>
-                                        <a href="service-details.html">Hijama Therapy</a>
-                                    </li>
-                                    <li>
-                                        <a href="service-details.html">Massage Therapy</a>
-                                    </li>
-                                    <li>
-                                        <a href="service-details.html">Ambluance Sevices</a>
-                                    </li>
-                                    <li>
-                                        <a href="service-details.html">Medicine</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="footer-item">
-                            <div class="footer-feedback">
-                                <h3>Feedback</h3>
-                                <form>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Name">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Phone">
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea class="form-control" id="your_message" rows="5" placeholder="Message"></textarea>
-                                    </div>
-                                    <div class="text-left">
-                                        <button type="submit" class="btn feedback-btn">SUBMIT</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- End Footer -->
 
-        <!-- Copyright -->
-        <div class="copyright-area">
-            <div class="container">
-                <div class="copyright-item">
-                    <p>© <span>Medsev</span> is Proudly Owned by <a href="https://hibootstrap.com/" target="_blank">HiBoostrap</a></p>
-                </div>
-            </div>
-        </div>
-        <!-- End Copyright -->
+            
+<?php include 'footer.php'; ?>
 
 
         <!-- Essential JS -->
