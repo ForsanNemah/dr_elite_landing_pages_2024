@@ -29,12 +29,7 @@
                                         <input id="name" name="name" type="text" class="form-control" placeholder="ادخل اسمك هنا">
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <label for="email">الإيميل</label>
-                                        <input id="email" name="email" type="email" class="form-control" placeholder="الإيميل اختياري">
-                                    </div>
-                                </div>
+                            
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <label for="phone">رقم الجوال</label>
