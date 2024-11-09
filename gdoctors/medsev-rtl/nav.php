@@ -90,6 +90,12 @@
                                         </li>
                                     </ul>
                                 </li>
+
+                                <li class="nav-item">
+                                    <a href="#contact_us_id" class="nav-link">    العروض  </a>
+                                </li>
+
+
                                 <li class="nav-item">
                                     <a href="#contact_us_id" class="nav-link">   تواصل معنا</a>
                                 </li>
