@@ -1,4 +1,4 @@
-<footer class="pb-70">
+<footer class="pb-70" id="contact_us_id">
 <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-sm-6 col-lg-4">
@@ -63,11 +63,53 @@
 
                                 
                                     <li>
-                                        <a href="https://api.whatsapp.com/send?phone=<?php echo $phone2 ?>&text=<?php echo urldecode('معلومات اكثر عن قسم التجميل') ?> ">قسم التجميل</a>
+                                        <a href="https://api.whatsapp.com/send?phone=<?php echo $phone2 ?>&text=<?php echo urldecode('معلومات اكثر عن عيادة التجميل') ?> ">عيادة التجميل</a>
                                     </li>
                                      
                                      
+
+                                    <li>
+                                        <a href="https://api.whatsapp.com/send?phone=<?php echo $phone2 ?>&text=<?php echo urldecode('معلومات اكثر عن عيادة الجلدية والليزر') ?> ">عيادة الجلدية والليزر</a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="https://api.whatsapp.com/send?phone=<?php echo $phone2 ?>&text=<?php echo urldecode('معلومات اكثر عن عيادة الاسنان') ?> ">عيادة الاسنان</a>
+                                    </li>
+
                                     
+                                    
+
+
+
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="https://api.whatsapp.com/send?phone=<?php echo $phone2 ?>&text=<?php echo urldecode('معلومات اكثر عن عيادة الباطنية') ?> ">عيادة الباطنية</a>
+                                    </li>
+
+
+
+                                    <li>
+                                        <a href="https://api.whatsapp.com/send?phone=<?php echo $phone2 ?>&text=<?php echo urldecode('معلومات اكثر عن عيادة النساء و الولادة') ?> ">عيادة النساء و الولادة </a>
+                                    </li>
+
+
+
+
+
+
+
+
+
+
+
+
                                 </ul>
                             </div>
                         </div>
@@ -76,20 +118,11 @@
                         <div class="footer-item">
                             <div class="footer-feedback">
                                 <h3>   تواصل معنا     </h3>
-                                <form>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="الاسم">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="رقم الجوال">
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea class="form-control" id="your_message" rows="5" placeholder="الرسالة"></textarea>
-                                    </div>
-                                    <div class="text-left">
-                                        <button type="submit" class="btn feedback-btn">ارسال</button>
-                                    </div>
-                                </form>
+                             
+
+<?php include "footer_form.php"; ?>
+
+
                             </div>
                         </div>
                     </div>

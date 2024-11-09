@@ -48,6 +48,6 @@
         <?php include 'w_app_btn.php'; ?>
 
 
-
+        <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
     </head>
     

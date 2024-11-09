@@ -162,7 +162,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="about.html" class="nav-link">
+                                    <a href="#about_us_id" class="nav-link">
 
                                     من نحن
                                     </a>
@@ -203,7 +203,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link ">الخدمات</a>
+                                    <a href="#services_id" class="nav-link ">الخدمات</a>
                                     <ul class="dropdown-menu" hidden>
                                         <li class="nav-item">
                                             <a href="service.html" class="nav-link">Service</a>
@@ -213,7 +213,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item" hidden>
                                     <a href="#" class="nav-link ">الدكاترة</a>
                                     <ul class="dropdown-menu"   hidden>
                                         <li class="nav-item">
@@ -236,7 +236,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="contact.html" class="nav-link">   تواصل معنا</a>
+                                    <a href="#contact_us_id" class="nav-link">   تواصل معنا</a>
                                 </li>
                             </ul>
                             <div class="nav-srh">
@@ -360,7 +360,7 @@
                         <div class="counter-item">
                             <i class="icofont-patient-bed"></i>
                             <h3>
-                                <span class="odometer" data-count="850">00</span>
+                                <span class="odometer" data-count="85"></span>
                             </h3>
                             <p>سرير</p>
                         </div>
@@ -369,17 +369,17 @@
                         <div class="counter-item">
                             <i class="icofont-people"></i>
                             <h3>
-                                <span class="odometer" data-count="2500">00</span>
+                                <span class="odometer" data-count="873"></span>
                                 <span class="target">+</span>
                             </h3>
-                            <p> مريض سعيد </p>
+                            <p> بيشنت   </p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-3 col-lg-3">
                         <div class="counter-item">
                             <i class="icofont-doctor-alt"></i>
                             <h3>
-                                <span class="odometer" data-count="750">00</span>
+                                <span class="odometer" data-count="20"></span>
                             </h3>
                             <p>دكتور و  ممرض</p>
                         </div>
@@ -390,7 +390,7 @@
                             <h3>
                                 <span class="odometer" data-count="3">00</span>
                             </h3>
-                            <p> سنة من الخبرة  </p>
+                            <p> سنوات من الخبرة  </p>
                         </div>
                     </div>
                 </div>
@@ -399,7 +399,7 @@
         <!-- End Counter -->
 
         <!-- About -->
-        <div class="about-area pt-100 pb-70">
+        <div class="about-area pt-100 pb-70" id="about_us_id">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6">
@@ -451,6 +451,8 @@
         <!-- Services -->
 
 <?php include 'services.php'; ?>
+<?php include 'form_with_working_hours.php'; ?>
+
         <!-- End Services -->
 
         <!-- Expertise -->
@@ -537,7 +539,7 @@
             <!-- End Newsletter -->
 
 
-            
+            <?php include 'map.php'; ?>   
 <?php include 'footer.php'; ?>
 
 
