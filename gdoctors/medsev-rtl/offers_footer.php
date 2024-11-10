@@ -37,7 +37,7 @@
                             <div class="footer-quick">
                                 <h3>  روابط سريعة</h3>
                                 <ul>
-                                    <li>
+                                    <li hidden > 
                                         <a href="#about_us_id"> حول اطباء الخليج</a>
                                     </li>
                                      
@@ -51,8 +51,14 @@
                                     </li>
 
 
-                                    <li  >
+                                    <li hidden >
                                         <a href="#register_form_id"> حجز موعد   </a>
+                                    </li>
+
+
+
+                                    <li >
+                                        <a href="index.php">   الرئيسية   </a>
                                     </li>
 
 

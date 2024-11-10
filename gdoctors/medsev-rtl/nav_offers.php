@@ -23,7 +23,7 @@
                                     </a>
                                     
                                 </li>
-                                <li class="nav-item">
+                                <li hidden class="nav-item">
                                     <a href="#about_us_id" class="nav-link">
 
                                     من نحن
@@ -64,7 +64,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item">
+                                <li hidden class="nav-item">
                                     <a href="#services_id" class="nav-link ">الخدمات</a>
                                    
                                 </li>
@@ -91,7 +91,7 @@
                                     </ul>
                                 </li>
 `````                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-                                <li class="nav-item">
+                                <li hidden class="nav-item">
                                     <a href="offers.php" class="nav-link">    العروض  </a>
                                 </li>
 
