@@ -1,4 +1,4 @@
-<div class="container my-4">
+<div class="container my-4" data-aos="zoom-in-up"  data-aos-duration="3000">
   <h2 class="text-center">   موقعنا على خرائط جوجل </h2>
   <div class="row justify-content-center">
     <div class="col-md-8">

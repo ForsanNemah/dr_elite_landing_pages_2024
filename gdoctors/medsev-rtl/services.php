@@ -13,7 +13,7 @@
                 </div>
                 <div class="row justify-content-center">
 
-                    <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay=".3s">
+                    <div data-aos="fade-down"  data-aos-duration="3000"  class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay=".3s">
                         <div class="service-item">
                             <div class="service-front">
                                 
@@ -59,7 +59,7 @@
 
 
 
-                    <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay=".3s">
+                    <div data-aos="fade-down"  data-aos-duration="3000" class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay=".3s">
                         <div class="service-item">
                             <div class="service-front">
                             <img src="icons/derma.png" alt="Tagmeel icon" class="img-fluid" style="width: 100px; height: 100px;">
@@ -94,7 +94,7 @@
 
 
 
-                    <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay=".3s">
+                    <div data-aos="fade-down"  data-aos-duration="3000"  class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay=".3s">
                         <div class="service-item">
                             <div class="service-front">
                             <img src="icons/dental.png" alt="Tagmeel icon" class="img-fluid" style="width: 100px; height: 100px;">
@@ -133,7 +133,7 @@
                     
 
 
-                    <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay=".3s">
+                    <div data-aos="fade-down"  data-aos-duration="3000" class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay=".3s">
                         <div class="service-item">
                             <div class="service-front">
                             <img src="icons/batena.png" alt="Tagmeel icon" class="img-fluid" style="width: 100px; height: 100px;">
@@ -184,7 +184,7 @@
 
 
 
-                    <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay=".3s">
+                    <div data-aos="fade-down"  data-aos-duration="3000" class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-delay=".3s">
                         <div class="service-item">
                             <div class="service-front">
                             <img src="icons/nesa.png" alt="Tagmeel icon" class="img-fluid" style="width: 100px; height: 100px;">

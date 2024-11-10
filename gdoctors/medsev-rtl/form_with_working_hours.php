@@ -1,4 +1,4 @@
-<div class="page-title-area page-title-two" id="register_form_id">
+<div class="page-title-area page-title-two" id="register_form_id" data-aos="zoom-in-up"  data-aos-duration="3000">
     <div class="d-table">
         <div class="d-table-cell">
             <div class="page-title-item">
@@ -10,7 +10,7 @@
 <!-- End Page Title -->
 
 <!-- Appointment -->
-<section class="appointment-area-two">
+<section class="appointment-area-two" data-aos="zoom-in-up"  data-aos-duration="3000">
     <div class="container">
         <div class="row align-items-center appointment-wrap-two">
             <div class="col-lg-7 wow fadeInUp" data-wow-delay=".3s">
@@ -36,7 +36,7 @@
                                         <input id="phone" name="phone" type="text" class="form-control" placeholder="ادخل رقم جوالك">
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-12">
                                     <div class="form-group">
                                         <label for="service">اختر العيادة</label>
                                         <select id="service" name="service" class="form-control">

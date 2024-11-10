@@ -133,99 +133,16 @@
         <!-- End Home Slider -->
 
         <!-- Counter -->
-        <div class="counter-area">
-            <div class="container">
-                <div class="row counter-bg">
-                    <div class="col-sm-6 col-md-3 col-lg-3">
-                        <div class="counter-item">
-                            <i class="icofont-patient-bed"></i>
-                            <h3>
-                                <span class="odometer" data-count="85"></span>
-                            </h3>
-                            <p>سرير</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3 col-lg-3">
-                        <div class="counter-item">
-                            <i class="icofont-people"></i>
-                            <h3>
-                                <span class="odometer" data-count="873"></span>
-                                <span class="target">+</span>
-                            </h3>
-                            <p> بيشنت   </p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3 col-lg-3">
-                        <div class="counter-item">
-                            <i class="icofont-doctor-alt"></i>
-                            <h3>
-                                <span class="odometer" data-count="20"></span>
-                            </h3>
-                            <p>دكتور و  ممرض</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3 col-lg-3">
-                        <div class="counter-item">
-                            <i class="icofont-badge"></i>
-                            <h3>
-                                <span class="odometer" data-count="3">00</span>
-                            </h3>
-                            <p> سنوات من الخبرة  </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+        <?php include "counter.php" ?>
+        
         <!-- End Counter -->
 
         <!-- About -->
-        <div class="about-area pt-100 pb-70" id="about_us_id">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-lg-6">
-                        <div class="about-item">
-                            <div class="about-left">
-                                <img src="assets/img/home-one/4.jpg" alt="About">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="about-item about-right">
-                            <img src="assets/img/home-one/5.png" alt="About">
-                            <h2>
 
+        <?php include "about.php" ?>
 
-                        عن مجمع اطباء الخليج
-                            </h2>
-                            <p>
-                                
-                           
-                            نحن في مجمع أطباء الخليج نسعى لتقديم رعاية طبية متكاملة ومتميزة في مجالات التجميل، الجلدية، الليزر، وطب الأسنان. يضم المجمع نخبة من الأطباء المتخصصين وأحدث التقنيات لضمان تقديم خدمات ذات جودة عالية تلبي احتياجات عملائنا بثقة واحترافية.
-                        
-                        
-                        
-                        
-                        </p>
-                            <ul>
-                                <li>
-                                    <i class="icofont-check-circled"></i>
-                                   تصفح موقعنا
-                                </li>
-                                <li>
-                                    <i class="icofont-check-circled"></i>
-                                    اختر خدمة
-                                </li>
-                                <li>
-                                    <i class="icofont-check-circled"></i>
-                                 ارسل رسالة 
-                                </li>
-                            </ul>
-                            <a href="about.html">تواصل معنا عبر واتساب </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <!-- End About -->
 
         <!-- Services -->
@@ -234,66 +151,12 @@
 <?php include 'form_with_working_hours.php'; ?>
 
         <!-- End Services -->
-
+        <?php include "experince.php" ?>
         <!-- Expertise -->
-        <section class="mb-5 expertise-area pb-70">
-            <div class="container">
-                <div class="section-title">
-                    <h2> خبراتنا   </h2>
-                </div>
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-lg-6">
-                        <div class="expertise-item">
-                            <div class="row justify-content-center">
-                                <div class="col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                                    <a href="blog-details.html">
-                                        <div class="expertise-inner">
-                                            <i class="icofont-doctor-alt"></i>
-                                            <h3>دكاترة موثوقين</h3>
-                                            <p hidden>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay=".5s">
-                                    <a href="blog-details.html">
-                                        <div class="expertise-inner">
-                                            <i class="icofont-stretcher"></i>
-                                            <h3>طوارئ 24 ساعة</h3>
-                                            <p hidden>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                                    <a href="blog-details.html">
-                                        <div class="expertise-inner">
-                                            <i class="icofont-network"></i>
-                                            <h3> نستخدم احدث التقنيات</h3>
-                                            <p hidden>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay=".5s">
-                                    <a href="blog-details.html">
-                                        <div class="expertise-inner">
-                                            <i class="icofont-ambulance-cross"></i>
-                                            <h3>توفر سيارت اسعاف</h3>
-                                            <p hidden>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="expertise-item">
-                            <div class="expertise-right">
-                                <img src="assets/img/home-one/6.jpg" alt="Expertise">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
+        
+
+        
         <!-- End Expertise -->
 
         <!-- Video -->
@@ -347,5 +210,12 @@
         <script src="assets/js/jquery.appear.min.js"></script>
         <!-- Custom JS -->
         <script src="assets/js/custom.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+  AOS.init();
+</script>
+
+
     </body>
 </html>
