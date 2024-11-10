@@ -1,6 +1,6 @@
 <?php
 // API Key from Google Cloud
-$apiKey = 'AIzaSyAAZ90wzgTYiDpYeZf6uQbf_XcDhxD8VcY';
+$apiKey = 'AIzaSyBv8NC7um1-UbI1eRUBMdAzlBwaUJleVzM';
 
 // Get latitude, longitude, type, and radius from the form submission
 $latitude = $_POST['latitude']; // Example latitude
