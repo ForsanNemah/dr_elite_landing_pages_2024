@@ -49,25 +49,50 @@
         <section class="blog-area-two pt-100">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
+
+
+
+
+                
+                    <!-- <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                         <div class="blog-item">
                             <div class="blog-top">
-                                <a href="blog-details.html">
-                                    <img src="assets/img/home-one/11.jpg" alt="Blog">
+                                <a >
+                                    <img src="offers/1.jpg" alt="Blog">
                                 </a>
                             </div>
                             <div class="blog-bottom">
                                 <h3>
-                                    <a href="blog-details.html">
-                                        In this hospital there are special surgeon.
+                                    <a  >
+                                     عرض الاسنان
                                     </a>
                                 </h3>
-                                <p>Lorem ipsum is  dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
+                                <p>
+                                    
+                                
+                                عرض الاسنان عرض الاسنان عرض الاسنان عرض الاسنان عرض الاسنان عرض الاسنان عرض الاسنان
+                            
+                            
+                            
+                            </p>
                                 <ul>
                                     <li>
-                                        <a href="blog-details.html">
-                                            Read More
-                                            <i class="icofont-long-arrow-right"></i>
+
+
+
+                                        <a href="#">
+                                                
+
+
+                                          <button type="button" class="btn btn-success">الحصول على العرض </button>
+
+
+
+
+
+
+
+ 
                                         </a>
                                     </li>
                                     <li>
@@ -78,222 +103,70 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".5s">
-                        <div class="blog-item">
-                            <div class="blog-top">
-                                <a href="blog-details.html">
-                                    <img src="assets/img/home-one/12.jpg" alt="Blog">
-                                </a>
-                            </div>
-                            <div class="blog-bottom">
-                                <h3>
-                                    <a href="blog-details.html">World AIDS Day, designated on 1 December.</a>
-                                </h3>
-                                <p>Lorem ipsum is  dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
-                                <ul>
-                                    <li>
-                                        <a href="blog-details.html">
-                                            Read More
-                                            <i class="icofont-long-arrow-right"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <i class="icofont-calendar"></i>
-                                        Jan 03, 2024
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".7s">
-                        <div class="blog-item">
-                            <div class="blog-top">
-                                <a href="blog-details.html">
-                                    <img src="assets/img/home-one/13.jpg" alt="Blog">
-                                </a>
-                            </div>
-                            <div class="blog-bottom">
-                                <h3>
-                                    <a href="blog-details.html">More than 80 clinical trials launch to test coronavirus.</a>
-                                </h3>
-                                <p>Lorem ipsum is  dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
-                                <ul>
-                                    <li>
-                                        <a href="blog-details.html">
-                                            Read More
-                                            <i class="icofont-long-arrow-right"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <i class="icofont-calendar"></i>
-                                        Jan 03, 2024
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="blog-item">
-                            <div class="blog-top">
-                                <a href="blog-details.html">
-                                    <img src="assets/img/home-one/15.jpg" alt="Blog">
-                                </a>
-                            </div>
-                            <div class="blog-bottom">
-                                <h3>
-                                    <a href="blog-details.html">We always give the best from us.</a>
-                                </h3>
-                                <p>Lorem ipsum is  dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
-                                <ul>
-                                    <li>
-                                        <a href="blog-details.html">
-                                            Read More
-                                            <i class="icofont-long-arrow-right"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <i class="icofont-calendar"></i>
-                                        Jan 03, 2024
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".5s">
-                        <div class="blog-item">
-                            <div class="blog-top">
-                                <a href="blog-details.html">
-                                    <img src="assets/img/home-one/16.jpg" alt="Blog">
-                                </a>
-                            </div>
-                            <div class="blog-bottom">
-                                <h3>
-                                    <a href="blog-details.html">Be aware about the coronavirus</a>
-                                </h3>
-                                <p>Lorem ipsum is  dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
-                                <ul>
-                                    <li>
-                                        <a href="blog-details.html">
-                                            Read More
-                                            <i class="icofont-long-arrow-right"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <i class="icofont-calendar"></i>
-                                        Jan 03, 2024
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".7s">
-                        <div class="blog-item">
-                            <div class="blog-top">
-                                <a href="blog-details.html">
-                                    <img src="assets/img/home-one/17.jpg" alt="Blog">
-                                </a>
-                            </div>
-                            <div class="blog-bottom">
-                                <h3>
-                                    <a href="blog-details.html">No one find any medicines to prevent evolovirus</a>
-                                </h3>
-                                <p>Lorem ipsum is  dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
-                                <ul>
-                                    <li>
-                                        <a href="blog-details.html">
-                                            Read More
-                                            <i class="icofont-long-arrow-right"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <i class="icofont-calendar"></i>
-                                        Jan 03, 2024
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="blog-item">
-                            <div class="blog-top">
-                                <a href="blog-details.html">
-                                    <img src="assets/img/home-one/18.jpg" alt="Blog">
-                                </a>
-                            </div>
-                            <div class="blog-bottom">
-                                <h3>
-                                    <a href="blog-details.html">Thailand is trying to make vaccine of coronavirus</a>
-                                </h3>
-                                <p>Lorem ipsum is  dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
-                                <ul>
-                                    <li>
-                                        <a href="blog-details.html">
-                                            Read More
-                                            <i class="icofont-long-arrow-right"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <i class="icofont-calendar"></i>
-                                        Jan 03, 2024
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".5s">
-                        <div class="blog-item">
-                            <div class="blog-top">
-                                <a href="blog-details.html">
-                                    <img src="assets/img/home-one/19.jpg" alt="Blog">
-                                </a>
-                            </div>
-                            <div class="blog-bottom">
-                                <h3>
-                                    <a href="blog-details.html">Already 1932 people have died in China</a>
-                                </h3>
-                                <p>Lorem ipsum is  dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
-                                <ul>
-                                    <li>
-                                        <a href="blog-details.html">
-                                            Read More
-                                            <i class="icofont-long-arrow-right"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <i class="icofont-calendar"></i>
-                                        Jan 03, 2024
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".7s">
-                        <div class="blog-item">
-                            <div class="blog-top">
-                                <a href="blog-details.html">
-                                    <img src="assets/img/home-one/20.jpg" alt="Blog">
-                                </a>
-                            </div>
-                            <div class="blog-bottom">
-                                <h3>
-                                    <a href="blog-details.html">30+ countries have affected by coronavirus</a>
-                                </h3>
-                                <p>Lorem ipsum is  dolor sit amet, csectetur adipiscing elit, dolore smod tempor incididunt ut labore et....</p>
-                                <ul>
-                                    <li>
-                                        <a href="blog-details.html">
-                                            Read More
-                                            <i class="icofont-long-arrow-right"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <i class="icofont-calendar"></i>
-                                        Jan 03, 2024
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+
+   -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <?php
+for ($i = 1; $i <= 6; $i++) {
+    ?>
+    <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
+        <div class="blog-item">
+            <div class="blog-top">
+                <a>
+                    <img src="offers/1.jpg" alt="Blog">
+                </a>
+            </div>
+            <div class="blog-bottom">
+                <h3>
+                    <a>
+                        عرض الاسنان
+                    </a>
+                </h3>
+                <p>
+                    عرض الاسنان عرض الاسنان عرض الاسنان عرض الاسنان عرض الاسنان عرض الاسنان عرض الاسنان
+                </p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <button type="button" class="btn btn-success">الحصول على العرض</button>
+                        </a>
+                    </li>
+                    <li>
+                        <i class="icofont-calendar"></i>
+                        Jan 03, 2024
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <?php
+}
+?>
+
+
+
+
+
+
+
+
+
+
                 </div>
             </div>
         </section>

@@ -2,7 +2,7 @@
 <section class="mb-5 expertise-area pb-70">
             <div class="container">
                 <div class="section-title">
-                    <h2> خبراتنا   </h2>
+                    <h2> مميزاتنا   </h2>
                 </div>
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6">
@@ -50,7 +50,7 @@
                     <div class="col-lg-6">
                         <div class="expertise-item">
                             <div class="expertise-right">
-                                <img src="assets/img/home-one/6.jpg" alt="Expertise">
+                                <img src="images/header2.jpg" alt="Expertise">
                             </div>
                         </div>
                     </div>

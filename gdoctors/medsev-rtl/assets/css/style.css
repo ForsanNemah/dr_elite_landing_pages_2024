@@ -58,7 +58,7 @@ body {
   font-family: "Tajawal";
   color: #4a6f8a;
   background-color: #ffffff;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -2397,7 +2397,7 @@ footer {
 /*----- Apoointment Page -----*/
 /*-- Page Title --*/
 .page-title-two {
-  background-image: url("../img/appointment/1.jpg");
+  background-image: url("../images/baner.jpg");
   height: 440px;
 }
 .page-title-two .page-title-item {

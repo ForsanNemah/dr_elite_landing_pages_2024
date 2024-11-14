@@ -5,14 +5,14 @@
                     <div class="d-table-cell">
                         <div data-aos="zoom-in-up"  data-aos-duration="3000" class="container">
                             <div class="slider-text">
-                                <div class="slider-shape" data-aos="zoom-in-up"  data-aos-duration="3000"
+                                <!-- <div  class="slider-shape" data-aos="zoom-in-up"  data-aos-duration="3000"
                                 
                                  
                                 
                                 
                                 >
-                                    <img src="images/header1.jpg" alt="Shape">
-                                </div>
+                                    <img src="images/header3.jpg" alt="Shape">
+                                </div> -->
                                 <h1>
 
 مجمع اطباء الخليج
@@ -43,9 +43,9 @@
                     <div class="d-table-cell">
                         <div class="container">
                             <div class="slider-text">
-                                <div class="slider-shape-two" data-aos="fade-right"  data-aos-duration="3000">
+                                <!-- <div class="slider-shape-two" data-aos="fade-right"  data-aos-duration="3000">
                                     <img src="images/header1.jpg" alt="Shape">
-                                </div>
+                                </div> -->
                                 <h1>الاهتمام بالصحة اهم من كل شيئ </h1>
                                 <p>
                                     
@@ -71,9 +71,9 @@
                     <div class="d-table-cell">
                         <div class="container">
                             <div class="slider-text">
-                                <div class="slider-shape-three" data-aos="fade-right"  data-aos-duration="3000">
-                                    <img src="images/header1.jpg" alt="Shape">
-                                </div>
+                                <!-- <div class="slider-shape-three" data-aos="fade-right"  data-aos-duration="3000">
+                                    <img src="images/header2.jpg" alt="Shape">
+                                </div> -->
                                 <h1>نوفر عناية فائقة</h1>
                                 <p>
                                     

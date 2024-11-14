@@ -2,10 +2,10 @@
 <div class="about-area pt-100 pb-70" id="about_us_id">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
-                    <div class="col-lg-6" data-aos="fade-right"  data-aos-duration="3000">
+                    <div class="col-lg-6" data-aos="zoom-in-up"  data-aos-duration="3000">
                         <div class="about-item">
                             <div class="about-left">
-                                <img src="assets/img/home-one/4.jpg" alt="About">
+                                <img src="images/header1.jpg" alt="About">
                             </div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                                  ارسل رسالة 
                                 </li>
                             </ul>
-                            <a href="about.html">تواصل معنا عبر واتساب </a>
+                            <a href="https://api.whatsapp.com/send?phone=<?php echo $phone2 ?>&text=<?php echo urldecode('معلومات اكثر عن خدماتكم ') ?> ">تواصل معنا عبر واتساب </a>
                         </div>
                     </div>
                 </div>

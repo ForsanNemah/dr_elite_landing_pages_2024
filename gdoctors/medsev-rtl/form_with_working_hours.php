@@ -16,7 +16,7 @@
             <div class="col-lg-7 wow fadeInUp" data-wow-delay=".3s">
                 <div class="appointment-item appointment-item-two">
                     <div class="appointment-shape">
-                        <img src="assets/img/appointment/3.png" alt="Shape">
+                        <!-- <img src=" " alt="Shape"> -->
                     </div>
                     <h2>عروض خاصة بالمسجلين عبر الموقع الإلكتروني</h2>
                     <span>احجز الآن وسيتم التواصل معكم في أسرع وقت</span>
@@ -26,20 +26,20 @@
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <label for="name">الاسم</label>
-                                        <input id="name" name="name" type="text" class="form-control" placeholder="ادخل اسمك هنا">
+                                        <input required  id="name" name="name" type="text" class="form-control" placeholder="ادخل اسمك هنا">
                                     </div>
                                 </div>
                             
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <label for="phone">رقم الجوال</label>
-                                        <input id="phone" name="phone" type="text" class="form-control" placeholder="ادخل رقم جوالك">
+                                        <input required  id="phone" name="phone" type="text" class="form-control" placeholder="ادخل رقم جوالك">
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <label for="service">اختر العيادة</label>
-                                        <select id="service" name="service" class="form-control">
+                                        <select required  id="service" name="service" class="form-control">
                                             <option> انقر هنا للاختيار</option>
                                             <option>    عيادة التجميل </option>
                                             <option>   عيادة الجلدية والليزر  </option>
@@ -61,8 +61,8 @@
             <div class="col-lg-5 wow fadeInUp" data-wow-delay=".5s">
                 <div class="appointment-item-two-right">
                     <div class="appointment-item-content">
-                        <h2>ساعات العمل</h2>
-                        <div class="content-one">
+                        <!-- <h2>ساعات العمل</h2> -->
+                        <!-- <div class="content-one">
                             <ul>
                                 <li>السبت</li>
                                 <li>الأحد</li>
@@ -81,7 +81,34 @@
                                 <li>9:00 am - 8:00 pm</li>
                                 <li>9:00 am - 8:00 pm</li>
                             </ul>
-                        </div>
+                        </div> -->
+
+
+
+
+
+
+                        <img src="images/times.jpg" alt="Shape">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        
                     </div>
                 </div>
             </div>

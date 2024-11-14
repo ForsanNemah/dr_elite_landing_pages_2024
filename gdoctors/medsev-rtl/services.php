@@ -44,7 +44,7 @@
                             
                             
                             </p>
-                                <a href="service-details.html">حجز عبر واتساب</a>
+                                <a href="https://api.whatsapp.com/send?phone=<?php echo $phone2 ?>&text=<?php echo urldecode('معلومات اكثر عن عيادة التجميل') ?> ">حجز عبر واتساب</a>
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@
                             
                             
                             </p>
-                                <a href="service-details.html">حجز عبر واتساب</a>
+                                <a href="https://api.whatsapp.com/send?phone=<?php echo $phone2 ?>&text=<?php echo urldecode('معلومات اكثر عن عيادة الجلدية والليزر') ?> ">حجز عبر واتساب</a>
                             </div>
                         </div>
                     </div>
@@ -121,7 +121,7 @@
                             
                             
                             </p>
-                                <a href="service-details.html">حجز عبر واتساب</a>
+                                <a href="https://api.whatsapp.com/send?phone=<?php echo $phone2 ?>&text=<?php echo urldecode(string: 'معلومات اكثر عن عيادة الاسنان') ?> ">حجز عبر واتساب</a>
                             </div>
                         </div>
                     </div>
@@ -158,7 +158,7 @@
                             
                             
                             </p>
-                                <a href="service-details.html">حجز عبر واتساب</a>
+                                <a href="https://api.whatsapp.com/send?phone=<?php echo $phone2 ?>&text=<?php echo urldecode(string: 'معلومات اكثر عن عيادة الباطنية') ?> ">حجز عبر واتساب</a>
                             </div>
                         </div>
                     </div>
@@ -214,7 +214,7 @@
                             </p>
 
 
-                                <a href="service-details.html">حجز عبر واتساب</a>
+                                <a href="https://api.whatsapp.com/send?phone=<?php echo $phone2 ?>&text=<?php echo urldecode(string: 'معلومات اكثر عن عيادة النساء و الولادة') ?> ">حجز عبر واتساب</a>
                             </div>
                         </div>
                     </div>

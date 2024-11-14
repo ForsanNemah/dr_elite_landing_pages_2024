@@ -100,7 +100,7 @@
                                     <a href="#contact_us_id" class="nav-link">   تواصل معنا</a>
                                 </li>
                             </ul>
-                            <div class="nav-srh">
+                            <div hidden class="nav-srh">
                                 <div class="search-toggle">
                                     <button class="search-icon icon-search"><i class="icofont-search-1"></i></button>
                                     <button class="search-icon icon-close"><i class="icofont-close"></i></button>
