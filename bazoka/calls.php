@@ -72,21 +72,21 @@ c
 
     <!-- Button 1 -->
     <div class="btn-container" data-aos="fade-right" data-aos-duration="1500">
-      <a href="tel:+0508029993" class="btn btn-call w-100" aria-label="Call Bazooka University Restaurants">
+      <a href="tel:0508029993" class="btn btn-call w-100" aria-label="Call Bazooka University Restaurants">
         فرع  بازوكا الجامعيين 😋
       </a>
     </div>
     
     <!-- Button 2 -->
     <div class="btn-container" data-aos="fade-right" data-aos-duration="1500">
-      <a href="tel:+0536129993" class="btn btn-call w-100" aria-label="Call Bazooka Mahasin Restaurants">
+      <a href="tel:0536129993" class="btn btn-call w-100" aria-label="Call Bazooka Mahasin Restaurants">
          فرع بازوكا محاسن😋
       </a>
     </div>
 
     <!-- Button 3 -->
     <div class="btn-container" data-aos="fade-right" data-aos-duration="1500">
-      <a href="tel:+0531599960" class="btn btn-call w-100" aria-label="Call Bazooka Rashidiya Restaurants">
+      <a href="tel:0531599960" class="btn btn-call w-100" aria-label="Call Bazooka Rashidiya Restaurants">
           فرع بازوكا الراشديه😋
       </a>
     </div>
