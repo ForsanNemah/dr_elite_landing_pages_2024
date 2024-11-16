@@ -3,7 +3,7 @@
 
 $website_name="
 
-مطاعم بازوكا
+مطاعم بازوكة
 
  
 ";
@@ -136,7 +136,7 @@ $taby_and_tamara=0;
 $footer_cr=1;
 $videos=0;
 $snap_capi=0;
-$w_btn_only=1;
+$w_btn_only=0;
 $pm_register=0;
 
 

@@ -1,9 +1,9 @@
 <script>
   // Function to disable the button after submission
-  function disableButtonOnSubmit(form) {
+  function disableButtonOnSubmit2(form) {
     const button = form.querySelector('button[type="submit"]');
     button.disabled = true;
-    button.innerHTML = 'جاري الاتصال ...'; // Change button text to indicate processing
+    button.innerHTML = 'جاري التحويل الى واتساب  ...'; // Change button text to indicate processing
   }
 </script>
 
@@ -76,7 +76,7 @@
 
 <div class="container mt-5 text-center">
   <h2 class="playful-text">          
-    😋 اطلب الان  عبر الاتصال بالفرع الأقرب لك 😋
+    😋 اطلب الان عبر واتساب  من الفرع الأقرب لك 😋
   </h2>
   <h3>
     🛵 خدمة توصيل سريعة 🛵
@@ -84,12 +84,12 @@
 
   <!-- Form 1 -->
   <div class="btn-container" data-aos="fade-right" data-aos-duration="1500">
-    <form action="w_app_notifi.php" method="POST" onsubmit="disableButtonOnSubmit(this)">
+    <form action="w_app_notifi.php" method="POST" onsubmit="disableButtonOnSubmit2(this)">
 
       <input type="hidden" name="branch" value="فرع بازوكا الجامعيين">
       
-      <input type="hidden" name="msg" value="call button click فرع بازوكا الجامعيين">
-      <input type="hidden" name="type" value="call">
+      <input type="hidden" name="msg" value="whatsapp button click فرع بازوكا الجامعيين">
+      <input type="hidden" name="type" value="wapp">
   <input type="hidden" name="phone" value="966508029993">
 
       <button type="submit" class="btn btn-call w-100" aria-label="Submit form for Bazooka University Restaurants">
@@ -100,10 +100,10 @@
 
   <!-- Form 2 -->
   <div class="btn-container" data-aos="fade-right" data-aos-duration="1500">
-    <form action="w_app_notifi.php" method="POST" onsubmit="disableButtonOnSubmit(this)">
+    <form action="w_app_notifi.php" method="POST" onsubmit="disableButtonOnSubmit2(this)">
       <input type="hidden" name="branch" value="فرع بازوكا محاسن">
-      <input type="hidden" name="msg" value=" call button click فرع بازوكا محاسن">
-      <input type="hidden" name="type" value="call">
+      <input type="hidden" name="msg" value=" whatsapp button click فرع بازوكا محاسن">
+      <input type="hidden" name="type" value="wapp">
       <input type="hidden" name="phone" value="966536129993">
       <button type="submit" class="btn btn-call w-100" aria-label="Submit form for Bazooka Mahasin Restaurants">
         فرع بازوكا محاسن 😋
@@ -113,10 +113,10 @@
 
   <!-- Form 3 -->
   <div class="btn-container" data-aos="fade-right" data-aos-duration="1500">
-    <form action="w_app_notifi.php" method="POST" onsubmit="disableButtonOnSubmit(this)">
+    <form action="w_app_notifi.php" method="POST" onsubmit="disableButtonOnSubmit2(this)">
       <input type="hidden" name="branch" value="فرع بازوكا الراشديه">
-      <input type="hidden" name="msg" value=" call button click فرع بازوكا الراشديه">
-      <input type="hidden" name="type" value="call">
+      <input type="hidden" name="msg" value=" whatsapp button click فرع بازوكا الراشديه">
+      <input type="hidden" name="type" value="wapp">
         <input type="hidden" name="phone" value="966531599960">
       <button type="submit" class="btn btn-call w-100" aria-label="Submit form for Bazooka Rashidiya Restaurants">
         فرع بازوكا الراشديه 😋
