@@ -37,6 +37,14 @@ https://docs.google.com/spreadsheets/d/1O5d2rPEYgCunIeTfK-0yPAXjvjnYJriME3GFS_u9
 حسابات العملاء 
 https://docs.google.com/spreadsheets/d/15TRRslg8BLE5yLVoHsqk5b9jjg0nz8qWg_YTyvoxJVo/edit?usp=drivesdk
 
+
+
+رابط التصاميم ولوجوهات العملاء 
+
+https://drive.google.com/drive/folders/1drD_d1CQC1t-y6zvmsJgC5Ch5BcPU2QA?usp=drive_link
+
+
+
 عزيزي الموظف،
 
 لتقديم خدمة مميزة لعملائنا، نود منك الالتزام بالتوجيهات التالية:
