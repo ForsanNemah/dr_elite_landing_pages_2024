@@ -224,7 +224,14 @@ if($group_notification==1){
     
     $w_app_msg3=$w_app_msg2." خدمة   ".$service;
     
-    $message_to_customer="   نشكرك على تسجيلك معنا في تشافي   سيقوم احد المختصين بالتواصل معكم  لتحديد موعد الجلسات المناسب ";
+    $message_to_customer="   نشكرك على تسجيلك معنا في تشافي   سيقوم احد المختصين بالتواصل معكم    
+    
+    كما يمكنم استكمال الحجز باستخدام الرابط التالي 
+
+
+    https://cmconsultancy.simplybook.asia/v2/#book
+    
+    ";
     $w_app_msg3 = str_replace("\n", "\\n",  $w_app_msg3);
     $message_to_customer = str_replace("\n", "\\n",  $message_to_customer);
     /*
