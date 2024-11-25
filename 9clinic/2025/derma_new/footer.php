@@ -33,7 +33,7 @@ echo $website_name;
 
         <div class="row">
         <div class="col-8 d-flex justify-content-center">
-        <p contenteditable="true" class="text-center"> 
+        <p   hidden class="text-center"> 
 
 
     السعودية-الاحساء
