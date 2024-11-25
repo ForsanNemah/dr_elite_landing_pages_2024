@@ -44,6 +44,9 @@ https://docs.google.com/spreadsheets/d/15TRRslg8BLE5yLVoHsqk5b9jjg0nz8qWg_YTyvox
 https://drive.google.com/drive/folders/1drD_d1CQC1t-y6zvmsJgC5Ch5BcPU2QA?usp=drive_link
 
 
+نصائح عند عمل فيديوهات السوشال ميديا 
+
+https://www.facebook.com/share/r/1K6LdWRBnn/
 
 عزيزي الموظف،
 

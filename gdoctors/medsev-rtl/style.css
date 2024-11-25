@@ -1,0 +1,112 @@
+footer {
+    background-image: url(../img/home-one/14.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #1179a8;
+    padding-top: 185px;
+    position: relative;
+}
+
+
+
+
+.about-item a {
+    display: inline-block;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #1179a8;
+    font-weight: 500;
+    padding: 20px 45px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+.about-item a {
+    display: inline-block;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #1179a8;
+    font-weight: 500;
+    padding: 20px 45px;
+    border-radius: 5px;
+  }
+
+
+
+  .loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background: #1179a8;
+  }
+  
+
+
+  .slider-item:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #1179a8;
+    opacity: 0.8;
+  }
+
+
+
+
+
+  .header-top-item .header-top-right ul li a {
+    display: block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    color: #1179a8;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid transparent;
+    background-color: #fdfdfd;
+}
+
+
+
+
+.header-top-item .header-top-left ul li a i {
+    color: #1179a8;
+    font-size: 18px;
+    position: relative;
+    top: 2px;
+    margin-right: 2px;
+}
+.header-top-item .header-top-left ul li i {
+    color: #1179a8;
+    font-size: 18px;
+    position: relative;
+    top: 2px;
+    margin-right: 2px;
+}
+
+
+ 
+.expertise-item .expertise-inner {
+    background-color: #1179a8;
+    padding: 42px 25px 35px 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+  

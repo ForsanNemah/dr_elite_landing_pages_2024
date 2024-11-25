@@ -59,7 +59,7 @@ $transition: .5s all ease;
 $all-size: 15px;
 $white-color: #ffffff;
 $grey-color: #4a6f8a;
-$blue-color: #0046c0;
+$blue-color: #1179a8;
 $black-color: #111111;
 
 /*-- Default CSS --*/
@@ -799,13 +799,15 @@ button {
             }
         }
     }
+
+
     .service-front {
         transition: $transition;
         display: block;
 
         i {
             display: block;
-            color: #4d93e9;
+            color: #1179a8;
             font-size: 65px;
             margin-bottom: 20px;
         }
@@ -1131,7 +1133,7 @@ button {
 
         &:hover {
             color: $white-color;
-            background-color: #386ae6;
+            background-color: #1179a8;
         }
     }
 }
@@ -1326,7 +1328,7 @@ footer {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: #0843aa;
+    background-color: #1179a8;
     padding-top: 185px;
     position: relative;
 }
@@ -1733,7 +1735,7 @@ footer {
         &:hover {
             i {
                 color: $white-color;
-                background-color: #6096fd;
+                background-color: #1179a81179a8;
             }
         }
         i {
@@ -1919,7 +1921,7 @@ footer {
             .form-control {
                 border-radius: 0;
                 border: 0;
-                border-bottom: 1px solid #0046c09e;
+                border-bottom: 1px solid #1179a8;
                 font-size: $all-size;
                 padding-left: 0;
                 padding-bottom: 8px;
@@ -1928,7 +1930,7 @@ footer {
 
                 &:focus {
                     box-shadow: none;
-                    border-bottom: 1px solid #0046c09e;
+                    border-bottom: 1px solid #1179a8;
                 }
             }
             ::placeholder {
@@ -3099,7 +3101,7 @@ footer {
                     height: 30px;
                     z-index: -1;
                     transition: $transition;
-                    background-color: #2362bc;
+                    background-color: #1179a8;
                 }
                 &:last-child {
                     margin-bottom: 0;
@@ -3636,7 +3638,7 @@ footer {
                 line-height: 40px !important;
                 border-radius: 50% !important;
                 color: $white-color !important;
-                background-color: #232323 !important;
+                background-color: #1179a8 !important;
                 font-size: 25px !important;
                 transition: $transition;
 
@@ -4181,7 +4183,7 @@ footer {
     }
 }
 .faq-area-two {
-    background-color: #4f87fb;
+    background-color: #1179a8;
     position: relative;
 
     .faq-shape {
@@ -4232,7 +4234,7 @@ footer {
             line-height: 80px;
             border-radius: 50%;
             color: #fff;
-            background-color: #4f87fb;
+            background-color: #1179a8;
             position: absolute;
             top: 50%;
             left: 20%;
@@ -4317,7 +4319,7 @@ footer {
                 height: 3px;
                 left: 0;
                 bottom: 10px;
-                background-color: #2459b8;
+                background-color: #1179a8;
                 border-radius: 10px;
             }
         }
@@ -4335,7 +4337,7 @@ footer {
         .common-btn {
             a {
                 color: #fff;
-                background-color: #0046c0;
+                background-color: #1179a8;
     
                 &:hover {
                     border: 2px solid #111111;
@@ -4348,9 +4350,9 @@ footer {
                 border: 2px solid #0046c0;
 
                 &:hover {
-                    background-color: #0046c0;
+                    background-color: #1179a8;
                     color: #fff;
-                    border: 2px solid #0046c0;
+                    border: 2px solid #1179a8;
                 }
             }
         }

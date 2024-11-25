@@ -2,7 +2,7 @@
 <div class="navbar-area sticky-top">
             <!-- Menu For Mobile Device -->
             <div class="mobile-nav">
-                <a href="index.html" class="logo">
+                <a href="index.php" class="logo">
                     <img src="images/logo3.png" alt="Logo">
                 </a>
             </div>
@@ -10,21 +10,21 @@
             <!-- Menu For Desktop Device -->
             <div class="main-nav">
                 <div class="container">
-                    <nav class="navbar navbar-expand-md navbar-light">
+                    <nav  id="myNav" class="navbar navbar-expand-md navbar-light">
                         <a class="navbar-brand"  >
                             <img src="images/logo.png" alt="Logo">
                         </a>
-                        <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                        <div class="collapse navbar-collapse mean-menu"  >
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a href="index.php" class="nav-link ">
+                                    <a href="index.php" class="nav-link " onclick="closeNav()">
 
                                     الرئيسية
                                     </a>
                                     
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#about_us_id" class="nav-link">
+                                    <a href="#about_us_id" class="nav-link" onclick="closeNav()">
 
                                     من نحن
                                     </a>
@@ -65,7 +65,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#services_id" class="nav-link ">الخدمات</a>
+                                    <a href="#services_id" class="nav-link " onclick="closeNav()">الخدمات</a>
                                    
                                 </li>
                                 <li class="nav-item" hidden>
@@ -92,14 +92,23 @@
                                 </li>
 `````                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
                                 <li class="nav-item">
-                                    <a href="offers.php" class="nav-link">    العروض  </a>
+                                    <a href="offers.php" class="nav-link" onclick="closeNav()">    العروض  </a>
                                 </li>
 
 
                                 <li class="nav-item">
-                                    <a href="#contact_us_id" class="nav-link">   تواصل معنا</a>
+                                    <a href="#contact_us_id" class="nav-link" onclick="closeNav()">   تواصل معنا</a>
                                 </li>
                             </ul>
+
+
+
+
+
+
+
+
+                            
                             <div class="nav-srh" hidden>
                                 <div class="search-toggle">
                                     <button class="search-icon icon-search"><i class="icofont-search-1"></i></button>
@@ -117,3 +126,22 @@
                 </div>
             </div>
         </div>
+
+
+
+<script> 
+
+
+//alert("wwe");
+
+//closeNav();
+
+function closeNav() {
+
+    
+    document.querySelector('.meanmenu-reveal').click();
+}
+</script>
+
+
+        
