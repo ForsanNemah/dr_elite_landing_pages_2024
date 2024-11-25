@@ -3,7 +3,7 @@
 
 <!-- https://wa.me/<?php //echo $phone_main; ?> -->
 
-<a href="w_btn_clik_notifi.php" class="float"   >
+<a href="w_btn_clik_notifi.php" class="float" onclick="preventDoubleClick(this)"  >
 <i class="fa fa-whatsapp my-float"></i>
 </a>
 
@@ -65,6 +65,29 @@ echo '
 	margin-top:16px;
 }
 </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function preventDoubleClick(element) {
+    element.onclick = null; // Disable further clicks
+    element.style.pointerEvents = 'none'; // Prevent additional clicks
+    element.style.opacity = '0.6'; // Optional: Add visual feedback
+  }
+</script>
+
+
+
 
 
 
