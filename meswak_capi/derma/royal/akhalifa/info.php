@@ -29,13 +29,13 @@ $sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF
 
 $form1_des="
 
-عروض اليوم الوطني
+عروض    الجمعة البيضاء
 ";
 $cta=0;
 $cta_text="احجز الان";
 $form1_des2="
 
-سجل بياناتك وسيتم التواصل معكم   
+سجل بياناتك   واحصل على كشف مجاني        
 ";
 
 $form1_des3="
