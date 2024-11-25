@@ -61,8 +61,20 @@ if($header==2){
 }
 
 
- 
-//include "form.php";
+include "form.php";
+//include "w_form.php";
+//include "calls.php";
+
+if($services_images==1){
+
+  
+
+  include "services_images.php";
+
+}
+
+
+
 
 //include "packages.php";
 //include "about.php";
@@ -79,7 +91,7 @@ if($header==2){
 
 
 <?php
-include "form.php";
+//include "form.php";
 include "w_app_form.php";
 
 
@@ -285,7 +297,7 @@ if($services2==1){
   <h1>
  
  
- خدماتنا 
+ قسم العروض 
  
   </h1>
  
@@ -335,8 +347,7 @@ if($derma_services==1){
   <h1>
  
  
- خدماتنا 
- 
+عروضنا
   </h1>
  
  </div
@@ -374,7 +385,7 @@ if($services_images==1){
 
   
 
-  include "services_images.php";
+  //include "services_images.php";
 
 }
 

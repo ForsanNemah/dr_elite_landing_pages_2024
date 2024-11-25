@@ -33,12 +33,10 @@ echo $website_name;
 
         <div class="row">
         <div class="col-8 d-flex justify-content-center">
-        <p contenteditable="true" class="text-center"> 
+        <p   hidden class="text-center"> 
 
 
-        <?php
-//echo $footer_des2;
-    ?>
+    السعودية-الاحساء
         </p>
          
         
@@ -94,18 +92,16 @@ echo $website_name;
         <div class="col-8 d-flex justify-content-center">
 
 
-        <a href="#myform">
+        <a href="#order_section"  >
 
 
-        <button type="button" class="btn btn-primary rounded-pill pulsate"> احجز الحين</button>
+        <button type="button" class="btn btn-primary rounded-pill pulsate">     حجز موعد كشف مجاني  </button>
 
         </a>
      
       
 
-
-
-
+ 
 
 
 
