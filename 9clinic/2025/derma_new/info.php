@@ -8,7 +8,7 @@ $website_name="
  
 ";
 
-$department_name="  العيادة التاسعة  اسنان             ";
+$department_name="  العيادة التاسعة  جلدية             ";
 
 $dr_name="
 
