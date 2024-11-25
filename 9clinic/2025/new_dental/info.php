@@ -16,7 +16,7 @@ $dr_name="
 ";
 
 $phone_main="966920006802";
-$group_id="120363363336667918";
+$group_id="120363300757161770";
 $logo="footer_logo/logo_clinic9.png";
 
 $dental_services_select=1;
