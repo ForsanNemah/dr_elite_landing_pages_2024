@@ -16,6 +16,7 @@ $msg=$_POST['msg'];
 $branch1=$_POST['branch1'];
 $branch2=$_POST['branch2'];
 $location=$_POST['location'];
+$subservice=$_POST['subservice'];
 
 //echo  $branch1.$branch2;
 
@@ -44,6 +45,7 @@ $postParameter = array(
     'msg' => $msg,
     'branch' => $branch,
     'location' => $location,
+    'subservice' => $subservice,
     'source' => $source
     
 );

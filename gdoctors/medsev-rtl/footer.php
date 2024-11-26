@@ -20,14 +20,36 @@
                                         <a href="tel:+<?php echo $phone1 ?>"> <?php echo $phone1 ?></a>
                                         <a href="tel:+<?php echo $phone2 ?>"> <?php echo $phone2 ?></a>
                                     </li>
-                                    <li>
-                                        <i class="icofont-location-pin"></i>
 
 
-                                        حي، شارع الحسين الواسطي، الشراع، الخبر 34741
 
 
-                                    </li>
+<a href="https://maps.app.goo.gl/BfrqAn91Sc78XcKz8">
+
+
+<li>
+
+
+<i class="icofont-location-pin"></i>
+
+
+حي، شارع الحسين الواسطي، الشراع، الخبر 34741
+
+
+</li>
+
+</a>
+
+
+
+
+
+                                   
+
+
+
+
+
                                 </ul>
                             </div>
                         </div>

@@ -38,8 +38,8 @@
                                 <div data-aos="zoom-in-up"  data-aos-duration="3000" class="col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay=".5s">
                                     <a href="blog-details.html">
                                         <div class="expertise-inner">
-                                            <i class="icofont-ambulance-cross"></i>
-                                            <h3>توفر سيارت اسعاف</h3>
+                                            <i class="icofont-network"></i>
+                                            <h3>اجهزة طبية حديثة    </h3>
                                             <p hidden>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         </div>
                                     </a>
