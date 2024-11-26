@@ -11,19 +11,39 @@
             // Define sub-options for each service
             const options = {
                 cosmetic: [
-                    { value: "botox", text: "البوتكس" },
-                    { value: "fillers", text: "الفيلرز" },
-                    { value: "face-lift", text: "شد الوجه" }
+                    { value: "ليزر ", text: "ليزر " },
+                    { value: "تنظيف بشرة", text: "تنظيف بشرة" },
+                    { value: "بوتكس  ", text: "بوتكس  " },
+                    { value: "نضارة  ", text: "نضارة  " },
+                    { value: "فيلر ", text: "فيلر " }
                 ],
                 dermatology: [
-                    { value: "laser", text: "إزالة الشعر بالليزر" },
-                    { value: "acne-treatment", text: "علاج حب الشباب" },
-                    { value: "skin-peeling", text: "تقشير البشرة" }
+
+
+                    { value: "ليزر ", text: "ليزر " },
+                    { value: "تنظيف بشرة", text: "تنظيف بشرة" },
+                    { value: "بوتكس  ", text: "بوتكس  " },
+                    { value: "نضارة  ", text: "نضارة  " },
+                    { value: "فيلر ", text: "فيلر " }
+
+
+
+
+
+
+
+
+
                 ],
                 dentistry: [
-                    { value: "cleaning", text: "تنظيف الأسنان" },
-                    { value: "whitening", text: "تبييض الأسنان" },
-                    { value: "braces", text: "تقويم الأسنان" }
+
+                    { value: "تقويم", text: "تقويم اسنان" },
+                    { value: "تركيبات", text: "تركيب اسنان" },
+                    { value: "حشوات", text: "حشوات" },
+                    { value: "تنظيف/تلميع", text: "تنظيف وتلميع" }
+
+
+
                 ],
                 internal: [
                     { value: "diabetes", text: "علاج السكري" },

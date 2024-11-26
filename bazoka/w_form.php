@@ -99,7 +99,7 @@
   </div>
 
   <!-- Form 2 -->
-  <div class="btn-container" data-aos="fade-right" data-aos-duration="1500">
+  <div class="btn-container"  >
     <form action="w_app_notifi.php" method="POST" onsubmit="disableButtonOnSubmit2(this)">
       <input type="hidden" name="branch" value="فرع بازوكا محاسن">
       <input type="hidden" name="msg" value=" whatsapp button click فرع بازوكا محاسن">
@@ -112,7 +112,7 @@
   </div>
 
   <!-- Form 3 -->
-  <div class="btn-container" data-aos="fade-right" data-aos-duration="1500">
+  <div class="btn-container"  >
     <form action="w_app_notifi.php" method="POST" onsubmit="disableButtonOnSubmit2(this)">
       <input type="hidden" name="branch" value="فرع بازوكا الراشديه">
       <input type="hidden" name="msg" value=" whatsapp button click فرع بازوكا الراشديه">
