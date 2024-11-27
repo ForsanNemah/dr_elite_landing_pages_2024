@@ -4,7 +4,9 @@
 $website_name="
 
 
-مجمع اوزون الطبي 
+ 
+ <br>
+عيادة د/ امنية
  
 ";
 
@@ -112,7 +114,7 @@ $derma_services=0;
 $services2=0;
 $faq=0;
 $process=0;
-$services_images=0;
+$services_images=1;
 $footer=1;
 $footer2=0;
 $w_app_button=1;

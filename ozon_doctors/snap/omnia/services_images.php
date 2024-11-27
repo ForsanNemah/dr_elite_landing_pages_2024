@@ -7,12 +7,12 @@
 
 
 
- <div class="text-center  mt-4"  >
+ <div class="mt-4 text-center"  >
 
 <h1>
 
 
-خدماتنا 
+ 
 
 </h1>
 
