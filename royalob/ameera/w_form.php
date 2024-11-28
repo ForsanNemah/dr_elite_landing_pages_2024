@@ -90,7 +90,7 @@
       
       <input type="hidden" name="msg" value="whatsapp button click فرع بازوكا الجامعيين">
       <input type="hidden" name="type" value="wapp">
-  <input type="hidden" name="phone" value="966508029993">
+  <input type="hidden" name="phone" value="966580137212">
 
       <button type="submit" class="btn btn-call w-100" aria-label="Submit form for Bazooka University Restaurants">
         فرع بازوكا الجامعيين 😋
