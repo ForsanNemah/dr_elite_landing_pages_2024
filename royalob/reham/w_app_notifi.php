@@ -28,7 +28,7 @@ header("Location: tel:" . $phone);
 
 
 if($type=="wapp"){
-    header("Location:https://wa.me/".$phone);
+  header("Location:https://api.whatsapp.com/send?phone=".$phone."&text=".urlencode("شفت اعلانكم وارغب بالحصول على كشف مجاني "));
     
     
     
