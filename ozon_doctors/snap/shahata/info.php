@@ -4,7 +4,7 @@
 $website_name="
 
 
- 
+ <br>
 عيادة د/محمد شحاته 
  
 ";
@@ -113,7 +113,7 @@ $derma_services=0;
 $services2=0;
 $faq=0;
 $process=0;
-$services_images=1;
+$services_images=0;
 $footer=1;
 $footer2=0;
 $w_app_button=1;
