@@ -111,16 +111,34 @@ $message2='
 
 ';
 
+
+
+$message3='
+
+لنفسي ولكم 
+الكلام سهل الصعب الانجاز 
+
+
+https://docs.google.com/spreadsheets/d/10H7sfSrz09f9w6TN3YE8JbrWXm2K3TF5MkVPqJXD4Ic/edit?usp=sharing
+';
+
 $message = str_replace(["\r\n", "\r", "\n"], "\\n", $message);
 
 
 $message2 = str_replace(["\r\n", "\r", "\n"], "\\n", $message2);
+$message3 = str_replace(["\r\n", "\r", "\n"], "\\n", $message3);
 
 $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', '73817eb8-ed42','120363328424447180@g.us', $message );
 
 
 
 $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', '73817eb8-ed42','120363332297917440@g.us', $message2 );
+
+
+$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453','120363332297917440@g.us', $message3 );
+
+
+
 
 
 function send_with_wapi($auth, $profileId, $phone, $message) {
