@@ -23,7 +23,7 @@ $dental_services_select=0;
 $derma_services_select=1;
 
 
-$action_url="https://script.google.com/macros/s/AKfycbx3F-DuEXWMHclbudywmRQE7i7KCSNElAa2KaJZ7VzvWtMann0Q0lEnXgmAPR5mzM7H/exec";
+$action_url="https://script.google.com/macros/s/AKfycbxdcbo9CCQuuRHn3jcqNDwKSn0KrwfQv-WZ-CQXwdmqh8iMZnSn_tMR7MHKJyYbA1QU/exec";
 
 $sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF1xpPkV0_PTJK-MI/edit?usp=sharing";
 
