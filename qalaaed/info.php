@@ -29,8 +29,7 @@ $action_url="https://script.google.com/macros/s/AKfycbwOt8Gi-0OBS3SojHKdwKpjdeUb
 $sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF1xpPkV0_PTJK-MI/edit?usp=sharing";
 
 $form1_des="
-
-عروض  نوفمبر   
+عروض  الشتاء     
 "; 
 $cta=0;
 $cta_text="احجز الان";
