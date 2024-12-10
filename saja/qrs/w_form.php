@@ -122,7 +122,7 @@
       
       <input type="hidden" name="msg" value="whatsapp button click   العروض ">
       <input type="hidden" name="type" value="wapp">
-  <input type="hidden" name="phone" value="https://drive.google.com/file/d/11QrhSBKoqYsc1WTPkH9Qtbakce4zTbUg/view">
+  <input type="hidden" name="phone" value="https://api.whatsapp.com/send?phone=966539411002&text=%D8%A7%D9%84%D8%B1%D8%AC%D8%A7%D8%A1%20%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D9%8A%20%D8%A8%D8%A7%D9%84%D8%B9%D8%B1%D9%88%D8%B6%20%D8%A7%D9%84%D9%85%D8%AA%D9%88%D9%81%D8%B1%D8%A9">
 
       <button type="submit" class="btn btn-call w-100" aria-label="Submit form for Bazooka University Restaurants">
       العروض
@@ -140,7 +140,7 @@
       
       <input type="hidden" name="msg" value="whatsapp button click   جدول المباريات المهمه  ">
       <input type="hidden" name="type" value="wapp">
-  <input type="hidden" name="phone" value="https://drive.google.com/file/d/11QrhSBKoqYsc1WTPkH9Qtbakce4zTbUg/view">
+  <input type="hidden" name="phone" value="https://api.whatsapp.com/send?phone=966539411002&text=%D8%A7%D9%84%D8%B1%D8%AC%D8%A7%D8%A1%20%D8%A7%D8%B1%D8%B3%D8%A7%D9%84%20%D9%82%D8%A7%D8%A6%D9%85%D8%A9%20%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B1%D9%8A%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9%20">
 
       <button type="submit" class="btn btn-call w-100" aria-label="Submit form for Bazooka University Restaurants">
       جدول المباريات المهمه 
@@ -163,7 +163,7 @@
       
       <input type="hidden" name="msg" value="whatsapp button click   المكتبه الالكترونيه ">
       <input type="hidden" name="type" value="wapp">
-  <input type="hidden" name="phone" value="https://drive.google.com/file/d/11QrhSBKoqYsc1WTPkH9Qtbakce4zTbUg/view">
+  <input type="hidden" name="phone" value="">
 
       <button type="submit" class="btn btn-call w-100" aria-label="Submit form for Bazooka University Restaurants">
       المكتبه الالكترونيه 
@@ -187,7 +187,7 @@
       
       <input type="hidden" name="msg" value="whatsapp button click   الشكاوى ">
       <input type="hidden" name="type" value="wapp">
-  <input type="hidden" name="phone" value="https://drive.google.com/file/d/11QrhSBKoqYsc1WTPkH9Qtbakce4zTbUg/view">
+  <input type="hidden" name="phone" value="https://api.whatsapp.com/send?phone=966539411002&text=%D9%84%D8%AF%D9%8A%20%D8%B4%D9%83%D9%88%D9%89%20%20%D8%A2%D9%85%D9%84%20%D8%A8%D8%B3%D8%B1%D8%B9%D8%A9%20%D8%A7%D9%84%D8%B1%D8%AF%20%D9%81%D9%8A%20%D8%A7%D8%B3%D8%B1%D8%B9%20%D9%88%D9%82%D8%AA%20">
 
       <button type="submit" class="btn btn-call w-100" aria-label="Submit form for Bazooka University Restaurants">
       الشكاوى

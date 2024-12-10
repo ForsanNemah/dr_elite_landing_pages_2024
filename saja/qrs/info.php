@@ -3,7 +3,7 @@
 
 $website_name="
 
-    ديوانية سجة بال
+       الخبر-طريق الملك خالد  
 
  
 ";
@@ -133,7 +133,7 @@ $parteners=0;
 $about_image=0;
 
 $services_list=1;
-$taby_and_tamara=0;
+$taby_and_tamara=1;
 $footer_cr=1;
 $videos=0;
 $snap_capi=0;
@@ -149,8 +149,8 @@ $authorization_token = "eyJhbGciOiJIUzI1NiIsImtpZCI6IkNhbnZhc1MyU0hNQUNQcm9kIiwi
 
 
 
-$wapi_profile_id="a0aca078-18a5";
-$wapi_token="9f9151b56d756354026b368ecc644edec19343b4";
+$wapi_profile_id="73817eb8-ed42";
+$wapi_token="40703bb7812b727ec01c24f2da518c407342559c";
 
 
 
