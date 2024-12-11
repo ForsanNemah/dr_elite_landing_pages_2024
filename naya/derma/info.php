@@ -19,8 +19,8 @@ $phone_main="966537245949";
 $group_id="120363358863038424";
 $logo="footer_logo/naya.png";
 
-$dental_services_select=1;
-$derma_services_select=0;
+$dental_services_select=0;
+$derma_services_select=1;
 
 
 $action_url="https://script.google.com/macros/s/AKfycbyZTye9D2pXnOXXeniTYkUfgiSX40jJ84aWklqhPnPPMcKFOC3-d0GpnOFKqywB8n4/exec";
