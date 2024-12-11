@@ -12,7 +12,7 @@ $dr_name="
 عروض العيد 2024
 ";
 
-$phone_main="966550520249";
+$phone_main="966533295888";
 
 $action_url="https://script.google.com/macros/s/AKfycbxSlP5MfmpS0ObKPmol-AuT5HQ5n60YZlj_zNSfcFQNvSoBJhi0Ff90iDc0L_LoO-Ch/exec";
 
@@ -103,8 +103,8 @@ $faq=0;
 $process=0;
 $services_images=0;
 $footer=0;
-$w_app_button=0;
-$api_notification=0;
+$w_app_button=1;
+$api_notification=1;
 $ad_source="snap ";
 $header1=1;
 $parteners=0;

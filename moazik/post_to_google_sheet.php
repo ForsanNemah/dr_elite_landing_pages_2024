@@ -155,6 +155,13 @@ if($api_notification==1){
     
     //send_w_app_msg($phone_main,$w_app_msg2,"2000");
 
+
+
+
+    $result = send_with_wapi('9f9151b56d756354026b368ecc644edec19343b4', 'a0aca078-18a5','120363283589646038@g.us',  $w_app_msg2);
+
+echo print_r($result) ;
+
 }
 
 
@@ -198,7 +205,7 @@ else{
 
 
            
-alert(msg);
+//alert(msg);
 
 //window.history.go(-1);
 
@@ -306,6 +313,89 @@ echo "w_api start 2";
     }
     
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+$result = send_with_wapi($wapi_token, $wapi_profile_id,$group_id.'@g.us',  $w_app_msg3);
+
+echo print_r($result) ;
+
+*/
+
+ 
+function send_with_wapi($auth, $profileId, $phone, $message) {
+ 
+
+
+ 
+
+
+        
+
+        
+    $curl = curl_init();
+    
+    curl_setopt_array($curl, array(
+      CURLOPT_URL => 'https://ads.2moh.net/wapi2024/',
+      CURLOPT_RETURNTRANSFER => true,
+      CURLOPT_ENCODING => '',
+      CURLOPT_MAXREDIRS => 10,
+      CURLOPT_TIMEOUT => 0,
+      CURLOPT_FOLLOWLOCATION => true,
+      CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+      CURLOPT_CUSTOMREQUEST => 'POST',
+      CURLOPT_POSTFIELDS => 'auth='.$auth.'&profile_id='.$profileId.'&phone='.$phone.'&msg='.$message.'',
+      CURLOPT_HTTPHEADER => array(
+        'Content-Type: application/x-www-form-urlencoded',
+        'Authorization: 40703bb7812b727ec01c24f2da518c407342559c'
+      ),
+    ));
+    
+    $response = curl_exec($curl);
+    
+    curl_close($curl);
+    echo $response;
+    
+    
+    
+    
+    
+        }
+        
+        
+         
+
+
+
+
+
+
 
 
 
