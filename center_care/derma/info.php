@@ -17,7 +17,7 @@ $dr_name="
  
 ";
 
-$phone_main="966569123506";
+$phone_main="966138292800";
 $group_id="120363374271637358";
 $logo="footer_logo/center_care.png";
 
