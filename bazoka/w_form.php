@@ -1,9 +1,12 @@
+<!-- Add this to the <head> section to include Font Awesome -->
+ <!-- #region -->
+
 <script>
   // Function to disable the button after submission
   function disableButtonOnSubmit2(form) {
     const button = form.querySelector('button[type="submit"]');
     button.disabled = true;
-    button.innerHTML = 'جاري التحويل الى واتساب  ...'; // Change button text to indicate processing
+    button.innerHTML = 'جاري التحويل     ...'; // Change button text to indicate processing
   }
 </script>
 
@@ -44,6 +47,18 @@
     font-size: 1.2em;
     border-radius: 8px;
     text-decoration: none;
+    position: relative;
+  }
+
+  .btn-call .call-icon {
+    margin-left: 10px; /* Spacing between text and WhatsApp icon */
+  }
+
+  .btn-call .maps-icon {
+    position: absolute;
+    right: 15px;
+    font-size: 1.5em;
+    color: #28a745; /* Green for Maps icon */
   }
 
   .btn-call:hover:not(:disabled) {
@@ -53,11 +68,6 @@
   .btn-call:disabled {
     background-color: #6c757d; /* Disabled gray color */
     cursor: not-allowed;
-  }
-
-  /* Style for the call icon */
-  .btn-call .call-icon {
-    color: #28a745 !important; /* Green color for call icon */
   }
 
   /* Spacing between buttons */
@@ -74,7 +84,7 @@
   }
 </style>
 
-<div class="container mt-5 text-center">
+<div class="container mt-12 text-center">
   <h2 class="playful-text">          
     😋 اطلب الان عبر واتساب  من الفرع الأقرب لك 😋
   </h2>
@@ -85,41 +95,47 @@
   <!-- Form 1 -->
   <div class="btn-container" data-aos="fade-right" data-aos-duration="1500">
     <form action="w_app_notifi.php" method="POST" onsubmit="disableButtonOnSubmit2(this)">
-
       <input type="hidden" name="branch" value="فرع بازوكا الجامعيين">
-      
-      <input type="hidden" name="msg" value="whatsapp button click فرع بازوكا الجامعيين">
-      <input type="hidden" name="type" value="wapp">
-  <input type="hidden" name="phone" value="966508029993">
+      <input type="hidden" name="msg" value="location button click فرع بازوكا الجامعيين">
+      <input type="hidden" name="type" value="link">
+      <input type="hidden" name="phone" value="https://maps.app.goo.gl/Z9sq16BDgxuYrUzj9?g_st=iw">
 
       <button type="submit" class="btn btn-call w-100" aria-label="Submit form for Bazooka University Restaurants">
         فرع بازوكا الجامعيين 😋
+        <i class="fas fa-whatsapp call-icon"></i>
+        <i class="fas fa-map-marker-alt maps-icon"></i>
       </button>
     </form>
   </div>
 
   <!-- Form 2 -->
-  <div class="btn-container"  >
+  <div class="btn-container">
     <form action="w_app_notifi.php" method="POST" onsubmit="disableButtonOnSubmit2(this)">
       <input type="hidden" name="branch" value="فرع بازوكا محاسن">
-      <input type="hidden" name="msg" value=" whatsapp button click فرع بازوكا محاسن">
-      <input type="hidden" name="type" value="wapp">
-      <input type="hidden" name="phone" value="966536129993">
+      <input type="hidden" name="msg" value="location button click فرع بازوكا محاسن">
+      <input type="hidden" name="type" value="link">
+      <input type="hidden" name="phone" value="https://maps.app.goo.gl/PQSuyAGdotHEcLXN6?g_st=iw">
+
       <button type="submit" class="btn btn-call w-100" aria-label="Submit form for Bazooka Mahasin Restaurants">
         فرع بازوكا محاسن 😋
+        <i class="fas fa-whatsapp call-icon"></i>
+        <i class="fas fa-map-marker-alt maps-icon"></i>
       </button>
     </form>
   </div>
 
   <!-- Form 3 -->
-  <div class="btn-container"  >
+  <div class="btn-container">
     <form action="w_app_notifi.php" method="POST" onsubmit="disableButtonOnSubmit2(this)">
       <input type="hidden" name="branch" value="فرع بازوكا الراشديه">
-      <input type="hidden" name="msg" value=" whatsapp button click فرع بازوكا الراشديه">
-      <input type="hidden" name="type" value="wapp">
-        <input type="hidden" name="phone" value="966531599960">
+      <input type="hidden" name="msg" value="location button click فرع بازوكا الراشديه">
+      <input type="hidden" name="type" value="link">
+      <input type="hidden" name="phone" value="https://maps.app.goo.gl/HCRjp4Cx5n4KJnik6?g_st=iw">
+
       <button type="submit" class="btn btn-call w-100" aria-label="Submit form for Bazooka Rashidiya Restaurants">
         فرع بازوكا الراشديه 😋
+        <i class="fas fa-whatsapp call-icon"></i>
+        <i class="fas fa-map-marker-alt maps-icon"></i>
       </button>
     </form>
   </div>

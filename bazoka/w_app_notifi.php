@@ -34,6 +34,19 @@ if($type=="wapp"){
     
     }
 
+
+
+
+
+
+
+    if($type=="link"){
+      header("Location:".$phone);
+      
+      
+      
+      }
+
 function send_with_wapi($auth, $profileId, $phone, $message) {
  
 
