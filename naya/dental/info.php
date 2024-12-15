@@ -15,7 +15,7 @@ $dr_name="
  
 ";
 
-$phone_main="966537245949";
+$phone_main="966535106183";
 $group_id="120363358863038424";
 $logo="footer_logo/naya.png";
 
