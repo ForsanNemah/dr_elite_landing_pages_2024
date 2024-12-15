@@ -60,7 +60,7 @@ foreach ($imageFiles as $image) {
     
     
     
-    <div class="col-md-4" data-aos-duration="1500" data-aos="zoom-in-up">
+    <div class="col-md-4"  >
     <div class="service">
       <img src="intshar_images/'. $image.'" alt="Service 3" class="img-fluid">
 
