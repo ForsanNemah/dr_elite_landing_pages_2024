@@ -90,3 +90,26 @@
     </div>
   </div>
 </div>
+
+
+
+
+
+
+<style>
+  .btn-call {
+    font-size: 1.2rem; /* Consistent font size */
+    padding: 12px 20px; /* Consistent padding for equal height */
+    width: 100%; /* Full width inside the column */
+    min-height: 60px; /* Ensures all buttons have a minimum height */
+    border-radius: 8px; /* Adds rounded corners */
+    display: flex; /* Align content inside the button */
+    justify-content: center; /* Center the text/icon horizontally */
+    align-items: center; /* Center the text/icon vertically */
+  }
+
+  .call-icon {
+    margin-right: 10px; /* Space between icon and text */
+    font-size: 1.5rem; /* Consistent icon size */
+  }
+</style>
