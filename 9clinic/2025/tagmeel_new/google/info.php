@@ -3,26 +3,24 @@
 
 $website_name="
 
-مجمع كيان الطب فرع النسيم
-
-
+العيادة التاسعة 
 
  
 ";
 
-$department_name="مجمع كيان الطب فرع النسيم";
+$department_name="  العيادة التاسعة  جراحة             ";
 
 $dr_name="
 
-<br>
+ 
 ";
 
-$phone_main="966539811900";
-$group_id="120363301321001980";
-$logo="footer_logo/kayan.png";
+$phone_main="966920006802";
+$group_id="120363300757161770";
+$logo="footer_logo/logo_clinic9.png";
 
-$dental_services_select=0;
-$derma_services_select=1;
+$dental_services_select=1;
+$derma_services_select=0;
 
 
 $action_url="https://script.google.com/macros/s/AKfycbxkIX7Des1HmL2bP1frwy6zQWBtEE9NB05k3wF4c0OcrHYEZd-YCVME79ZCiEAURyeJ/exec";
@@ -31,13 +29,14 @@ $sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF
 
 $form1_des="
 
-عروض  اكتوبر   
+عروض  الجمعة البيضاء    
 "; 
 $cta=0;
 $cta_text="احجز الان";
 $form1_des2="
 
-سجل بياناتك وسيتم التواصل معكم   
+سجل بياناتك  لحجز موعد كشف مجاني 
+😍       
 ";
 
 $form1_des3="
@@ -122,13 +121,13 @@ $derma_services=0;
 $services2=0;
 $faq=0;
 $process=0;
-$services_images=0;
+$services_images=1;
 $footer=1;
 $footer2=0;
 $w_app_button=0;
-$api_notification=1;
+$api_notification=0;
 $group_notification=1;
-$ad_source="google ";
+$ad_source="snap ";
 $header=0;
 $parteners=0;
 $about_image=0;
