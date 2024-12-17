@@ -15,8 +15,8 @@ $dr_name="
  
 ";
 
-$phone_main="966545686594";
-$group_id="120363300757161770";
+$phone_main="966575862629";
+$group_id="120363377512409409";
 $logo="footer_logo/expert.png";
 
 $dental_services_select=1;
@@ -124,9 +124,9 @@ $process=0;
 $services_images=1;
 $footer=1;
 $footer2=0;
-$w_app_button=1;
+$w_app_button=0;
 $api_notification=1;
-$group_notification=0;
+$group_notification=1;
 $ad_source="google ";
 $header=0;
 $parteners=0;
@@ -137,7 +137,7 @@ $taby_and_tamara=0;
 $footer_cr=1;
 $videos=0;
 $snap_capi=0;
-$w_btn_only=0;
+$w_btn_only=1;
 $pm_register=0;
 $footer_cp=1;
 
