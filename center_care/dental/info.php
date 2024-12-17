@@ -10,7 +10,7 @@ $website_name="
  
 ";
 
-$department_name="   مجمع سنتر كير الطبي                   ";
+$department_name="   مجمع سنترال كير الطبي                   ";
 
 $dr_name="
 
