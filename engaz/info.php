@@ -17,7 +17,7 @@ $dr_name="
 
 $phone_main="966502229159";
 $group_id="120363323006566221";
-$logo="footer_logo/engaz.png";
+$logo="footer_logo/en.png";
 
 $dental_services_select=0;
 $derma_services_select=0;
