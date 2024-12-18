@@ -167,7 +167,7 @@ u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
 snaptr('init', 'b2436d09-c13e-4280-9181-caa1960c5448');
-
+snaptr('init', 'c8a16a07-4a8e-4c94-8f9e-dcfcf7ca32a8');
 //snaptr('track', 'PAGE_VIEW');
  
  
