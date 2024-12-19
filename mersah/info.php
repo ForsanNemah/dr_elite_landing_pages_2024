@@ -15,8 +15,8 @@ $dr_name="
  
 ";
 
-$phone_main="966502229159";
-$group_id="120363323006566221";
+$phone_main="966538882637";
+$group_id="120363373906405975";
 $logo="footer_logo/mersah.png";
 
 $dental_services_select=0;
@@ -137,7 +137,7 @@ $taby_and_tamara=0;
 $footer_cr=1;
 $videos=0;
 $snap_capi=0;
-$w_btn_only=0;
+$w_btn_only=1;
 $pm_register=0;
 
 
