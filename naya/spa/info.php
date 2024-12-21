@@ -20,7 +20,7 @@ $group_id="120363358863038424";
 $logo="footer_logo/naya.png";
 
 $dental_services_select=0;
-$derma_services_select=0;
+$derma_services_select=1;
 
 
 $action_url="https://script.google.com/macros/s/AKfycbwhLVUXFZO4h1uV83CmrKYa4pfe75IDtSJa028iMNT8tTxCa30yUsNDn7bTgzt4h6Eb/exec";
