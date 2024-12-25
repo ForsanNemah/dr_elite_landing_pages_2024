@@ -4,7 +4,7 @@ function printContactsInTable() {
     $curl = curl_init();
 
     curl_setopt_array($curl, array(
-        CURLOPT_URL => 'https://wappi.pro/api/sync/contacts/get?profile_id=14b5e19d-457e',
+        CURLOPT_URL => 'https://wappi.pro/api/sync/contacts/get?profile_id=29024944-adfb',
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => '',
         CURLOPT_MAXREDIRS => 10,
