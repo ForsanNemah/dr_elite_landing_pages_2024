@@ -4,7 +4,7 @@
   <div id="water-ripples">
     <div id="water-ripples-title">
       <div class="container h-100">
-        <div class="row pt-20 h-100">
+        <div class="pt-20 row h-100">
           <div class="col-lg-6 h-100">
             <div
               class="d-flex align-items-center justify-content-center h-100"
@@ -13,10 +13,10 @@
                 <div
                   data-aos="fade-up"
                   data-aos-duration="800"
-                  class="w-100 d-flex gap-3 align-items-center px-3 px-lg-5 py-2 py-lg-3 border cus-border second rounded-pill hero_hot mb-3 mb-lg-6"
+                  class="gap-3 px-3 py-2 mb-3 border w-100 d-flex align-items-center px-lg-5 py-lg-3 cus-border second rounded-pill hero_hot mb-lg-6"
                 >
                   <button hidden
-                    class="px-3 px-lg-5 py-2 rounded-pill p5-color bg3-color"
+                    class="px-3 py-2 px-lg-5 rounded-pill p5-color bg3-color"
                   >
                     Hot
                   </button>
@@ -25,7 +25,7 @@
                   </span>
                 </div>
                 <h2
-                  class="fs-one p6-color fw-bold mb-3 mb-lg-5"
+                  class="mb-3 fs-one p6-color fw-bold mb-lg-5"
                   data-aos="fade-up"
                   data-aos-duration="800"
                 >
@@ -45,7 +45,7 @@
                 </p>
                 <div data-aos="fade-down" data-aos-duration="800">
                   <div
-                    class="d-flex flex-wrap gap-3 gap-md-6 my-5 my-md-10"
+                    class="flex-wrap gap-3 my-5 d-flex gap-md-6 my-md-10"
                     data-aos="fade-down"
                   >
                     <a href="https://api.whatsapp.com/send?phone=<?php echo $phone2 ?>&text=<?php echo urldecode('     معلومات أكثر عن اسعار خدماتكم') ?>" class="btn p6-color">
@@ -60,7 +60,7 @@
                       </button>
                     </a>
 
-                    <a href="https://drive.google.com/drive/folders/16_pOeE3uVzCYfJlWeUPD4BOc8il5OsjM?usp=sharing">
+                    <a hidden href="https://drive.google.com/drive/folders/16_pOeE3uVzCYfJlWeUPD4BOc8il5OsjM?usp=sharing">
                       <button class="btn-outline p6-color">
                         <span class="btn-text-one"> البروفايل </span>
                         <span class="btn-text-two"> البروفايل</span>
@@ -75,7 +75,7 @@
 
 
 
-                    <a href="#contact_form_id">
+                    <a hidden href="#contact_form_id">
                       <button class="btn-outline p6-color">
                         <span class="btn-text-one"> تواصل معنا </span>
                         <span class="btn-text-two"> تواصل معنا</span>
@@ -86,7 +86,7 @@
 
                   </div>
 
-                  <div class="d-flex flex-wrap gap-3">
+                  <div class="flex-wrap gap-3 d-flex">
                     <a
                       href="<?php echo  $x_url ?>"
                       class="footer_icon d-flex justify-content-center align-items-center"
@@ -116,3 +116,17 @@
     />
   </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

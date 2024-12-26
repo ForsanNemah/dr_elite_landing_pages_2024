@@ -28,8 +28,8 @@
              
 
               <div>
-                <h4 class="fs-five p6-color mb-2 mb-md-4">حساباتنا على منصات التواصل الاجتماعي </h4>
-                <div class="d-flex flex-wrap gap-3">
+                <h4 class="mb-2 fs-five p6-color mb-md-4">حساباتنا على منصات التواصل الاجتماعي </h4>
+                <div class="flex-wrap gap-3 d-flex">
                   <a
                     href="javascriopt:void(0)"
                     class="footer_icon d-flex justify-content-center align-items-center"
@@ -64,10 +64,10 @@
               </div>
             </div>
             <div class="col-sm-6 col-xl-2"  hidden>
-              <h4 class="fs-five p6-color mb-3 mb-md-5">Our Social info</h4>
+              <h4 class="mb-3 fs-five p6-color mb-md-5">Our Social info</h4>
               <a
                 href="services.html"
-                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+                class="flex-shrink-0 gap-2 mb-2 d-flex align-items-center mb-md-3"
               >
                 <div>
                   <img src="./assets/images/point.png" alt="point" />
@@ -78,7 +78,7 @@
               </a>
               <a
                 href="services.html"
-                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+                class="flex-shrink-0 gap-2 mb-2 d-flex align-items-center mb-md-3"
               >
                 <div>
                   <img src="./assets/images/point.png" alt="point" />
@@ -89,7 +89,7 @@
               </a>
               <a
                 href="services.html"
-                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+                class="flex-shrink-0 gap-2 mb-2 d-flex align-items-center mb-md-3"
               >
                 <div>
                   <img src="./assets/images/point.png" alt="point" />
@@ -100,7 +100,7 @@
               </a>
               <a
                 href="services.html"
-                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+                class="flex-shrink-0 gap-2 mb-2 d-flex align-items-center mb-md-3"
               >
                 <div>
                   <img src="./assets/images/point.png" alt="point" />
@@ -111,7 +111,7 @@
               </a>
               <a
                 href="services.html"
-                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+                class="flex-shrink-0 gap-2 mb-2 d-flex align-items-center mb-md-3"
               >
                 <div>
                   <img src="./assets/images/point.png" alt="point" />
@@ -122,7 +122,7 @@
               </a>
               <a
                 href="services.html"
-                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+                class="flex-shrink-0 gap-2 mb-2 d-flex align-items-center mb-md-3"
               >
                 <div>
                   <img src="./assets/images/point.png" alt="point" />
@@ -133,7 +133,7 @@
               </a>
               <a
                 href="services.html"
-                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+                class="flex-shrink-0 gap-2 mb-2 d-flex align-items-center mb-md-3"
               >
                 <div>
                   <img src="./assets/images/point.png" alt="point" />
@@ -144,7 +144,7 @@
               </a>
               <a
                 href="services.html"
-                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+                class="flex-shrink-0 gap-2 mb-2 d-flex align-items-center mb-md-3"
               >
                 <div>
                   <img src="./assets/images/point.png" alt="point" />
@@ -160,10 +160,10 @@
 
             </div>
             <div class="col-sm-6 col-xl-2" hidden>
-              <h4 class="fs-five p6-color mb-3 mb-md-5">Information</h4>
+              <h4 class="mb-3 fs-five p6-color mb-md-5">Information</h4>
               <a
                 href="about.html"
-                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+                class="flex-shrink-0 gap-2 mb-2 d-flex align-items-center mb-md-3"
               >
                 <div>
                   <img src="./assets/images/point.png" alt="point" />
@@ -172,7 +172,7 @@
               </a>
               <a
                 href="price.html"
-                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+                class="flex-shrink-0 gap-2 mb-2 d-flex align-items-center mb-md-3"
               >
                 <div>
                   <img src="./assets/images/point.png" alt="point" />
@@ -183,7 +183,7 @@
               </a>
               <a
                 href="team.html"
-                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+                class="flex-shrink-0 gap-2 mb-2 d-flex align-items-center mb-md-3"
               >
                 <div>
                   <img src="./assets/images/point.png" alt="point" />
@@ -192,7 +192,7 @@
               </a>
               <a
                 href="portfolio.html"
-                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+                class="flex-shrink-0 gap-2 mb-2 d-flex align-items-center mb-md-3"
               >
                 <div>
                   <img src="./assets/images/point.png" alt="point" />
@@ -203,7 +203,7 @@
               </a>
               <a
                 href="faqs.html"
-                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+                class="flex-shrink-0 gap-2 mb-2 d-flex align-items-center mb-md-3"
               >
                 <div>
                   <img src="./assets/images/point.png" alt="point" />
@@ -212,7 +212,7 @@
               </a>
               <a
                 href="blog.html"
-                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+                class="flex-shrink-0 gap-2 mb-2 d-flex align-items-center mb-md-3"
               >
                 <div>
                   <img src="./assets/images/point.png" alt="point" />
@@ -221,7 +221,7 @@
               </a>
               <a
                 href="javascriopt:void(0)"
-                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+                class="flex-shrink-0 gap-2 mb-2 d-flex align-items-center mb-md-3"
               >
                 <div>
                   <img src="./assets/images/point.png" alt="point" />
@@ -232,20 +232,20 @@
               </a>
             </div>
             <div class="col-12 col-xl-4">
-              <h4 class="fs-five p6-color mb-3 mb-md-5">تواصل معنا </h4>
+              <h4 class="mb-3 fs-five p6-color mb-md-5">تواصل معنا </h4>
               <div
-                class="d-flex gap-2 gap-md-4 align-items-center mb-3 mb-md-5"
+                class="gap-2 mb-3 d-flex gap-md-4 align-items-center mb-md-5"
               >
                 <i class="ph-fill ph-map-pin fs-six p6-color"></i>
                 <span>المملكة العربية السعودية-الاحساء </span>
               </div>
               <div
-                class="d-flex gap-2 gap-md-4 align-items-center mb-3 mb-md-5"
+                class="gap-2 mb-3 d-flex gap-md-4 align-items-center mb-md-5"
               >
                 <i class="ph-fill ph-phone-incoming fs-six p6-color"></i>
                 <a href="tel: <?php echo $phone1; ?>"> <?php echo $phone1; ?> </a>
               </div>
-              <div class="d-flex gap-2 gap-md-4 align-items-center">
+              <div class="gap-2 d-flex gap-md-4 align-items-center">
                 <i class="ph-fill ph-envelope fs-six p6-color"></i>
                 <a href="mailto: <?php echo $phone1; ?>">  <?php echo $email; ?></a>
               </div>
@@ -255,17 +255,17 @@
               <div class="mt-5 mt-md-9 mt-md-18">
 
 
-                <!-- <h4 class="fs-four fw-semibold p6-color mb-2 mb-md-4">
+                <!-- <h4 class="mb-2 fs-four fw-semibold p6-color mb-md-4">
             الاشتراك في القائمة البريديه
                 </h4>
                 <p class="fs-ten p6-color">
                  اشترك الان ليصلك جديدنا من العروض والخدمات 
                 </p>
                 <div
-                  class="d-flex gap-2 align-items-center border-bottom mt-5 mt-md-10 pb-3 pb-md-6"
+                  class="gap-2 pb-3 mt-5 d-flex align-items-center border-bottom mt-md-10 pb-md-6"
                 >
                   <input
-                    class="p6-color fs-ten px-2 border-0"
+                    class="px-2 border-0 p6-color fs-ten"
                     placeholder="Name@ examples"
                   />
                   <i class="ph-fill ph-paper-plane-tilt fs-three p6-color"></i>
@@ -281,14 +281,14 @@
           </div>
         </div>
       </div>
-      <hr class="border cus-border border-four my-0" />
+      <hr class="my-0 border cus-border border-four" />
       <div
-        class="container d-flex sm:gap-3 flex-wrap justify-content-md-between justify-content-center py-3 py-md-6"
+        class="container flex-wrap py-3 d-flex sm:gap-3 justify-content-md-between justify-content-center py-md-6"
       >
         <span class="p6-color sm:fs-ten"
           >Tomoh © 2024 </span
         >
-        <div class="d-flex gap-4">
+        <div class="gap-4 d-flex">
           <a href="terms.php" class="p6-color sm:fs-ten">الشروط و الأحكام</a>
           <span class="p6-color sm:fs-ten">|</span>
           <a href="privacy.php" class="p6-color sm:fs-ten">سياسة الخصوصية</a>
