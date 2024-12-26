@@ -95,7 +95,7 @@ echo $website_name;
         <a href="#order_section"  >
 
 
-        <button type="button" class="btn btn-primary rounded-pill pulsate">     حجز موعد كشف مجاني  </button>
+        <button type="button" class="btn btn-primary rounded-pill pulsate">     حجز موعد كشف الحين  </button>
 
         </a>
      
