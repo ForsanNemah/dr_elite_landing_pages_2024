@@ -136,7 +136,13 @@
 
 
 
-
+  @media (max-width: 768px) {
+  #water-ripples {
+    pointer-events: none; /* تعطيل التفاعل مع العنصر */
+    overflow: hidden; /* منع أي تأثير قد يسبب تداخل */
+    height: 0; /* تقليل ارتفاع العنصر لإزالته من الصفحة */
+  }
+}
 
 
 
