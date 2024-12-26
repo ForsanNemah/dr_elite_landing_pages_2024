@@ -60,7 +60,7 @@
                       </button>
                     </a>
 
-                    <a   href="https://drive.google.com/drive/folders/16_pOeE3uVzCYfJlWeUPD4BOc8il5OsjM?usp=sharing">
+                    <a  href="https://drive.google.com/drive/folders/16_pOeE3uVzCYfJlWeUPD4BOc8il5OsjM?usp=sharing">
                       <button class="btn-outline p6-color">
                         <span class="btn-text-one"> البروفايل </span>
                         <span class="btn-text-two"> البروفايل</span>
@@ -75,7 +75,7 @@
 
 
 
-                    <a   href="#contact_form_id">
+                    <a hidden  href="#contact_form_id">
                       <button class="btn-outline p6-color">
                         <span class="btn-text-one"> تواصل معنا </span>
                         <span class="btn-text-two"> تواصل معنا</span>
