@@ -3,7 +3,7 @@
 
 $website_name="
 
-مجمع رويال الطبي
+مجمع المسواك الطبي
 
 
 
@@ -17,7 +17,7 @@ $dr_name="
 
 $phone_main="966568430828";
 $group_id="120363319693410850";
-$logo="footer_logo/royal.png";
+$logo="footer_logo/almeswak.png";
 
 $dental_services_select=0;
 $derma_services_select=1;
