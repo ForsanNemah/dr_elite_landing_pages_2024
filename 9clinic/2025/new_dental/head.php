@@ -134,7 +134,12 @@ echo $website_name;
 )ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
 		
 		  ttq.load('CN6FRCRC77UC2DCHBISG');
+		  ttq.load('CTJV35BC77UDUQAQIJVG');
+		  ttq.load('CRF3C93C77UD2MA149N0');
+		  ttq.load('CPF2OSJC77UBKGA91FLG');
 		  ttq.page();
+		  ttq.track('CompleteRegistration', {});
+
 		}(window, document, 'ttq');
 
 
@@ -173,6 +178,27 @@ snaptr('init', 'b2436d09-c13e-4280-9181-caa1960c5448');
  
 
 snaptr('init', 'b67a49ad-d1f1-445f-941f-31aea29bc8e4');
+
+
+
+
+
+
+
+
+
+snaptr('init', '91430838-f2f4-42e4-8d7f-d957d09436d6');
+snaptr('init', '6dd030e2-9f73-4c57-a963-76eb6785f85f');
+snaptr('init', '6fc02db2-6e68-40ab-8290-979b40236fe2');
+snaptr('init', 'cbb29236-8b8c-44f0-9178-303d7d9d2834');
+
+
+
+
+
+
+
+
 
 
 snaptr('init', 'b2436d09-c13e-4280-9181-caa1960c5448');
