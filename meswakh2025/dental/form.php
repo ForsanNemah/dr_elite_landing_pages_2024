@@ -174,7 +174,7 @@
 
 
 
-            <select  hidden id="options" name="branch" class="mb-3 form-select" required >
+            <select  hidden id="options" name="branch" class="mb-3 form-select"   >
         <option value=""   disabled selected>اختر الفرع </option>
         <option value="naifia"> النايفيه</option>
         <option value="behiria">البحيريه</option>
