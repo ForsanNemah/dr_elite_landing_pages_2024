@@ -12,11 +12,11 @@ $department_name="       مجمع المسواك الطبي      ";
 
 $dr_name="
 
- هنا يوضع اسم الفرع
+المنطقة الشرقيه
 ";
 
 $phone_main="966537608429";
-$group_id="120363369081837006";
+$group_id="120363383381798013";
 $logo="footer_logo/almeswak.png";
 
 $dental_services_select=1;
