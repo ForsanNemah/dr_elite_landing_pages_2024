@@ -155,7 +155,7 @@
 
          
 <?php
-//include "select_and_sub_select.php";
+include "select_and_sub_select.php";
 //include "model_locations.php";
 //include "select_and_sub_select2.php";
 //include "branches_model.php";
@@ -174,12 +174,12 @@
 
 
 
-            <select  hidden id="options" name="branch" class="mb-3 form-select"   >
+            <!-- <select  hidden id="options" name="branch" class="mb-3 form-select"   >
         <option value=""   disabled selected>اختر الفرع </option>
         <option value="naifia"> النايفيه</option>
         <option value="behiria">البحيريه</option>
       
-    </select>
+    </select> -->
 
 
 
