@@ -25,6 +25,10 @@ $branch=$_POST['branch'];
 $location=$_POST['location'];
 
 
+
+//$department_name=$_POST['branch'];
+
+
 $action_url1="https://script.google.com/macros/s/AKfycbziawk1h5zJBzSafCDWyAk8lNYNCQzxTuEqeHkOoxEp0o952OTqOspJAhfDw5gGwL3v6g/exec";
 $action_url2="https://script.google.com/macros/s/AKfycbyQYAN6-Y5YYLW4fkUmOmNOL-yArZ-I9_ARy5_RzQe7SDMhzghuxwpWVjYlFGcYKPek/exec";
 
@@ -217,6 +221,8 @@ curl_close($curlHandle);
 //echo "w_api start";
 
 if($api_notification==1){
+
+    $department_name=$_POST['branch'];
         
     $w_app_msg1="  لديك تسجيل  جديد  باسم  ".$name;
     $w_app_msg2=$w_app_msg1." برقم جوال ".$phone;
@@ -262,6 +268,8 @@ print_r($result) ;
 
 
 if($group_notification==1){
+
+    $department_name=$_POST['branch'];
         
     $w_app_msg1="  لديك تسجيل  جديد  باسم  ".$name;
     $w_app_msg2=$w_app_msg1." برقم جوال ".$phone;
