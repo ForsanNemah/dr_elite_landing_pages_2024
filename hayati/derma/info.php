@@ -29,7 +29,7 @@ $sheet_url="https://script.google.com/macros/s/AKfycbwm2KS_3E3IsVZYDM1UMY12nfZ5N
 
 $form1_des="
 
-عروض   نهاية العام       
+عروض   بداية العام        
 "; 
 
 
