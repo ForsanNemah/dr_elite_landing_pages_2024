@@ -15,7 +15,7 @@ $dr_name="
  
 ";
 
-$phone_main="966507712775";
+$phone_main="966553335995";
 $group_id="120363386838880824";
 $logo="footer_logo/hayati.jpg";
 
