@@ -87,7 +87,7 @@ $contact_name = $event['messages'][0]['contact_name'];
 
 
 
-if(! $is_me)
+if($is_me !=1)
 {
 
 
