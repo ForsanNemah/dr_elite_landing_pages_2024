@@ -87,7 +87,8 @@ $contact_name = $event['messages'][0]['contact_name'];
 
 
 
-
+if(! $is_me)
+{
 
 
 
@@ -102,13 +103,13 @@ $contact_name = $event['messages'][0]['contact_name'];
 
 
 
-$result = send_with_wapi($token, $profile_id,$chat_gpt_phone.'@c.us', $message );
+$result = send_with_wapi($token, $profile_id,$chat_gpt_phone.'@c.us', $message );// send to gpt
 
 
 
 
 
-$last_message=get_last_message_date_if_more_than_one_hour($token,$profile_id,$chat_gpt_phone);
+$last_message=get_last_message_date_if_more_than_one_hour($token,$profile_id,$chat_gpt_phone);// get last message of gpt
 
 
 
@@ -129,7 +130,7 @@ while ($last_message[1] == 1) {
 //echo $last_message[0];
 
 
-$result = send_with_wapi($token, $profile_id,$chat_id,$last_message[0]);
+$result = send_with_wapi($token, $profile_id,$chat_id,$last_message[0].$is_me);
 
 
 
@@ -160,7 +161,7 @@ $result = send_with_wapi($token, $profile_id,$chat_id,$last_message[0]);
 
 
 
-
+}
 
 
 
