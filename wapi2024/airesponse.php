@@ -92,7 +92,7 @@ $contact_name = $event['messages'][0]['contact_name'];
 
 
 
-$result = send_with_wapi($token, $profile_id,'966568430828@c.us', $message." my msg to ".$chat_id );
+//$result = send_with_wapi($token, $profile_id,'966568430828@c.us', $message." my msg to ".$chat_id );
 
 
 
