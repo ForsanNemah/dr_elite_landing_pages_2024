@@ -87,7 +87,7 @@ $contact_name = $event['messages'][0]['contact_name'];
 
 
 
-if($is_me !=1)
+if($is_me !=1 && $chat_id != $chat_gpt_phone."c.us")
 {
 
 
