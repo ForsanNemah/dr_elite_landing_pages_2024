@@ -79,9 +79,7 @@ include "info.php";
 
 
 
-<script>
-AOS.init();
-</script>
+
 
 </head>
 

@@ -91,7 +91,7 @@ include "hero_video.php";
 
         <div class="container">
     <div class="row">
-      <div class="col text-center">
+      <div class="text-center col">
         <h1>ما يميزنا </h1>
         
       </div>

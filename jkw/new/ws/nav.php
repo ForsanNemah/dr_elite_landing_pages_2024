@@ -36,15 +36,15 @@
 
 
     <div class="st-main-header">
-  <div class="container">
+  <div class="container mb-4">
     <div class="st-main-header-in">
       <div class="st-main-header-left">
-        <a class="st-site-branding" href="index.php">
+        <a class="mt-1 st-site-branding" href="index.php">
           <img src="logo.png" alt="" width="100" height="100">
           <span class="brand-name">
 
 
-          مركز د/جميل خطاب 
+          مركز الدكتور جميل خطاب 
     
 
    
