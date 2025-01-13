@@ -38,13 +38,23 @@
             <input type="number" class="form-control" id="radius" name="radius" value="50000" required>
         </div>
 
+        
 
+
+        <div class="form-group">
+            <label for="radius">Keyword</label>
+            <input type="text" class="form-control" id="radius" name="keyword" value="medical center" required>
+        </div>
         <!-- Type Select (Categories) -->
+
+<!-- 
         <div class="form-group">
             <label for="type">Select Place Type</label>
-            <select class="form-control select2" id="type" name="type" required>
+            <select class="form-control select2" id="type" name="keyword" required>
                 <option value="">-- Select a Place Type --</option>
+                <option value="employment_agency">employment agency </option>
                 <option value="accounting">Accounting</option>
+                <option value="Recruitment">Recruitment</option>
                 <option value="marketing_agency">Marketing agency</option>
                 <option value="airport">Airport</option>
                 <option value="amusement_park">Amusement Park</option>
@@ -138,7 +148,7 @@
                 <option value="veterinary_care">Veterinary Care</option>
                 <option value="zoo">Zoo</option>
             </select>
-        </div>
+        </div> -->
 
         <!-- Submit Button -->
         <button type="submit" class="btn btn-primary">Search Places</button>

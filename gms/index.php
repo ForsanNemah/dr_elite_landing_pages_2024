@@ -1,12 +1,17 @@
 <?php
 // API Key from Google Cloud
-$apiKey = 'AIzaSyDbgqV2UXT4ikGNKDl_JcCPHt6lfWESSs4';
+$apiKey = 'AIzaSyCGl0x3QaZZGxbkG9piO_wa1iAuvmPQF3M';
 
-// Get latitude, longitude, type, and radius from the form submission
-$latitude = $_POST['latitude']; // Example latitude
-$longitude = $_POST['longitude']; // Example longitude
-$type = $_POST['type']; // Example type, e.g., 'hospital', 'restaurant', etc.
-$radius = $_POST['radius']; // Radius posted from the form
+// Get latitude, longitude, keyword, and radius from the form submission
+$latitude = filter_var($_POST['latitude'], FILTER_VALIDATE_FLOAT);
+$longitude = filter_var($_POST['longitude'], FILTER_VALIDATE_FLOAT);
+$keyword = htmlspecialchars($_POST['keyword']); // Search by keyword
+$radius = filter_var($_POST['radius'], FILTER_VALIDATE_INT);
+
+// Validate inputs
+if ($latitude === false || $longitude === false || $radius === false || empty($keyword)) {
+    die('Invalid input. Please provide valid latitude, longitude, radius, and keyword.');
+}
 
 // Function to perform the API request
 function fetchDataFromApi($url) {
@@ -21,54 +26,47 @@ function fetchDetailsForPlace($placeId, $apiKey) {
     return json_decode($response, true);
 }
 
-// Function to get places of a specific type from different nearby locations
-function getAllPlaces($latitude, $longitude, $type, $radius, $apiKey) {
-    $allPlaces = []; // Array to store all results
-    $visitedPlaceIds = []; // To avoid duplicates
+// Function to get places based on keywords from nearby locations
+function getAllPlaces($latitude, $longitude, $keyword, $radius, $apiKey) {
+    $allPlaces = [];
+    $visitedPlaceIds = [];
 
-    // Coordinates adjustment to fetch more results
     $coordinateAdjustments = [
-        [0, 0], // Original location
-        [0.1, 0], // Slightly north
-        [0, 0.1], // Slightly east
-        [-0.1, 0], // Slightly south
-        [0, -0.1], // Slightly west
+        [0, 0],
+        [0.1, 0],
+        [0, 0.1],
+        [-0.1, 0],
+        [0, -0.1],
     ];
 
     foreach ($coordinateAdjustments as $adjustment) {
         $adjustedLatitude = $latitude + $adjustment[0];
         $adjustedLongitude = $longitude + $adjustment[1];
 
-        // Build the Google Places API URL with the radius parameter from the form
-        $url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=$adjustedLatitude,$adjustedLongitude&radius=$radius&type=$type&key=$apiKey";
+        $url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=$adjustedLatitude,$adjustedLongitude&radius=$radius&keyword=" . urlencode($keyword) . "&key=$apiKey";
 
         do {
-            // Fetch data from the API
             $data = fetchDataFromApi($url);
 
-            // Check if the request was successful
             if ($data['status'] === 'OK') {
-                // Loop through each result
                 foreach ($data['results'] as $place) {
                     $placeId = $place['place_id'];
 
-                    // Avoid duplicates by checking place_id
                     if (!in_array($placeId, $visitedPlaceIds)) {
                         $visitedPlaceIds[] = $placeId;
-                        $allPlaces[] = $place; // Add unique places
+                        $allPlaces[] = $place;
                     }
                 }
 
-                // Check if there is a next page of results
                 if (isset($data['next_page_token'])) {
-                    sleep(2); // Google recommends a short delay before making the next request
+                    sleep(2);
                     $nextPageToken = $data['next_page_token'];
                     $url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?pagetoken=$nextPageToken&key=$apiKey";
                 } else {
                     break;
                 }
             } else {
-                break; // Exit if there was an error
+                break;
             }
         } while (true);
     }
@@ -76,8 +74,8 @@ function getAllPlaces($latitude, $longitude, $type, $radius, $apiKey) {
     return $allPlaces;
 }
 
-// Fetch all places using the provided latitude, longitude, type, and radius
-$allPlaces = getAllPlaces($latitude, $longitude, $type, $radius, $apiKey);
+// Fetch all places using the provided latitude, longitude, keyword, and radius
+$allPlaces = getAllPlaces($latitude, $longitude, $keyword, $radius, $apiKey);
 ?>
 
 <!DOCTYPE html>
@@ -86,12 +84,11 @@ $allPlaces = getAllPlaces($latitude, $longitude, $type, $radius, $apiKey);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Places Near Specified Location</title>
-    <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <div class="container mt-5">
-    <h2>Places Near Specified Location (Radius: <?= $radius ?> meters)</h2>
+    <h2>Places Near Specified Location (Keyword: <?= htmlspecialchars($keyword) ?>, Radius: <?= $radius ?> meters)</h2>
     <table class="table table-bordered table-striped">
         <thead class="thead-dark">
         <tr>
@@ -106,21 +103,17 @@ $allPlaces = getAllPlaces($latitude, $longitude, $type, $radius, $apiKey);
         <tbody>
 
         <?php
-        // Initialize the incremental ID
         $id = 1;
-
-        // Loop through each place to fetch details
         foreach ($allPlaces as $place) {
             $placeId = $place['place_id'];
             $details = fetchDetailsForPlace($placeId, $apiKey);
 
-            // Check if the request for place details was successful
             if ($details['status'] === 'OK') {
                 $placeDetails = $details['result'];
-                $mapUrl = "https://www.google.com/maps/search/?api=1&query=Google&query_place_id=" . $placeId; // Google Maps URL with place_id
+                $mapUrl = "https://www.google.com/maps/search/?api=1&query=Google&query_place_id=" . $placeId;
 
                 echo '<tr>';
-                echo '<td>' . $id++ . '</td>'; // Incremental ID
+                echo '<td>' . $id++ . '</td>';
                 echo '<td>' . ($placeDetails['name'] ?? 'N/A') . '</td>';
                 echo '<td>' . ($placeDetails['vicinity'] ?? 'N/A') . '</td>';
                 echo '<td>' . ($placeDetails['formatted_phone_number'] ?? 'N/A') . '</td>';
@@ -138,7 +131,6 @@ $allPlaces = getAllPlaces($latitude, $longitude, $type, $radius, $apiKey);
         </tbody>
     </table>
 </div>
-<!-- Bootstrap JS and dependencies -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
