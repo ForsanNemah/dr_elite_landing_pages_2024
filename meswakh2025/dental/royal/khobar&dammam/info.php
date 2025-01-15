@@ -17,7 +17,7 @@ $dr_name="
 
 $phone_main="966537608429";
 $group_id="120363383381798013";
-$logo="footer_logo/almeswak.png";
+$logo="footer_logo/royal.png";
 
 $dental_services_select=1;
 $derma_services_select=0;
