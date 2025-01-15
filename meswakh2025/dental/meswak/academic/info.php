@@ -8,7 +8,7 @@ $website_name="
  
 ";
 
-$department_name="       مجمع المسواك الطبي      ";
+$department_name="       الاكاديمي  مجمع المسواك الطبي      ";
 
 $dr_name="
 
@@ -23,13 +23,13 @@ $dental_services_select=1;
 $derma_services_select=0;
 
 
-$action_url="https://script.google.com/macros/s/AKfycbw622iXCKNe57EyCSzZPCB9F6w4QcbLWQevonmyjD5lMuqIQmraH1XbItHf3pboPe2erQ/exec";
+$action_url="https://script.google.com/macros/s/AKfycbyA_e0UcEm9nMIuK0Db3WoNt49WIwudbNrSLyufoQlD0pnuHG2wQWSPyBCrQ8bMDBPA9A/exec";
 
 $sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF1xpPkV0_PTJK-MI/edit?usp=sharing";
 
 $form1_des="
 
-عروض   نهاية العام       
+عروض   بداية العام       
 "; 
 
 

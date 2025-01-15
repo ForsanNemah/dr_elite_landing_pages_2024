@@ -222,7 +222,7 @@ curl_close($curlHandle);
 
 if($api_notification==1){
 
-    $department_name=$_POST['branch'];
+    
         
     $w_app_msg1="  لديك تسجيل  جديد  باسم  ".$name;
     $w_app_msg2=$w_app_msg1." برقم جوال ".$phone;
@@ -269,7 +269,7 @@ print_r($result) ;
 
 if($group_notification==1){
 
-    $department_name=$_POST['branch'];
+    
         
     $w_app_msg1="  لديك تسجيل  جديد  باسم  ".$name;
     $w_app_msg2=$w_app_msg1." برقم جوال ".$phone;
