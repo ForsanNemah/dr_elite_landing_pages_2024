@@ -8,7 +8,7 @@ $website_name="
  
 ";
 
-$department_name="              رويال الاحساء دانا 1 و دانا 2           اسنان         ";
+$department_name="              رويال الاحساء دانا 1 و دانا 2           جلدية         ";
 
 $dr_name="
 
@@ -19,11 +19,11 @@ $phone_main="966537608429";
 $group_id="120363383381798013";
 $logo="footer_logo/royal.png";
 
-$dental_services_select=1;
-$derma_services_select=0;
+$dental_services_select=0;
+$derma_services_select=1;
 
 
-$action_url="https://script.google.com/macros/s/AKfycbyvgAJUpLoT2xdWFkdl1jguizpDSf3aevv0Xgxu1EKIhFINR-oMx_XFa6p2xT2KmM9VPA/exec";
+$action_url="https://script.google.com/macros/s/AKfycbxYxzyhJUE7W4DhTAIN9R0AGTtQrcYNwOYAo7-SuD8tl_R_5OsZsx3i2SHfNXJOZ_dm/exec";
 
 $sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF1xpPkV0_PTJK-MI/edit?usp=sharing";
 
@@ -126,7 +126,7 @@ $derma_services=0;
 $services2=0;
 $faq=0;
 $process=0;
-$services_images=1;
+$services_images=0;
 $footer=1;
 $footer2=0;
 $w_app_button=0;
