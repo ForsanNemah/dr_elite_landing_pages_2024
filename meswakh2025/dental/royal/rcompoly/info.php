@@ -12,7 +12,7 @@ $department_name="            R-KOM-Khafji and R-polyclinics-Khafji dental      
 
 $dr_name="
 
-الاحساء
+الخفجي
 ";
 
 $phone_main="966537608429";
