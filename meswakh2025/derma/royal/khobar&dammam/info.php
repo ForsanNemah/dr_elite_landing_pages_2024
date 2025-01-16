@@ -8,7 +8,7 @@ $website_name="
  
 ";
 
-$department_name="           مجمع رويال الطبي  فروع الخبر والدمام     اسنان     ";
+$department_name="           مجمع رويال الطبي  فروع الخبر والدمام      جلدية     ";
 
 $dr_name="
 
@@ -23,7 +23,7 @@ $dental_services_select=1;
 $derma_services_select=0;
 
 
-$action_url="https://script.google.com/macros/s/AKfycbzgU9wZznuHwmr8vqISCyQ7QS8Mf9und99mWnjTckgAHD3LnQ_WytAs-f7qTatfuSkhLQ/exec";
+$action_url="https://script.google.com/macros/s/AKfycbydXV9qD6qsrZLJZQikoXaTnV5fe0kyQhxe4gUwxYb7Ldzo2kDqbnnIR89joq10czTD/exec";
 
 $sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF1xpPkV0_PTJK-MI/edit?usp=sharing";
 
