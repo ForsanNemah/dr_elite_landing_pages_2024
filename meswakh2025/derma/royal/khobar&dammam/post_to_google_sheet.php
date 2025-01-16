@@ -29,6 +29,80 @@ $location=$_POST['location'];
 //$department_name=$_POST['branch'];
 
 
+
+
+
+
+
+$location=$branch;
+
+$location = str_replace(["\n", "\r", "\t"], '', $location); // Remove newlines, carriage returns, and tabs
+$location = preg_replace('/\s+/', ' ', $location); // Normalize whitespace
+
+echo $location;
+
+
+if (trim($location) == "رويال العقربيه") {
+
+
+
+    $phone_main="966507377601";
+
+} else {
+    echo "The string does not match!";
+}
+
+
+
+
+
+if (trim($location) == "رويال شارع الببسي") {
+
+
+
+    $phone_main="966594444052";
+
+     
+} else {
+    echo "The string does not match!";
+}
+
+
+
+if (trim($location) == "فرع الاتصالات") {
+
+
+
+    $phone_main="966552939195";
+
+     
+} else {
+    echo "The string does not match!";
+}
+
+
+
+
+if (trim($location) == "فرع الشاطئ") {
+
+
+
+    $phone_main="966554085444";
+
+     
+} else {
+    echo "The string does not match!";
+}
+
+
+
+//echo $phone_main;
+//die;
+
+
+
+
+
 $action_url1="https://script.google.com/macros/s/AKfycbziawk1h5zJBzSafCDWyAk8lNYNCQzxTuEqeHkOoxEp0o952OTqOspJAhfDw5gGwL3v6g/exec";
 $action_url2="https://script.google.com/macros/s/AKfycbyQYAN6-Y5YYLW4fkUmOmNOL-yArZ-I9_ARy5_RzQe7SDMhzghuxwpWVjYlFGcYKPek/exec";
 

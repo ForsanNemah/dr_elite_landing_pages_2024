@@ -26,6 +26,76 @@ $location=$_POST['location'];
 
 
 
+
+
+
+
+$location = str_replace(["\n", "\r", "\t"], '', $location); // Remove newlines, carriage returns, and tabs
+$location = preg_replace('/\s+/', ' ', $location); // Normalize whitespace
+
+echo $location;
+
+
+if (trim($location) == "حي الحمراء") {
+
+
+
+    $phone_main="966507088817";
+
+} else {
+    echo "The string does not match!";
+}
+
+
+
+
+
+if (trim($location) == "حي الياسمين") {
+
+
+
+    $phone_main="966500588158";
+
+     
+} else {
+    echo "The string does not match!";
+}
+
+//echo $phone_main;
+//die;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //$department_name=$_POST['branch'];
 
 

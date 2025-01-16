@@ -1,6 +1,6 @@
 <?php
 session_start();
-echo $_SESSION['ScCid']." from session";
+//echo $_SESSION['ScCid']." from session";
 
 
 error_reporting(E_ERROR | E_PARSE);
@@ -23,6 +23,50 @@ $branch1=$_POST['branch1'];
 $branch2=$_POST['branch'];
 $branch=$_POST['branch'];
 $location=$_POST['location'];
+
+
+
+
+
+
+$location = str_replace(["\n", "\r", "\t"], '', $location); // Remove newlines, carriage returns, and tabs
+$location = preg_replace('/\s+/', ' ', $location); // Normalize whitespace
+
+echo $location;
+
+
+if (trim($location) == "فرع حي الخالدية") {
+
+
+
+    $phone_main="966541495554";
+
+} else {
+    echo "The string does not match!";
+}
+
+
+
+
+
+if (trim($location) == "فرع حي المعلمين") {
+
+
+
+    $phone_main="966546088844";
+
+     
+} else {
+    echo "The string does not match!";
+}
+
+//echo $phone_main;
+//die;
+
+
+
+
+
 
 
 

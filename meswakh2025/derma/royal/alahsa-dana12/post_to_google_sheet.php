@@ -29,6 +29,62 @@ $location=$_POST['location'];
 //$department_name=$_POST['branch'];
 
 
+
+
+
+
+
+
+$location = str_replace(["\n", "\r", "\t"], '', $location); // Remove newlines, carriage returns, and tabs
+$location = preg_replace('/\s+/', ' ', $location); // Normalize whitespace
+
+echo $location;
+
+
+if (trim($location) == "فرع حي الخالدية") {
+
+
+
+    $phone_main="966541495554";
+
+} else {
+    echo "The string does not match!";
+}
+
+
+
+
+
+if (trim($location) == "فرع حي المعلمين") {
+
+
+
+    $phone_main="966546088844";
+
+     
+} else {
+    echo "The string does not match!";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $action_url1="https://script.google.com/macros/s/AKfycbziawk1h5zJBzSafCDWyAk8lNYNCQzxTuEqeHkOoxEp0o952OTqOspJAhfDw5gGwL3v6g/exec";
 $action_url2="https://script.google.com/macros/s/AKfycbyQYAN6-Y5YYLW4fkUmOmNOL-yArZ-I9_ARy5_RzQe7SDMhzghuxwpWVjYlFGcYKPek/exec";
 

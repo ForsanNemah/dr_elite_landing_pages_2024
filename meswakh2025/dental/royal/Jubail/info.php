@@ -15,7 +15,7 @@ $dr_name="
 الجبيل
 ";
 
-$phone_main="966537608429";
+$phone_main="966581536666";
 $group_id="120363383381798013";
 $logo="footer_logo/royal.png";
 
