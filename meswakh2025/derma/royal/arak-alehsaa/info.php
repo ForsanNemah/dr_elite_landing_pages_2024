@@ -8,7 +8,7 @@ $website_name="
  
 ";
 
-$department_name="           آراك الاحساء رويال    ";
+$department_name="            آراك الاحساء رويال  جلدية  ";
 
 $dr_name="
 
@@ -19,11 +19,11 @@ $phone_main="966537608429";
 $group_id="120363383381798013";
 $logo="footer_logo/royal.png";
 
-$dental_services_select=1;
-$derma_services_select=0;
+$dental_services_select=0;
+$derma_services_select=1;
 
 
-$action_url="https://script.google.com/macros/s/AKfycbxbwutpLsw3gRml8URH207GMKQwbWvCfIqTHvMVPVXQ_H6-RtYbX393IhVyzGPm54xD/exec";
+$action_url="https://script.google.com/macros/s/AKfycby5pPsYh4PWbMra6nEDYlfamwXexoclHcPnH_DrhU3JDICjK64I5NYJezuERlxqdDWV/exec";
 
 $sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF1xpPkV0_PTJK-MI/edit?usp=sharing";
 
@@ -126,7 +126,7 @@ $derma_services=0;
 $services2=0;
 $faq=0;
 $process=0;
-$services_images=1;
+$services_images=0;
 $footer=1;
 $footer2=0;
 $w_app_button=0;
