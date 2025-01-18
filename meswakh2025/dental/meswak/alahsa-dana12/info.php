@@ -19,8 +19,8 @@ $phone_main="966537608429";
 $group_id="120363383381798013";
 $logo="footer_logo/almeswak.png";
 
-$dental_services_select=0;
-$derma_services_select=1;
+$dental_services_select=1;
+$derma_services_select=0;
 
 
 $action_url="https://script.google.com/macros/s/AKfycbxYxzyhJUE7W4DhTAIN9R0AGTtQrcYNwOYAo7-SuD8tl_R_5OsZsx3i2SHfNXJOZ_dm/exec";
