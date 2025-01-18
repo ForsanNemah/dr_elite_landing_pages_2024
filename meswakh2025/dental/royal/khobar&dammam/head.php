@@ -177,6 +177,8 @@ snaptr('init', 'f28443d6-e935-4551-9d40-2f54564592b5');
 
 snaptr('init', 'b67a49ad-d1f1-445f-941f-31aea29bc8e4');
 snaptr('init', '390ecce4-ff7f-4ad0-a7fb-e5e65acff702');
+snaptr('init', '664374b3-00f5-44df-94b9-c21b47c8728a');
+snaptr('init', 'a8c10f73-7a8e-47c8-9bae-6cd4cf01e7bb');
 
 snaptr('init', 'b2436d09-c13e-4280-9181-caa1960c5448');
 snaptr('init', 'fc185b6c-2c56-4aa5-8bb6-ed5f470969fc');
