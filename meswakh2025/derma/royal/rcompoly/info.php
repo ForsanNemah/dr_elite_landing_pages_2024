@@ -15,7 +15,7 @@ $dr_name="
 الخفجي
 ";
 
-$phone_main="966537608429";
+$phone_main="966591131636";
 $group_id="120363383381798013";
 $logo="footer_logo/royal.png";
 
