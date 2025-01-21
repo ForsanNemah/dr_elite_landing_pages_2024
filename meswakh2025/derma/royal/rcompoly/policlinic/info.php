@@ -8,7 +8,7 @@ $website_name="
  
 ";
 
-$department_name="           polyclinic dental                ";
+$department_name="           polyclinic derma                ";
 
 $dr_name="
 
@@ -23,7 +23,7 @@ $dental_services_select=1;
 $derma_services_select=0;
 
 
-$action_url="https://script.google.com/macros/s/AKfycbxyYnQ8GU-vIDqYXS6FOaSSYjwYYc4CEcTQl8RpWvO_8bz90yaFULdZGewbSAgZ2TYZ/exec";
+$action_url="https://script.google.com/macros/s/AKfycbxdhNxc6Xbwu0Stey3QWez8VOrK3KbkEwE4gc5yEFaKaL-kedYbETZ-VqkniG0HdF8D/exec";
 
 $sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF1xpPkV0_PTJK-MI/edit?usp=sharing";
 
@@ -126,7 +126,7 @@ $derma_services=0;
 $services2=0;
 $faq=0;
 $process=0;
-$services_images=1;
+$services_images=0;
 $footer=1;
 $footer2=0;
 $w_app_button=0;
