@@ -8,7 +8,7 @@ $website_name="
  
 ";
 
-$department_name="              المسواك الاحساء دانا 1 و دانا 2           جلدية         ";
+$department_name="              المسواك الاحساء دانا 2          اسنان         ";
 
 $dr_name="
 
