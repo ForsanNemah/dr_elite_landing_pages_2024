@@ -20,7 +20,7 @@ $group_id="120363306924778557";
 $logo="footer_logo/royal.png";
 
 $dental_services_select=1;
-$derma_services_select=0;
+$derma_services_select=1;
 
 
 $action_url="https://script.google.com/macros/s/AKfycbxdhNxc6Xbwu0Stey3QWez8VOrK3KbkEwE4gc5yEFaKaL-kedYbETZ-VqkniG0HdF8D/exec";
