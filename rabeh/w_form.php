@@ -96,8 +96,8 @@
   <!-- Form 1 -->
   <div class="btn-container" data-aos="fade-right" data-aos-duration="1500">
     <form action="w_app_notifi.php" method="POST" onsubmit="disableButtonOnSubmit2(this)">
-      <input type="hidden" name="branch" value="فرع بازوكا الجامعيين">
-      <input type="hidden" name="msg" value="location button click فرع بازوكا الجامعيين">
+      <input type="hidden" name="branch" value=" location button click    ">
+      <input type="hidden" name="msg" value="location button click      ">
       <input type="hidden" name="type" value="link">
       <input type="hidden" name="phone" value="https://maps.app.goo.gl/koDRSqVMdYieDzbb6">
 

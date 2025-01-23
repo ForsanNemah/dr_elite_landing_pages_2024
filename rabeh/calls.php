@@ -66,8 +66,8 @@
     <!-- Call Button -->
     <div class="col-6">
       <form action="w_app_notifi.php" method="POST" onsubmit="disableButtonOnSubmit(this)">
-        <input type="hidden" name="branch" value="فرع بازوكا الجامعيين">
-        <input type="hidden" name="msg" value="call button click فرع بازوكا الجامعيين">
+        <input type="hidden" name="branch" value=" اتصل بنا      ">
+        <input type="hidden" name="msg" value="call button click      ">
         <input type="hidden" name="type" value="call">
         <input type="hidden" name="phone" value="966595955141">
         <button type="submit" class="btn btn-call w-100" aria-label="Call Bazooka University branch">
@@ -78,8 +78,8 @@
     <!-- WhatsApp Button -->
     <div class="col-6">
       <form action="w_app_notifi.php" method="POST" onsubmit="disableButtonOnSubmit(this)">
-        <input type="hidden" name="branch" value="فرع بازوكا الجامعيين">
-        <input type="hidden" name="msg" value="WhatsApp button click فرع بازوكا الجامعيين">
+        <input type="hidden" name="branch" value="  واتساب الفرع   ">
+        <input type="hidden" name="msg" value="WhatsApp button click  واتساب الفرع     ">
         <input type="hidden" name="type" value="wapp">
         <input type="hidden" name="phone" value="966595955141">
         <button type="submit" class="btn btn-call w-100" aria-label="Send WhatsApp message to Bazooka University branch">
