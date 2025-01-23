@@ -16,7 +16,7 @@ $dr_name="
 ";
 
 $phone_main="966595955141";
-$group_id="120363360226717103";
+$group_id="120363391973593173";
 $logo="footer_logo/rabeh.png";
 
 $dental_services_select=1;
@@ -124,8 +124,8 @@ $services_images=0;
 $footer=1;
 $footer2=0;
 $w_app_button=1;
-$api_notification=0;
-$group_notification=0;
+$api_notification=1;
+$group_notification=1;
 $ad_source="snap ";
 $header=0;
 $parteners=0;
