@@ -8,7 +8,7 @@ $website_name="
  
 ";
 
-$department_name=" مجمع دنتين الطبي         ";
+$department_name="  ركن الرابح للاجهز المنزلية والتكييف             ";
 
 $dr_name="
 
