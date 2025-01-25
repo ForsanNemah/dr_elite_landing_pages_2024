@@ -214,7 +214,7 @@ $postParameter = array(
     'whatsapp_link' => $whatsapp_link,
     'subject' => $subject,
     'msg' => $msg,
-    'branch' => $branch,
+    'branch' => $_POST['location'],
     'location' => $location,
     'source' => $source
     
