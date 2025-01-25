@@ -1,17 +1,3 @@
-<div id="services_id" class="mb-4">
-    <br>
-    <br>
-</div>
-
-<div class="mt-4 text-center">
-    <h1>
-
-
-
-   
-    </h1>
-</div>
-
 <section>
     <div class="container">
         <div class="row">
@@ -32,8 +18,18 @@
                 }
             }
 
-            // Sort the files by modification date (ascending order)
-            asort($imageFiles);
+            // Function to extract numeric part from filenames
+            function extractNumber($filename) {
+                if (preg_match('/\d+/', $filename, $matches)) {
+                    return (int)$matches[0]; // Return the numeric part as an integer
+                }
+                return PHP_INT_MAX; // Return a large number if no numeric part is found
+            }
+
+            // Sort files by the numeric part of their filenames
+            uksort($imageFiles, function ($a, $b) {
+                return extractNumber($a) <=> extractNumber($b);
+            });
 
             // Output the sorted image file names
             foreach ($imageFiles as $image => $modificationTime) {
