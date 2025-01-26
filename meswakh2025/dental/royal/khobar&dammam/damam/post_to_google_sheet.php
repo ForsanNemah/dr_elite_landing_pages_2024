@@ -29,9 +29,10 @@ $location=$_POST['location'];
 //$department_name=$_POST['branch'];
 
 
+echo $location;
+//die;
 
-
-$location=$branch;
+//$location=$branch;
 
 $location = str_replace(["\n", "\r", "\t"], '', $location); // Remove newlines, carriage returns, and tabs
 $location = preg_replace('/\s+/', ' ', $location); // Normalize whitespace
@@ -39,11 +40,13 @@ $location = preg_replace('/\s+/', ' ', $location); // Normalize whitespace
 echo $location;
 
 
-if (trim($location) == "رويال العقربيه") {
+if (trim($location) == "الخبر فرع حي العقربية") {
 
 
 
     $phone_main="966507377601";
+    $action_url="https://script.google.com/macros/s/AKfycbwKj-F_7OjLSRuxQzrheIN37dGA7U6xwry4uCVP7Z0sqpv5rLxQrjqVHLKrjFjxXpRtlA/exec";
+    echo "hit";
 
 } else {
     echo "The string does not match!";
@@ -53,12 +56,15 @@ if (trim($location) == "رويال العقربيه") {
 
 
 
-if (trim($location) == "رويال شارع الببسي") {
+if (trim($location) == "الخبر فرع شارع البيبسي") {
 
 
 
     $phone_main="966556993200";
 
+    $action_url="https://script.google.com/macros/s/AKfycbzeASxli0VjOejJTVYA6ntp2s4pm1Z7RHpAWVajqNU8jmeGvO2cyGbxGRGmcONWJsRz/exec";
+    echo "hit";
+
      
 } else {
     echo "The string does not match!";
@@ -66,11 +72,13 @@ if (trim($location) == "رويال شارع الببسي") {
 
 
 
-if (trim($location) == "فرع الاتصالات") {
+if (trim($location) == "الدمام فرع حي الشاطئ") {
 
 
 
     $phone_main="966533589200";
+    $action_url="https://script.google.com/macros/s/AKfycby9Rlb5otFAESio48E8pcDj2h_3QQCqI5XJ3S8oHnBt3ZAiNNn3xbi7MbdmQB7XESjH/exec";
+    echo "hit";
 
      
 } else {
@@ -80,11 +88,13 @@ if (trim($location) == "فرع الاتصالات") {
 
 
 
-if (trim($location) == "فرع الشاطئ") {
+if (trim($location) == "الدمام فرع حي الاتصالات") {
 
 
 
     $phone_main="966554085444";
+    $action_url="https://script.google.com/macros/s/AKfycbyc0HAALZbyf2HoyCUbsZGpVjP5M7zQ5_9YCw3i1qf_e4iViZcQDbJpzjWaWir6U9_sTw/exec";
+    echo "hit";
 
      
 } else {
@@ -93,7 +103,7 @@ if (trim($location) == "فرع الشاطئ") {
 
 
 
-//echo $phone_main;
+echo $phone_main;
 //die;
 
 
