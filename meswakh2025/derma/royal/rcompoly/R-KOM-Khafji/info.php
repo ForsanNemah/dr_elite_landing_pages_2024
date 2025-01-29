@@ -19,8 +19,8 @@ $phone_main="966591131636";
 $group_id="120363306924778557";
 $logo="footer_logo/royal.png";
 
-$dental_services_select=1;
-$derma_services_select=0;
+$dental_services_select=0;
+$derma_services_select=1;
 
 
 $action_url="https://script.google.com/macros/s/AKfycbzCwscHsN83LfJgy0vm9yd4uvTXvkjU3Zn0rv8wpMx2TE_QewcDfms6xLDd7quXhDED/exec";
