@@ -440,6 +440,62 @@ echo "<br>";
 
    </tr>
    ";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   echo "
+   <tr>
+
+ 
+   <td class='text-center'></td>
+     <td class='text-center'></td>
+     <td class='text-center'></td>
+     <td class='text-center'>
+     فتح
+     </td>
+
+
+
+
+     <td class='text-center'>
+     <a target='_blank' href='".$landing_page."'>فتح</a>
+   </td>
+
+
+
+
+   </tr>
+   ";
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
       }
       
