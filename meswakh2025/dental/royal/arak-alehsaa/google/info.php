@@ -124,7 +124,7 @@ $process=0;
 $services_images=1;
 $footer=1;
 $footer2=0;
-$w_app_button=0;
+$w_app_button=1;
 $api_notification=0;
 $group_notification=1;
 $ad_source="google ";
@@ -137,7 +137,7 @@ $taby_and_tamara=1;
 $footer_cr=1;
 $videos=0;
 $snap_capi=0;
-$w_btn_only=1;
+$w_btn_only=0;
 $pm_register=0;
 
 
