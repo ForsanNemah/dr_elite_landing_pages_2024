@@ -8,26 +8,42 @@
     </thead>
     <tbody>
       <tr style="height: 50px;">
-        <td class="text-center">شركة قمة الانتشار للتسويق الالكتروني</td>
+        <td class="text-center">       
+          
+      وكالة قمة الإنتشار للتسويق الإلكتروني 
+      
+      </td>
         <td class="text-center"><?php echo $company_name;?></td>
       </tr>
       <tr>
-        <td>التوقيع</td>
-        <td>التوقيع</td>
+
+        <td >التوقيع</td>
+        <td style="height: 100px;" >التوقيع</td>
+
+
+
       </tr>
       <tr>
-        <td>الختم</td>
-        <td>الختم</td>
+
+        <!-- <td>الختم</td>
+
+        <td>الختم</td> -->
+
+
+
       </tr>
       <tr>
-        <td>التاريخ</td>
+        <td>التاريخ
+&nbsp
+        <?php echo $contract_date ?>
+        </td>
         <td>التاريخ</td>
       </tr>
     </tbody>
   </table>
 
   <div class="text-center">
-    <h2 class="h5 mt-4">معلومات الحساب البنكي</h2>
+    <h2 class="mt-4 h5">معلومات الحساب البنكي</h2>
   </div>
 
   <table class="table table-bordered">
