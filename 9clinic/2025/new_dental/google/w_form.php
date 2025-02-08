@@ -12,7 +12,7 @@
   .playful-text {
     font-size: 2em;
     font-weight: bold;
-    background: linear-gradient(90deg, #ff69b4, #ff4500);
+    background: linear-gradient(90deg, #ff69b4, #70544a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -34,7 +34,7 @@
 
   /* Style for the call buttons */
   .btn-call {
-    background-color: #dc3545; /* Red color for button */
+    background-color: #70544a; /* Red color for button */
     color: #fff;
     transition: transform 0.3s ease-in-out;
     display: flex;
@@ -75,15 +75,16 @@
 </style>
 
 <div class="container mt-5 text-center">
-  <h2 class="playful-text">          
-    😋 اطلب الان عبر واتساب  من الفرع الأقرب لك 😋
+  <h2 class="playful-text">  
+عروض يوم التأسيس 
+
   </h2>
   <h3>
-    🛵 خدمة توصيل سريعة 🛵
+  
   </h3>
 
   <!-- Form 1 -->
-  <div class="btn-container" data-aos="fade-right" data-aos-duration="1500">
+  <div hidden class="btn-container" data-aos="fade-right" data-aos-duration="1500">
     <form action="w_app_notifi.php" method="POST" onsubmit="disableButtonOnSubmit2(this)">
 
       <input type="hidden" name="branch" value="فرع بازوكا الجامعيين">
@@ -99,7 +100,7 @@
   </div>
 
   <!-- Form 2 -->
-  <div class="btn-container" data-aos="fade-right" data-aos-duration="1500">
+  <div hidden class="btn-container" data-aos="fade-right" data-aos-duration="1500">
     <form action="w_app_notifi.php" method="POST" onsubmit="disableButtonOnSubmit2(this)">
       <input type="hidden" name="branch" value="فرع بازوكا محاسن">
       <input type="hidden" name="msg" value=" whatsapp button click فرع بازوكا محاسن">
@@ -112,14 +113,16 @@
   </div>
 
   <!-- Form 3 -->
-  <div class="btn-container" data-aos="fade-right" data-aos-duration="1500">
+  <div  class="btn-container" data-aos="fade-right" data-aos-duration="1500">
     <form action="w_app_notifi.php" method="POST" onsubmit="disableButtonOnSubmit2(this)">
-      <input type="hidden" name="branch" value="فرع بازوكا الراشديه">
-      <input type="hidden" name="msg" value=" whatsapp button click فرع بازوكا الراشديه">
+      <input type="hidden" name="branch" value=" جوجل اسنان عرض يوم التأسيس     ">
+      <input type="hidden" name="msg" value=" whatsapp button click  جوجل اسنان عرض يوم التأسيس     ">
       <input type="hidden" name="type" value="wapp">
-        <input type="hidden" name="phone" value="966531599960">
+        <input type="hidden" name="phone" value="966920006802">
       <button type="submit" class="btn btn-call w-100" aria-label="Submit form for Bazooka Rashidiya Restaurants">
-        فرع بازوكا الراشديه 😋
+
+       الحصول على عرض يوم التأسيس
+
       </button>
     </form>
   </div>
