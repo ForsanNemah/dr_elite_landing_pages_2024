@@ -16,7 +16,7 @@ $dr_name="
 ";
 
 $phone_main="966553335995";
-$group_id="120363386838880824";
+$group_id="120363388463307104";
 $logo="footer_logo/hayati.jpg";
 
 $dental_services_select=0;
