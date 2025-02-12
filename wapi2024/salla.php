@@ -14,7 +14,7 @@ if(isset($event)){
     $file = 'salla.txt';  
     $data =json_encode($event)."\n";  
 
-    //file_put_contents($file, $data, FILE_APPEND | LOCK_EX);
+    file_put_contents($file, $data, FILE_APPEND | LOCK_EX);
 
 
     //print_r($data);
