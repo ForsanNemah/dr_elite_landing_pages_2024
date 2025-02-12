@@ -7,11 +7,11 @@ $wapi_token="40703bb7812b727ec01c24f2da518c407342559c";
 
 $data = file_get_contents("php://input");
 
-$message=" مرحبا بك  في متجر سيزون  استخدم  الكود  z10 للحصول على خصم 10% ";
+$message=" مرحبا بك  في متجر روكا  استخدم  الكود  r10 للحصول على خصم 10% ";
 $event = json_decode($data, true);
 if(isset($event)){
     //Here, you now have event and can process them how you like e.g Add to the database or generate a response
-    $file = 'salla.txt';  
+    $file = 'roka.txt';  
     $data =json_encode($event)."\n";  
 
     file_put_contents($file, $data, FILE_APPEND | LOCK_EX);
@@ -24,7 +24,7 @@ if(isset($event)){
 
 $customer_phone=extractMobileNumber($data);
 
-    $result = send_with_wapi($wapi_token, $wapi_profile_id, "120363401915030163@g.us"," تم تسجيل الدخول الى المتجر من قبل العميل".$customer_phone);
+    $result = send_with_wapi($wapi_token, $wapi_profile_id, "120363383080104125@g.us"," تم تسجيل الدخول الى المتجر من قبل العميل".$customer_phone);
 
 
 
