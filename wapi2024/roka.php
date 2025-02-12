@@ -11,7 +11,7 @@ $message=" مرحبا بك  في متجر روكا  استخدم  الكود  r1
 $event = json_decode($data, true);
 if(isset($event)){
     //Here, you now have event and can process them how you like e.g Add to the database or generate a response
-    $file = 'salla.txt';  
+    $file = 'roka.txt';  
     $data =json_encode($event)."\n";  
 
     file_put_contents($file, $data, FILE_APPEND | LOCK_EX);
