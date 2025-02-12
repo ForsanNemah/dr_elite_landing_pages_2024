@@ -28,7 +28,7 @@ $customer_phone=extractMobileNumber($data);
 
 
 
-    $result = send_with_wapi($wapi_token, $wapi_profile_id, ''.$phone.'@c.us',$message);
+    $result = send_with_wapi($wapi_token, $wapi_profile_id, $phone.'@c.us',$message);
 
     //print_r($result) ;
 
