@@ -7,7 +7,7 @@ $wapi_token="40703bb7812b727ec01c24f2da518c407342559c";
 
 $data = file_get_contents("php://input");
 
-
+$message=" مرحبا بك  في متجر سيزون  استخدم  الكود  z10 للحصول على خصم 10% ";
 $event = json_decode($data, true);
 if(isset($event)){
     //Here, you now have event and can process them how you like e.g Add to the database or generate a response
@@ -28,7 +28,8 @@ $customer_phone=extractMobileNumber($data);
 
 
 
-    //$result = send_with_wapi($wapi_token, $wapi_profile_id, '966'.$phone.'@c.us',$pm_msg2);
+    $result = send_with_wapi($wapi_token, $wapi_profile_id, ''.$phone.'@c.us',$message);
+
     //print_r($result) ;
 
 
