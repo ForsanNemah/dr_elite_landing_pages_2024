@@ -15,7 +15,7 @@ $dr_name="
  
 ";
 
-$phone_main="966920006802";
+$phone_main="966543222978";
 $group_id="120363375196232230";
 $logo="footer_logo/tabahi.png";
 
