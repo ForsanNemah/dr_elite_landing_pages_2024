@@ -12,7 +12,7 @@ $website_name="
 $dr_name="
 
 
-عروض اليوم الوطني  2024
+عروض يوم التأسيس 
 ";
 
 $phone_main="966539811900";
@@ -23,7 +23,7 @@ $sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF
 
 $form1_des="
 
-عروض اليوم الوطني
+عروض يوم التأسيس خصم 60%
 ";
 $cta=0;
 $cta_text="احجز الان";
