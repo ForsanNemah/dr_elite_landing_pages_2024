@@ -29,7 +29,8 @@ $sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF
 
 $form1_des="
 
-عروض   بداية العام       
+عروض يوم التأسيس   
+
 "; 
 
 
