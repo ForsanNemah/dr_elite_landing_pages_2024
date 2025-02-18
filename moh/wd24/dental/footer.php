@@ -66,7 +66,7 @@
 
           <p contenteditable="true"><?php // echo $footer_des3; ?></p>
           <p contenteditable="true"><?php // echo $footer_des4; ?></p>
-          <a href="#order_section">
+          <a href="#myform">
             <button type="button" class="btn btn-primary rounded-pill pulsate">
               <?php echo $cta_form; ?>
             </button>
