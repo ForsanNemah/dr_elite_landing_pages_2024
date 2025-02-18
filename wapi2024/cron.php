@@ -139,11 +139,11 @@ $message = str_replace(["\r\n", "\r", "\n"], "\\n", $message);
 $message2 = str_replace(["\r\n", "\r", "\n"], "\\n", $message2);
 $message3 = str_replace(["\r\n", "\r", "\n"], "\\n", $message3);
 
-$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', '73817eb8-ed42','120363328424447180@g.us', $message );
+$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453','120363328424447180@g.us', $message );
 
 
 
-$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', '73817eb8-ed42','120363332297917440@g.us', $message2 );
+$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453','120363332297917440@g.us', $message2 );
 
 
 $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453','120363263503120127@g.us', $message3 );
