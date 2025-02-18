@@ -15,7 +15,7 @@ $dr_name="
 الرياض
 ";
 
-$phone_main="966503150124";
+$phone_main="966504551191";
 $group_id="120363383381798013";
 $logo="footer_logo/safwa.png";
 
