@@ -6,7 +6,7 @@
 
 
 <select name="location" id="mainSelect" class="form-control mt-4" dir="rtl" required>
-  <option value="" disabled selected>اختر  نوع الخدمة </option>
+  <option value="" disabled selected>اختر   مدينتك    </option>
  
  
  
@@ -15,8 +15,8 @@
 
 </select>
 
-<select name="branch2" id="subSelect" class="form-control mt-4 mb-4" dir="rtl" required> 
-  <option value="" disabled selected>اختر الخدمة </option>
+<select name="branch" id="subSelect" class="form-control mt-4 mb-4" dir="rtl" required> 
+  <option value="" disabled selected>اختر الفرع الاقرب لك  </option>
  
  
 </select>

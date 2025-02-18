@@ -28,7 +28,7 @@
 
 
 
-<div class="row col-sm-6 col-md-1  ">
+<div class="row col-6 col-md-2">
 
 
 
@@ -149,14 +149,7 @@ echo $dr_name;
 
     <?php
 
-
-if($taby_and_tamara==1){
- // echo ' <img src="tandt.png" alt="Image"  class="responsive">';
-
-}
-
-
-
+echo ' <img src="https://ksa-ads.com/meswak_files/tandt.png" alt="Image"  class="responsive">';
 
 ?>
    
@@ -164,7 +157,13 @@ if($taby_and_tamara==1){
     
   </div>
 
- 
+<?php
+$form1_des2="
+
+واحصل علي خصومات تصل الي 50%
+";
+
+?>
 
   <script>
 

@@ -4,6 +4,43 @@
 <?php
 
 
+session_start();
+//echo session_id();
+session_unset(); 
+session_destroy();
+
+
+
+
+
+
+
+
+
+
+if (isset($_GET['set_ad_source'])) {
+ 
+
+  $_SESSION['set_ad_source'] =$_GET['set_ad_source'] ;
+
+  //echo  "session ".$_GET['set_ad_source'];
+  //echo  "session ".$_SESSION['set_ad_source'];
+
+
+}
+
+
+
+
+if (isset($_SESSION['set_ad_source'])) {
+ 
+  //echo "Session 'var' is set to: " . $_SESSION['set_ad_source'];
+
+
+
+}
+
+
 include "head.php";
  
 
@@ -11,7 +48,7 @@ include "head.php";
 
 ?>
 
-<body bgcolor="green">
+<body class="mainbg">
 
 
 
@@ -44,50 +81,42 @@ include "head.php";
 
 
 
-if($header1==1){
-  include "logo_then_pic.php";
+if($header==0){
+  include "header0.php";
 
 }
-else{
-
-echo '
 
 
-
-  <div >
-    <div class="text-center image-container">
-      <img src="images/v.jpg" alt="Book Image Mobile" class="img-fluid mobile-image">
-      <img src="images/h.jpg" alt="Book Image Desktop" class="img-fluid desktop-image">
-      <a href="#myform">
-
-
-      <button class="btn btn-primary centered-button btn-booking rounded-pill pulsate"> 
-      
-      
-      
-      
-      احجز الحين
-      
-      
-      
-      </button>
-
-      </a>
-     
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-';
+if($header==1){
+  include "header1.php";
 
 }
+
+if($header==2){
+  include "header2.php";
+
+}
+
+
 include "form.php";
+//include "w_form.php";
+//include "calls.php";
+
+if($services_images==1){
+
+  
+
+  include "services_images.php";
+
+}
+
+
+
+
+//include "packages.php";
+//include "about.php";
+//include "why_us.php";
+//include "gmap_reviews.php";
 
 
 
@@ -99,7 +128,7 @@ include "form.php";
 
 
 <?php
-
+//include "form.php";
 include "w_app_form.php";
 
 
@@ -305,7 +334,7 @@ if($services2==1){
   <h1>
  
  
- خدماتنا 
+ قسم العروض 
  
   </h1>
  
@@ -355,8 +384,7 @@ if($derma_services==1){
   <h1>
  
  
- خدماتنا 
- 
+عروضنا
   </h1>
  
  </div
@@ -394,7 +422,7 @@ if($services_images==1){
 
   
 
-  include "services_images.php";
+  //include "services_images.php";
 
 }
 
@@ -408,6 +436,7 @@ if($parteners==1){
 
 }
 
+//include "team.php";
 
 
 
@@ -558,6 +587,8 @@ include "before_after.php";
 if($videos==1){
 
 include "videos.php";
+//include "logos_slider.php";
+
 }
 
 
@@ -602,10 +633,18 @@ if($map==1){
 
 
 
+
 if($footer2==1){
   
   include "footer2.php";
 }
+
+
+if($w_btn_only==1){
+  
+  include "w_btn_only.php";
+}
+
 
 
 

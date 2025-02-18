@@ -1,7 +1,7 @@
 <?php
 session_start();
-echo $_SESSION['ScCid']." from session";
-
+//echo $_SESSION['ScCid']." from session";
+//echo session_id();
 
 error_reporting(E_ERROR | E_PARSE);
 ini_set('max_execution_time', '0');
@@ -11,6 +11,7 @@ include "info.php";
 
 $name=$_POST['name'];
 $phone=$_POST['phone'];
+$phone=getLastNineCharacters($phone);
 $email=$_POST['email'];
 $service=$_POST['service'];
 $is_w_app=$_POST['is_w_app'];
@@ -19,20 +20,94 @@ $subject=$_POST['subject'];
 $msg=$_POST['msg'];
 
 $branch1=$_POST['branch1'];
-$branch2=$_POST['branch2'];
+$branch2=$_POST['branch'];
+$branch=$_POST['branch'];
 $location=$_POST['location'];
 
 
 
+//echo " ad source session   ".$source;
+
+  
 
 
+
+
+//die;
+
+//$department_name=$_POST['branch'];
+
+
+//include  "locations_phone.php";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$action_url1="https://script.google.com/macros/s/AKfycbziawk1h5zJBzSafCDWyAk8lNYNCQzxTuEqeHkOoxEp0o952OTqOspJAhfDw5gGwL3v6g/exec";
+$action_url2="https://script.google.com/macros/s/AKfycbyQYAN6-Y5YYLW4fkUmOmNOL-yArZ-I9_ARy5_RzQe7SDMhzghuxwpWVjYlFGcYKPek/exec";
+
+
+
+/*
+
+  <select id="options" name="branch" class="mb-3 form-select" required >
+        <option value=""   disabled selected>اختر الفرع </option>
+        <option value="naifia"> النايفيه</option>
+        <option value="behiria">البحيريه</option>
+      
+    </select>
+
+    */
+/*
+
+    if($branch=='naifia'){
+
+$action_url=$action_url1;
+    }
+
+
+    if($branch=='behiria'){
+
+        $action_url=$action_url2;
+            }
+        
+*/
 
 
 
 $user_email_to_hash=$email;
 $user_phone_to_hash=$phpne;
 $user_click_id=$_SESSION['ScCid'];
-include "capi_signup.php";
+
+
+if($snap_capi==1){	
+
+	//include "capi_page_view.php";
+	include "capi_signup.php";
+
+
+	}
+ 
 
 //die;
 
@@ -180,20 +255,84 @@ curl_close($curlHandle);
 //echo "w_api start";
 
 if($api_notification==1){
+
+    
         
     $w_app_msg1="  لديك تسجيل  جديد  باسم  ".$name;
     $w_app_msg2=$w_app_msg1." برقم جوال ".$phone;
     
-    $w_app_msg3=$w_app_msg2." خدمة   ".$service;
+    $w_app_msg3=$w_app_msg2." خدمة   ".$service." ".$department_name;
     
     
     $w_app_msg3 = str_replace("\n", "\\n",  $w_app_msg3);
+   
+
+
+
+    if($pm_register==1){
+        
+$pm_msg1=" مرحبا ".$name;
+$pm_msg2=$pm_msg1."  شاكرين تسجيلك معنا وفي حال كان لديك اي استفسار لا تتردد في السؤال";
+
+    $result = send_with_wapi($wapi_token, $wapi_profile_id, '966'.$phone.'@c.us',$pm_msg2);
+
+    
+     print_r($result) ;
+
+    }
+
+     $result = send_with_wapi($wapi_token, $wapi_profile_id, $phone_main.'@c.us',  $w_app_msg3);
+    
+     print_r($result) ;
+
+
+/*
+     $result = send_with_wapi($wapi_token, $wapi_profile_id,$group_id.'@g.us',  $w_app_msg3);
+
+print_r($result) ;
+
+*/
+
+
+}
+
+
+
+
+
+
+if($group_notification==1){
+
+    
+        
+    $w_app_msg1="  لديك تسجيل  جديد  باسم  ".$name;
+    $w_app_msg2=$w_app_msg1." برقم جوال ".$phone;
+    
+    $w_app_msg3=$w_app_msg2." خدمة   ".$service." ".$department_name;
+
+    /*
+    echo $w_app_msg3;
+    die;
+    */
+    
+    
+    $w_app_msg3 = str_replace("\n", "\\n",  $w_app_msg3);
+    /*
 
     $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', $phone_main.'@c.us',  $w_app_msg3);
     
      print_r($result) ;
 
+*/
+
+$result = send_with_wapi($wapi_token, $wapi_profile_id,$group_id.'@g.us',  $w_app_msg3);
+
+echo print_r($result) ;
+
+
 }
+
+
 
 
 
@@ -211,22 +350,8 @@ if($api_notification==1){
 if($is_w_app=="1"){
 
 
-    if($api_notification==1){
-
-        $w_app_msg1="  لديك تسجيل  جديد  باسم  ".$name;
-        $w_app_msg2=$w_app_msg1." برقم جوال ".$phone;
-        
-       
-        
-        $w_app_msg2 = str_replace("\n", "\\n",  $w_app_msg2);
-
-        $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453',$phone_main.'@c.us',  $w_app_msg2);
-        
-        echo print_r($result) ;
-
-        
-
-    }
+    
+   
   
 
     header("Location:https://wa.me/".$phone_main);
@@ -369,7 +494,7 @@ echo "w_api start 2";
 
 
 
-  
+ 
   function send_with_wapi($auth, $profileId, $phone, $message) {
  
 
@@ -415,6 +540,19 @@ echo "w_api start 2";
         
 function hash_to_256($input_string) {
     return hash('sha256', $input_string);
+}
+
+
+
+
+
+function getLastNineCharacters($text) {
+    // Check if the string length is less than 9
+    if (strlen($text) < 9) {
+        return $text; // Return the entire string if it's shorter than 9 characters
+    }
+    // Return the last 9 characters
+    return substr($text, -9);
 }
 
 

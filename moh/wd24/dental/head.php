@@ -7,7 +7,7 @@ error_reporting(E_ERROR | E_PARSE);
 
 
 
-session_start();
+//session_start();
 
 
 function hash_to_256($input_string) {
@@ -54,8 +54,17 @@ $_SESSION['ScCid']=$ScCid;
  
 include "info.php";
 
-//include "capi_page_view.php";
-//include "capi_signup.php";
+if($snap_capi==1){	
+
+	include "capi_page_view.php";
+	//include "capi_signup.php";
+
+
+	}
+
+
+
+
 
 ?>
 
@@ -162,15 +171,18 @@ snaptr('init', 'b2436d09-c13e-4280-9181-caa1960c5448');
 //snaptr('track', 'PAGE_VIEW');
  
  
+snaptr('init', 'f28443d6-e935-4551-9d40-2f54564592b5');
+
+
 
 snaptr('init', 'b67a49ad-d1f1-445f-941f-31aea29bc8e4');
-
+snaptr('init', '390ecce4-ff7f-4ad0-a7fb-e5e65acff702');
 
 snaptr('init', 'b2436d09-c13e-4280-9181-caa1960c5448');
-//snaptr('init', 'a00b3504-1613-44db-89ed-1e40e8831c77');
-snaptr('init', 'b00f5a25-e6f1-462e-954c-e0ad9a423e01');
+snaptr('init', 'fc185b6c-2c56-4aa5-8bb6-ed5f470969fc');
+snaptr('init', 'b03a5fe0-a066-4e30-a1e9-28ab9616adf9');
 snaptr('track', 'PAGE_VIEW');
-snaptr('track', 'PURCHASE');
+//snaptr('track', 'PURCHASE');
 
 
 
@@ -331,6 +343,68 @@ var sha256 = function sha256(ascii) {
 
 
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<script>
+  function checkLength(input) {
+    if (input.value.length < 9) {
+      input.setCustomValidity(" الرجاء ادخال رقم هاتف صحيح  ");
+    } else {
+      input.setCustomValidity(""); // Valid input
+    }
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "p2q78o1f7y");
+
+
+
+
+
+
+
+
+	//alert("end head");
+</script>
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "p9645ci8me");
+</script>
 
 
 </head>

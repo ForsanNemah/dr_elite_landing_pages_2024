@@ -1,8 +1,8 @@
 :root {
 
-    --form_bg: #0f684c;
-    --button_bg: #fc5c8d;
-    --reg_btn_bg: #d37e15;
+    --form_bg: #c6a978;
+    --button_bg: #8a0029;
+    --reg_btn_bg: #1f05af;
     
   }
 
@@ -120,7 +120,7 @@ color: rgb(0, 0, 0);
 
     .centered-button {
     position: absolute;
-    top: 12%;
+    top: 25%;
     left: 50%;
     
   }
@@ -221,4 +221,24 @@ color: rgb(0, 0, 0);
 .img-fluid {
   width:100%;
   height: auto;
+}
+
+
+
+.mainbg {
+  background-color: #ffffff;
+   
+}
+
+.mainbg2 {
+  background-color: #a5fba1;
+   
+}
+
+
+
+.btn-primary {
+  color: #fdfdfd;
+  background-color: #bb2d3b;
+  border-color: #0d6efd;
 }

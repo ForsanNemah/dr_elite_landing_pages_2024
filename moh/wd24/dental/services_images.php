@@ -7,12 +7,12 @@
 
 
 
- <div class="text-center  mt-4"  >
+ <div class="mt-4 text-center"  >
 
 <h1>
 
 
-خدماتنا 
+حالات قبل ويعد
 
 </h1>
 
@@ -63,9 +63,26 @@ foreach ($imageFiles as $image) {
     <div class="col-md-4" data-aos-duration="1500" data-aos="zoom-in-up">
     <div class="service">
       <img src="intshar_images/'. $image.'" alt="Service 3" class="img-fluid">
+
+
+
+ 
+
+
+
+
       <h3> </h3>
       <p contenteditable="true"> </p>
     </div>
+
+     <a href="#myform" class="col-6">
+
+  <button class="mb-5 btn btn-danger btn-lg pulsate">   
+     
+  حجز موعد كشف مجاني 
+
+     </button>
+    </a>
   </div>
     
     
@@ -77,6 +94,26 @@ foreach ($imageFiles as $image) {
     
     ';
 
+/*
+    echo '
+    
+    
+    
+    
+    <a href="#order_section" class="col-12">
+
+  <button class="mb-5 btn btn-danger btn-lg">   
+     
+     اطلب الان
+     </button>
+    </a>
+   
+    
+    
+    
+    
+    ';
+*/
 
 
 
