@@ -19,8 +19,8 @@ $phone_main="966503150124";
 $group_id="120363383381798013";
 $logo="footer_logo/safwa.png";
 
-$dental_services_select=0;
-$derma_services_select=1;
+$dental_services_select=1;
+$derma_services_select=0;
 
 
 $action_url="https://script.google.com/macros/s/AKfycbyPfXBqBHT4QqChJ9cFFLzXCpiy1uNjWK-jdDRfuZvTypIsMIB5yANXqjOupNalsOeRng/exec";
