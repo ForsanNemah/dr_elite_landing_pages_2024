@@ -16,7 +16,7 @@ $dr_name="
 ";
 
 $phone_main="966568430828";
-$group_id="120363319693410850";
+$group_id=" ";
 $logo="footer_logo/royal.png";
 
 $dental_services_select=0;
@@ -148,8 +148,8 @@ $authorization_token = "eyJhbGciOiJIUzI1NiIsImtpZCI6IkNhbnZhc1MyU0hNQUNQcm9kIiwi
 
 
 
-$wapi_profile_id="a0aca078-18a5";
-$wapi_token="9f9151b56d756354026b368ecc644edec19343b4";
+$wapi_profile_id="aedd0dc2-8453";
+$wapi_token="40703bb7812b727ec01c24f2da518c407342559c";
 
 
 
