@@ -10,7 +10,7 @@ function sendSnapchatConversion_sign_up($pixel_id, $timestamp, $event_conversion
         "event_conversion_type" => $event_conversion_type,
         "event_type" => $event_type,
         "hashed_email" => $hashed_email,
-        "hashed_phone_number" => $hashed_phone_number,
+        "hashed_phone_number" => $hashed_phone_number, 
         "hashed_ip_address" => $hashed_ip_address,
         "user_agent" => $user_agent,
         
@@ -28,6 +28,7 @@ function sendSnapchatConversion_sign_up($pixel_id, $timestamp, $event_conversion
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => 'POST',
         CURLOPT_POSTFIELDS => $postData,
+        
         CURLOPT_HTTPHEADER => array(
             'Content-Type: application/json',
             'Authorization: Bearer '.$authorization_token

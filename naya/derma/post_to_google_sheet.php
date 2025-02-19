@@ -424,6 +424,13 @@ echo "w_api start 2";
 
 
 
+/*
+
+$result = send_with_wapi($wapi_token, $wapi_profile_id,$group_id.'@g.us',  $w_app_msg3);
+
+echo print_r($result) ;
+
+*/
 
  
   function send_with_wapi($auth, $profileId, $phone, $message) {
