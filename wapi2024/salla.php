@@ -7,7 +7,7 @@ $wapi_token="40703bb7812b727ec01c24f2da518c407342559c";
 
 $data = file_get_contents("php://input");
 
-$message=" مرحبا بك  في متجر سيزون  استخدم  الكود  z10 للحصول على خصم 10% ";
+$message=" مرحبا بك  في متجر سي زون   استخدم  الكود  Z10 للحصول على خصم 10% ";
 $event = json_decode($data, true);
 if(isset($event)){
     //Here, you now have event and can process them how you like e.g Add to the database or generate a response
