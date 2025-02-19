@@ -15,7 +15,7 @@ $dr_name="
 الدمام
 ";
 
-$phone_main="9660531114951";
+$phone_main="966555624779";
 $group_id="120363388322125865";
 $logo="footer_logo/meisan.png";
 
