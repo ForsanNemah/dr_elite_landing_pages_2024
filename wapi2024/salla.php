@@ -1,7 +1,7 @@
 <?php
 
 $wapi_profile_id="968db39d-416d";
-$wapi_token="40703bb7812b727ec01c24f2da518c407342559c";
+$wapi_token="9f9151b56d756354026b368ecc644edec19343b4";
 
 
 
@@ -120,7 +120,7 @@ function send_with_wapi($auth, $profileId, $phone, $message) {
       CURLOPT_POSTFIELDS => 'auth='.$auth.'&profile_id='.$profileId.'&phone='.$phone.'&msg='.$message.'',
       CURLOPT_HTTPHEADER => array(
         'Content-Type: application/x-www-form-urlencoded',
-        'Authorization: 40703bb7812b727ec01c24f2da518c407342559c'
+        'Authorization: 9f9151b56d756354026b368ecc644edec19343b4'
       ),
     ));
     

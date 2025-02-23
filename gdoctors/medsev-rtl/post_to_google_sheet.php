@@ -114,7 +114,7 @@ curl_close($curlHandle);
 
     $w_app_msg4 = str_replace("\n", "\\n",  $w_app_msg2);
 
-    $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453','120363363336667918@g.us',  $w_app_msg4);
+    $result = send_with_wapi('9f9151b56d756354026b368ecc644edec19343b4', 'a0aca078-18a5','120363363336667918@g.us',  $w_app_msg4);
     
      print_r($result) ;
 
@@ -219,7 +219,7 @@ window.location.replace("done.php");
       CURLOPT_POSTFIELDS => 'auth='.$auth.'&profile_id='.$profileId.'&phone='.$phone.'&msg='.$message.'',
       CURLOPT_HTTPHEADER => array(
         'Content-Type: application/x-www-form-urlencoded',
-        'Authorization: 40703bb7812b727ec01c24f2da518c407342559c'
+        'Authorization: 9f9151b56d756354026b368ecc644edec19343b4'
       ),
     ));
     

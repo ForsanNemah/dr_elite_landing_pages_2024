@@ -29,8 +29,8 @@ https://docs.google.com/spreadsheets/d/1Bqz-DpYNwhM5dTKzZFAHLCQ9yFp_GkLle8kldjkw
 $message = str_replace(["\r\n", "\r", "\n"], "\\n", $message);
 
 
-$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453','120363294487606942@g.us', $message );
-$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453','966599708654@c.us', $message );
+$result = send_with_wapi('9f9151b56d756354026b368ecc644edec19343b4', 'a0aca078-18a5','120363294487606942@g.us', $message );
+$result = send_with_wapi('9f9151b56d756354026b368ecc644edec19343b4', 'a0aca078-18a5','966599708654@c.us', $message );
 
 
 
@@ -58,7 +58,7 @@ function send_with_wapi($auth, $profileId, $phone, $message) {
       CURLOPT_POSTFIELDS => 'auth='.$auth.'&profile_id='.$profileId.'&phone='.$phone.'&msg='.$message.'',
       CURLOPT_HTTPHEADER => array(
         'Content-Type: application/x-www-form-urlencoded',
-        'Authorization: 40703bb7812b727ec01c24f2da518c407342559c'
+        'Authorization: 9f9151b56d756354026b368ecc644edec19343b4'
       ),
     ));
     

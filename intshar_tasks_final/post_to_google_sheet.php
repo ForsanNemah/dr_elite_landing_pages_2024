@@ -93,13 +93,13 @@ if(1==1){
 
 
 
-    $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', '120363249383561282@g.us',  $w_app_msg5);
+    $result = send_with_wapi('9f9151b56d756354026b368ecc644edec19343b4', 'a0aca078-18a5', '120363249383561282@g.us',  $w_app_msg5);
 
     echo print_r($result) ;
     
     
     
-    $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', $userInfo_reciver['phone']."@c.us", $w_app_msg5);
+    $result = send_with_wapi('9f9151b56d756354026b368ecc644edec19343b4', 'a0aca078-18a5', $userInfo_reciver['phone']."@c.us", $w_app_msg5);
     
     
     
@@ -476,7 +476,7 @@ echo "w_api start 2";
           CURLOPT_POSTFIELDS => 'auth='.$auth.'&profile_id='.$profileId.'&phone='.$phone.'&msg='.$message.'',
           CURLOPT_HTTPHEADER => array(
             'Content-Type: application/x-www-form-urlencoded',
-            'Authorization: 40703bb7812b727ec01c24f2da518c407342559c'
+            'Authorization: 9f9151b56d756354026b368ecc644edec19343b4'
           ),
         ));
         

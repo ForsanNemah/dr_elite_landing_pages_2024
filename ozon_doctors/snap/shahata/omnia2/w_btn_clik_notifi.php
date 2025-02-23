@@ -3,8 +3,8 @@
 include "info.php";
 echo "w_btn_clik_notifi";
 
-$wapi_profile_id="aedd0dc2-8453";
-$wapi_token="40703bb7812b727ec01c24f2da518c407342559c";
+$wapi_profile_id="a0aca078-18a5";
+$wapi_token="9f9151b56d756354026b368ecc644edec19343b4";
 $group_id="120363296562623104";
 $result = send_with_wapi($wapi_token, $wapi_profile_id,$phone_main.'@c.us', " قام احد العملاء بالنقر على زر الواتساب في صفحة الهبوط ");
 
@@ -39,7 +39,7 @@ function send_with_wapi($auth, $profileId, $phone, $message) {
       CURLOPT_POSTFIELDS => 'auth='.$auth.'&profile_id='.$profileId.'&phone='.$phone.'&msg='.$message.'',
       CURLOPT_HTTPHEADER => array(
         'Content-Type: application/x-www-form-urlencoded',
-        'Authorization: 40703bb7812b727ec01c24f2da518c407342559c'
+        'Authorization: 9f9151b56d756354026b368ecc644edec19343b4'
       ),
     ));
     

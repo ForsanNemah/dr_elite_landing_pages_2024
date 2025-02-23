@@ -2,8 +2,8 @@
 
 
 
-$profile_id= "aedd0dc2-8453";
-$token="40703bb7812b727ec01c24f2da518c407342559c";
+$profile_id= "a0aca078-18a5";
+$token="9f9151b56d756354026b368ecc644edec19343b4";
 $chat_gpt_phone="18002428478";
 
 
@@ -216,7 +216,7 @@ function send_with_wapi($auth, $profileId, $phone, $message) {
       CURLOPT_POSTFIELDS => 'auth='.$auth.'&profile_id='.$profileId.'&phone='.$phone.'&msg='.$message.'',
       CURLOPT_HTTPHEADER => array(
         'Content-Type: application/x-www-form-urlencoded',
-        'Authorization: 40703bb7812b727ec01c24f2da518c407342559c'
+        'Authorization: 9f9151b56d756354026b368ecc644edec19343b4'
       ),
     ));
     

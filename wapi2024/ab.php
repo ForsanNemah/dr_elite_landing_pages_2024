@@ -61,7 +61,7 @@ $contact_name = $event['messages'][0]['contact_name'];
 
 
 $group_b = lookupValue($chat_id, $group1, $group2);
-//$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', $profile_id,'966568430828@c.us', $group_b);
+//$result = send_with_wapi('9f9151b56d756354026b368ecc644edec19343b4', $profile_id,'966568430828@c.us', $group_b);
 
 /*
  
@@ -83,9 +83,9 @@ if($chat_id==$group_a  && !$is_forwarded ){
 
 
 
-    wapiforword('aedd0dc2-8453', '40703bb7812b727ec01c24f2da518c407342559c', $message_id, $group_b);
+    wapiforword('a0aca078-18a5', '9f9151b56d756354026b368ecc644edec19343b4', $message_id, $group_b);
 
-    $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453',$group_b, $contact_name);
+    $result = send_with_wapi('9f9151b56d756354026b368ecc644edec19343b4', 'a0aca078-18a5',$group_b, $contact_name);
 
 
 }
@@ -131,7 +131,7 @@ if($message=="chat_id"){
 
 
    
-    $result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', $profile_id,$chat_id, $chat_id);
+    $result = send_with_wapi('9f9151b56d756354026b368ecc644edec19343b4', $profile_id,$chat_id, $chat_id);
 
 
 
@@ -139,7 +139,7 @@ if($message=="chat_id"){
 
 }
 
-//$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', '966568430828@c.us',$profile_id);
+//$result = send_with_wapi('9f9151b56d756354026b368ecc644edec19343b4', 'a0aca078-18a5', '966568430828@c.us',$profile_id);
 
 //echo print_r($result) ;
 
@@ -153,7 +153,7 @@ if($message=="chat_id"){
 // $sheet_url= $userInfo['sheet_url'];
 //  $sheet_id=getSheetIdFromUrl($sheet_url);
 
-//  //$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', '966568430828@c.us', $sheet_id);
+//  //$result = send_with_wapi('9f9151b56d756354026b368ecc644edec19343b4', 'a0aca078-18a5', '966568430828@c.us', $sheet_id);
 
 //  echo $user_name,'', $sheet_id,'', $sheet_id;
 
@@ -253,7 +253,7 @@ function send_with_wapi($auth, $profileId, $phone, $message) {
       CURLOPT_POSTFIELDS => 'auth='.$auth.'&profile_id='.$profileId.'&phone='.$phone.'&msg='.$message.'',
       CURLOPT_HTTPHEADER => array(
         'Content-Type: application/x-www-form-urlencoded',
-        'Authorization: 40703bb7812b727ec01c24f2da518c407342559c'
+        'Authorization: 9f9151b56d756354026b368ecc644edec19343b4'
       ),
     ));
     
@@ -454,7 +454,7 @@ try{
 
                     if($message==$a){
 
-                        //$result = send_with_wapi('40703bb7812b727ec01c24f2da518c407342559c', 'aedd0dc2-8453', '966568430828@c.us',$b);
+                        //$result = send_with_wapi('9f9151b56d756354026b368ecc644edec19343b4', 'a0aca078-18a5', '966568430828@c.us',$b);
 
                         $result = send_with_wapi($token, $profile_id, $chat_id ,$b);
                         //echo print_r($result) ;
@@ -495,7 +495,7 @@ try{
 
 /*
 
-$userInfo= getUserByUserProfile("aedd0dc2-8453");
+$userInfo= getUserByUserProfile("a0aca078-18a5");
 
 if ($userInfo !== null) {
 $user_name= $userInfo['name'];

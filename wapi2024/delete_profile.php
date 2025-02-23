@@ -5,7 +5,7 @@ $token=$_POST['token'];
 $profile_id=$_POST['profile_id'];
 
 
-delete_profile("40703bb7812b727ec01c24f2da518c407342559c","d40dc160-f509");
+delete_profile("9f9151b56d756354026b368ecc644edec19343b4","d40dc160-f509");
 
 if(isset($token) && isset($profile_id)){
 
