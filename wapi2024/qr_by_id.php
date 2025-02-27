@@ -78,7 +78,7 @@ if (isset($_GET['id'])) {
     
         
 $profileId = $_GET['id'];
-$authToken = "9f9151b56d756354026b368ecc644edec19343b4";
+$authToken = "40703bb7812b727ec01c24f2da518c407342559c";
 
 $result = getWappiQRCode($profileId, $authToken);
 
