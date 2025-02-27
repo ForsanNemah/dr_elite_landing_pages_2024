@@ -18,7 +18,7 @@ $dr_name="
 ";
 
 $phone_main="966138292800";
-$group_id="120363374271637358";
+$group_id="120363409011590595";
 $logo="footer_logo/center_care.png";
 
 $dental_services_select=1;
