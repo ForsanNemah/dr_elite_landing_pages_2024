@@ -14,27 +14,43 @@ if(isset($event)){
     $file = 'roka.txt';  
     $data =json_encode($event)."\n";  
 
-    file_put_contents($file, $data, FILE_APPEND | LOCK_EX);
+    //file_put_contents($file, $data, FILE_APPEND | LOCK_EX);
 
 
     //print_r($data);
 
+    $chat_id = $event['messages'][0]['chatId'];
+    $message = $event['messages'][0]['body'];
+    $profile_id = $event['messages'][0]['profile_id'];
+    
+    $is_me = $event['messages'][0]['is_me'];
+    $from_user = $event['messages'][0]['from'];
+    $to_user = $event['messages'][0]['to'];
 
 
-
-$customer_phone=extractMobileNumber($data);
+//$customer_phone=extractMobileNumber($data);
 
     $result = send_with_wapi($wapi_token, $wapi_profile_id, "120363383080104125@g.us"," تم تسجيل الدخول الى المتجر من قبل العميل".$customer_phone);
 
 
 
-    $result = send_with_wapi($wapi_token, $wapi_profile_id, $customer_phone.'@c.us',$message);
+    //$result = send_with_wapi($wapi_token, $wapi_profile_id, $customer_phone.'@c.us',$message);
 
     //print_r($result) ;
 
 
 
+    if($message=="chat_id"){
 
+
+   
+        $result = send_with_wapi($wapi_token, $wapi_profile_id,$chat_id, $chat_id);
+    
+    
+    
+    
+    
+    }
 
 
 
@@ -120,7 +136,7 @@ function send_with_wapi($auth, $profileId, $phone, $message) {
       CURLOPT_POSTFIELDS => 'auth='.$auth.'&profile_id='.$profileId.'&phone='.$phone.'&msg='.$message.'',
       CURLOPT_HTTPHEADER => array(
         'Content-Type: application/x-www-form-urlencoded',
-        'Authorization: '.$wapi_token
+        'Authorization:  '.$wapi_token
       ),
     ));
     
