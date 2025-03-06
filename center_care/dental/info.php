@@ -30,8 +30,7 @@ $action_url="https://script.google.com/macros/s/AKfycbyvpSm62CnL5rj1JQeBOBXpT1VW
 $sheet_url="https://docs.google.com/spreadsheets/d/1Cw50UoyyK4IobN-9q5YLT7LorvrF1xpPkV0_PTJK-MI/edit?usp=sharing";
 
 $form1_des="
-
-عروض يوم التأسيس  
+عروض رمضان
 "; 
 $cta=0;
 $cta_text="احجز الان";
