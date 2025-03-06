@@ -65,7 +65,7 @@ if(isset($event)){
 
 
    
-        $result = send_with_wapi($wapi_token, $wapi_profile_id,$chat_id, $from_user);
+        //$result = send_with_wapi($wapi_token, $wapi_profile_id,$chat_id, $from_user);
     
         send_to_google_sheet($from_user, $from_user);
     
