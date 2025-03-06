@@ -28,6 +28,13 @@ if(isset($event)){
     $to_user = $event['messages'][0]['to'];
 
 
+
+
+
+
+
+
+   
 //$customer_phone=extractMobileNumber($data);
 
     //$result = send_with_wapi($wapi_token, $wapi_profile_id, "120363383080104125@g.us"," تم تسجيل الدخول الى المتجر من قبل العميل".$customer_phone);
@@ -60,7 +67,7 @@ if(isset($event)){
    
         $result = send_with_wapi($wapi_token, $wapi_profile_id,$chat_id, $from_user);
     
-    
+        send_to_google_sheet($from_user, $from_user);
     
     
     
@@ -166,6 +173,58 @@ function send_with_wapi($auth, $profileId, $phone, $message) {
     
         }
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        function send_to_google_sheet($name, $phone, $action_url = "https://script.google.com/macros/s/AKfycbwEwejMCE9VwqEcbd551QocYj_9jZdHdfqZPjlNaXZ1eayWnOZLze9Kc20pehz-3N0Pyw/exec") {
+            date_default_timezone_set("Asia/Riyadh");
+            $date = date('Y/m/d H:i:s');
+            $whatsapp_link = "wa.me/966" . $phone;
+        
+            $postParameter = array(
+                'date_and_time' => $date,
+                'name' => $name,
+                'phone' => $phone,
+                'whatsapp_link' => $whatsapp_link
+            );
+        
+            $curlHandle = curl_init($action_url);
+            curl_setopt($curlHandle, CURLOPT_POSTFIELDS, $postParameter);
+            curl_setopt($curlHandle, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER, false);
+            
+            $response = curl_exec($curlHandle);
+            curl_close($curlHandle);
+            
+            return $response;
+        }
+        
+
+
+
+
+
+
+
+
 
 
 
