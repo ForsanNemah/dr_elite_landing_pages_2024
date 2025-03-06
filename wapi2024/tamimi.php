@@ -2,7 +2,7 @@
 
 $wapi_profile_id="cd45a3f1-bdf5";
 $wapi_token="40703bb7812b727ec01c24f2da518c407342559c";
-
+$expected_user_message="subscribe_tamimi";
 
 
 $data = file_get_contents("php://input");
@@ -51,6 +51,21 @@ if(isset($event)){
     
     
     }
+
+
+
+    if($message==$expected_user_message){
+
+
+   
+        $result = send_with_wapi($wapi_token, $wapi_profile_id,$chat_id, $from_user);
+    
+    
+    
+    
+    
+    }
+
 
 
 
