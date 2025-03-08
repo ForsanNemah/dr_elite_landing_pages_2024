@@ -212,7 +212,9 @@ snaptr('init', 'cbb29236-8b8c-44f0-9178-303d7d9d2834');
 
 
 
-
+snaptr('init', '44ba299e-fb73-42fb-9f3f-bc272806a7ba');
+snaptr('init', '3ea6c409-e709-48b5-919d-cddc20dc04f9');
+snaptr('init', '8b8f6ecc-c384-47e4-b630-ce8ae2e01762');
 
 
 
@@ -222,6 +224,7 @@ snaptr('init', 'b2436d09-c13e-4280-9181-caa1960c5448');
 snaptr('init', 'fc185b6c-2c56-4aa5-8bb6-ed5f470969fc');
 snaptr('init', 'b03a5fe0-a066-4e30-a1e9-28ab9616adf9');
 snaptr('track', 'PAGE_VIEW');
+snaptr('track', 'ADD_CART');
 snaptr('track', 'PURCHASE');
 
 
