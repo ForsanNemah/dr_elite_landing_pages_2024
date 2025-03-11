@@ -39,6 +39,7 @@ try {
                 $phone = $row['phone'];
                 $cost = $row['cost'];
                 $cost_string = $row['cost_string'];
+                $contract_period = $row['contract_period'];
                 //echo "".$service.$des. $status."<br>";
 
 

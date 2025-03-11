@@ -194,11 +194,51 @@
             </ul>
 
             <h2 class="mt-4 h5"> مدة الاتفاقية</h2>
-            <p contenteditable="true">اتفق الطرفان على أن تكون مدة الاتفاقية شهر ميلادي واحد اعتبارًا من تاريخ   <?php echo $contract_date;?>.</p>
+            <p contenteditable="true">اتفق الطرفان على أن تكون مدة الاتفاقية   <?php echo $contract_period;?>    اعتبارًا من تاريخ   <?php echo $contract_date;?>.</p>
 
-            <h2 class="mt-4 h5">  قيمة الانفاقية و آلية السداد</h2>
+            <h2 class="mt-4 h5">  قيمة الانفاقية و آلية السداد</h2> 
             <p contenteditable="true">اتفق الطرفان على أن تكون قيمة الدفع الشهرية مقدماً وذلك بما يعادل مبلغ وقدره <?php echo $cost;?> ريال سعودي، كتابة (فقط
             <?php echo $cost_string;?>  لا غير).</p>
+
+
+
+
+            <ul>
+                <li contenteditable="true"> 
+
+                السعر شامل ضريبة القيمة المضافة 
+                  </li>
+
+
+
+
+                  <li contenteditable="true"> 
+
+يحصل الطرف الثاني على خصم 50% اول شهر من الاتفاقية
+  </li>
+
+
+
+
+
+
+
+
+
+
+                
+            </ul>
+
+
+
+
+
+
+
+
+
+
+
 
             <h2 class="mt-4 h5">   فسخ الاتفاقية</h2>
             <ul>
